@@ -111,7 +111,7 @@ $\blacksquare$
 $$
 f\left(x,\theta\right)=
 \begin{cases}
-\dfrac{1}{\theta}e^{-\frac{x}{\theta}},& x>0,\\[6pt]
+\dfrac{1}{\theta}e^{-\frac{x}{\theta}},& x>0,\\[6pt\right]
 0,& x\le0,
 \end{cases}
 $$

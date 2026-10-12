@@ -84,7 +84,7 @@ $$
 
 $$
 n=\begin{cases}
-\left(\frac{2\sigma_0}{k}u_{\alpha/2}\right)^2,&\text{若 }\left(\frac{2\sigma_0}{k}u_{\alpha/2}\right)^2\text{ 为整数},\\[6pt]
+\left(\frac{2\sigma_0}{k}u_{\alpha/2}\right)^2,&\text{若 }\left(\frac{2\sigma_0}{k}u_{\alpha/2}\right)^2\text{ 为整数},\\[6pt\right]
 \left\lfloor\left(\frac{2\sigma_0}{k}u_{\alpha/2}\right)^2\right\rfloor+1,&\text{若 }\left(\frac{2\sigma_0}{k}u_{\alpha/2}\right)^2\text{ 不是整数}.
 \end{cases}
 $$

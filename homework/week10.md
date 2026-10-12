@@ -184,7 +184,7 @@ $\blacksquare$
 
 ### 习题五
 
-（习题 3.4-12）设 $X_1,X_2,\dots,X_n$ 是来自均匀分布 $U\left[0,\theta\right]$，$\theta>0$ 的样本，证明 $\sqrt[n]{X_1X_2\cdots X_n}$ 为 $\theta/e$ 的相合估计.
+（习题 3.4-12）设 $X_1,X_2,\dots,X_n$ 是来自均匀分布 $U\left[0,\theta\right]$，$\theta>0$ 的样本，证明 $\sqrt\left[n\right]{X_1X_2\cdots X_n}$ 为 $\theta/e$ 的相合估计.
 
 ### 解答 习题五
 
@@ -209,9 +209,9 @@ $$
 由依概率收敛经连续函数映射保持不变，
 
 $$
-\sqrt[n]{X_1X_2\cdots X_n}=\exp\left(\frac{1}{n}\sum_{i=1}^n\ln X_i\right)\xrightarrow{P}\exp\left(\ln\frac{\theta}{e}\right)=\frac{\theta}{e}.
+\sqrt\left[n\right]{X_1X_2\cdots X_n}=\exp\left(\frac{1}{n}\sum_{i=1}^n\ln X_i\right)\xrightarrow{P}\exp\left(\ln\frac{\theta}{e}\right)=\frac{\theta}{e}.
 $$
 
-由**定义 3.4.3**（相合估计），$\sqrt[n]{X_1X_2\cdots X_n}$ 是 $\theta/e$ 的相合估计.
+由**定义 3.4.3**（相合估计），$\sqrt\left[n\right]{X_1X_2\cdots X_n}$ 是 $\theta/e$ 的相合估计.
 
 $\blacksquare$

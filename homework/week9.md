@@ -16,7 +16,7 @@
 
 (2) $f\left(x,\theta\right)=\begin{cases}\theta e^{-\theta x},&x>0,\\0,&x\le0,\end{cases}$ 其中 $\theta>0$ 为未知参数；
 
-(3) $f\left(x,\theta\right)=\frac{1}{2\theta}e^{-\frac{|x|}{\theta}},\ -\infty<x<+\infty$，其中 $\theta>0$ 为未知参数；
+(3) $f\left(x,\theta\right)=\frac{1}{2\theta}e^{-\frac{\left|x\right|}{\theta}},\ -\infty<x<+\infty$，其中 $\theta>0$ 为未知参数；
 
 (4) $f\left(x,\theta\right)=\begin{cases}1,&\theta-0.5\le x\le\theta+0.5,\\0,&\text{其他},\end{cases}$ 其中 $\theta\in\mathbb R$ 为未知参数；
 
@@ -59,13 +59,13 @@ $$
 (3) 似然函数为
 
 $$
-L\left(\theta\right)=\prod_{i=1}^n\frac{1}{2\theta}e^{-\frac{|x_i|}{\theta}}=\left(2\theta\right)^{-n}e^{-\frac{1}{\theta}\sum_{i=1}^n|x_i|}.
+L\left(\theta\right)=\prod_{i=1}^n\frac{1}{2\theta}e^{-\frac{\left|x_i\right|}{\theta}}=\left(2\theta\right)^{-n}e^{-\frac{1}{\theta}\sum_{i=1}^n\left|x_i\right|}.
 $$
 
-对数似然函数为 $\ln L\left(\theta\right)=-n\ln\left(2\theta\right)-\frac{1}{\theta}\sum_{i=1}^n|x_i|$. 令 $\frac{\mathrm{d}\ln L}{\mathrm{d}\theta}=-\frac{n}{\theta}+\frac{1}{\theta^2}\sum_{i=1}^n|x_i|=0$，解得
+对数似然函数为 $\ln L\left(\theta\right)=-n\ln\left(2\theta\right)-\frac{1}{\theta}\sum_{i=1}^n\left|x_i\right|$. 令 $\frac{\mathrm{d}\ln L}{\mathrm{d}\theta}=-\frac{n}{\theta}+\frac{1}{\theta^2}\sum_{i=1}^n\left|x_i\right|=0$，解得
 
 $$
-\hat\theta=\frac{1}{n}\sum_{i=1}^n|X_i|.
+\hat\theta=\frac{1}{n}\sum_{i=1}^n\left|X_i\right|.
 $$
 
 (4) 当且仅当全部样本落入 $\left[\theta-0.5,\theta+0.5\right]$，即 $\theta-0.5\le x_{\left(1\right)}$ 且 $x_{\left(n\right)}\le\theta+0.5$ 时，$L\left(\theta\right)=1$，否则 $L\left(\theta\right)=0$. 由**定义 3.3.2**（极大似然估计），凡使似然函数达到最大值 $1$ 的 $\theta$ 均为 MLE，故 MLE 不唯一，为区间
