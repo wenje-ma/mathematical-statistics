@@ -719,3 +719,4 @@ U=\frac{S-n\lambda_0}{\sqrt{n\lambda_0}}\overset{\text{近似}}{\sim}N\left(0,1\
 $$
 
 即 $U=\frac{\overline X-\lambda_0}{\sqrt{\lambda_0/n}}\overset{\text{近似}}{\sim}N\left(0,1\right)$. 双边检验 $H_0:\lambda=\lambda_0,\ H_1:\lambda\ne\lambda_0$ 的拒绝域为 $\left\lvert U\right\rvert\ge u_{\alpha/2}$.
+
