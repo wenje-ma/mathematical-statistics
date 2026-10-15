@@ -175,7 +175,7 @@ $$
 
 其图形是以 $62$ 为起点、$95$ 为终点的右连续阶梯函数，在 $62,73,76,78,84,86,89,90,92,95$ 各点处分别跳跃 $\frac{1}{10}$，取值依次为 $\frac{1}{10},\frac{2}{10},\dots,1$.
 
-![empirical_cdf.svg](../figures/empirical_cdf.svg){width=100%}
+![empirical_cdf.svg](../../figures/empirical_cdf.svg){width=100%}
 
 $\blacksquare$
 
