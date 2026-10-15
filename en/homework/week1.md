@@ -173,11 +173,7 @@ $$
 F_{10}\left(x\right)=\begin{cases}0,&x<62,\\\frac{1}{10},&62\le x<73,\\\frac{2}{10},&73\le x<76,\\\frac{3}{10},&76\le x<78,\\\frac{4}{10},&78\le x<84,\\\frac{5}{10},&84\le x<86,\\\frac{6}{10},&86\le x<89,\\\frac{7}{10},&89\le x<90,\\\frac{8}{10},&90\le x<92,\\\frac{9}{10},&92\le x<95,\\1,&x\ge95.\end{cases}
 $$
 
-Its graph is a right-continuous step function starting at $62$ and ending at $95$, jumping by $\frac{1}{10}$ at each of the points $62,73,76,78,84,86,89,90,92,95$, taking the values $\frac{1}{10},\frac{2}{10},\dots,1$ in turn.
-
-![empirical_cdf.svg](../../figures/empirical_cdf.svg){width=100%}
-
-$\blacksquare$
+Its graph is a right-continuous step function starting at $62$ and ending at $95$, jumping by $\frac{1}{10}$ at each of the points $62,73,76,78,84,86,89,90,92,95$, taking the values $\frac{1}{10},\frac{2}{10},\dots,1$ in turn. $\blacksquare$
 
 ### Problem 8
 
