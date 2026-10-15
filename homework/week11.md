@@ -31,7 +31,7 @@
 $$
 h\left(t\right)=
 \begin{cases}
-\dfrac{\binom{n-m}{t-m}}{\binom{n}{t}},& t=m,m+1,\dots,n,\\[6pt\right]
+\frac{\binom{n-m}{t-m}}{\binom{n}{t}},& t=m,m+1,\dots,n,\\[6pt\right]
 0,& t=0,1,\dots,m-1.
 \end{cases}
 $$
@@ -53,7 +53,7 @@ $$
 $$
 \hat g_1=
 \begin{cases}
-\dfrac{\binom{n-m}{T-m}}{\binom{n}{T}},& T=m,m+1,\dots,n,\\[6pt\right]
+\frac{\binom{n-m}{T-m}}{\binom{n}{T}},& T=m,m+1,\dots,n,\\[6pt\right]
 0,& T=0,1,\dots,m-1,
 \end{cases}\qquad T=\sum_{i=1}^n X_i.
 $$

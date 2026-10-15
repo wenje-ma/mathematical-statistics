@@ -175,7 +175,7 @@ $\blacksquare$
 （习题 2.4-7）设 $X_1,X_2,\dots,X_n$ 是来自对数正态分布的样本，其密度函数为
 
 $$
-f\left(x,\mu,\sigma^2\right)=\begin{cases}\dfrac{1}{\sqrt{2\pi}\sigma x}\exp\left\{-\dfrac{\left(\ln x-\mu\right)^2}{2\sigma^2}\right\},&x>0,\\0,&\text{其他},\end{cases}
+f\left(x,\mu,\sigma^2\right)=\begin{cases}\frac{1}{\sqrt{2\pi}\sigma x}\exp\left\{-\frac{\left(\ln x-\mu\right)^2}{2\sigma^2}\right\},&x>0,\\0,&\text{其他},\end{cases}
 $$
 
 其中 $\mu\in\mathbb R,\ \sigma>0$. 证明样本分布族是指数族，并表示成指数族的自然形式，求出自然参数空间.

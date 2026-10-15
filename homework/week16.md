@@ -103,7 +103,7 @@ $$
 综上，
 
 $$
-\beta\left(\theta\right)=\begin{cases}0,&0<\theta\le0.95,\\1-\left(\dfrac{0.95}{\theta}\right)^{10},&\theta>0.95.\end{cases}
+\beta\left(\theta\right)=\begin{cases}0,&0<\theta\le0.95,\\1-\left(\frac{0.95}{\theta}\right)^{10},&\theta>0.95.\end{cases}
 $$
 
 $\blacksquare$

@@ -48,7 +48,7 @@ $\blacksquare$
 
 ### 习题二
 
-（习题 4.3-3）设 $X_1,X_2,\dots,X_n$ 是来自总体 $X$ 的样本，且 $X$ 的密度函数为 $f\left(x,\theta\right)=\begin{cases}\dfrac{\theta}{x^2},&x>\theta,\\0,&\text{其他},\end{cases}$ 其中 $\theta>0$. 求参数 $\theta$ 的置信水平为 $1-\alpha$ 的置信区间.
+（习题 4.3-3）设 $X_1,X_2,\dots,X_n$ 是来自总体 $X$ 的样本，且 $X$ 的密度函数为 $f\left(x,\theta\right)=\begin{cases}\frac{\theta}{x^2},&x>\theta,\\0,&\text{其他},\end{cases}$ 其中 $\theta>0$. 求参数 $\theta$ 的置信水平为 $1-\alpha$ 的置信区间.
 
 ### 解答 习题二
 
