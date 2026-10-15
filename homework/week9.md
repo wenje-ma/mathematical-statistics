@@ -29,7 +29,7 @@
 (1) 似然函数为
 
 $$
-L\left(\theta\right)=\prod_{i=1}^n\left(\theta+1\right)x_i^\theta=\left(\theta+1\right)^n\left(\prod_{i=1}^n x_i\right)^\theta,\qquad 0<x_i<1.
+L\left(\theta\right)=\prod_{i=1}^n\left(\theta+1\right)x_i^\theta=\left(\theta+1\right)^n\left(\prod_{i=1}^n x_i\right)^\theta,\quad 0<x_i<1.
 $$
 
 对数似然函数为 $\ln L\left(\theta\right)=n\ln\left(\theta+1\right)+\theta\sum_{i=1}^n\ln x_i$. 由**极大似然估计的求法**，令
@@ -47,13 +47,13 @@ $$
 (2) 似然函数为
 
 $$
-L\left(\theta\right)=\prod_{i=1}^n\theta e^{-\theta x_i}=\theta^n e^{-\theta\sum_{i=1}^n x_i},\qquad x_i>0.
+L\left(\theta\right)=\prod_{i=1}^n\theta e^{-\theta x_i}=\theta^n e^{-\theta\sum_{i=1}^n x_i},\quad x_i>0.
 $$
 
 对数似然函数为 $\ln L\left(\theta\right)=n\ln\theta-\theta\sum_{i=1}^n x_i$. 令 $\frac{\mathrm{d}\ln L}{\mathrm{d}\theta}=\frac{n}{\theta}-\sum_{i=1}^n x_i=0$，解得
 
 $$
-\hat\theta=\frac{1}{\bar X},\qquad \bar X=\frac{1}{n}\sum_{i=1}^n X_i.
+\hat\theta=\frac{1}{\bar X},\quad \bar X=\frac{1}{n}\sum_{i=1}^n X_i.
 $$
 
 (3) 似然函数为

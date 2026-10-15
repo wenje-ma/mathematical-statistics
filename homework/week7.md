@@ -2,7 +2,7 @@
 
 > **定义 2.6.1**（完备统计量）<br>设 $\mathcal{F}=\left\{f\left(x;\theta\right),\theta\in\Theta\right\}$ 为一分布族，其中 $\Theta$ 为参数空间. 设 $T=T\left(X_1,X_2,\dots,X_n\right)$ 为一统计量，若对任何满足 $E\left[\Phi\left(T\left(X_1,X_2,\dots,X_n\right)\right)\right]=0$ 对一切 $\theta\in\Theta$ 的 $\Phi\left(\cdot\right)$，都有 $P_\theta\left\{\Phi\left(T\left(X_1,X_2,\dots,X_n\right)\right)=0\right\}=1$ 对一切 $\theta\in\Theta$，则称 $T\left(X_1,X_2,\dots,X_n\right)$ 为完备统计量，或完全统计量. 若 $T$ 为完备统计量，则它的任一可测函数 $g\left(T\right)$ 也是完备统计量.
 
-> **定理 2.6.1**（指数族中统计量的完备性）<br>设 $X_1,X_2,\dots,X_n$ 是从如下指数族（自然形式）中抽取的样本：$$f\left(x,\theta\right)=C\left(\theta\right)\exp\left\{\sum_{i=1}^k\theta_i T_i\left(x\right)\right\}h\left(x\right),\qquad \theta=\left(\theta_1,\theta_2,\dots,\theta_k\right)\in\Theta^*\subseteq\mathbb R^k,$$ 若其自然参数空间 $\Theta^*$ 有内点，则 $T\left(X_1,X_2,\dots,X_n\right)=\left(T_1\left(X_1,\dots,X_n\right),\dots,T_k\left(X_1,\dots,X_n\right)\right)$ 为完备统计量.
+> **定理 2.6.1**（指数族中统计量的完备性）<br>设 $X_1,X_2,\dots,X_n$ 是从如下指数族（自然形式）中抽取的样本：$$f\left(x,\theta\right)=C\left(\theta\right)\exp\left\{\sum_{i=1}^k\theta_i T_i\left(x\right)\right\}h\left(x\right),\quad \theta=\left(\theta_1,\theta_2,\dots,\theta_k\right)\in\Theta^*\subseteq\mathbb R^k,$$ 若其自然参数空间 $\Theta^*$ 有内点，则 $T\left(X_1,X_2,\dots,X_n\right)=\left(T_1\left(X_1,\dots,X_n\right),\dots,T_k\left(X_1,\dots,X_n\right)\right)$ 为完备统计量.
 
 > **定理 2.5.1**（因子分解定理）<br>设样本 $X_1,X_2,\dots,X_n$ 的联合密度函数（或联合分布列）为 $f\left(x_1,x_2,\dots,x_n;\theta\right)$，$T=T\left(X_1,X_2,\dots,X_n\right)$ 是一个统计量，则 $T$ 为充分统计量的充要条件是 $f\left(x_1,x_2,\dots,x_n;\theta\right)$ 可以分解为 $$f\left(x_1,x_2,\dots,x_n;\theta\right)=g\left(T\left(x_1,x_2,\dots,x_n\right),\theta\right)h\left(x_1,x_2,\dots,x_n\right),$$ 其中 $h\left(x_1,x_2,\dots,x_n\right)$ 不依赖于参数 $\theta$.
 
@@ -133,7 +133,7 @@ $$
 再证其不完备. 令 $Y_i=\frac{X_i-\theta}{\theta}$，则 $Y_1,Y_2,\dots,Y_n$ 独立同分布于 $U\left[0,1\right]$，且 $X_{\left(1\right)}=\theta\left(1+Y_{\left(1\right)}\right)$，$X_{\left(n\right)}=\theta\left(1+Y_{\left(n\right)}\right)$. 对 $U\left[0,1\right]$ 的顺序统计量，由其密度积分可得 $E\left[Y_{\left(1\right)}\right]=\frac{1}{n+1}$，$E\left[Y_{\left(n\right)}\right]=\frac{n}{n+1}$，故
 
 $$
-E\left[X_{\left(1\right)}\right]=\theta\left(1+\frac{1}{n+1}\right)=\frac{\theta\left(n+2\right)}{n+1},\qquad E\left[X_{\left(n\right)}\right]=\theta\left(1+\frac{n}{n+1}\right)=\frac{\theta\left(2n+1\right)}{n+1}.
+E\left[X_{\left(1\right)}\right]=\theta\left(1+\frac{1}{n+1}\right)=\frac{\theta\left(n+2\right)}{n+1},\quad E\left[X_{\left(n\right)}\right]=\theta\left(1+\frac{n}{n+1}\right)=\frac{\theta\left(2n+1\right)}{n+1}.
 $$
 
 取统计量 $T=\left(X_{\left(1\right)},X_{\left(n\right)}\right)$ 的函数

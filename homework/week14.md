@@ -77,7 +77,7 @@ $$
 解此不等式得
 
 $$
-\sqrt n\ge\frac{2\sigma_0}{k}u_{\alpha/2},\qquad n\ge\left(\frac{2\sigma_0}{k}u_{\alpha/2}\right)^2.
+\sqrt n\ge\frac{2\sigma_0}{k}u_{\alpha/2},\quad n\ge\left(\frac{2\sigma_0}{k}u_{\alpha/2}\right)^2.
 $$
 
 由于样本容量 $n$ 必须为正整数，故
@@ -106,7 +106,7 @@ $$
 本题中 $m=10$，$n=13$，$\frac{s_1^2}{s_2^2}=0.083$，$\alpha=0.05$，查 $F$ 分布表得
 
 $$
-F_{0.025}\left(9,12\right)=3.436,\qquad F_{0.975}\left(9,12\right)=\frac{1}{F_{0.025}\left(12,9\right)}=0.291.
+F_{0.025}\left(9,12\right)=3.436,\quad F_{0.975}\left(9,12\right)=\frac{1}{F_{0.025}\left(12,9\right)}=0.291.
 $$
 
 代入公式得置信下限为
@@ -202,7 +202,7 @@ $$
 查 $F$ 分布表得
 
 $$
-F_{0.025}\left(5,8\right)=4.817,\qquad F_{0.975}\left(5,8\right)=\frac{1}{F_{0.025}\left(8,5\right)}=0.148.
+F_{0.025}\left(5,8\right)=4.817,\quad F_{0.975}\left(5,8\right)=\frac{1}{F_{0.025}\left(8,5\right)}=0.148.
 $$
 
 故 $\frac{\sigma_1^2}{\sigma_2^2}$ 的 $95\%$ 置信区间为
@@ -292,7 +292,7 @@ $$
 (4) 求 $\frac{\sigma_1^2}{\sigma_2^2}$ 的置信区间. 查 $F$ 分布表得
 
 $$
-F_{0.025}\left(9,14\right)=3.209,\qquad F_{0.975}\left(9,14\right)=\frac{1}{F_{0.025}\left(14,9\right)}=0.263.
+F_{0.025}\left(9,14\right)=3.209,\quad F_{0.975}\left(9,14\right)=\frac{1}{F_{0.025}\left(14,9\right)}=0.263.
 $$
 
 $\frac{s_x^2}{s_y^2}=\frac{56.5}{52.4}=1.078$. 故置信区间为

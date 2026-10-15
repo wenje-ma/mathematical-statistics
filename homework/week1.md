@@ -54,17 +54,17 @@
 
 (1) 总体 $X$ 服从几何分布 $P\left\{X=x\right\}=\left(1-p\right)^{x-1}p$，故样本的联合分布列为
 $$
-P\left\{X_1=x_1,\dots,X_n=x_n\right\}=\prod_{i=1}^n\left(1-p\right)^{x_i-1}p=p^n\left(1-p\right)^{\sum_{i=1}^n x_i-n},\qquad x_i=1,2,\dots
+P\left\{X_1=x_1,\dots,X_n=x_n\right\}=\prod_{i=1}^n\left(1-p\right)^{x_i-1}p=p^n\left(1-p\right)^{\sum_{i=1}^n x_i-n},\quad x_i=1,2,\dots
 $$
 
 (2) 总体 $X$ 服从指数分布 $f\left(x\right)=\lambda e^{-\lambda x}$，故样本的联合密度函数为
 $$
-f\left(x_1,\dots,x_n\right)=\prod_{i=1}^n\lambda e^{-\lambda x_i}=\lambda^n e^{-\lambda\sum_{i=1}^n x_i},\qquad x_i>0.
+f\left(x_1,\dots,x_n\right)=\prod_{i=1}^n\lambda e^{-\lambda x_i}=\lambda^n e^{-\lambda\sum_{i=1}^n x_i},\quad x_i>0.
 $$
 
 (3) 总体 $X$ 的密度函数为 $f\left(x\right)=\frac{\lambda}{2}e^{-\lambda\left|x\right|}$，故样本的联合密度函数为
 $$
-f\left(x_1,\dots,x_n\right)=\prod_{i=1}^n\frac{\lambda}{2}e^{-\lambda\left|x_i\right|}=\left(\frac{\lambda}{2}\right)^n e^{-\lambda\sum_{i=1}^n\left|x_i\right|},\qquad x_i\in\mathbb R.
+f\left(x_1,\dots,x_n\right)=\prod_{i=1}^n\frac{\lambda}{2}e^{-\lambda\left|x_i\right|}=\left(\frac{\lambda}{2}\right)^n e^{-\lambda\sum_{i=1}^n\left|x_i\right|},\quad x_i\in\mathbb R.
 $$
 
 $\blacksquare$
@@ -79,37 +79,37 @@ $\blacksquare$
 
 (1) 两点分布 $B\left(1,p\right)$，参数空间 $\Theta=\left\{p:0<p<1\right\}$：样本分布族为
 $$
-\left\{\prod_{i=1}^n p^{x_i}\left(1-p\right)^{1-x_i}:0<p<1\right\},\qquad x_i\in\left\{0,1\right\}.
+\left\{\prod_{i=1}^n p^{x_i}\left(1-p\right)^{1-x_i}:0<p<1\right\},\quad x_i\in\left\{0,1\right\}.
 $$
 
 (2) 二项分布 $B\left(m,p\right)$，参数空间 $\Theta=\left\{p:0<p<1\right\}$：样本分布族为
 $$
-\left\{\prod_{i=1}^n\binom{m}{x_i}p^{x_i}\left(1-p\right)^{m-x_i}:0<p<1\right\},\qquad x_i=0,1,\dots,m.
+\left\{\prod_{i=1}^n\binom{m}{x_i}p^{x_i}\left(1-p\right)^{m-x_i}:0<p<1\right\},\quad x_i=0,1,\dots,m.
 $$
 
 (3) 泊松分布 $P\left(\lambda\right)$，参数空间 $\Theta=\left\{\lambda:\lambda>0\right\}$：样本分布族为
 $$
-\left\{\prod_{i=1}^n\frac{e^{-\lambda}\lambda^{x_i}}{x_i!}:\lambda>0\right\},\qquad x_i=0,1,2,\dots
+\left\{\prod_{i=1}^n\frac{e^{-\lambda}\lambda^{x_i}}{x_i!}:\lambda>0\right\},\quad x_i=0,1,2,\dots
 $$
 
 (4) 几何分布 $G\left(p\right)$，参数空间 $\Theta=\left\{p:0<p<1\right\}$：样本分布族为
 $$
-\left\{\prod_{i=1}^n\left(1-p\right)^{x_i-1}p:0<p<1\right\},\qquad x_i=1,2,\dots
+\left\{\prod_{i=1}^n\left(1-p\right)^{x_i-1}p:0<p<1\right\},\quad x_i=1,2,\dots
 $$
 
 (5) 均匀分布 $U\left[a,b\right]$，参数空间 $\Theta=\left\{\left(a,b\right):-\infty<a<b<+\infty\right\}$：样本分布族为
 $$
-\left\{\prod_{i=1}^n\frac{1}{b-a}:-\infty<a<b<+\infty\right\},\qquad x_i\in\left[a,b\right].
+\left\{\prod_{i=1}^n\frac{1}{b-a}:-\infty<a<b<+\infty\right\},\quad x_i\in\left[a,b\right].
 $$
 
 (6) 指数分布 $E\left(\lambda\right)$，参数空间 $\Theta=\left\{\lambda:\lambda>0\right\}$：样本分布族为
 $$
-\left\{\prod_{i=1}^n\lambda e^{-\lambda x_i}:\lambda>0\right\},\qquad x_i>0.
+\left\{\prod_{i=1}^n\lambda e^{-\lambda x_i}:\lambda>0\right\},\quad x_i>0.
 $$
 
 (7) 正态分布 $N\left(\mu,\sigma^2\right)$，参数空间 $\Theta=\left\{\left(\mu,\sigma^2\right):\mu\in\mathbb R,\ \sigma>0\right\}$：样本分布族为
 $$
-\left\{\prod_{i=1}^n\frac{1}{\sqrt{2\pi}\sigma}\exp\left\{-\frac{\left(x_i-\mu\right)^2}{2\sigma^2}\right\}:\mu\in\mathbb R,\ \sigma>0\right\},\qquad x_i\in\mathbb R.
+\left\{\prod_{i=1}^n\frac{1}{\sqrt{2\pi}\sigma}\exp\left\{-\frac{\left(x_i-\mu\right)^2}{2\sigma^2}\right\}:\mu\in\mathbb R,\ \sigma>0\right\},\quad x_i\in\mathbb R.
 $$
 
 $\blacksquare$
@@ -127,7 +127,7 @@ $$
 
 由**总体分布族与样本分布族**，正态总体 $N\left(\mu,\sigma^2\right)$ 的密度函数为 $f\left(x;\mu,\sigma^2\right)=\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{\left(x-\mu\right)^2}{2\sigma^2}}$，故样本分布族为
 $$
-\left\{\prod_{i=1}^n\frac{1}{\sqrt{2\pi}\sigma}\exp\left\{-\frac{\left(x_i-\mu\right)^2}{2\sigma^2}\right\}:\left(\mu,\sigma^2\right)\in\Theta\right\},\qquad x_i\in\mathbb R.
+\left\{\prod_{i=1}^n\frac{1}{\sqrt{2\pi}\sigma}\exp\left\{-\frac{\left(x_i-\mu\right)^2}{2\sigma^2}\right\}:\left(\mu,\sigma^2\right)\in\Theta\right\},\quad x_i\in\mathbb R.
 $$
 
 $\blacksquare$
@@ -136,10 +136,10 @@ $\blacksquare$
 
 （习题 1-8）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$ 的样本，其中 $\mu$ 已知，$\sigma^2$ 未知，判断下列量哪些是统计量哪些不是统计量，为什么？
 $$
-\frac{1}{n}\sum_{i=1}^n X_i,\qquad\frac{1}{n-1}\sum_{i=1}^n\left(X_i-\bar X\right)^2,\qquad\frac{1}{\sigma^2}\sum_{i=1}^n X_i^2,\qquad\frac{1}{n}\sum_{i=1}^n\left(X_i-\mu\right)^2,
+\frac{1}{n}\sum_{i=1}^n X_i,\quad\frac{1}{n-1}\sum_{i=1}^n\left(X_i-\bar X\right)^2,\quad\frac{1}{\sigma^2}\sum_{i=1}^n X_i^2,\quad\frac{1}{n}\sum_{i=1}^n\left(X_i-\mu\right)^2,
 $$
 $$
-\frac{1}{\sigma^2}\sum_{i=1}^n\left(X_i-\mu\right)^2,\qquad X_1+2\mu,\qquad\max\left\{X_1,\dots,X_n\right\},\qquad\min\left\{X_1,\dots,X_n\right\}.
+\frac{1}{\sigma^2}\sum_{i=1}^n\left(X_i-\mu\right)^2,\quad X_1+2\mu,\quad\max\left\{X_1,\dots,X_n\right\},\quad\min\left\{X_1,\dots,X_n\right\}.
 $$
 
 ### 解答 习题六

@@ -17,7 +17,7 @@
 灯泡寿命服从指数分布 $E\left(\lambda\right)$，平均寿命为 $1/\lambda$. 公司声称平均寿命为 $1000\mathrm{h}$，即 $1/\lambda=1000$，亦即 $\lambda=1/1000$. 消费者怀疑平均寿命小于 $1000\mathrm{h}$，即 $1/\lambda<1000$，亦即 $\lambda>1/1000$. 由**指数分布参数的假设检验**（小样本方法），这是右边检验问题，提出假设
 
 $$
-H_0:\lambda\le\lambda_0=\frac{1}{1000},\qquad H_1:\lambda>\lambda_0.
+H_0:\lambda\le\lambda_0=\frac{1}{1000},\quad H_1:\lambda>\lambda_0.
 $$
 
 由**指数分布参数的假设检验**，检验统计量为 $2n\lambda_0\bar X$，其拒绝域为
@@ -43,7 +43,7 @@ $$
 由**指数分布参数的假设检验**（小样本方法）中的 $2n\lambda\bar X\sim\chi^2\left(2n\right)$ 结论，有
 
 $$
-2m\lambda_1\bar X\sim\chi^2\left(2m\right),\qquad 2n\lambda_2\bar Y\sim\chi^2\left(2n\right),
+2m\lambda_1\bar X\sim\chi^2\left(2m\right),\quad 2n\lambda_2\bar Y\sim\chi^2\left(2n\right),
 $$
 
 且由两样本相互独立知上述两个 $\chi^2$ 变量相互独立. 由**两指数分布参数比的检验**，构造 $F$ 统计量

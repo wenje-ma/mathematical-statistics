@@ -55,7 +55,7 @@ $$
 \begin{cases}
 \frac{\binom{n-m}{T-m}}{\binom{n}{T}},& T=m,m+1,\dots,n,\\[6pt\right]
 0,& T=0,1,\dots,m-1,
-\end{cases}\qquad T=\sum_{i=1}^n X_i.
+\end{cases}\quad T=\sum_{i=1}^n X_i.
 $$
 
 (2) 待估 $g\left(p\right)=p\left(1-p\right)$. 由**例 3.5.4**（教材已用待定系数法求得），$g\left(p\right)=p\left(1-p\right)$ 的一个无偏估计为 $g\left(T\right)=\frac{T\left(n-T\right)}{n\left(n-1\right)}$. 验证其无偏性：由 $T\sim B\left(n,p\right)$，$E\left(T\right)=np$，$D\left(T\right)=np\left(1-p\right)$，故
@@ -67,7 +67,7 @@ $$
 于是 $E\left[\frac{T\left(n-T\right)}{n\left(n-1\right)}\right]=p\left(1-p\right)$. 又 $\frac{T\left(n-T\right)}{n\left(n-1\right)}$ 是充分完备统计量 $T$ 的函数，由**定理 3.5.1**（L-S 定理），$p\left(1-p\right)$ 的唯一一致最小方差无偏估计为
 
 $$
-\hat g_2=\frac{T\left(n-T\right)}{n\left(n-1\right)},\qquad T=\sum_{i=1}^n X_i.
+\hat g_2=\frac{T\left(n-T\right)}{n\left(n-1\right)},\quad T=\sum_{i=1}^n X_i.
 $$
 
 $\blacksquare$
@@ -101,7 +101,7 @@ $$
 该估计量是充分完备统计量 $T$ 的函数且无偏，由**定理 3.5.1**（L-S 定理），$\sigma$ 的唯一一致最小方差无偏估计为
 
 $$
-\hat\sigma=\frac{\Gamma\left(\frac{n}{2}\right)}{\sqrt 2\,\Gamma\left(\frac{n+1}{2}\right)}\sqrt T,\qquad T=\sum_{i=1}^n X_i^2.
+\hat\sigma=\frac{\Gamma\left(\frac{n}{2}\right)}{\sqrt 2\,\Gamma\left(\frac{n+1}{2}\right)}\sqrt T,\quad T=\sum_{i=1}^n X_i^2.
 $$
 
 (2) 求 $\sigma^4$ 的一致最小方差无偏估计. 由**基础知识**（$\chi^2$ 分布的矩），若 $Y\sim\chi^2\left(n\right)$，则 $E\left(Y^2\right)=n\left(n+2\right)$. 由 $T=\sigma^2Y$，
@@ -113,7 +113,7 @@ $$
 于是 $E\left[\frac{T^2}{n\left(n+2\right)}\right]=\sigma^4$. 该估计量是充分完备统计量 $T$ 的函数且无偏，由**定理 3.5.1**（L-S 定理），$\sigma^4$ 的唯一一致最小方差无偏估计为
 
 $$
-\widehat{\sigma^4}=\frac{T^2}{n\left(n+2\right)},\qquad T=\sum_{i=1}^n X_i^2.
+\widehat{\sigma^4}=\frac{T^2}{n\left(n+2\right)},\quad T=\sum_{i=1}^n X_i^2.
 $$
 
 $\blacksquare$
@@ -165,7 +165,7 @@ $$
 该估计量是充分完备统计量 $\left(\bar X,S^2\right)$ 的函数且无偏，由**定理 3.5.1**（L-S 定理），$\frac{\mu^2}{\sigma^2}$ 的唯一一致最小方差无偏估计为
 
 $$
-\frac{\left(n-3\right)\bar X^2}{\left(n-1\right)S^2}-\frac{1}{n}\qquad\left(n>3\right).
+\frac{\left(n-3\right)\bar X^2}{\left(n-1\right)S^2}-\frac{1}{n}\quad\left(n>3\right).
 $$
 
 (2) 证明 $\hat\mu^2=\bar X^2-\frac{S^2}{n}$ 是 $\mu^2$ 的一致最小方差无偏估计. 由 $E\left(\bar X^2\right)=\mu^2+\frac{\sigma^2}{n}$，$E\left(S^2\right)=\sigma^2$，得

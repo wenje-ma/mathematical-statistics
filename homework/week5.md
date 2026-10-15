@@ -25,7 +25,7 @@ $$
 将其改写为
 
 $$
-f\left(x_1,\dots,x_n,\theta\right)=\theta^n\exp\left\{\theta\sum_{i=1}^n\ln x_i\right\}\cdot\frac{1}{\prod_{i=1}^n x_i},\qquad 0<x_i<1.
+f\left(x_1,\dots,x_n,\theta\right)=\theta^n\exp\left\{\theta\sum_{i=1}^n\ln x_i\right\}\cdot\frac{1}{\prod_{i=1}^n x_i},\quad 0<x_i<1.
 $$
 
 取 $C\left(\theta\right)=\theta^n$，$Q\left(\theta\right)=\theta$，$T\left(x_1,\dots,x_n\right)=\sum_{i=1}^n\ln x_i$，$h\left(x_1,\dots,x_n\right)=\frac{1}{\prod_{i=1}^n x_i}$. 其支撑集 $\left\{x:f\left(x,\theta\right)>0\right\}=\left(0,1\right)$ 与 $\theta$ 无关，故由**定义 2.4.1**（指数族），该样本分布族是指数族.
@@ -55,7 +55,7 @@ $\blacksquare$
 （习题 2.4-4）设 $X_1,X_2,\dots,X_n$ 是来自拉普拉斯（Laplace）分布的样本，其密度函数为
 
 $$
-f\left(x\right)=\frac{1}{2\theta}e^{-\left|x\right|/\theta},\qquad-\infty<x<+\infty,\ \theta>0.
+f\left(x\right)=\frac{1}{2\theta}e^{-\left|x\right|/\theta},\quad-\infty<x<+\infty,\ \theta>0.
 $$
 
 证明样本分布族是指数族，并表示成指数族的自然形式，求出自然参数空间.

@@ -65,7 +65,7 @@ $\blacksquare$
 （习题 3.6-2）设总体 $X$ 的分布列为
 
 $$
-P\left\{X=x\right\}=\left(x-1\right)\theta^2\left(1-\theta\right)^{x-2},\qquad x=2,3,\dots
+P\left\{X=x\right\}=\left(x-1\right)\theta^2\left(1-\theta\right)^{x-2},\quad x=2,3,\dots
 $$
 
 其中 $0<\theta<1$，求费希尔信息量 $I\left(\theta\right)$.
@@ -123,7 +123,7 @@ $$
 由**推论 3.5.1**（指数族自然形式下的充分完备统计量），该密度函数可写为
 
 $$
-f\left(x,\theta\right)=\frac{1}{\theta}\exp\left\{-\frac{x}{\theta}\right\}=\theta^{-1}\exp\left\{-\frac{1}{\theta}x\right\},\qquad x>0,
+f\left(x,\theta\right)=\frac{1}{\theta}\exp\left\{-\frac{x}{\theta}\right\}=\theta^{-1}\exp\left\{-\frac{1}{\theta}x\right\},\quad x>0,
 $$
 
 为单参数指数族，自然参数空间 $\left\{-\frac{1}{\theta}:\theta>0\right\}=\left(-\infty,0\right)$ 有内点，故 $T=\sum_{i=1}^n X_i$ 为充分完备统计量. 该总体为指数分布 $E\left(\frac{1}{\theta}\right)$，其均值 $E\left(X\right)=\theta$. 由**定义 1.3.2**（简单随机样本），$X_1,X_2,\dots,X_n$ 独立同分布，故
@@ -137,7 +137,7 @@ $\bar X=\frac{T}{n}$ 是充分完备统计量 $T$ 的函数且无偏，由**定�
 下面证明 $\bar X$ 达到 C-R 下界. 由**定义 3.6.1**（正则分布族），对数密度为
 
 $$
-\ln f\left(x,\theta\right)=-\ln\theta-\frac{x}{\theta},\qquad x>0.
+\ln f\left(x,\theta\right)=-\ln\theta-\frac{x}{\theta},\quad x>0.
 $$
 
 对 $\theta$ 求导，

@@ -1,6 +1,6 @@
 # 作业 4
 
-> **引理 2.3.1**（样本均值与样本方差的期望）<br>设 $X_1,X_2,\dots,X_n$ 是来自总体 $X$ 的一个样本，且 $E\left(X\right)=\mu$，$D\left(X\right)=\sigma^2$，$\bar X=\frac{1}{n}\sum_{i=1}^n X_i$ 和 $S^2=\frac{1}{n-1}\sum_{i=1}^n\left(X_i-\bar X\right)^2$ 分别为样本均值和样本方差，则 $$E\left(\bar X\right)=\mu,\qquad D\left(\bar X\right)=\frac{\sigma^2}{n},\qquad E\left(S^2\right)=\sigma^2.$$
+> **引理 2.3.1**（样本均值与样本方差的期望）<br>设 $X_1,X_2,\dots,X_n$ 是来自总体 $X$ 的一个样本，且 $E\left(X\right)=\mu$，$D\left(X\right)=\sigma^2$，$\bar X=\frac{1}{n}\sum_{i=1}^n X_i$ 和 $S^2=\frac{1}{n-1}\sum_{i=1}^n\left(X_i-\bar X\right)^2$ 分别为样本均值和样本方差，则 $$E\left(\bar X\right)=\mu,\quad D\left(\bar X\right)=\frac{\sigma^2}{n},\quad E\left(S^2\right)=\sigma^2.$$
 
 > **定理 2.3.3**（正态总体样本均值与样本方差的分布）<br>设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$ 的样本，$\bar X$ 和 $S^2$ 分别为样本均值和样本方差，则有：<br>(1) $\bar X\sim N\left(\mu,\sigma^2/n\right)$，即 $\frac{\bar X-\mu}{\sigma/\sqrt n}\sim N\left(0,1\right)$；<br>(2) $\frac{\left(n-1\right)S^2}{\sigma^2}\sim\chi^2\left(n-1\right)$；<br>(3) $\bar X$ 和 $S^2$ 相互独立.
 
@@ -25,7 +25,7 @@
 总体 $X\sim P\left(\lambda\right)$，故 $E\left(X\right)=\lambda$，$D\left(X\right)=\lambda$. 由**引理 2.3.1**（样本均值与样本方差的期望），
 
 $$
-E\left(\bar X\right)=E\left(X\right)=\lambda,\qquad D\left(\bar X\right)=\frac{D\left(X\right)}{n}=\frac{\lambda}{n},\qquad E\left(S^2\right)=D\left(X\right)=\lambda.
+E\left(\bar X\right)=E\left(X\right)=\lambda,\quad D\left(\bar X\right)=\frac{D\left(X\right)}{n}=\frac{\lambda}{n},\quad E\left(S^2\right)=D\left(X\right)=\lambda.
 $$
 
 $\blacksquare$
@@ -39,7 +39,7 @@ $\blacksquare$
 由**引理 2.3.1**（样本均值与样本方差的期望），
 
 $$
-E\left(\bar X\right)=\mu,\qquad D\left(\bar X\right)=\frac{\sigma^2}{n},\qquad E\left(S^2\right)=\sigma^2.
+E\left(\bar X\right)=\mu,\quad D\left(\bar X\right)=\frac{\sigma^2}{n},\quad E\left(S^2\right)=\sigma^2.
 $$
 
 求 $D\left(S^2\right)$. 由**定理 2.3.3**（正态总体样本均值与样本方差的分布）之结论 (2)，
@@ -109,7 +109,7 @@ $$
 由**定义 2.2.1**（$\chi^2$ 分布），因 $X_i/\sigma\sim N\left(0,1\right)$ 且相互独立，故
 
 $$
-\frac{1}{\sigma^2}\sum_{i=1}^n X_i^2\sim\chi^2\left(n\right),\qquad\frac{1}{\sigma^2}\sum_{i=n+1}^{n+m}X_i^2\sim\chi^2\left(m\right).
+\frac{1}{\sigma^2}\sum_{i=1}^n X_i^2\sim\chi^2\left(n\right),\quad\frac{1}{\sigma^2}\sum_{i=n+1}^{n+m}X_i^2\sim\chi^2\left(m\right).
 $$
 
 两式所依赖的样本互不重叠，故二者相互独立. 由**定义 2.2.3**（$F$ 分布），
@@ -167,7 +167,7 @@ $$
 因 $\left(X_1+X_2,\ X_1-X_2\right)$ 服从二维正态分布，协方差为零即相互独立. 标准化得
 
 $$
-U=\frac{X_1+X_2}{\sigma\sqrt2}\sim N\left(0,1\right),\qquad V=\frac{X_1-X_2}{\sigma\sqrt2}\sim N\left(0,1\right),
+U=\frac{X_1+X_2}{\sigma\sqrt2}\sim N\left(0,1\right),\quad V=\frac{X_1-X_2}{\sigma\sqrt2}\sim N\left(0,1\right),
 $$
 
 且 $U$ 与 $V$ 相互独立.
@@ -281,19 +281,19 @@ $$
 (2) 由**定理**（顺序统计量的分布），最小与最大顺序统计量的联合密度函数为
 
 $$
-f_{\left(1\right),\left(n\right)}\left(x,y\right)=n\left(n-1\right)\left(y-x\right)^{n-2},\qquad0<x<y<1.
+f_{\left(1\right),\left(n\right)}\left(x,y\right)=n\left(n-1\right)\left(y-x\right)^{n-2},\quad0<x<y<1.
 $$
 
 令 $r=y-x$，$s=x$，即 $x=s$，$y=s+r$，雅可比行列式 $J=1$. 对 $s$ 积分得 $R_n=X_{\left(n\right)}-X_{\left(1\right)}$ 的密度函数：
 
 $$
-f_{R_n}\left(r\right)=\int_0^{1-r}n\left(n-1\right)r^{n-2}\,\mathrm{d}s=n\left(n-1\right)r^{n-2}\left(1-r\right),\qquad0<r<1.
+f_{R_n}\left(r\right)=\int_0^{1-r}n\left(n-1\right)r^{n-2}\,\mathrm{d}s=n\left(n-1\right)r^{n-2}\left(1-r\right),\quad0<r<1.
 $$
 
 (3) 当 $n\to+\infty$ 时，$X_{\left(n\right)}\to1$，$X_{\left(1\right)}\to0$，故 $R_n\to1$. 考虑中心化与标准化后的变量：
 
 $$
-n\left(1-X_{\left(n\right)}\right)\xrightarrow{L}Exp\left(1\right),\qquad nX_{\left(1\right)}\xrightarrow{L}Exp\left(1\right),
+n\left(1-X_{\left(n\right)}\right)\xrightarrow{L}Exp\left(1\right),\quad nX_{\left(1\right)}\xrightarrow{L}Exp\left(1\right),
 $$
 
 且二者渐近独立. 由**$\chi^2$ 分布的性质**（可加性）及**伽马分布**与 $\chi^2$ 分布的关系，两个独立的 $Exp\left(1\right)$ 变量之和服从 $Ga\left(2,1\right)$，即 $\chi^2\left(2\right)/2$. 于是

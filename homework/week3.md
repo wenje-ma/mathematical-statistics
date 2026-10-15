@@ -8,7 +8,7 @@
 
 > **定义 2.2.2**（$t$ 分布）<br>设随机变量 $X\sim N\left(0,1\right)$，$Y\sim\chi^2\left(n\right)$，且 $X$ 与 $Y$ 相互独立，则称随机变量 $$T=\frac{X}{\sqrt{Y/n}}$$ 为自由度为 $n$ 的 $t$ 变量，其分布称为自由度为 $n$ 的 $t$ 分布，记作 $T\sim t\left(n\right)$.
 
-> **定理 2.2.2**（$t$ 分布的密度函数）<br>设 $T\sim t\left(n\right)$，则其密度函数为 $$f\left(t\right)=\frac{\Gamma\left(\left(n+1\right)/2\right)}{\Gamma\left(n/2\right)\sqrt{n\pi}}\left(1+\frac{t^2}{n}\right)^{-\left(n+1\right)/2},\qquad-\infty<t<+\infty.$$
+> **定理 2.2.2**（$t$ 分布的密度函数）<br>设 $T\sim t\left(n\right)$，则其密度函数为 $$f\left(t\right)=\frac{\Gamma\left(\left(n+1\right)/2\right)}{\Gamma\left(n/2\right)\sqrt{n\pi}}\left(1+\frac{t^2}{n}\right)^{-\left(n+1\right)/2},\quad-\infty<t<+\infty.$$
 
 > **定义 2.2.3**（$F$ 分布）<br>设随机变量 $X\sim\chi^2\left(m\right)$，$Y\sim\chi^2\left(n\right)$，且 $X$ 与 $Y$ 相互独立，则称随机变量 $$F=\frac{X/m}{Y/n}$$ 为自由度为 $m$ 和 $n$ 的 $F$ 变量，其所服从的分布称为 $F$ 分布，记作 $F\sim F\left(m,n\right)$.
 
@@ -77,7 +77,7 @@ $$
 （习题 2.2-2）设随机变量 $X$ 服从自由度为 $n$ 的 $\chi^2$ 分布，证明：
 
 $$
-E\left(X^k\right)=\frac{2^k\Gamma\left(n/2+k\right)}{\Gamma\left(n/2\right)},\qquad k=1,2,\dots
+E\left(X^k\right)=\frac{2^k\Gamma\left(n/2+k\right)}{\Gamma\left(n/2\right)},\quad k=1,2,\dots
 $$
 
 特别地，有 $E\left(X\right)=n$，$D\left(X\right)=2n$.
@@ -87,7 +87,7 @@ $$
 由**定理 2.2.1**（$\chi^2$ 分布的密度函数），$X\sim\chi^2\left(n\right)$ 的密度函数为
 
 $$
-f\left(x\right)=\frac{1}{2^{n/2}\Gamma\left(n/2\right)}x^{n/2-1}e^{-x/2},\qquad x>0.
+f\left(x\right)=\frac{1}{2^{n/2}\Gamma\left(n/2\right)}x^{n/2-1}e^{-x/2},\quad x>0.
 $$
 
 于是
@@ -181,7 +181,7 @@ $\blacksquare$
 由**伽马分布**，$X\sim Ga\left(\alpha,\lambda\right)$ 的密度函数为
 
 $$
-f\left(x\right)=\frac{\lambda^\alpha}{\Gamma\left(\alpha\right)}x^{\alpha-1}e^{-\lambda x},\qquad x>0.
+f\left(x\right)=\frac{\lambda^\alpha}{\Gamma\left(\alpha\right)}x^{\alpha-1}e^{-\lambda x},\quad x>0.
 $$
 
 (1) 特征函数为
@@ -227,7 +227,7 @@ $$
 (5) 当 $\alpha=1$ 时，$\Gamma\left(1\right)=1$，密度函数为
 
 $$
-f\left(x\right)=\lambda e^{-\lambda x},\qquad x>0,
+f\left(x\right)=\lambda e^{-\lambda x},\quad x>0,
 $$
 
 即参数为 $\lambda$ 的指数分布. $\blacksquare$
@@ -241,7 +241,7 @@ $$
 由**定理 2.2.1**（$\chi^2$ 分布的密度函数）及 $X$ 与 $Y$ 相互独立，$\left(X,Y\right)$ 的联合密度函数为
 
 $$
-f\left(x,y\right)=\frac{1}{2^{\left(m+n\right)/2}\Gamma\left(m/2\right)\Gamma\left(n/2\right)}x^{m/2-1}y^{n/2-1}e^{-\left(x+y\right)/2},\qquad x>0,\ y>0.
+f\left(x,y\right)=\frac{1}{2^{\left(m+n\right)/2}\Gamma\left(m/2\right)\Gamma\left(n/2\right)}x^{m/2-1}y^{n/2-1}e^{-\left(x+y\right)/2},\quad x>0,\ y>0.
 $$
 
 作变换 $u=x/y$，$v=x+y$，即 $x=\frac{uv}{1+u}$，$y=\frac{v}{1+u}$. 该变换的雅可比行列式为
@@ -289,7 +289,7 @@ $$
 利用斯特林公式 $\Gamma\left(s+1\right)\sim\sqrt{2\pi s}\left(s/e\right)^s$ 可得渐近关系
 
 $$
-\frac{\Gamma\left(n/2+1/2\right)}{\Gamma\left(n/2\right)}\sim\left(\frac{n}{2}\right)^{1/2}=\sqrt{\frac{n}{2}},\qquad n\to+\infty.
+\frac{\Gamma\left(n/2+1/2\right)}{\Gamma\left(n/2\right)}\sim\left(\frac{n}{2}\right)^{1/2}=\sqrt{\frac{n}{2}},\quad n\to+\infty.
 $$
 
 因此

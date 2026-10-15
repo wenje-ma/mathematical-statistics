@@ -2,7 +2,7 @@
 
 > **抽样分布**（定义）<br>统计量是样本 $X_1,X_2,\dots,X_n$ 的函数，而样本 $X_1,X_2,\dots,X_n$ 是随机变量. 因此，统计量也是随机变量，统计量的分布称为抽样分布.
 
-> **定理**（顺序统计量的分布）<br>设 $X_1,X_2,\dots,X_n$ 是来自总体 $X$ 的样本，且 $X$ 的分布函数为 $F\left(x\right)$，$\left(X_{\left(1\right)},X_{\left(2\right)},\dots,X_{\left(n\right)}\right)$ 是其顺序统计量，则对 $1\le r\le n$，$X_{\left(r\right)}$ 的分布函数为 $$F_{\left(r\right)}\left(x\right)=P\left\{X_{\left(r\right)}\le x\right\}=\sum_{k=r}^n\binom{n}{k}\left[F\left(x\right)\right]^k\left[1-F\left(x\right)\right]^{n-k}=r\binom{n}{r}\int_0^{F\left(x\right)}t^{r-1}\left(1-t\right)^{n-r}\,\mathrm{d}t.$$ 若总体 $X$ 为连续型且有密度函数 $f\left(x\right)$，则 $X_{\left(r\right)}$ 的密度函数为 $$f_{\left(r\right)}\left(x\right)=F_{\left(r\right)}'\left(x\right)=r\binom{n}{r}\left[F\left(x\right)\right]^{r-1}\left[1-F\left(x\right)\right]^{n-r}f\left(x\right).$$ 特别地，当 $r=1$ 时，最小顺序统计量 $X_{\left(1\right)}$ 的分布函数和密度函数分别为 $$F_{\left(1\right)}\left(x\right)=1-\left[1-F\left(x\right)\right]^n,\qquad f_{\left(1\right)}\left(x\right)=n\left[1-F\left(x\right)\right]^{n-1}f\left(x\right);$$ 当 $r=n$ 时，最大顺序统计量 $X_{\left(n\right)}$ 的分布函数和密度函数分别为 $$F_{\left(n\right)}\left(x\right)=\left[F\left(x\right)\right]^n,\qquad f_{\left(n\right)}\left(x\right)=n\left[F\left(x\right)\right]^{n-1}f\left(x\right).$$
+> **定理**（顺序统计量的分布）<br>设 $X_1,X_2,\dots,X_n$ 是来自总体 $X$ 的样本，且 $X$ 的分布函数为 $F\left(x\right)$，$\left(X_{\left(1\right)},X_{\left(2\right)},\dots,X_{\left(n\right)}\right)$ 是其顺序统计量，则对 $1\le r\le n$，$X_{\left(r\right)}$ 的分布函数为 $$F_{\left(r\right)}\left(x\right)=P\left\{X_{\left(r\right)}\le x\right\}=\sum_{k=r}^n\binom{n}{k}\left[F\left(x\right)\right]^k\left[1-F\left(x\right)\right]^{n-k}=r\binom{n}{r}\int_0^{F\left(x\right)}t^{r-1}\left(1-t\right)^{n-r}\,\mathrm{d}t.$$ 若总体 $X$ 为连续型且有密度函数 $f\left(x\right)$，则 $X_{\left(r\right)}$ 的密度函数为 $$f_{\left(r\right)}\left(x\right)=F_{\left(r\right)}'\left(x\right)=r\binom{n}{r}\left[F\left(x\right)\right]^{r-1}\left[1-F\left(x\right)\right]^{n-r}f\left(x\right).$$ 特别地，当 $r=1$ 时，最小顺序统计量 $X_{\left(1\right)}$ 的分布函数和密度函数分别为 $$F_{\left(1\right)}\left(x\right)=1-\left[1-F\left(x\right)\right]^n,\quad f_{\left(1\right)}\left(x\right)=n\left[1-F\left(x\right)\right]^{n-1}f\left(x\right);$$ 当 $r=n$ 时，最大顺序统计量 $X_{\left(n\right)}$ 的分布函数和密度函数分别为 $$F_{\left(n\right)}\left(x\right)=\left[F\left(x\right)\right]^n,\quad f_{\left(n\right)}\left(x\right)=n\left[F\left(x\right)\right]^{n-1}f\left(x\right).$$
 
 > **基础知识**（泊松分布的可加性）<br>设 $X_1,X_2,\dots,X_n$ 相互独立，且 $X_i\sim P\left(\lambda_i\right)$，则 $\sum_{i=1}^n X_i\sim P\left(\sum_{i=1}^n\lambda_i\right)$.
 
@@ -21,7 +21,7 @@ $$
 
 即 $T$ 的分布列为
 $$
-P\left\{T=t\right\}=\frac{\left(n\lambda\right)^t}{t!}e^{-n\lambda},\qquad t=0,1,2,\dots
+P\left\{T=t\right\}=\frac{\left(n\lambda\right)^t}{t!}e^{-n\lambda},\quad t=0,1,2,\dots
 $$
 
 $\blacksquare$
@@ -88,7 +88,7 @@ $$
 
 (1) 由**定理**（顺序统计量的分布），最小顺序统计量 $X_{\left(1\right)}$ 的密度函数为
 $$
-f_{\left(1\right)}\left(x\right)=n\left[1-F\left(x\right)\right]^{n-1}f\left(x\right)=n\left(e^{-\lambda x}\right)^{n-1}\cdot\lambda e^{-\lambda x}=n\lambda e^{-n\lambda x},\qquad x>0.
+f_{\left(1\right)}\left(x\right)=n\left[1-F\left(x\right)\right]^{n-1}f\left(x\right)=n\left(e^{-\lambda x}\right)^{n-1}\cdot\lambda e^{-\lambda x}=n\lambda e^{-n\lambda x},\quad x>0.
 $$
 
 故 $X_{\left(1\right)}\sim E\left(n\lambda\right)$，即 $X_{\left(1\right)}$ 服从参数为 $n\lambda$ 的指数分布.
@@ -127,17 +127,17 @@ $\blacksquare$
 
 均匀分布 $U\left[\theta_1,\theta_2\right]$ 的密度函数与分布函数分别为
 $$
-f\left(x\right)=\begin{cases}\frac{1}{\theta_2-\theta_1},&\theta_1\le x\le\theta_2,\\0,&\text{其他},\end{cases}\qquad F\left(x\right)=\begin{cases}0,&x<\theta_1,\\\frac{x-\theta_1}{\theta_2-\theta_1},&\theta_1\le x\le\theta_2,\\1,&x>\theta_2.\end{cases}
+f\left(x\right)=\begin{cases}\frac{1}{\theta_2-\theta_1},&\theta_1\le x\le\theta_2,\\0,&\text{其他},\end{cases}\quad F\left(x\right)=\begin{cases}0,&x<\theta_1,\\\frac{x-\theta_1}{\theta_2-\theta_1},&\theta_1\le x\le\theta_2,\\1,&x>\theta_2.\end{cases}
 $$
 
 由**定理**（顺序统计量的分布），最小顺序统计量 $X_{\left(1\right)}$ 的密度函数为
 $$
-f_{\left(1\right)}\left(x\right)=n\left[1-F\left(x\right)\right]^{n-1}f\left(x\right)=n\left(\frac{\theta_2-x}{\theta_2-\theta_1}\right)^{n-1}\cdot\frac{1}{\theta_2-\theta_1}=\frac{n\left(\theta_2-x\right)^{n-1}}{\left(\theta_2-\theta_1\right)^n},\qquad \theta_1\le x\le\theta_2.
+f_{\left(1\right)}\left(x\right)=n\left[1-F\left(x\right)\right]^{n-1}f\left(x\right)=n\left(\frac{\theta_2-x}{\theta_2-\theta_1}\right)^{n-1}\cdot\frac{1}{\theta_2-\theta_1}=\frac{n\left(\theta_2-x\right)^{n-1}}{\left(\theta_2-\theta_1\right)^n},\quad \theta_1\le x\le\theta_2.
 $$
 
 最大顺序统计量 $X_{\left(n\right)}$ 的密度函数为
 $$
-f_{\left(n\right)}\left(x\right)=n\left[F\left(x\right)\right]^{n-1}f\left(x\right)=n\left(\frac{x-\theta_1}{\theta_2-\theta_1}\right)^{n-1}\cdot\frac{1}{\theta_2-\theta_1}=\frac{n\left(x-\theta_1\right)^{n-1}}{\left(\theta_2-\theta_1\right)^n},\qquad \theta_1\le x\le\theta_2.
+f_{\left(n\right)}\left(x\right)=n\left[F\left(x\right)\right]^{n-1}f\left(x\right)=n\left(\frac{x-\theta_1}{\theta_2-\theta_1}\right)^{n-1}\cdot\frac{1}{\theta_2-\theta_1}=\frac{n\left(x-\theta_1\right)^{n-1}}{\left(\theta_2-\theta_1\right)^n},\quad \theta_1\le x\le\theta_2.
 $$
 
 $\blacksquare$

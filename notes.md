@@ -89,13 +89,13 @@ $$
 特别地, 当 $r=1$ 时, 最小顺序统计量 $X_{\left(1\right)}$ 的分布函数和密度函数分别为
 
 $$
-F_{\left(1\right)}\left(x\right)=1-\left[1-F\left(x\right)\right]^n,\qquad f_{\left(1\right)}\left(x\right)=n\left[1-F\left(x\right)\right]^{n-1}f\left(x\right);
+F_{\left(1\right)}\left(x\right)=1-\left[1-F\left(x\right)\right]^n,\quad f_{\left(1\right)}\left(x\right)=n\left[1-F\left(x\right)\right]^{n-1}f\left(x\right);
 $$
 
 当 $r=n$ 时, 最大顺序统计量 $X_{\left(n\right)}$ 的分布函数和密度函数分别为
 
 $$
-F_{\left(n\right)}\left(x\right)=\left[F\left(x\right)\right]^n,\qquad f_{\left(n\right)}\left(x\right)=n\left[F\left(x\right)\right]^{n-1}f\left(x\right).
+F_{\left(n\right)}\left(x\right)=\left[F\left(x\right)\right]^n,\quad f_{\left(n\right)}\left(x\right)=n\left[F\left(x\right)\right]^{n-1}f\left(x\right).
 $$
 
 **基础知识** (泊松分布的可加性)
@@ -143,7 +143,7 @@ $$
 设 $T\sim t\left(n\right)$, 则其密度函数为
 
 $$
-f\left(t\right)=\frac{\Gamma\left(\left(n+1\right)/2\right)}{\Gamma\left(n/2\right)\sqrt{n\pi}}\left(1+\frac{t^2}{n}\right)^{-\left(n+1\right)/2},\qquad-\infty< t< +\infty.
+f\left(t\right)=\frac{\Gamma\left(\left(n+1\right)/2\right)}{\Gamma\left(n/2\right)\sqrt{n\pi}}\left(1+\frac{t^2}{n}\right)^{-\left(n+1\right)/2},\quad-\infty< t< +\infty.
 $$
 
 **定义 2.2.3** ($F$ 分布)
@@ -175,7 +175,7 @@ $$
 设 $X_1,X_2,\dots,X_n$ 是来自总体 $X$ 的一个样本, 且 $E\left(X\right)=\mu$, $D\left(X\right)=\sigma^2$, $\overline X=\frac{1}{n}\sum_{i=1}^n X_i$ 和 $S^2=\frac{1}{n-1}\sum_{i=1}^n\left(X_i-\overline X\right)^2$ 分别为样本均值和样本方差, 则
 
 $$
-E\left(\overline X\right)=\mu,\qquad D\left(\overline X\right)=\frac{\sigma^2}{n},\qquad E\left(S^2\right)=\sigma^2.
+E\left(\overline X\right)=\mu,\quad D\left(\overline X\right)=\frac{\sigma^2}{n},\quad E\left(S^2\right)=\sigma^2.
 $$
 
 **定理 2.3.3** (正态总体样本均值与样本方差的分布)
@@ -275,7 +275,7 @@ $$
 设 $X_1,X_2,\dots,X_n$ 是从如下指数族 (自然形式) 中抽取的样本:
 
 $$
-f\left(x,\theta\right)=C\left(\theta\right)\exp\left\{\sum_{i=1}^k\theta_i T_i\left(x\right)\right\}h\left(x\right),\qquad \theta=\left(\theta_1,\theta_2,\dots,\theta_k\right)\in\Theta^*\subseteq\mathbb R^k,
+f\left(x,\theta\right)=C\left(\theta\right)\exp\left\{\sum_{i=1}^k\theta_i T_i\left(x\right)\right\}h\left(x\right),\quad \theta=\left(\theta_1,\theta_2,\dots,\theta_k\right)\in\Theta^*\subseteq\mathbb R^k,
 $$
 
 若其自然参数空间 $\Theta^*$ 有内点, 则 $T\left(X_1,X_2,\dots,X_n\right)=\left(T_1\left(X_1,\dots,X_n\right),\dots,T_k\left(X_1,\dots,X_n\right)\right)$ 为完备统计量.
@@ -297,7 +297,7 @@ $$
 设 $\mathcal{F}=\left\{f\left(x;\theta\right):\theta\in\Theta\right\}$ 是一个参数分布族, 其中 $\theta=\left(\theta_1,\theta_2,\dots,\theta_m\right)$, $\Theta$ 为参数空间, $X_1,X_2,\dots,X_n$ 是从该分布族中抽取的样本. 假设总体的 $k$ 阶原点矩 $\alpha_k=E\left(X^k\right)$ 存在, 其作为 $\theta$ 的函数记为 $\alpha_k=\alpha_k\left(\theta_1,\theta_2,\dots,\theta_m\right)$. 令样本的 $k$ 阶原点矩为 $A_k=\frac{1}{n}\sum_{i=1}^n X_i^k$, 取 $k=1,2,\dots,m$, 令总体矩等于样本矩, 建立方程组
 
 $$
-\alpha_k\left(\theta_1,\theta_2,\dots,\theta_m\right)=A_k,\qquad k=1,2,\dots,m,
+\alpha_k\left(\theta_1,\theta_2,\dots,\theta_m\right)=A_k,\quad k=1,2,\dots,m,
 $$
 
 其解 $\hat\theta_i=\hat\theta_i\left(X_1,X_2,\dots,X_n\right)$ 即称为 $\theta_i$ 的矩估计. 也可用样本 $k$ 阶中心矩去估计总体 $k$ 阶中心矩而建立相应方程. 若要估计参数的函数 $g\left(\theta_1,\dots,\theta_m\right)$, 则以 $g\left(\hat\theta_1,\dots,\hat\theta_m\right)$ 作为其矩估计.
