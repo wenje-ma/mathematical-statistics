@@ -44,7 +44,7 @@ Each `homework/weekN.md` follows the series-wide format:
 2. **Problems** — the assigned exercises;
 3. **Solutions** — complete derivations ending with `$\blacksquare$`.
 
-There are **18 weeks** (90 fully solved problems) in each language. Typical problem: finding $c$ so that $c\sum (X_{i+1}-X_i)^2$ is an unbiased estimator of $\sigma^2$.
+There are **18 weeks** (90 fully solved problems) in each language. Typical problem: finding $c$ so that $c\sum \left(X_{i+1}-X_i\right)^2$ is an unbiased estimator of $\sigma^2$.
 
 ## Bilingual layout
 
