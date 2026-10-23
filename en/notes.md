@@ -356,17 +356,17 @@ Let $\hat\theta_1$ and $\hat\theta_2$ both be unbiased estimators of $\theta$. I
 
 **Definition 3.4.3** (Consistent Estimator)
 
-For each natural number $n$, let $\hat\theta_n=\hat\theta_n\left(X_1,X_2,\dots,X_n\right)$ be an estimator of $\theta$. If for any $\theta\in\Theta$ and any $\epsilon> 0$ one has
+For each natural number $n$, let $\hat\theta_n=\hat\theta_n\left(X_1,X_2,\dots,X_n\right)$ be an estimator of $\theta$. If for any $\theta\in\Theta$ and any $\varepsilon> 0$ one has
 
 $$
-\lim_{n\to\infty}P\left\{\left|\hat\theta_n-\theta\right|\ge\epsilon\right\}=0,
+\lim_{n\to\infty}P\left\{\left|\hat\theta_n-\theta\right|\ge\varepsilon\right\}=0,
 $$
 
 then $\hat\theta_n$ is called a (weakly) consistent estimator of $\theta$.
 
 **Basic Knowledge** (Chebyshev's Inequality and the Law of Large Numbers)
 
-For any random variable $Y$ and $\epsilon> 0$, one has $P\left\{\left|Y-EY\right|\ge\epsilon\right\}\le\frac{D\left(Y\right)}{\epsilon^2}$; when the variables are independent and identically distributed and the expectation exists, by the law of large numbers $\overline X_n\xrightarrow{P}E\left(X\right)$; convergence in probability is preserved under continuous mappings.
+For any random variable $Y$ and $\varepsilon> 0$, one has $P\left\{\left|Y-EY\right|\ge\varepsilon\right\}\le\frac{D\left(Y\right)}{\varepsilon^2}$; when the variables are independent and identically distributed and the expectation exists, by the law of large numbers $\overline X_n\xrightarrow{P}E\left(X\right)$; convergence in probability is preserved under continuous mappings.
 
 ## Uniformly Minimum Variance Unbiased Estimation and the Cramér–Rao Inequality
 

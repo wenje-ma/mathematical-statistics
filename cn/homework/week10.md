@@ -4,9 +4,9 @@
 
 > **定义 3.4.2**（有效性）<br>设 $\hat\theta_1$ 与 $\hat\theta_2$ 都是 $\theta$ 的无偏估计，若对一切 $\theta\in\Theta$ 都有 $D\left(\hat\theta_1\right)\le D\left(\hat\theta_2\right)$，且不等号至少对某个 $\theta$ 成立，则称 $\hat\theta_1$ 比 $\hat\theta_2$ 有效.
 
-> **定义 3.4.3**（相合估计）<br>设对每个自然数 $n$，$\hat\theta_n=\hat\theta_n\left(X_1,X_2,\dots,X_n\right)$ 为 $\theta$ 的估计量，若对任意 $\theta\in\Theta$ 及任意 $\epsilon>0$，都有 $$\lim_{n\to\infty}P\left\{\left|\hat\theta_n-\theta\right|\ge\epsilon\right\}=0,$$ 则称 $\hat\theta_n$ 为 $\theta$ 的（弱）相合估计.
+> **定义 3.4.3**（相合估计）<br>设对每个自然数 $n$，$\hat\theta_n=\hat\theta_n\left(X_1,X_2,\dots,X_n\right)$ 为 $\theta$ 的估计量，若对任意 $\theta\in\Theta$ 及任意 $\varepsilon>0$，都有 $$\lim_{n\to\infty}P\left\{\left|\hat\theta_n-\theta\right|\ge\varepsilon\right\}=0,$$ 则称 $\hat\theta_n$ 为 $\theta$ 的（弱）相合估计.
 
-> **基础知识**（切比雪夫不等式与大数定律）<br>对任意随机变量 $Y$ 及 $\epsilon>0$，有 $P\left\{\left|Y-EY\right|\ge\epsilon\right\}\le\frac{D\left(Y\right)}{\epsilon^2}$；独立同分布且期望存在时，由大数定律 $\bar X_n\xrightarrow{P}E\left(X\right)$；依概率收敛经连续函数映射保持不变.
+> **基础知识**（切比雪夫不等式与大数定律）<br>对任意随机变量 $Y$ 及 $\varepsilon>0$，有 $P\left\{\left|Y-EY\right|\ge\varepsilon\right\}\le\frac{D\left(Y\right)}{\varepsilon^2}$；独立同分布且期望存在时，由大数定律 $\bar X_n\xrightarrow{P}E\left(X\right)$；依概率收敛经连续函数映射保持不变.
 
 ### 习题一
 
@@ -160,10 +160,10 @@ $\blacksquare$
 
 ### 解答 习题四
 
-由**基础知识**（切比雪夫不等式），对任意 $\epsilon>0$，
+由**基础知识**（切比雪夫不等式），对任意 $\varepsilon>0$，
 
 $$
-P\left\{\left|\hat\theta_n-\theta\right|\ge\epsilon\right\}\le\frac{E\left[\left(\hat\theta_n-\theta\right)^2\right]}{\epsilon^2}.
+P\left\{\left|\hat\theta_n-\theta\right|\ge\varepsilon\right\}\le\frac{E\left[\left(\hat\theta_n-\theta\right)^2\right]}{\varepsilon^2}.
 $$
 
 将均方误差分解为方差与偏差平方之和：
@@ -175,7 +175,7 @@ $$
 由题设 $E\left(\hat\theta_n\right)\to\theta$，$D\left(\hat\theta_n\right)\to0$，故 $E\left[\left(\hat\theta_n-\theta\right)^2\right]\to0$，从而
 
 $$
-\lim_{n\to\infty}P\left\{\left|\hat\theta_n-\theta\right|\ge\epsilon\right\}=0.
+\lim_{n\to\infty}P\left\{\left|\hat\theta_n-\theta\right|\ge\varepsilon\right\}=0.
 $$
 
 由**定义 3.4.3**（相合估计），$\hat\theta_n$ 是 $\theta$ 的相合估计.

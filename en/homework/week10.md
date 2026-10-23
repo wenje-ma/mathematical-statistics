@@ -4,9 +4,9 @@
 
 > **Definition 3.4.2** (Efficiency)<br>Let both $\hat\theta_1$ and $\hat\theta_2$ be unbiased estimators of $\theta$. If for all $\theta\in\Theta$ one has $D\left(\hat\theta_1\right)\le D\left(\hat\theta_2\right)$, with the strict inequality holding for at least one $\theta$, then $\hat\theta_1$ is called more efficient than $\hat\theta_2$.
 
-> **Definition 3.4.3** (Consistent Estimator)<br>For each natural number $n$, let $\hat\theta_n=\hat\theta_n\left(X_1,X_2,\dots,X_n\right)$ be an estimator of $\theta$. If for every $\theta\in\Theta$ and every $\epsilon>0$ one has $$\lim_{n\to\infty}P\left\{\left|\hat\theta_n-\theta\right|\ge\epsilon\right\}=0,$$ then $\hat\theta_n$ is called a (weakly) consistent estimator of $\theta$.
+> **Definition 3.4.3** (Consistent Estimator)<br>For each natural number $n$, let $\hat\theta_n=\hat\theta_n\left(X_1,X_2,\dots,X_n\right)$ be an estimator of $\theta$. If for every $\theta\in\Theta$ and every $\varepsilon>0$ one has $$\lim_{n\to\infty}P\left\{\left|\hat\theta_n-\theta\right|\ge\varepsilon\right\}=0,$$ then $\hat\theta_n$ is called a (weakly) consistent estimator of $\theta$.
 
-> **Basic Knowledge** (Chebyshev's Inequality and the Law of Large Numbers)<br>For any random variable $Y$ and $\epsilon>0$, one has $P\left\{\left|Y-EY\right|\ge\epsilon\right\}\le\frac{D\left(Y\right)}{\epsilon^2}$; when the variables are independent and identically distributed with finite expectation, the law of large numbers gives $\bar X_n\xrightarrow{P}E\left(X\right)$; convergence in probability is preserved under the mapping by a continuous function.
+> **Basic Knowledge** (Chebyshev's Inequality and the Law of Large Numbers)<br>For any random variable $Y$ and $\varepsilon>0$, one has $P\left\{\left|Y-EY\right|\ge\varepsilon\right\}\le\frac{D\left(Y\right)}{\varepsilon^2}$; when the variables are independent and identically distributed with finite expectation, the law of large numbers gives $\bar X_n\xrightarrow{P}E\left(X\right)$; convergence in probability is preserved under the mapping by a continuous function.
 
 ### Problem 1
 
@@ -160,10 +160,10 @@ $\blacksquare$
 
 ### Solution to Problem 4
 
-By **Basic Knowledge** (Chebyshev's Inequality), for any $\epsilon>0$,
+By **Basic Knowledge** (Chebyshev's Inequality), for any $\varepsilon>0$,
 
 $$
-P\left\{\left|\hat\theta_n-\theta\right|\ge\epsilon\right\}\le\frac{E\left[\left(\hat\theta_n-\theta\right)^2\right]}{\epsilon^2}.
+P\left\{\left|\hat\theta_n-\theta\right|\ge\varepsilon\right\}\le\frac{E\left[\left(\hat\theta_n-\theta\right)^2\right]}{\varepsilon^2}.
 $$
 
 Decompose the mean squared error into the sum of the variance and the squared bias:
@@ -175,7 +175,7 @@ $$
 By the assumptions $E\left(\hat\theta_n\right)\to\theta$ and $D\left(\hat\theta_n\right)\to0$, we have $E\left[\left(\hat\theta_n-\theta\right)^2\right]\to0$, and hence
 
 $$
-\lim_{n\to\infty}P\left\{\left|\hat\theta_n-\theta\right|\ge\epsilon\right\}=0.
+\lim_{n\to\infty}P\left\{\left|\hat\theta_n-\theta\right|\ge\varepsilon\right\}=0.
 $$
 
 By **Definition 3.4.3** (Consistent Estimator), $\hat\theta_n$ is a consistent estimator of $\theta$.

@@ -356,17 +356,17 @@ $$
 
 **定义 3.4.3** (相合估计)
 
-设对每个自然数 $n$, $\hat\theta_n=\hat\theta_n\left(X_1,X_2,\dots,X_n\right)$ 为 $\theta$ 的估计量, 若对任意 $\theta\in\Theta$ 及任意 $\epsilon> 0$, 都有
+设对每个自然数 $n$, $\hat\theta_n=\hat\theta_n\left(X_1,X_2,\dots,X_n\right)$ 为 $\theta$ 的估计量, 若对任意 $\theta\in\Theta$ 及任意 $\varepsilon> 0$, 都有
 
 $$
-\lim_{n\to\infty}P\left\{\left|\hat\theta_n-\theta\right|\ge\epsilon\right\}=0,
+\lim_{n\to\infty}P\left\{\left|\hat\theta_n-\theta\right|\ge\varepsilon\right\}=0,
 $$
 
 则称 $\hat\theta_n$ 为 $\theta$ 的 (弱) 相合估计.
 
 **基础知识** (切比雪夫不等式与大数定律)
 
-对任意随机变量 $Y$ 及 $\epsilon> 0$, 有 $P\left\{\left|Y-EY\right|\ge\epsilon\right\}\le\frac{D\left(Y\right)}{\epsilon^2}$; 独立同分布且期望存在时, 由大数定律 $\overline X_n\xrightarrow{P}E\left(X\right)$; 依概率收敛经连续函数映射保持不变.
+对任意随机变量 $Y$ 及 $\varepsilon> 0$, 有 $P\left\{\left|Y-EY\right|\ge\varepsilon\right\}\le\frac{D\left(Y\right)}{\varepsilon^2}$; 独立同分布且期望存在时, 由大数定律 $\overline X_n\xrightarrow{P}E\left(X\right)$; 依概率收敛经连续函数映射保持不变.
 
 ## 一致最小方差无偏估计与克拉默-拉奥不等式
 
