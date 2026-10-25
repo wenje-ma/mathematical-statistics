@@ -14,7 +14,7 @@
 
 > **定义 1.4.1**（统计量）<br>设 $X_1,X_2,\dots,X_n$ 是来自总体 $X$ 的样本，$g\left(X_1,X_2,\dots,X_n\right)$ 是样本 $X_1,X_2,\dots,X_n$ 的函数，且除依赖于样本外，不依赖于任何其他的未知量，则称 $g\left(X_1,X_2,\dots,X_n\right)$ 为统计量. 若 $x_1,x_2,\dots,x_n$ 为样本 $X_1,X_2,\dots,X_n$ 的观察值，称 $g\left(x_1,x_2,\dots,x_n\right)$ 为统计量 $g\left(X_1,X_2,\dots,X_n\right)$ 的一个观察值. 统计量只与样本有关，不依赖任何未知参数.
 
-> **定义 1.5.1**（经验分布函数）<br>设 $X_1,X_2,\dots,X_n$ 是来自总体 $X$ 的样本，$X_{\left(1\right)}\le X_{\left(2\right)}\le\dots\le X_{\left(n\right)}$ 为其顺序统计量，对任意实数 $x$，称 $$F_n\left(x\right)=\begin{cases}0,&x<X_{\left(1\right)},\\\frac{r}{n},&X_{\left(r\right)}\le x<X_{\left(r+1\right)},\ r=1,2,\dots,n-1,\\1,&x\ge X_{\left(n\right)}\end{cases}$$ 为样本 $X_1,X_2,\dots,X_n$ 的经验分布函数.
+> **定义 1.5.1**（经验分布函数）<br>设 $X_1,X_2,\dots,X_n$ 是来自总体 $X$ 的样本，$X_{\left(1\right)}\le X_{\left(2\right)}\le\dots\le X_{\left(n\right)}$ 为其顺序统计量，对任意实数 $x$，称 $$F_n\left(x\right)=\begin{cases}0,&x< X_{\left(1\right)},\\\frac{r}{n},&X_{\left(r\right)}\le x< X_{\left(r+1\right)},\ r=1,2,\dots,n-1,\\1,&x\ge X_{\left(n\right)}\end{cases}$$ 为样本 $X_1,X_2,\dots,X_n$ 的经验分布函数.
 
 ### 习题一
 
@@ -42,11 +42,11 @@
 
 （习题 1-4）设 $X_1,X_2,\dots,X_n$ 是来自总体 $X$ 的样本，在下列三种情况下，分别写出样本 $X_1,X_2,\dots,X_n$ 的联合分布列或联合密度函数：
 
-(1) 总体 $X$ 服从几何分布，其分布列为 $P\left\{X=x\right\}=\left(1-p\right)^{x-1}p,\ 0<p<1,\ x=1,2,\dots$;
+(1) 总体 $X$ 服从几何分布，其分布列为 $P\left\{X=x\right\}=\left(1-p\right)^{x-1}p,\ 0< p< 1,\ x=1,2,\dots$;
 
-(2) 总体 $X$ 服从指数分布，其密度函数为 $f\left(x\right)=\lambda e^{-\lambda x},\ x>0$（$x\le0$ 时为 $0$），其中 $\lambda>0$;
+(2) 总体 $X$ 服从指数分布，其密度函数为 $f\left(x\right)=\lambda e^{-\lambda x},\ x> 0$（$x\le0$ 时为 $0$），其中 $\lambda> 0$;
 
-(3) 总体 $X$ 的密度函数为 $f\left(x\right)=\frac{\lambda}{2}e^{-\lambda\left|x\right|},\ -\infty<x<+\infty$，其中 $\lambda>0$.
+(3) 总体 $X$ 的密度函数为 $f\left(x\right)=\frac{\lambda}{2}e^{-\lambda\left|x\right|},\ -\infty< x< +\infty$，其中 $\lambda> 0$.
 
 ### 解答 习题三
 
@@ -59,7 +59,7 @@ $$
 
 (2) 总体 $X$ 服从指数分布 $f\left(x\right)=\lambda e^{-\lambda x}$，故样本的联合密度函数为
 $$
-f\left(x_1,\dots,x_n\right)=\prod_{i=1}^n\lambda e^{-\lambda x_i}=\lambda^n e^{-\lambda\sum_{i=1}^n x_i},\quad x_i>0.
+f\left(x_1,\dots,x_n\right)=\prod_{i=1}^n\lambda e^{-\lambda x_i}=\lambda^n e^{-\lambda\sum_{i=1}^n x_i},\quad x_i> 0.
 $$
 
 (3) 总体 $X$ 的密度函数为 $f\left(x\right)=\frac{\lambda}{2}e^{-\lambda\left|x\right|}$，故样本的联合密度函数为
@@ -77,39 +77,39 @@ $\blacksquare$
 
 由**总体分布族与样本分布族**，样本分布族为 $\left\{\prod_{i=1}^n f\left(x_i;\theta\right):\theta\in\Theta\right\}$，其中 $f\left(x;\theta\right)$ 为总体的分布列（或密度函数），$\Theta$ 为参数空间（**定义 1.3.3**）.
 
-(1) 两点分布 $B\left(1,p\right)$，参数空间 $\Theta=\left\{p:0<p<1\right\}$：样本分布族为
+(1) 两点分布 $B\left(1,p\right)$，参数空间 $\Theta=\left\{p:0< p< 1\right\}$：样本分布族为
 $$
-\left\{\prod_{i=1}^n p^{x_i}\left(1-p\right)^{1-x_i}:0<p<1\right\},\quad x_i\in\left\{0,1\right\}.
-$$
-
-(2) 二项分布 $B\left(m,p\right)$，参数空间 $\Theta=\left\{p:0<p<1\right\}$：样本分布族为
-$$
-\left\{\prod_{i=1}^n\binom{m}{x_i}p^{x_i}\left(1-p\right)^{m-x_i}:0<p<1\right\},\quad x_i=0,1,\dots,m.
+\left\{\prod_{i=1}^n p^{x_i}\left(1-p\right)^{1-x_i}:0< p< 1\right\},\quad x_i\in\left\{0,1\right\}.
 $$
 
-(3) 泊松分布 $P\left(\lambda\right)$，参数空间 $\Theta=\left\{\lambda:\lambda>0\right\}$：样本分布族为
+(2) 二项分布 $B\left(m,p\right)$，参数空间 $\Theta=\left\{p:0< p< 1\right\}$：样本分布族为
 $$
-\left\{\prod_{i=1}^n\frac{e^{-\lambda}\lambda^{x_i}}{x_i!}:\lambda>0\right\},\quad x_i=0,1,2,\dots
-$$
-
-(4) 几何分布 $G\left(p\right)$，参数空间 $\Theta=\left\{p:0<p<1\right\}$：样本分布族为
-$$
-\left\{\prod_{i=1}^n\left(1-p\right)^{x_i-1}p:0<p<1\right\},\quad x_i=1,2,\dots
+\left\{\prod_{i=1}^n\binom{m}{x_i}p^{x_i}\left(1-p\right)^{m-x_i}:0< p< 1\right\},\quad x_i=0,1,\dots,m.
 $$
 
-(5) 均匀分布 $U\left[a,b\right]$，参数空间 $\Theta=\left\{\left(a,b\right):-\infty<a<b<+\infty\right\}$：样本分布族为
+(3) 泊松分布 $P\left(\lambda\right)$，参数空间 $\Theta=\left\{\lambda:\lambda> 0\right\}$：样本分布族为
 $$
-\left\{\prod_{i=1}^n\frac{1}{b-a}:-\infty<a<b<+\infty\right\},\quad x_i\in\left[a,b\right].
-$$
-
-(6) 指数分布 $E\left(\lambda\right)$，参数空间 $\Theta=\left\{\lambda:\lambda>0\right\}$：样本分布族为
-$$
-\left\{\prod_{i=1}^n\lambda e^{-\lambda x_i}:\lambda>0\right\},\quad x_i>0.
+\left\{\prod_{i=1}^n\frac{e^{-\lambda}\lambda^{x_i}}{x_i!}:\lambda> 0\right\},\quad x_i=0,1,2,\dots
 $$
 
-(7) 正态分布 $N\left(\mu,\sigma^2\right)$，参数空间 $\Theta=\left\{\left(\mu,\sigma^2\right):\mu\in\mathbb R,\ \sigma>0\right\}$：样本分布族为
+(4) 几何分布 $G\left(p\right)$，参数空间 $\Theta=\left\{p:0< p< 1\right\}$：样本分布族为
 $$
-\left\{\prod_{i=1}^n\frac{1}{\sqrt{2\pi}\sigma}\exp\left\{-\frac{\left(x_i-\mu\right)^2}{2\sigma^2}\right\}:\mu\in\mathbb R,\ \sigma>0\right\},\quad x_i\in\mathbb R.
+\left\{\prod_{i=1}^n\left(1-p\right)^{x_i-1}p:0< p< 1\right\},\quad x_i=1,2,\dots
+$$
+
+(5) 均匀分布 $U\left[a,b\right]$，参数空间 $\Theta=\left\{\left(a,b\right):-\infty< a< b< +\infty\right\}$：样本分布族为
+$$
+\left\{\prod_{i=1}^n\frac{1}{b-a}:-\infty< a< b< +\infty\right\},\quad x_i\in\left[a,b\right].
+$$
+
+(6) 指数分布 $E\left(\lambda\right)$，参数空间 $\Theta=\left\{\lambda:\lambda> 0\right\}$：样本分布族为
+$$
+\left\{\prod_{i=1}^n\lambda e^{-\lambda x_i}:\lambda> 0\right\},\quad x_i> 0.
+$$
+
+(7) 正态分布 $N\left(\mu,\sigma^2\right)$，参数空间 $\Theta=\left\{\left(\mu,\sigma^2\right):\mu\in\mathbb R,\ \sigma> 0\right\}$：样本分布族为
+$$
+\left\{\prod_{i=1}^n\frac{1}{\sqrt{2\pi}\sigma}\exp\left\{-\frac{\left(x_i-\mu\right)^2}{2\sigma^2}\right\}:\mu\in\mathbb R,\ \sigma> 0\right\},\quad x_i\in\mathbb R.
 $$
 
 $\blacksquare$
@@ -122,7 +122,7 @@ $\blacksquare$
 
 由**定义 1.3.3**（参数空间），参数为 $\theta=\left(\mu,\sigma^2\right)$，其取值范围即参数空间为
 $$
-\Theta=\left\{\left(\mu,\sigma^2\right):\mu\in\mathbb R,\ \sigma^2>0\right\}.
+\Theta=\left\{\left(\mu,\sigma^2\right):\mu\in\mathbb R,\ \sigma^2> 0\right\}.
 $$
 
 由**总体分布族与样本分布族**，正态总体 $N\left(\mu,\sigma^2\right)$ 的密度函数为 $f\left(x;\mu,\sigma^2\right)=\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{\left(x-\mu\right)^2}{2\sigma^2}}$，故样本分布族为
@@ -170,7 +170,7 @@ $$
 
 则经验分布函数 $F_{10}\left(x\right)$ 为在每处顺序统计量上跳跃 $\frac{1}{10}$ 的右连续阶梯函数：
 $$
-F_{10}\left(x\right)=\begin{cases}0,&x<62,\\\frac{1}{10},&62\le x<73,\\\frac{2}{10},&73\le x<76,\\\frac{3}{10},&76\le x<78,\\\frac{4}{10},&78\le x<84,\\\frac{5}{10},&84\le x<86,\\\frac{6}{10},&86\le x<89,\\\frac{7}{10},&89\le x<90,\\\frac{8}{10},&90\le x<92,\\\frac{9}{10},&92\le x<95,\\1,&x\ge95.\end{cases}
+F_{10}\left(x\right)=\begin{cases}0,&x< 62,\\\frac{1}{10},&62\le x< 73,\\\frac{2}{10},&73\le x< 76,\\\frac{3}{10},&76\le x< 78,\\\frac{4}{10},&78\le x< 84,\\\frac{5}{10},&84\le x< 86,\\\frac{6}{10},&86\le x< 89,\\\frac{7}{10},&89\le x< 90,\\\frac{8}{10},&90\le x< 92,\\\frac{9}{10},&92\le x< 95,\\1,&x\ge95.\end{cases}
 $$
 
 其图形是以 $62$ 为起点、$95$ 为终点的右连续阶梯函数，在 $62,73,76,78,84,86,89,90,92,95$ 各点处分别跳跃 $\frac{1}{10}$，取值依次为 $\frac{1}{10},\frac{2}{10},\dots,1$. $\blacksquare$
@@ -185,7 +185,7 @@ $$
 
 ### 解答 习题八
 
-记示性函数 $I\left\{X_i\le x\right\}=\begin{cases}1,&X_i\le x,\\0,&X_i>x.\end{cases}$ 则由**定义 1.5.1**（经验分布函数），$F_n\left(x\right)=\frac{1}{n}\sum_{i=1}^n I\left\{X_i\le x\right\}$.
+记示性函数 $I\left\{X_i\le x\right\}=\begin{cases}1,&X_i\le x,\\0,&X_i> x.\end{cases}$ 则由**定义 1.5.1**（经验分布函数），$F_n\left(x\right)=\frac{1}{n}\sum_{i=1}^n I\left\{X_i\le x\right\}$.
 
 (1) 由**定义 1.3.2**（简单随机样本），$X_1,X_2,\dots,X_n$ 与总体 $X$ 同分布，故对每个 $i$，
 $$

@@ -8,7 +8,7 @@
 
 ### 习题一
 
-（习题 2.6-1）设 $X_1,X_2,\dots,X_n$ 是来自泊松分布总体 $P\left(\lambda\right)$，$\lambda>0$ 的样本，证明 $\sum_{i=1}^n X_i$ 为完备统计量.
+（习题 2.6-1）设 $X_1,X_2,\dots,X_n$ 是来自泊松分布总体 $P\left(\lambda\right)$，$\lambda> 0$ 的样本，证明 $\sum_{i=1}^n X_i$ 为完备统计量.
 
 ### 解答 习题一
 
@@ -24,17 +24,17 @@ $$
 f\left(x_1,x_2,\dots,x_n;\eta\right)=e^{-ne^{\eta}}\exp\left\{\eta\sum_{i=1}^n x_i\right\}\prod_{i=1}^n\frac{1}{x_i!}=C\left(\eta\right)\exp\left\{\eta T\left(x_1,\dots,x_n\right)\right\}h\left(x_1,\dots,x_n\right),
 $$
 
-其中 $T=\sum_{i=1}^n x_i$，$h=\prod_{i=1}^n\frac{1}{x_i!}$ 不依赖于参数. 由于 $\lambda>0$，自然参数 $\eta=\ln\lambda\in\left(-\infty,+\infty\right)$，其自然参数空间有内点. 由**定理 2.6.1**（指数族中统计量的完备性），$T=\sum_{i=1}^n X_i$ 为完备统计量. $\blacksquare$
+其中 $T=\sum_{i=1}^n x_i$，$h=\prod_{i=1}^n\frac{1}{x_i!}$ 不依赖于参数. 由于 $\lambda> 0$，自然参数 $\eta=\ln\lambda\in\left(-\infty,+\infty\right)$，其自然参数空间有内点. 由**定理 2.6.1**（指数族中统计量的完备性），$T=\sum_{i=1}^n X_i$ 为完备统计量. $\blacksquare$
 
 ### 习题二
 
 （习题 2.6-5）设 $X_1,X_2,\dots,X_n$ 是来自瑞利分布的样本，其密度函数为
 
 $$
-f\left(x\right)=\begin{cases}2\theta x e^{-\theta x^2},&x>0,\\0,&\text{其他},\end{cases}
+f\left(x\right)=\begin{cases}2\theta x e^{-\theta x^2},&x> 0,\\0,&\text{其他},\end{cases}
 $$
 
-其中 $\theta>0$. 试给出一个完备统计量.
+其中 $\theta> 0$. 试给出一个完备统计量.
 
 ### 解答 习题二
 
@@ -50,17 +50,17 @@ $$
 f\left(x_1,x_2,\dots,x_n;\eta\right)=\left(-2\eta\right)^n\exp\left\{\eta\sum_{i=1}^n x_i^2\right\}\prod_{i=1}^n x_i=C\left(\eta\right)\exp\left\{\eta T\left(x_1,\dots,x_n\right)\right\}h\left(x_1,\dots,x_n\right),
 $$
 
-其中 $T=\sum_{i=1}^n x_i^2$，$h=\prod_{i=1}^n x_i$ 不依赖于参数. 由于 $\theta>0$，自然参数 $\eta=-\theta\in\left(-\infty,0\right)$，其自然参数空间有内点. 由**定理 2.6.1**（指数族中统计量的完备性），$T=\sum_{i=1}^n X_i^2$ 为完备统计量，故可取完备统计量为 $T=\sum_{i=1}^n X_i^2$. $\blacksquare$
+其中 $T=\sum_{i=1}^n x_i^2$，$h=\prod_{i=1}^n x_i$ 不依赖于参数. 由于 $\theta> 0$，自然参数 $\eta=-\theta\in\left(-\infty,0\right)$，其自然参数空间有内点. 由**定理 2.6.1**（指数族中统计量的完备性），$T=\sum_{i=1}^n X_i^2$ 为完备统计量，故可取完备统计量为 $T=\sum_{i=1}^n X_i^2$. $\blacksquare$
 
 ### 习题三
 
 （习题 2.6-6）设 $X_1,X_2,\dots,X_n$ 是来自指数分布 $E\left(\lambda\right)$ 的样本，其密度函数为
 
 $$
-f\left(x\right)=\begin{cases}\lambda e^{-\lambda x},&x>0,\\0,&x\le 0,\end{cases}
+f\left(x\right)=\begin{cases}\lambda e^{-\lambda x},&x> 0,\\0,&x\le 0,\end{cases}
 $$
 
-其中 $\lambda>0$. 证明 $\sum_{i=1}^n X_i$ 为完备统计量.
+其中 $\lambda> 0$. 证明 $\sum_{i=1}^n X_i$ 为完备统计量.
 
 ### 解答 习题三
 
@@ -76,7 +76,7 @@ $$
 f\left(x_1,x_2,\dots,x_n;\eta\right)=\left(-\eta\right)^n\exp\left\{\eta\sum_{i=1}^n x_i\right\}=C\left(\eta\right)\exp\left\{\eta T\left(x_1,\dots,x_n\right)\right\}h\left(x_1,\dots,x_n\right),
 $$
 
-其中 $T=\sum_{i=1}^n x_i$，$h=1$ 不依赖于参数. 由于 $\lambda>0$，自然参数 $\eta=-\lambda\in\left(-\infty,0\right)$，其自然参数空间有内点. 由**定理 2.6.1**（指数族中统计量的完备性），$T=\sum_{i=1}^n X_i$ 为完备统计量. $\blacksquare$
+其中 $T=\sum_{i=1}^n x_i$，$h=1$ 不依赖于参数. 由于 $\lambda> 0$，自然参数 $\eta=-\lambda\in\left(-\infty,0\right)$，其自然参数空间有内点. 由**定理 2.6.1**（指数族中统计量的完备性），$T=\sum_{i=1}^n X_i$ 为完备统计量. $\blacksquare$
 
 ### 习题四
 
@@ -100,7 +100,7 @@ $$
 f=C\left(\sigma^2\right)\exp\left\{-\frac{1}{2\sigma^2}\sum_{i=1}^n\left(x_i-\mu\right)^2\right\}.
 $$
 
-令自然参数 $\eta=-\frac{1}{2\sigma^2}$，则 $T=\sum_{i=1}^n\left(x_i-\mu\right)^2$. 由于 $\sigma^2>0$，自然参数 $\eta\in\left(-\infty,0\right)$ 有内点. 由**定理 2.6.1**（指数族中统计量的完备性），$T=\sum_{i=1}^n\left(X_i-\mu\right)^2$ 为 $\sigma^2$ 的一个完备统计量.
+令自然参数 $\eta=-\frac{1}{2\sigma^2}$，则 $T=\sum_{i=1}^n\left(x_i-\mu\right)^2$. 由于 $\sigma^2> 0$，自然参数 $\eta\in\left(-\infty,0\right)$ 有内点. 由**定理 2.6.1**（指数族中统计量的完备性），$T=\sum_{i=1}^n\left(X_i-\mu\right)^2$ 为 $\sigma^2$ 的一个完备统计量.
 
 (2) 在 $\sigma^2$ 已知时，展开指数部分：
 
@@ -118,7 +118,7 @@ $$
 
 ### 习题五
 
-（习题 2.6-10）设 $X_1,X_2,\dots,X_n$ 是来自均匀分布总体 $U\left[\theta,2\theta\right]$，$\theta>0$ 的样本，证明 $\left(X_{\left(1\right)},X_{\left(n\right)}\right)$ 是充分统计量但不是完备统计量.
+（习题 2.6-10）设 $X_1,X_2,\dots,X_n$ 是来自均匀分布总体 $U\left[\theta,2\theta\right]$，$\theta> 0$ 的样本，证明 $\left(X_{\left(1\right)},X_{\left(n\right)}\right)$ 是充分统计量但不是完备统计量.
 
 ### 解答 习题五
 
@@ -142,7 +142,7 @@ $$
 \Phi\left(T\right)=\left(n+2\right)X_{\left(n\right)}-\left(2n+1\right)X_{\left(1\right)},
 $$
 
-则对一切 $\theta>0$，
+则对一切 $\theta> 0$，
 
 $$
 E\left[\Phi\left(T\right)\right]=\left(n+2\right)\frac{\theta\left(2n+1\right)}{n+1}-\left(2n+1\right)\frac{\theta\left(n+2\right)}{n+1}=0.

@@ -125,7 +125,7 @@ Hence the $95\%$ confidence interval for $\frac{\sigma_1^2}{\sigma_2^2}$ is $\le
 
 ### Problem 4
 
-(Problem 4.2-11) Let $X_1,X_2,\dots,X_n$ be a sample from the normal population $N\left(\mu,\sigma^2\right)$, and let $a,b$ be constants with $0<a<b$. Find the mathematical expectation and variance of the length $L$ of the random interval $\left[\frac{\left(n-1\right)S^2}{b\sigma^2},\frac{\left(n-1\right)S^2}{a\sigma^2}\right]$.
+(Problem 4.2-11) Let $X_1,X_2,\dots,X_n$ be a sample from the normal population $N\left(\mu,\sigma^2\right)$, and let $a,b$ be constants with $0< a< b$. Find the mathematical expectation and variance of the length $L$ of the random interval $\left[\frac{\left(n-1\right)S^2}{b\sigma^2},\frac{\left(n-1\right)S^2}{a\sigma^2}\right]$.
 
 ### Solution to Problem 4
 

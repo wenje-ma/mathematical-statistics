@@ -8,7 +8,7 @@
 
 ### 习题一
 
-（习题 2.5-1）设 $X_1,X_2,\dots,X_n$ 是来自泊松分布总体 $P\left(\lambda\right)$，$\lambda>0$ 的样本，
+（习题 2.5-1）设 $X_1,X_2,\dots,X_n$ 是来自泊松分布总体 $P\left(\lambda\right)$，$\lambda> 0$ 的样本，
 
 (1) 分别用定义法和因子分解定理法证明 $\sum_{i=1}^n X_i$ 为充分统计量；
 
@@ -16,7 +16,7 @@
 
 ### 解答 习题一
 
-泊松分布 $P\left(\lambda\right)$ 的分布列为 $P\left\{X=x\right\}=\frac{e^{-\lambda}\lambda^x}{x!},\ x=0,1,2,\dots$，其中 $\lambda>0$. 由**定义 1.3.2**（简单随机样本），$X_1,X_2,\dots,X_n$ 相互独立且同分布.
+泊松分布 $P\left(\lambda\right)$ 的分布列为 $P\left\{X=x\right\}=\frac{e^{-\lambda}\lambda^x}{x!},\ x=0,1,2,\dots$，其中 $\lambda> 0$. 由**定义 1.3.2**（简单随机样本），$X_1,X_2,\dots,X_n$ 相互独立且同分布.
 
 (1) 证明 $T=\sum_{i=1}^n X_i$ 为充分统计量.
 
@@ -53,10 +53,10 @@ $\blacksquare$
 （习题 2.5-5）设 $X_1,X_2,\dots,X_n$ 是来自瑞利分布的样本，其密度函数为
 
 $$
-f\left(x\right)=\begin{cases}2\theta x e^{-\theta x^2},&x>0,\\0,&\text{其他},\end{cases}
+f\left(x\right)=\begin{cases}2\theta x e^{-\theta x^2},&x> 0,\\0,&\text{其他},\end{cases}
 $$
 
-其中 $\theta>0$. 试给出一个充分统计量.
+其中 $\theta> 0$. 试给出一个充分统计量.
 
 ### 解答 习题二
 
@@ -75,10 +75,10 @@ $\blacksquare$
 （习题 2.5-6）设 $X_1,X_2,\dots,X_n$ 是来自指数分布 $E\left(\lambda\right)$ 的样本，其密度函数为
 
 $$
-f\left(x\right)=\begin{cases}\lambda e^{-\lambda x},&x>0,\\0,&x\le0,\end{cases}
+f\left(x\right)=\begin{cases}\lambda e^{-\lambda x},&x> 0,\\0,&x\le0,\end{cases}
 $$
 
-其中 $\lambda>0$. 证明 $\sum_{i=1}^n X_i$ 是充分统计量.
+其中 $\lambda> 0$. 证明 $\sum_{i=1}^n X_i$ 是充分统计量.
 
 ### 解答 习题三
 

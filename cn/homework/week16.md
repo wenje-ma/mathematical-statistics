@@ -31,7 +31,7 @@ $$
 犯第二类错误的概率为
 
 $$
-\beta_2=1-\beta\left(1\right)=P_1\left\{\bar X<0.98\right\}=P\left\{Z<\frac{0.98-1}{1/2}\right\}=P\left\{Z<-0.04\right\}=\Phi\left(-0.04\right)=0.484.
+\beta_2=1-\beta\left(1\right)=P_1\left\{\bar X< 0.98\right\}=P\left\{Z< \frac{0.98-1}{1/2}\right\}=P\left\{Z< -0.04\right\}=\Phi\left(-0.04\right)=0.484.
 $$
 
 (2) 由**定义 5.1.2**（显著性检验与检验水平），要求犯第一类错误的概率不超过 $0.01$，即
@@ -49,17 +49,17 @@ $\blacksquare$
 （习题 5.1-7）设样本 $X$（容量为 $1$）取自具有密度函数 $f\left(\cdot\right)$ 的总体，关于总体的两个假设如下：
 
 $$
-H_0:f\left(x\right)=\begin{cases}1,&0<x<1,\\0,&\text{其他};\end{cases}\ \ H_1:f\left(x\right)=\begin{cases}2x,&0<x<1,\\0,&\text{其他}.\end{cases}
+H_0:f\left(x\right)=\begin{cases}1,&0< x< 1,\\0,&\text{其他};\end{cases}\ \ H_1:f\left(x\right)=\begin{cases}2x,&0< x< 1,\\0,&\text{其他}.\end{cases}
 $$
 
-设该检验的拒绝域为 $D=\left\{X>\frac{2}{3}\right\}$. 求该检验犯第一类错误的概率和犯第二类错误的概率.
+设该检验的拒绝域为 $D=\left\{X> \frac{2}{3}\right\}$. 求该检验犯第一类错误的概率和犯第二类错误的概率.
 
 ### 解答 习题二
 
 由**两类错误**（第一类错误与第二类错误），犯第一类错误的概率为 $H_0$ 为真时样本落入拒绝域的概率，即
 
 $$
-\alpha=P_{H_0}\left\{X>\frac{2}{3}\right\}=\int_{2/3}^1 1\,\mathrm dx=\frac{1}{3}.
+\alpha=P_{H_0}\left\{X> \frac{2}{3}\right\}=\int_{2/3}^1 1\,\mathrm dx=\frac{1}{3}.
 $$
 
 犯第二类错误的概率为 $H_1$ 为真时样本落入接受域的概率，即
@@ -72,7 +72,7 @@ $\blacksquare$
 
 ### 习题三
 
-（习题 5.1-8）设 $X_1,X_2,\dots,X_{10}$ 是来自均匀分布总体 $U\left[0,\theta\right]$ 的样本，其中 $\theta>0$ 为未知参数，设检验问题 $H_0:\theta=1$；$H_1:\theta>1$ 的拒绝域为 $D=\left\{\left(X_1,\dots,X_{10}\right):X_{\left(10\right)}\ge0.95\right\}$，其中 $X_{\left(10\right)}=\max\left\{X_1,\dots,X_{10}\right\}$.
+（习题 5.1-8）设 $X_1,X_2,\dots,X_{10}$ 是来自均匀分布总体 $U\left[0,\theta\right]$ 的样本，其中 $\theta> 0$ 为未知参数，设检验问题 $H_0:\theta=1$；$H_1:\theta> 1$ 的拒绝域为 $D=\left\{\left(X_1,\dots,X_{10}\right):X_{\left(10\right)}\ge0.95\right\}$，其中 $X_{\left(10\right)}=\max\left\{X_1,\dots,X_{10}\right\}$.
 
 (1) 求该检验的显著性水平；
 
@@ -83,7 +83,7 @@ $\blacksquare$
 对均匀分布总体 $U\left[0,\theta\right]$，其分布函数为 $F_\theta\left(x\right)=\frac{x}{\theta},\ 0\le x\le\theta$. 由顺序统计量的分布，对 $0\le t\le\theta$，
 
 $$
-P_\theta\left\{X_{\left(10\right)}<t\right\}=\prod_{i=1}^{10}P_\theta\left\{X_i<t\right\}=\left(\frac{t}{\theta}\right)^{10}.
+P_\theta\left\{X_{\left(10\right)}< t\right\}=\prod_{i=1}^{10}P_\theta\left\{X_i< t\right\}=\left(\frac{t}{\theta}\right)^{10}.
 $$
 
 由**定义 5.1.1**（功效函数），功效函数为 $\beta\left(\theta\right)=P_\theta\left\{X_{\left(10\right)}\ge0.95\right\}$.
@@ -91,19 +91,19 @@ $$
 (1) 原假设 $H_0:\theta=1$ 为简单假设，由**定义 5.1.2**（显著性检验与检验水平），检验水平为
 
 $$
-\beta\left(1\right)=P_1\left\{X_{\left(10\right)}\ge0.95\right\}=1-P_1\left\{X_{\left(10\right)}<0.95\right\}=1-0.95^{10}=0.4013.
+\beta\left(1\right)=P_1\left\{X_{\left(10\right)}\ge0.95\right\}=1-P_1\left\{X_{\left(10\right)}< 0.95\right\}=1-0.95^{10}=0.4013.
 $$
 
-(2) 分两种情况讨论功效函数. 当 $0<\theta\le0.95$ 时，所有 $X_i\le\theta\le0.95$，故 $X_{\left(10\right)}\le0.95$ 恒成立，$\beta\left(\theta\right)=0$；当 $\theta>0.95$ 时，
+(2) 分两种情况讨论功效函数. 当 $0< \theta\le0.95$ 时，所有 $X_i\le\theta\le0.95$，故 $X_{\left(10\right)}\le0.95$ 恒成立，$\beta\left(\theta\right)=0$；当 $\theta> 0.95$ 时，
 
 $$
-\beta\left(\theta\right)=1-P_\theta\left\{X_{\left(10\right)}<0.95\right\}=1-\left(\frac{0.95}{\theta}\right)^{10}.
+\beta\left(\theta\right)=1-P_\theta\left\{X_{\left(10\right)}< 0.95\right\}=1-\left(\frac{0.95}{\theta}\right)^{10}.
 $$
 
 综上，
 
 $$
-\beta\left(\theta\right)=\begin{cases}0,&0<\theta\le0.95,\\1-\left(\frac{0.95}{\theta}\right)^{10},&\theta>0.95.\end{cases}
+\beta\left(\theta\right)=\begin{cases}0,&0< \theta\le0.95,\\1-\left(\frac{0.95}{\theta}\right)^{10},&\theta> 0.95.\end{cases}
 $$
 
 $\blacksquare$

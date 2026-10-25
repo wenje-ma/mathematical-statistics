@@ -10,7 +10,7 @@
 
 ### 习题一
 
-（习题 2.1-1）设 $X_1,X_2,\dots,X_n$ 是来自泊松分布总体 $P\left(\lambda\right)$ 的样本，其分布列为 $P\left\{X=x\right\}=\frac{\lambda^x}{x!}e^{-\lambda},\ x=0,1,2,\dots$，其中 $\lambda>0$. 求 $T=\sum_{i=1}^n X_i$ 的抽样分布.
+（习题 2.1-1）设 $X_1,X_2,\dots,X_n$ 是来自泊松分布总体 $P\left(\lambda\right)$ 的样本，其分布列为 $P\left\{X=x\right\}=\frac{\lambda^x}{x!}e^{-\lambda},\ x=0,1,2,\dots$，其中 $\lambda> 0$. 求 $T=\sum_{i=1}^n X_i$ 的抽样分布.
 
 ### 解答 习题一
 
@@ -28,7 +28,7 @@ $\blacksquare$
 
 ### 习题二
 
-（习题 2.1-2）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$，$\mu\in\mathbb R,\ \sigma^2>0$ 的样本，求 $T=\sum_{i=1}^n X_i$ 的抽样分布.
+（习题 2.1-2）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$，$\mu\in\mathbb R,\ \sigma^2> 0$ 的样本，求 $T=\sum_{i=1}^n X_i$ 的抽样分布.
 
 ### 解答 习题二
 
@@ -41,7 +41,7 @@ $\blacksquare$
 
 ### 习题三
 
-（习题 2.1-3）设 $X\sim B\left(n,p\right)$，$0<p<1$，对 $r\ge1$，证明：
+（习题 2.1-3）设 $X\sim B\left(n,p\right)$，$0< p< 1$，对 $r\ge1$，证明：
 $$
 P\left\{X\ge r\right\}=\sum_{k=r}^n\binom{n}{k}p^k\left(1-p\right)^{n-k}=r\binom{n}{r}\int_0^p t^{r-1}\left(1-t\right)^{n-r}\,\mathrm{d}t.
 $$
@@ -74,9 +74,9 @@ $$
 
 （习题 2.1-5）设 $X_1,X_2,\dots,X_n$ 是来自指数分布总体 $E\left(\lambda\right)$ 的样本，其密度函数为
 $$
-f\left(x\right)=\begin{cases}\lambda e^{-\lambda x},&x>0,\\0,&x\le0,\end{cases}
+f\left(x\right)=\begin{cases}\lambda e^{-\lambda x},&x> 0,\\0,&x\le0,\end{cases}
 $$
-其中 $\lambda>0$. 求：
+其中 $\lambda> 0$. 求：
 
 (1) $X_{\left(1\right)}$ 的密度函数；
 
@@ -84,11 +84,11 @@ $$
 
 ### 解答 习题四
 
-指数分布 $E\left(\lambda\right)$ 的分布函数为 $F\left(x\right)=1-e^{-\lambda x}\left(x>0\right)$，密度函数为 $f\left(x\right)=\lambda e^{-\lambda x}\left(x>0\right)$.
+指数分布 $E\left(\lambda\right)$ 的分布函数为 $F\left(x\right)=1-e^{-\lambda x}\left(x> 0\right)$，密度函数为 $f\left(x\right)=\lambda e^{-\lambda x}\left(x> 0\right)$.
 
 (1) 由**定理**（顺序统计量的分布），最小顺序统计量 $X_{\left(1\right)}$ 的密度函数为
 $$
-f_{\left(1\right)}\left(x\right)=n\left[1-F\left(x\right)\right]^{n-1}f\left(x\right)=n\left(e^{-\lambda x}\right)^{n-1}\cdot\lambda e^{-\lambda x}=n\lambda e^{-n\lambda x},\quad x>0.
+f_{\left(1\right)}\left(x\right)=n\left[1-F\left(x\right)\right]^{n-1}f\left(x\right)=n\left(e^{-\lambda x}\right)^{n-1}\cdot\lambda e^{-\lambda x}=n\lambda e^{-n\lambda x},\quad x> 0.
 $$
 
 故 $X_{\left(1\right)}\sim E\left(n\lambda\right)$，即 $X_{\left(1\right)}$ 服从参数为 $n\lambda$ 的指数分布.
@@ -99,35 +99,35 @@ $$
 
 （习题 2.1-6）设 $X_1,X_2,\dots,X_9$ 是来自正态总体 $N\left(1,9\right)$ 的样本，求：
 
-(1) $P\left\{X_{\left(1\right)}>4\right\}$；
+(1) $P\left\{X_{\left(1\right)}> 4\right\}$；
 
-(2) $P\left\{X_{\left(9\right)}<4\right\}$.
+(2) $P\left\{X_{\left(9\right)}< 4\right\}$.
 
 ### 解答 习题五
 
 总体 $X\sim N\left(1,9\right)$，故 $X$ 的分布函数为 $F\left(x\right)=\Phi\left(\frac{x-1}{3}\right)$，其中 $\Phi$ 为标准正态分布函数.
 
-(1) $X_{\left(1\right)}=\min\left\{X_1,\dots,X_9\right\}$，故 $X_{\left(1\right)}>4$ 当且仅当每个 $X_i>4$. 由**定义 1.3.2**（简单随机样本），$X_1,\dots,X_9$ 相互独立且同分布，故
+(1) $X_{\left(1\right)}=\min\left\{X_1,\dots,X_9\right\}$，故 $X_{\left(1\right)}> 4$ 当且仅当每个 $X_i> 4$. 由**定义 1.3.2**（简单随机样本），$X_1,\dots,X_9$ 相互独立且同分布，故
 $$
-P\left\{X_{\left(1\right)}>4\right\}=P\left\{X_1>4,\dots,X_9>4\right\}=\left[P\left\{X_1>4\right\}\right]^9=\left[1-F\left(4\right)\right]^9=\left[1-\Phi\left(1\right)\right]^9.
+P\left\{X_{\left(1\right)}> 4\right\}=P\left\{X_1> 4,\dots,X_9> 4\right\}=\left[P\left\{X_1> 4\right\}\right]^9=\left[1-F\left(4\right)\right]^9=\left[1-\Phi\left(1\right)\right]^9.
 $$
 
-(2) $X_{\left(9\right)}=\max\left\{X_1,\dots,X_9\right\}$，故 $X_{\left(9\right)}<4$ 当且仅当每个 $X_i<4$. 由独立性，
+(2) $X_{\left(9\right)}=\max\left\{X_1,\dots,X_9\right\}$，故 $X_{\left(9\right)}< 4$ 当且仅当每个 $X_i< 4$. 由独立性，
 $$
-P\left\{X_{\left(9\right)}<4\right\}=P\left\{X_1<4,\dots,X_9<4\right\}=\left[F\left(4\right)\right]^9=\left[\Phi\left(1\right)\right]^9.
+P\left\{X_{\left(9\right)}< 4\right\}=P\left\{X_1< 4,\dots,X_9< 4\right\}=\left[F\left(4\right)\right]^9=\left[\Phi\left(1\right)\right]^9.
 $$
 
 $\blacksquare$
 
 ### 习题六
 
-（习题 2.1-7）设 $X_1,X_2,\dots,X_n$ 是来自均匀分布总体 $U\left[\theta_1,\theta_2\right]$，$\theta_1<\theta_2$ 的样本，分别求顺序统计量 $X_{\left(1\right)},X_{\left(n\right)}$ 的密度函数.
+（习题 2.1-7）设 $X_1,X_2,\dots,X_n$ 是来自均匀分布总体 $U\left[\theta_1,\theta_2\right]$，$\theta_1< \theta_2$ 的样本，分别求顺序统计量 $X_{\left(1\right)},X_{\left(n\right)}$ 的密度函数.
 
 ### 解答 习题六
 
 均匀分布 $U\left[\theta_1,\theta_2\right]$ 的密度函数与分布函数分别为
 $$
-f\left(x\right)=\begin{cases}\frac{1}{\theta_2-\theta_1},&\theta_1\le x\le\theta_2,\\0,&\text{其他},\end{cases}\quad F\left(x\right)=\begin{cases}0,&x<\theta_1,\\\frac{x-\theta_1}{\theta_2-\theta_1},&\theta_1\le x\le\theta_2,\\1,&x>\theta_2.\end{cases}
+f\left(x\right)=\begin{cases}\frac{1}{\theta_2-\theta_1},&\theta_1\le x\le\theta_2,\\0,&\text{其他},\end{cases}\quad F\left(x\right)=\begin{cases}0,&x< \theta_1,\\\frac{x-\theta_1}{\theta_2-\theta_1},&\theta_1\le x\le\theta_2,\\1,&x> \theta_2.\end{cases}
 $$
 
 由**定理**（顺序统计量的分布），最小顺序统计量 $X_{\left(1\right)}$ 的密度函数为

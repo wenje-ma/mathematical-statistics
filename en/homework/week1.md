@@ -14,7 +14,7 @@
 
 > **Definition 1.4.1** (Statistic)<br>Let $X_1,X_2,\dots,X_n$ be a sample from the population $X$, and let $g\left(X_1,X_2,\dots,X_n\right)$ be a function of the sample $X_1,X_2,\dots,X_n$ that, besides depending on the sample, does not depend on any other unknown quantity; then $g\left(X_1,X_2,\dots,X_n\right)$ is called a statistic. If $x_1,x_2,\dots,x_n$ are the observed values of the sample $X_1,X_2,\dots,X_n$, then $g\left(x_1,x_2,\dots,x_n\right)$ is called an observed value of the statistic $g\left(X_1,X_2,\dots,X_n\right)$. A statistic depends only on the sample and does not depend on any unknown parameter.
 
-> **Definition 1.5.1** (Empirical Distribution Function)<br>Let $X_1,X_2,\dots,X_n$ be a sample from the population $X$, and let $X_{\left(1\right)}\le X_{\left(2\right)}\le\dots\le X_{\left(n\right)}$ be its order statistics. For any real number $x$, $$F_n\left(x\right)=\begin{cases}0,&x<X_{\left(1\right)},\\\frac{r}{n},&X_{\left(r\right)}\le x<X_{\left(r+1\right)},\ r=1,2,\dots,n-1,\\1,&x\ge X_{\left(n\right)}\end{cases}$$ is called the empirical distribution function of the sample $X_1,X_2,\dots,X_n$.
+> **Definition 1.5.1** (Empirical Distribution Function)<br>Let $X_1,X_2,\dots,X_n$ be a sample from the population $X$, and let $X_{\left(1\right)}\le X_{\left(2\right)}\le\dots\le X_{\left(n\right)}$ be its order statistics. For any real number $x$, $$F_n\left(x\right)=\begin{cases}0,&x< X_{\left(1\right)},\\\frac{r}{n},&X_{\left(r\right)}\le x< X_{\left(r+1\right)},\ r=1,2,\dots,n-1,\\1,&x\ge X_{\left(n\right)}\end{cases}$$ is called the empirical distribution function of the sample $X_1,X_2,\dots,X_n$.
 
 ### Problem 1
 
@@ -42,11 +42,11 @@ then it is called a simple random sample. That is, a simple random sample should
 
 (Problem 1-4) Let $X_1,X_2,\dots,X_n$ be a sample from the population $X$. In each of the following three cases, write down the joint probability mass function or joint density function of the sample $X_1,X_2,\dots,X_n$:
 
-(1) the population $X$ follows the geometric distribution with probability mass function $P\left\{X=x\right\}=\left(1-p\right)^{x-1}p,\ 0<p<1,\ x=1,2,\dots$;
+(1) the population $X$ follows the geometric distribution with probability mass function $P\left\{X=x\right\}=\left(1-p\right)^{x-1}p,\ 0< p< 1,\ x=1,2,\dots$;
 
-(2) the population $X$ follows the exponential distribution with density function $f\left(x\right)=\lambda e^{-\lambda x},\ x>0$ (which is $0$ when $x\le0$), where $\lambda>0$;
+(2) the population $X$ follows the exponential distribution with density function $f\left(x\right)=\lambda e^{-\lambda x},\ x> 0$ (which is $0$ when $x\le0$), where $\lambda> 0$;
 
-(3) the population $X$ has density function $f\left(x\right)=\frac{\lambda}{2}e^{-\lambda\left|x\right|},\ -\infty<x<+\infty$, where $\lambda>0$.
+(3) the population $X$ has density function $f\left(x\right)=\frac{\lambda}{2}e^{-\lambda\left|x\right|},\ -\infty< x< +\infty$, where $\lambda> 0$.
 
 ### Solution to Problem 3
 
@@ -59,7 +59,7 @@ $$
 
 (2) The population $X$ follows the exponential distribution $f\left(x\right)=\lambda e^{-\lambda x}$, so the joint density function of the sample is
 $$
-f\left(x_1,\dots,x_n\right)=\prod_{i=1}^n\lambda e^{-\lambda x_i}=\lambda^n e^{-\lambda\sum_{i=1}^n x_i},\quad x_i>0.
+f\left(x_1,\dots,x_n\right)=\prod_{i=1}^n\lambda e^{-\lambda x_i}=\lambda^n e^{-\lambda\sum_{i=1}^n x_i},\quad x_i> 0.
 $$
 
 (3) The population $X$ has density function $f\left(x\right)=\frac{\lambda}{2}e^{-\lambda\left|x\right|}$, so the joint density function of the sample is
@@ -77,39 +77,39 @@ $\blacksquare$
 
 By **Population Distribution Family and Sample Distribution Family**, the sample distribution family is $\left\{\prod_{i=1}^n f\left(x_i;\theta\right):\theta\in\Theta\right\}$, where $f\left(x;\theta\right)$ is the population's probability mass function (or density function), and $\Theta$ is the parameter space (**Definition 1.3.3**).
 
-(1) Two-point distribution $B\left(1,p\right)$, parameter space $\Theta=\left\{p:0<p<1\right\}$: the sample distribution family is
+(1) Two-point distribution $B\left(1,p\right)$, parameter space $\Theta=\left\{p:0< p< 1\right\}$: the sample distribution family is
 $$
-\left\{\prod_{i=1}^n p^{x_i}\left(1-p\right)^{1-x_i}:0<p<1\right\},\quad x_i\in\left\{0,1\right\}.
-$$
-
-(2) Binomial distribution $B\left(m,p\right)$, parameter space $\Theta=\left\{p:0<p<1\right\}$: the sample distribution family is
-$$
-\left\{\prod_{i=1}^n\binom{m}{x_i}p^{x_i}\left(1-p\right)^{m-x_i}:0<p<1\right\},\quad x_i=0,1,\dots,m.
+\left\{\prod_{i=1}^n p^{x_i}\left(1-p\right)^{1-x_i}:0< p< 1\right\},\quad x_i\in\left\{0,1\right\}.
 $$
 
-(3) Poisson distribution $P\left(\lambda\right)$, parameter space $\Theta=\left\{\lambda:\lambda>0\right\}$: the sample distribution family is
+(2) Binomial distribution $B\left(m,p\right)$, parameter space $\Theta=\left\{p:0< p< 1\right\}$: the sample distribution family is
 $$
-\left\{\prod_{i=1}^n\frac{e^{-\lambda}\lambda^{x_i}}{x_i!}:\lambda>0\right\},\quad x_i=0,1,2,\dots
-$$
-
-(4) Geometric distribution $G\left(p\right)$, parameter space $\Theta=\left\{p:0<p<1\right\}$: the sample distribution family is
-$$
-\left\{\prod_{i=1}^n\left(1-p\right)^{x_i-1}p:0<p<1\right\},\quad x_i=1,2,\dots
+\left\{\prod_{i=1}^n\binom{m}{x_i}p^{x_i}\left(1-p\right)^{m-x_i}:0< p< 1\right\},\quad x_i=0,1,\dots,m.
 $$
 
-(5) Uniform distribution $U\left[a,b\right]$, parameter space $\Theta=\left\{\left(a,b\right):-\infty<a<b<+\infty\right\}$: the sample distribution family is
+(3) Poisson distribution $P\left(\lambda\right)$, parameter space $\Theta=\left\{\lambda:\lambda> 0\right\}$: the sample distribution family is
 $$
-\left\{\prod_{i=1}^n\frac{1}{b-a}:-\infty<a<b<+\infty\right\},\quad x_i\in\left[a,b\right].
-$$
-
-(6) Exponential distribution $E\left(\lambda\right)$, parameter space $\Theta=\left\{\lambda:\lambda>0\right\}$: the sample distribution family is
-$$
-\left\{\prod_{i=1}^n\lambda e^{-\lambda x_i}:\lambda>0\right\},\quad x_i>0.
+\left\{\prod_{i=1}^n\frac{e^{-\lambda}\lambda^{x_i}}{x_i!}:\lambda> 0\right\},\quad x_i=0,1,2,\dots
 $$
 
-(7) Normal distribution $N\left(\mu,\sigma^2\right)$, parameter space $\Theta=\left\{\left(\mu,\sigma^2\right):\mu\in\mathbb R,\ \sigma>0\right\}$: the sample distribution family is
+(4) Geometric distribution $G\left(p\right)$, parameter space $\Theta=\left\{p:0< p< 1\right\}$: the sample distribution family is
 $$
-\left\{\prod_{i=1}^n\frac{1}{\sqrt{2\pi}\sigma}\exp\left\{-\frac{\left(x_i-\mu\right)^2}{2\sigma^2}\right\}:\mu\in\mathbb R,\ \sigma>0\right\},\quad x_i\in\mathbb R.
+\left\{\prod_{i=1}^n\left(1-p\right)^{x_i-1}p:0< p< 1\right\},\quad x_i=1,2,\dots
+$$
+
+(5) Uniform distribution $U\left[a,b\right]$, parameter space $\Theta=\left\{\left(a,b\right):-\infty< a< b< +\infty\right\}$: the sample distribution family is
+$$
+\left\{\prod_{i=1}^n\frac{1}{b-a}:-\infty< a< b< +\infty\right\},\quad x_i\in\left[a,b\right].
+$$
+
+(6) Exponential distribution $E\left(\lambda\right)$, parameter space $\Theta=\left\{\lambda:\lambda> 0\right\}$: the sample distribution family is
+$$
+\left\{\prod_{i=1}^n\lambda e^{-\lambda x_i}:\lambda> 0\right\},\quad x_i> 0.
+$$
+
+(7) Normal distribution $N\left(\mu,\sigma^2\right)$, parameter space $\Theta=\left\{\left(\mu,\sigma^2\right):\mu\in\mathbb R,\ \sigma> 0\right\}$: the sample distribution family is
+$$
+\left\{\prod_{i=1}^n\frac{1}{\sqrt{2\pi}\sigma}\exp\left\{-\frac{\left(x_i-\mu\right)^2}{2\sigma^2}\right\}:\mu\in\mathbb R,\ \sigma> 0\right\},\quad x_i\in\mathbb R.
 $$
 
 $\blacksquare$
@@ -122,7 +122,7 @@ $\blacksquare$
 
 By **Definition 1.3.3** (Parameter Space), the parameter is $\theta=\left(\mu,\sigma^2\right)$, and its range of values, i.e. the parameter space, is
 $$
-\Theta=\left\{\left(\mu,\sigma^2\right):\mu\in\mathbb R,\ \sigma^2>0\right\}.
+\Theta=\left\{\left(\mu,\sigma^2\right):\mu\in\mathbb R,\ \sigma^2> 0\right\}.
 $$
 
 By **Population Distribution Family and Sample Distribution Family**, the density function of the normal population $N\left(\mu,\sigma^2\right)$ is $f\left(x;\mu,\sigma^2\right)=\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{\left(x-\mu\right)^2}{2\sigma^2}}$, so the sample distribution family is
@@ -170,7 +170,7 @@ $$
 
 Then the empirical distribution function $F_{10}\left(x\right)$ is a right-continuous step function that jumps by $\frac{1}{10}$ at each order statistic:
 $$
-F_{10}\left(x\right)=\begin{cases}0,&x<62,\\\frac{1}{10},&62\le x<73,\\\frac{2}{10},&73\le x<76,\\\frac{3}{10},&76\le x<78,\\\frac{4}{10},&78\le x<84,\\\frac{5}{10},&84\le x<86,\\\frac{6}{10},&86\le x<89,\\\frac{7}{10},&89\le x<90,\\\frac{8}{10},&90\le x<92,\\\frac{9}{10},&92\le x<95,\\1,&x\ge95.\end{cases}
+F_{10}\left(x\right)=\begin{cases}0,&x< 62,\\\frac{1}{10},&62\le x< 73,\\\frac{2}{10},&73\le x< 76,\\\frac{3}{10},&76\le x< 78,\\\frac{4}{10},&78\le x< 84,\\\frac{5}{10},&84\le x< 86,\\\frac{6}{10},&86\le x< 89,\\\frac{7}{10},&89\le x< 90,\\\frac{8}{10},&90\le x< 92,\\\frac{9}{10},&92\le x< 95,\\1,&x\ge95.\end{cases}
 $$
 
 Its graph is a right-continuous step function starting at $62$ and ending at $95$, jumping by $\frac{1}{10}$ at each of the points $62,73,76,78,84,86,89,90,92,95$, taking the values $\frac{1}{10},\frac{2}{10},\dots,1$ in turn. $\blacksquare$
@@ -185,7 +185,7 @@ Its graph is a right-continuous step function starting at $62$ and ending at $95
 
 ### Solution to Problem 8
 
-Write the indicator function as $I\left\{X_i\le x\right\}=\begin{cases}1,&X_i\le x,\\0,&X_i>x.\end{cases}$ Then by **Definition 1.5.1** (Empirical Distribution Function), $F_n\left(x\right)=\frac{1}{n}\sum_{i=1}^n I\left\{X_i\le x\right\}$.
+Write the indicator function as $I\left\{X_i\le x\right\}=\begin{cases}1,&X_i\le x,\\0,&X_i> x.\end{cases}$ Then by **Definition 1.5.1** (Empirical Distribution Function), $F_n\left(x\right)=\frac{1}{n}\sum_{i=1}^n I\left\{X_i\le x\right\}$.
 
 (1) By **Definition 1.3.2** (Simple Random Sample), $X_1,X_2,\dots,X_n$ are identically distributed with the population $X$, so for each $i$,
 $$

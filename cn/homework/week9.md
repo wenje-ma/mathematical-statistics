@@ -12,15 +12,15 @@
 
 （习题 3.3-3）设 $X_1,X_2,\dots,X_n$ 是来自总体 $X$ 的样本，且 $X$ 的密度函数 $f\left(x\right)$ 如下所示，求其中未知参数的极大似然估计：
 
-(1) $f\left(x,\theta\right)=\begin{cases}\left(\theta+1\right)x^\theta,&0<x<1,\\0,&\text{其他},\end{cases}$ 其中 $\theta>-1$ 为未知参数；
+(1) $f\left(x,\theta\right)=\begin{cases}\left(\theta+1\right)x^\theta,&0< x< 1,\\0,&\text{其他},\end{cases}$ 其中 $\theta> -1$ 为未知参数；
 
-(2) $f\left(x,\theta\right)=\begin{cases}\theta e^{-\theta x},&x>0,\\0,&x\le0,\end{cases}$ 其中 $\theta>0$ 为未知参数；
+(2) $f\left(x,\theta\right)=\begin{cases}\theta e^{-\theta x},&x> 0,\\0,&x\le0,\end{cases}$ 其中 $\theta> 0$ 为未知参数；
 
-(3) $f\left(x,\theta\right)=\frac{1}{2\theta}e^{-\frac{\left|x\right|}{\theta}},\ -\infty<x<+\infty$，其中 $\theta>0$ 为未知参数；
+(3) $f\left(x,\theta\right)=\frac{1}{2\theta}e^{-\frac{\left|x\right|}{\theta}},\ -\infty< x< +\infty$，其中 $\theta> 0$ 为未知参数；
 
 (4) $f\left(x,\theta\right)=\begin{cases}1,&\theta-0.5\le x\le\theta+0.5,\\0,&\text{其他},\end{cases}$ 其中 $\theta\in\mathbb R$ 为未知参数；
 
-(5) $f\left(x,\mu,\sigma^2\right)=\begin{cases}\frac{1}{\sqrt{2\pi}\sigma x}e^{-\frac{\left(\ln x-\mu\right)^2}{2\sigma^2}},&x>0,\\0,&x\le0,\end{cases}$ 其中 $\mu\in\mathbb R,\ \sigma^2>0$ 为未知参数.
+(5) $f\left(x,\mu,\sigma^2\right)=\begin{cases}\frac{1}{\sqrt{2\pi}\sigma x}e^{-\frac{\left(\ln x-\mu\right)^2}{2\sigma^2}},&x> 0,\\0,&x\le0,\end{cases}$ 其中 $\mu\in\mathbb R,\ \sigma^2> 0$ 为未知参数.
 
 ### 解答 习题一
 
@@ -29,7 +29,7 @@
 (1) 似然函数为
 
 $$
-L\left(\theta\right)=\prod_{i=1}^n\left(\theta+1\right)x_i^\theta=\left(\theta+1\right)^n\left(\prod_{i=1}^n x_i\right)^\theta,\quad 0<x_i<1.
+L\left(\theta\right)=\prod_{i=1}^n\left(\theta+1\right)x_i^\theta=\left(\theta+1\right)^n\left(\prod_{i=1}^n x_i\right)^\theta,\quad 0< x_i< 1.
 $$
 
 对数似然函数为 $\ln L\left(\theta\right)=n\ln\left(\theta+1\right)+\theta\sum_{i=1}^n\ln x_i$. 由**极大似然估计的求法**，令
@@ -38,7 +38,7 @@ $$
 \frac{\mathrm{d}\ln L}{\mathrm{d}\theta}=\frac{n}{\theta+1}+\sum_{i=1}^n\ln x_i=0,
 $$
 
-解得 $\hat\theta=-1-\frac{n}{\sum_{i=1}^n\ln x_i}$. 因 $0<x_i<1$，$\sum_{i=1}^n\ln x_i<0$，故 $\hat\theta>-1$；又 $\frac{\mathrm{d}^2\ln L}{\mathrm{d}\theta^2}=-\frac{n}{\left(\theta+1\right)^2}<0$，故该驻点为极大值点. 于是
+解得 $\hat\theta=-1-\frac{n}{\sum_{i=1}^n\ln x_i}$. 因 $0< x_i< 1$，$\sum_{i=1}^n\ln x_i< 0$，故 $\hat\theta> -1$；又 $\frac{\mathrm{d}^2\ln L}{\mathrm{d}\theta^2}=-\frac{n}{\left(\theta+1\right)^2}< 0$，故该驻点为极大值点. 于是
 
 $$
 \hat\theta=-1-\frac{n}{\sum_{i=1}^n\ln X_i}.
@@ -47,7 +47,7 @@ $$
 (2) 似然函数为
 
 $$
-L\left(\theta\right)=\prod_{i=1}^n\theta e^{-\theta x_i}=\theta^n e^{-\theta\sum_{i=1}^n x_i},\quad x_i>0.
+L\left(\theta\right)=\prod_{i=1}^n\theta e^{-\theta x_i}=\theta^n e^{-\theta\sum_{i=1}^n x_i},\quad x_i> 0.
 $$
 
 对数似然函数为 $\ln L\left(\theta\right)=n\ln\theta-\theta\sum_{i=1}^n x_i$. 令 $\frac{\mathrm{d}\ln L}{\mathrm{d}\theta}=\frac{n}{\theta}-\sum_{i=1}^n x_i=0$，解得
@@ -98,7 +98,7 @@ $\blacksquare$
 
 ### 习题二
 
-（习题 3.3-4）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$ 的样本，其中 $\mu\in\mathbb R,\ \sigma>0$，
+（习题 3.3-4）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$ 的样本，其中 $\mu\in\mathbb R,\ \sigma> 0$，
 
 (1) 若 $\mu$ 未知，$\sigma$ 已知，求 $\mu$ 的极大似然估计；
 
@@ -139,10 +139,10 @@ $\blacksquare$
 （习题 3.3-6）设 $X_1,X_2,\dots,X_n$ 是来自双参数指数分布总体的样本，且密度函数为
 
 $$
-f\left(x,\mu,\lambda\right)=\begin{cases}\lambda\exp\left\{-\lambda\left(x-\mu\right)\right\},&x>\mu,\\0,&\text{其他},\end{cases}
+f\left(x,\mu,\lambda\right)=\begin{cases}\lambda\exp\left\{-\lambda\left(x-\mu\right)\right\},&x> \mu,\\0,&\text{其他},\end{cases}
 $$
 
-其中 $-\infty<\mu<+\infty,\ \lambda>0$ 为未知参数，分别求 $\mu,\lambda$ 和 $\alpha=P\left\{X_1\ge t\right\}$（$t>\mu$）的极大似然估计.
+其中 $-\infty< \mu< +\infty,\ \lambda> 0$ 为未知参数，分别求 $\mu,\lambda$ 和 $\alpha=P\left\{X_1\ge t\right\}$（$t> \mu$）的极大似然估计.
 
 ### 解答 习题三
 
@@ -152,7 +152,7 @@ $$
 L\left(\mu,\lambda\right)=\prod_{i=1}^n\lambda e^{-\lambda\left(x_i-\mu\right)}=\lambda^n e^{-\lambda\sum_{i=1}^n x_i+n\lambda\mu},
 $$
 
-当 $\mu>x_{\left(1\right)}$ 时 $L=0$. 由**极大似然估计的求法**，对固定的 $\lambda>0$，$L\left(\mu,\lambda\right)=e^{n\lambda\mu}\cdot\lambda^n e^{-\lambda\sum x_i}$ 关于 $\mu$ 单调递增，故在允许范围内 $\mu$ 取最大时达极大值，即
+当 $\mu> x_{\left(1\right)}$ 时 $L=0$. 由**极大似然估计的求法**，对固定的 $\lambda> 0$，$L\left(\mu,\lambda\right)=e^{n\lambda\mu}\cdot\lambda^n e^{-\lambda\sum x_i}$ 关于 $\mu$ 单调递增，故在允许范围内 $\mu$ 取最大时达极大值，即
 
 $$
 \hat\mu=X_{\left(1\right)}=\min\left\{X_1,\dots,X_n\right\}.

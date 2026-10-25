@@ -10,7 +10,7 @@
 
 ### Problem 1
 
-(Problem 2.1-1) Let $X_1,X_2,\dots,X_n$ be a sample from a Poisson-distributed population $P\left(\lambda\right)$, with probability mass function $P\left\{X=x\right\}=\frac{\lambda^x}{x!}e^{-\lambda},\ x=0,1,2,\dots$, where $\lambda>0$. Find the sampling distribution of $T=\sum_{i=1}^n X_i$.
+(Problem 2.1-1) Let $X_1,X_2,\dots,X_n$ be a sample from a Poisson-distributed population $P\left(\lambda\right)$, with probability mass function $P\left\{X=x\right\}=\frac{\lambda^x}{x!}e^{-\lambda},\ x=0,1,2,\dots$, where $\lambda> 0$. Find the sampling distribution of $T=\sum_{i=1}^n X_i$.
 
 ### Solution to Problem 1
 
@@ -28,7 +28,7 @@ $\blacksquare$
 
 ### Problem 2
 
-(Problem 2.1-2) Let $X_1,X_2,\dots,X_n$ be a sample from the normal population $N\left(\mu,\sigma^2\right)$, $\mu\in\mathbb R,\ \sigma^2>0$. Find the sampling distribution of $T=\sum_{i=1}^n X_i$.
+(Problem 2.1-2) Let $X_1,X_2,\dots,X_n$ be a sample from the normal population $N\left(\mu,\sigma^2\right)$, $\mu\in\mathbb R,\ \sigma^2> 0$. Find the sampling distribution of $T=\sum_{i=1}^n X_i$.
 
 ### Solution to Problem 2
 
@@ -41,7 +41,7 @@ $\blacksquare$
 
 ### Problem 3
 
-(Problem 2.1-3) Let $X\sim B\left(n,p\right)$, $0<p<1$. For $r\ge1$, prove:
+(Problem 2.1-3) Let $X\sim B\left(n,p\right)$, $0< p< 1$. For $r\ge1$, prove:
 $$
 P\left\{X\ge r\right\}=\sum_{k=r}^n\binom{n}{k}p^k\left(1-p\right)^{n-k}=r\binom{n}{r}\int_0^p t^{r-1}\left(1-t\right)^{n-r}\,\mathrm{d}t.
 $$
@@ -74,9 +74,9 @@ That is, $P\left\{X\ge r\right\}=\sum_{k=r}^n\binom{n}{k}p^k\left(1-p\right)^{n-
 
 (Problem 2.1-5) Let $X_1,X_2,\dots,X_n$ be a sample from an exponential-distribution population $E\left(\lambda\right)$, whose density function is
 $$
-f\left(x\right)=\begin{cases}\lambda e^{-\lambda x},&x>0,\\0,&x\le0,\end{cases}
+f\left(x\right)=\begin{cases}\lambda e^{-\lambda x},&x> 0,\\0,&x\le0,\end{cases}
 $$
-where $\lambda>0$. Find:
+where $\lambda> 0$. Find:
 
 (1) the density function of $X_{\left(1\right)}$;
 
@@ -84,11 +84,11 @@ where $\lambda>0$. Find:
 
 ### Solution to Problem 4
 
-The distribution function of the exponential distribution $E\left(\lambda\right)$ is $F\left(x\right)=1-e^{-\lambda x}\left(x>0\right)$, and its density function is $f\left(x\right)=\lambda e^{-\lambda x}\left(x>0\right)$.
+The distribution function of the exponential distribution $E\left(\lambda\right)$ is $F\left(x\right)=1-e^{-\lambda x}\left(x> 0\right)$, and its density function is $f\left(x\right)=\lambda e^{-\lambda x}\left(x> 0\right)$.
 
 (1) By **Theorem** (Distribution of Order Statistics), the density function of the smallest order statistic $X_{\left(1\right)}$ is
 $$
-f_{\left(1\right)}\left(x\right)=n\left[1-F\left(x\right)\right]^{n-1}f\left(x\right)=n\left(e^{-\lambda x}\right)^{n-1}\cdot\lambda e^{-\lambda x}=n\lambda e^{-n\lambda x},\quad x>0.
+f_{\left(1\right)}\left(x\right)=n\left[1-F\left(x\right)\right]^{n-1}f\left(x\right)=n\left(e^{-\lambda x}\right)^{n-1}\cdot\lambda e^{-\lambda x}=n\lambda e^{-n\lambda x},\quad x> 0.
 $$
 
 Hence $X_{\left(1\right)}\sim E\left(n\lambda\right)$, i.e. $X_{\left(1\right)}$ follows the exponential distribution with parameter $n\lambda$.
@@ -99,35 +99,35 @@ Hence $X_{\left(1\right)}\sim E\left(n\lambda\right)$, i.e. $X_{\left(1\right)}$
 
 (Problem 2.1-6) Let $X_1,X_2,\dots,X_9$ be a sample from the normal population $N\left(1,9\right)$. Find:
 
-(1) $P\left\{X_{\left(1\right)}>4\right\}$;
+(1) $P\left\{X_{\left(1\right)}> 4\right\}$;
 
-(2) $P\left\{X_{\left(9\right)}<4\right\}$.
+(2) $P\left\{X_{\left(9\right)}< 4\right\}$.
 
 ### Solution to Problem 5
 
 The population $X\sim N\left(1,9\right)$, so the distribution function of $X$ is $F\left(x\right)=\Phi\left(\frac{x-1}{3}\right)$, where $\Phi$ is the standard normal distribution function.
 
-(1) $X_{\left(1\right)}=\min\left\{X_1,\dots,X_9\right\}$, so $X_{\left(1\right)}>4$ if and only if every $X_i>4$. By **Definition 1.3.2** (Simple Random Sample), $X_1,\dots,X_9$ are mutually independent and identically distributed, so
+(1) $X_{\left(1\right)}=\min\left\{X_1,\dots,X_9\right\}$, so $X_{\left(1\right)}> 4$ if and only if every $X_i> 4$. By **Definition 1.3.2** (Simple Random Sample), $X_1,\dots,X_9$ are mutually independent and identically distributed, so
 $$
-P\left\{X_{\left(1\right)}>4\right\}=P\left\{X_1>4,\dots,X_9>4\right\}=\left[P\left\{X_1>4\right\}\right]^9=\left[1-F\left(4\right)\right]^9=\left[1-\Phi\left(1\right)\right]^9.
+P\left\{X_{\left(1\right)}> 4\right\}=P\left\{X_1> 4,\dots,X_9> 4\right\}=\left[P\left\{X_1> 4\right\}\right]^9=\left[1-F\left(4\right)\right]^9=\left[1-\Phi\left(1\right)\right]^9.
 $$
 
-(2) $X_{\left(9\right)}=\max\left\{X_1,\dots,X_9\right\}$, so $X_{\left(9\right)}<4$ if and only if every $X_i<4$. By independence,
+(2) $X_{\left(9\right)}=\max\left\{X_1,\dots,X_9\right\}$, so $X_{\left(9\right)}< 4$ if and only if every $X_i< 4$. By independence,
 $$
-P\left\{X_{\left(9\right)}<4\right\}=P\left\{X_1<4,\dots,X_9<4\right\}=\left[F\left(4\right)\right]^9=\left[\Phi\left(1\right)\right]^9.
+P\left\{X_{\left(9\right)}< 4\right\}=P\left\{X_1< 4,\dots,X_9< 4\right\}=\left[F\left(4\right)\right]^9=\left[\Phi\left(1\right)\right]^9.
 $$
 
 $\blacksquare$
 
 ### Problem 6
 
-(Problem 2.1-7) Let $X_1,X_2,\dots,X_n$ be a sample from a uniform-distribution population $U\left[\theta_1,\theta_2\right]$, $\theta_1<\theta_2$. Find respectively the density functions of the order statistics $X_{\left(1\right)},X_{\left(n\right)}$.
+(Problem 2.1-7) Let $X_1,X_2,\dots,X_n$ be a sample from a uniform-distribution population $U\left[\theta_1,\theta_2\right]$, $\theta_1< \theta_2$. Find respectively the density functions of the order statistics $X_{\left(1\right)},X_{\left(n\right)}$.
 
 ### Solution to Problem 6
 
 The density function and distribution function of the uniform distribution $U\left[\theta_1,\theta_2\right]$ are respectively
 $$
-f\left(x\right)=\begin{cases}\frac{1}{\theta_2-\theta_1},&\theta_1\le x\le\theta_2,\\0,&\text{其他},\end{cases}\quad F\left(x\right)=\begin{cases}0,&x<\theta_1,\\\frac{x-\theta_1}{\theta_2-\theta_1},&\theta_1\le x\le\theta_2,\\1,&x>\theta_2.\end{cases}
+f\left(x\right)=\begin{cases}\frac{1}{\theta_2-\theta_1},&\theta_1\le x\le\theta_2,\\0,&\text{其他},\end{cases}\quad F\left(x\right)=\begin{cases}0,&x< \theta_1,\\\frac{x-\theta_1}{\theta_2-\theta_1},&\theta_1\le x\le\theta_2,\\1,&x> \theta_2.\end{cases}
 $$
 
 By **Theorem** (Distribution of Order Statistics), the density function of the smallest order statistic $X_{\left(1\right)}$ is

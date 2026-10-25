@@ -31,7 +31,7 @@ where $Z\sim N\left(0,1\right)$.
 The probability of committing a Type II error is
 
 $$
-\beta_2=1-\beta\left(1\right)=P_1\left\{\bar X<0.98\right\}=P\left\{Z<\frac{0.98-1}{1/2}\right\}=P\left\{Z<-0.04\right\}=\Phi\left(-0.04\right)=0.484.
+\beta_2=1-\beta\left(1\right)=P_1\left\{\bar X< 0.98\right\}=P\left\{Z< \frac{0.98-1}{1/2}\right\}=P\left\{Z< -0.04\right\}=\Phi\left(-0.04\right)=0.484.
 $$
 
 (2) By **Definition 5.1.2** (Significance Test and Level of the Test), requiring the probability of a Type I error to be no greater than $0.01$, i.e.
@@ -49,17 +49,17 @@ $\blacksquare$
 (Problem 5.1-7) Let the sample $X$ (of size $1$) be drawn from a population with density function $f\left(\cdot\right)$, with the following two hypotheses about the population:
 
 $$
-H_0:f\left(x\right)=\begin{cases}1,&0<x<1,\\0,&\text{其他};\end{cases}\ \ H_1:f\left(x\right)=\begin{cases}2x,&0<x<1,\\0,&\text{其他}.\end{cases}
+H_0:f\left(x\right)=\begin{cases}1,&0< x< 1,\\0,&\text{其他};\end{cases}\ \ H_1:f\left(x\right)=\begin{cases}2x,&0< x< 1,\\0,&\text{其他}.\end{cases}
 $$
 
-Let the rejection region of this test be $D=\left\{X>\frac{2}{3}\right\}$. Find the probability that the test commits a Type I error and the probability that it commits a Type II error.
+Let the rejection region of this test be $D=\left\{X> \frac{2}{3}\right\}$. Find the probability that the test commits a Type I error and the probability that it commits a Type II error.
 
 ### Solution to Problem 2
 
 By **Two Types of Error** (Type I Error and Type II Error), the probability of committing a Type I error is the probability that the sample falls into the rejection region when $H_0$ is true, i.e.
 
 $$
-\alpha=P_{H_0}\left\{X>\frac{2}{3}\right\}=\int_{2/3}^1 1\,\mathrm dx=\frac{1}{3}.
+\alpha=P_{H_0}\left\{X> \frac{2}{3}\right\}=\int_{2/3}^1 1\,\mathrm dx=\frac{1}{3}.
 $$
 
 The probability of committing a Type II error is the probability that the sample falls into the acceptance region when $H_1$ is true, i.e.
@@ -72,7 +72,7 @@ $\blacksquare$
 
 ### Problem 3
 
-(Problem 5.1-8) Let $X_1,X_2,\dots,X_{10}$ be a sample from the uniform-distribution population $U\left[0,\theta\right]$, where $\theta>0$ is an unknown parameter. Let the rejection region of the testing problem $H_0:\theta=1$; $H_1:\theta>1$ be $D=\left\{\left(X_1,\dots,X_{10}\right):X_{\left(10\right)}\ge0.95\right\}$, where $X_{\left(10\right)}=\max\left\{X_1,\dots,X_{10}\right\}$.
+(Problem 5.1-8) Let $X_1,X_2,\dots,X_{10}$ be a sample from the uniform-distribution population $U\left[0,\theta\right]$, where $\theta> 0$ is an unknown parameter. Let the rejection region of the testing problem $H_0:\theta=1$; $H_1:\theta> 1$ be $D=\left\{\left(X_1,\dots,X_{10}\right):X_{\left(10\right)}\ge0.95\right\}$, where $X_{\left(10\right)}=\max\left\{X_1,\dots,X_{10}\right\}$.
 
 (1) Find the significance level of this test;
 
@@ -83,7 +83,7 @@ $\blacksquare$
 For the uniform-distribution population $U\left[0,\theta\right]$, its distribution function is $F_\theta\left(x\right)=\frac{x}{\theta},\ 0\le x\le\theta$. By the distribution of order statistics, for $0\le t\le\theta$,
 
 $$
-P_\theta\left\{X_{\left(10\right)}<t\right\}=\prod_{i=1}^{10}P_\theta\left\{X_i<t\right\}=\left(\frac{t}{\theta}\right)^{10}.
+P_\theta\left\{X_{\left(10\right)}< t\right\}=\prod_{i=1}^{10}P_\theta\left\{X_i< t\right\}=\left(\frac{t}{\theta}\right)^{10}.
 $$
 
 By **Definition 5.1.1** (Power Function), the power function is $\beta\left(\theta\right)=P_\theta\left\{X_{\left(10\right)}\ge0.95\right\}$.
@@ -91,19 +91,19 @@ By **Definition 5.1.1** (Power Function), the power function is $\beta\left(\the
 (1) The null hypothesis $H_0:\theta=1$ is a simple hypothesis. By **Definition 5.1.2** (Significance Test and Level of the Test), the level of the test is
 
 $$
-\beta\left(1\right)=P_1\left\{X_{\left(10\right)}\ge0.95\right\}=1-P_1\left\{X_{\left(10\right)}<0.95\right\}=1-0.95^{10}=0.4013.
+\beta\left(1\right)=P_1\left\{X_{\left(10\right)}\ge0.95\right\}=1-P_1\left\{X_{\left(10\right)}< 0.95\right\}=1-0.95^{10}=0.4013.
 $$
 
-(2) Discuss the power function in two cases. When $0<\theta\le0.95$, all $X_i\le\theta\le0.95$, so $X_{\left(10\right)}\le0.95$ always holds, and $\beta\left(\theta\right)=0$; when $\theta>0.95$,
+(2) Discuss the power function in two cases. When $0< \theta\le0.95$, all $X_i\le\theta\le0.95$, so $X_{\left(10\right)}\le0.95$ always holds, and $\beta\left(\theta\right)=0$; when $\theta> 0.95$,
 
 $$
-\beta\left(\theta\right)=1-P_\theta\left\{X_{\left(10\right)}<0.95\right\}=1-\left(\frac{0.95}{\theta}\right)^{10}.
+\beta\left(\theta\right)=1-P_\theta\left\{X_{\left(10\right)}< 0.95\right\}=1-\left(\frac{0.95}{\theta}\right)^{10}.
 $$
 
 In summary,
 
 $$
-\beta\left(\theta\right)=\begin{cases}0,&0<\theta\le0.95,\\1-\left(\frac{0.95}{\theta}\right)^{10},&\theta>0.95.\end{cases}
+\beta\left(\theta\right)=\begin{cases}0,&0< \theta\le0.95,\\1-\left(\frac{0.95}{\theta}\right)^{10},&\theta> 0.95.\end{cases}
 $$
 
 $\blacksquare$

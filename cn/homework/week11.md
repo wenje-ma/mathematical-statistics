@@ -6,19 +6,19 @@
 
 > **推论 3.5.1**（指数族自然形式下的充分完备统计量）<br>设样本的分布为指数族的自然形式 $f\left(x,\theta\right)=C\left(\theta\right)\exp\left\{\sum_{i=1}^k\theta_iT_i\left(x\right)\right\}h\left(x\right)$，若自然参数空间作为 $\mathbb R^k$ 的子集有内点，则 $T\left(X\right)=\left(T_1\left(X\right),\dots,T_k\left(X\right)\right)$ 为充分完备统计量；此时若 $h\left(T\left(X\right)\right)$ 是 $g\left(\theta\right)$ 的无偏估计，则它是 $g\left(\theta\right)$ 唯一的一致最小方差无偏估计.
 
-> **例 3.5.3**（两点分布的充分完备统计量）<br>设 $X_1,X_2,\dots,X_n$ 是来自两点分布 $B\left(1,p\right)$，$0<p<1$ 的样本，则 $T\left(X_1,X_2,\dots,X_n\right)=\sum_{i=1}^n X_i\sim B\left(n,p\right)$ 是 $p$ 的充分完备统计量，且 $\bar X=\frac{1}{n}\sum_{i=1}^n X_i$ 为 $p$ 的唯一一致最小方差无偏估计.
+> **例 3.5.3**（两点分布的充分完备统计量）<br>设 $X_1,X_2,\dots,X_n$ 是来自两点分布 $B\left(1,p\right)$，$0< p< 1$ 的样本，则 $T\left(X_1,X_2,\dots,X_n\right)=\sum_{i=1}^n X_i\sim B\left(n,p\right)$ 是 $p$ 的充分完备统计量，且 $\bar X=\frac{1}{n}\sum_{i=1}^n X_i$ 为 $p$ 的唯一一致最小方差无偏估计.
 
-> **例 3.5.7**（正态总体的充分完备统计量）<br>设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$，$\mu\in\mathbb R,\ \sigma^2>0$ 的样本，则 $T\left(X\right)=\left(\bar X,\sum_{i=1}^n\left(X_i-\bar X\right)^2\right)$ 是 $\left(\mu,\sigma^2\right)$ 的充分完备统计量，其中 $\bar X=\frac{1}{n}\sum_{i=1}^n X_i$.
+> **例 3.5.7**（正态总体的充分完备统计量）<br>设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$，$\mu\in\mathbb R,\ \sigma^2> 0$ 的样本，则 $T\left(X\right)=\left(\bar X,\sum_{i=1}^n\left(X_i-\bar X\right)^2\right)$ 是 $\left(\mu,\sigma^2\right)$ 的充分完备统计量，其中 $\bar X=\frac{1}{n}\sum_{i=1}^n X_i$.
 
 > **抽样分布**（正态样本的抽样分布）<br>设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$ 的样本，记 $\bar X=\frac{1}{n}\sum_{i=1}^n X_i$，$S^2=\frac{1}{n-1}\sum_{i=1}^n\left(X_i-\bar X\right)^2$，则 $\bar X\sim N\left(\mu,\frac{\sigma^2}{n}\right)$，$\frac{\left(n-1\right)S^2}{\sigma^2}\sim\chi^2\left(n-1\right)$，且 $\bar X$ 与 $S^2$ 相互独立. 特别地，当 $\mu=0$ 时，$T=\sum_{i=1}^n X_i^2=\sigma^2\cdot\frac{\sum_{i=1}^n X_i^2}{\sigma^2}\sim\sigma^2\chi^2\left(n\right)$.
 
-> **基础知识**（$\chi^2$ 分布的矩）<br>若 $Y\sim\chi^2\left(k\right)$，则 $E\left(Y\right)=k$，$D\left(Y\right)=2k$，$E\left(Y^2\right)=k\left(k+2\right)$，$E\left(\frac{1}{Y}\right)=\frac{1}{k-2}\ \left(k>2\right)$，$E\left(\sqrt Y\right)=\sqrt 2\,\frac{\Gamma\left(\frac{k+1}{2}\right)}{\Gamma\left(\frac{k}{2}\right)}$.
+> **基础知识**（$\chi^2$ 分布的矩）<br>若 $Y\sim\chi^2\left(k\right)$，则 $E\left(Y\right)=k$，$D\left(Y\right)=2k$，$E\left(Y^2\right)=k\left(k+2\right)$，$E\left(\frac{1}{Y}\right)=\frac{1}{k-2}\ \left(k> 2\right)$，$E\left(\sqrt Y\right)=\sqrt 2\,\frac{\Gamma\left(\frac{k+1}{2}\right)}{\Gamma\left(\frac{k}{2}\right)}$.
 
 ### 习题一
 
-（习题 3.5-4）设 $X_1,X_2,\dots,X_n$ 是来自两点分布总体 $B\left(1,p\right)$，$0<p<1$ 的样本，其中 $0<p<1$ 为未知参数：
+（习题 3.5-4）设 $X_1,X_2,\dots,X_n$ 是来自两点分布总体 $B\left(1,p\right)$，$0< p< 1$ 的样本，其中 $0< p< 1$ 为未知参数：
 
-(1) 求 $p^m$ 的一致最小方差无偏估计，其中 $m>0$ 为自然数；
+(1) 求 $p^m$ 的一致最小方差无偏估计，其中 $m> 0$ 为自然数；
 
 (2) 求 $p\left(1-p\right)$ 的一致最小方差无偏估计.
 
@@ -36,7 +36,7 @@ h\left(t\right)=
 \end{cases}
 $$
 
-则对任意 $0<p<1$，
+则对任意 $0< p< 1$，
 
 $$
 E\left[h\left(T\right)\right]=\sum_{t=m}^n\frac{\binom{n-m}{t-m}}{\binom{n}{t}}\binom{n}{t}p^t\left(1-p\right)^{n-t}=\sum_{t=m}^n\binom{n-m}{t-m}p^t\left(1-p\right)^{n-t}.
@@ -74,7 +74,7 @@ $\blacksquare$
 
 ### 习题二
 
-（习题 3.5-6）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(0,\sigma^2\right)$ 的样本，其中 $\sigma>0$ 为未知参数，分别求 $\sigma$ 和 $\sigma^4$ 的一致最小方差无偏估计.
+（习题 3.5-6）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(0,\sigma^2\right)$ 的样本，其中 $\sigma> 0$ 为未知参数，分别求 $\sigma$ 和 $\sigma^4$ 的一致最小方差无偏估计.
 
 ### 解答 习题二
 
@@ -84,7 +84,7 @@ $$
 f\left(x;\sigma^2\right)=\frac{1}{\sqrt{2\pi}\sigma}\exp\left\{-\frac{x^2}{2\sigma^2}\right\}=\frac{1}{\sqrt{2\pi}}\left(\sigma^2\right)^{-\frac{1}{2}}\exp\left\{-\frac{1}{2\sigma^2}x^2\right\}.
 $$
 
-自然参数空间 $\left\{-\frac{1}{2\sigma^2}: \sigma>0\right\}=\left(-\infty,0\right)$ 作为 $\mathbb R$ 的子集有内点，故 $T=\sum_{i=1}^n X_i^2$ 为充分完备统计量. 由**抽样分布**（正态样本的抽样分布），$\frac{T}{\sigma^2}=\sum_{i=1}^n\left(\frac{X_i}{\sigma}\right)^2\sim\chi^2\left(n\right)$.
+自然参数空间 $\left\{-\frac{1}{2\sigma^2}: \sigma> 0\right\}=\left(-\infty,0\right)$ 作为 $\mathbb R$ 的子集有内点，故 $T=\sum_{i=1}^n X_i^2$ 为充分完备统计量. 由**抽样分布**（正态样本的抽样分布），$\frac{T}{\sigma^2}=\sum_{i=1}^n\left(\frac{X_i}{\sigma}\right)^2\sim\chi^2\left(n\right)$.
 
 (1) 求 $\sigma$ 的一致最小方差无偏估计. 由**基础知识**（$\chi^2$ 分布的矩），若 $Y\sim\chi^2\left(n\right)$，则 $E\left(\sqrt Y\right)=\sqrt 2\,\frac{\Gamma\left(\frac{n+1}{2}\right)}{\Gamma\left(\frac{n}{2}\right)}$. 令 $Y=\frac{T}{\sigma^2}$，则
 
@@ -120,7 +120,7 @@ $\blacksquare$
 
 ### 习题三
 
-（习题 3.5-7）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$ 的样本，其中 $\mu\in\mathbb R$，$\sigma>0$ 都是未知参数：
+（习题 3.5-7）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$ 的样本，其中 $\mu\in\mathbb R$，$\sigma> 0$ 都是未知参数：
 
 (1) 分别求 $\mu+\sigma^2$ 和 $\frac{\mu^2}{\sigma^2}$ 的一致最小方差无偏估计；
 
@@ -138,7 +138,7 @@ $$
 
 $\bar X+S^2$ 是充分完备统计量 $\left(\bar X,S^2\right)$ 的函数且无偏，由**定理 3.5.1**（L-S 定理），$\mu+\sigma^2$ 的唯一一致最小方差无偏估计为 $\bar X+S^2$.
 
-再求 $\frac{\mu^2}{\sigma^2}$ 的一致最小方差无偏估计. 由 $\bar X$ 与 $S^2$ 独立，以及 $E\left(\bar X^2\right)=D\left(\bar X\right)+\left(E\bar X\right)^2=\sigma^2/n+\mu^2$；由**基础知识**（$\chi^2$ 分布的矩），$\frac{\left(n-1\right)S^2}{\sigma^2}\sim\chi^2\left(n-1\right)$，故当 $n>3$ 时
+再求 $\frac{\mu^2}{\sigma^2}$ 的一致最小方差无偏估计. 由 $\bar X$ 与 $S^2$ 独立，以及 $E\left(\bar X^2\right)=D\left(\bar X\right)+\left(E\bar X\right)^2=\sigma^2/n+\mu^2$；由**基础知识**（$\chi^2$ 分布的矩），$\frac{\left(n-1\right)S^2}{\sigma^2}\sim\chi^2\left(n-1\right)$，故当 $n> 3$ 时
 
 $$
 E\left(\frac{1}{S^2}\right)=\frac{n-1}{\sigma^2}E\left[\frac{1}{\frac{\left(n-1\right)S^2}{\sigma^2}}\right]=\frac{n-1}{\sigma^2}\cdot\frac{1}{\left(n-1\right)-2}=\frac{n-1}{\sigma^2\left(n-3\right)}.
@@ -165,7 +165,7 @@ $$
 该估计量是充分完备统计量 $\left(\bar X,S^2\right)$ 的函数且无偏，由**定理 3.5.1**（L-S 定理），$\frac{\mu^2}{\sigma^2}$ 的唯一一致最小方差无偏估计为
 
 $$
-\frac{\left(n-3\right)\bar X^2}{\left(n-1\right)S^2}-\frac{1}{n}\quad\left(n>3\right).
+\frac{\left(n-3\right)\bar X^2}{\left(n-1\right)S^2}-\frac{1}{n}\quad\left(n> 3\right).
 $$
 
 (2) 证明 $\hat\mu^2=\bar X^2-\frac{S^2}{n}$ 是 $\mu^2$ 的一致最小方差无偏估计. 由 $E\left(\bar X^2\right)=\mu^2+\frac{\sigma^2}{n}$，$E\left(S^2\right)=\sigma^2$，得

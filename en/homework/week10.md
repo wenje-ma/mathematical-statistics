@@ -4,9 +4,9 @@
 
 > **Definition 3.4.2** (Efficiency)<br>Let both $\hat\theta_1$ and $\hat\theta_2$ be unbiased estimators of $\theta$. If for all $\theta\in\Theta$ one has $D\left(\hat\theta_1\right)\le D\left(\hat\theta_2\right)$, with the strict inequality holding for at least one $\theta$, then $\hat\theta_1$ is called more efficient than $\hat\theta_2$.
 
-> **Definition 3.4.3** (Consistent Estimator)<br>For each natural number $n$, let $\hat\theta_n=\hat\theta_n\left(X_1,X_2,\dots,X_n\right)$ be an estimator of $\theta$. If for every $\theta\in\Theta$ and every $\varepsilon>0$ one has $$\lim_{n\to\infty}P\left\{\left|\hat\theta_n-\theta\right|\ge\varepsilon\right\}=0,$$ then $\hat\theta_n$ is called a (weakly) consistent estimator of $\theta$.
+> **Definition 3.4.3** (Consistent Estimator)<br>For each natural number $n$, let $\hat\theta_n=\hat\theta_n\left(X_1,X_2,\dots,X_n\right)$ be an estimator of $\theta$. If for every $\theta\in\Theta$ and every $\varepsilon> 0$ one has $$\lim_{n\to\infty}P\left\{\left|\hat\theta_n-\theta\right|\ge\varepsilon\right\}=0,$$ then $\hat\theta_n$ is called a (weakly) consistent estimator of $\theta$.
 
-> **Basic Knowledge** (Chebyshev's Inequality and the Law of Large Numbers)<br>For any random variable $Y$ and $\varepsilon>0$, one has $P\left\{\left|Y-EY\right|\ge\varepsilon\right\}\le\frac{D\left(Y\right)}{\varepsilon^2}$; when the variables are independent and identically distributed with finite expectation, the law of large numbers gives $\bar X_n\xrightarrow{P}E\left(X\right)$; convergence in probability is preserved under the mapping by a continuous function.
+> **Basic Knowledge** (Chebyshev's Inequality and the Law of Large Numbers)<br>For any random variable $Y$ and $\varepsilon> 0$, one has $P\left\{\left|Y-EY\right|\ge\varepsilon\right\}\le\frac{D\left(Y\right)}{\varepsilon^2}$; when the variables are independent and identically distributed with finite expectation, the law of large numbers gives $\bar X_n\xrightarrow{P}E\left(X\right)$; convergence in probability is preserved under the mapping by a continuous function.
 
 ### Problem 1
 
@@ -39,7 +39,7 @@ $\blacksquare$
 (Problem 3.4-5) Let $X_1,X_2,\dots,X_n$ be a sample from the population $X$, and the density function of $X$ is
 
 $$
-f\left(x,\theta\right)=\begin{cases}e^{-\left(x-\theta\right)},&x>\theta,\\0,&\text{其他}.\end{cases}
+f\left(x,\theta\right)=\begin{cases}e^{-\left(x-\theta\right)},&x> \theta,\\0,&\text{其他}.\end{cases}
 $$
 
 (1) Find the method of moments estimator $\hat\theta_1$ of the parameter $\theta$, and determine whether $\hat\theta_1$ is an unbiased estimator of $\theta$;
@@ -77,10 +77,10 @@ $\blacksquare$
 (Problem 3.4-7) Let $X_1,X_2$ be a sample from the population $X$, and the density function of $X$ is
 
 $$
-f\left(x,\theta\right)=\begin{cases}k\theta^k x^{-\left(k+1\right)},&x>\theta,\\0,&\text{其他},\end{cases}
+f\left(x,\theta\right)=\begin{cases}k\theta^k x^{-\left(k+1\right)},&x> \theta,\\0,&\text{其他},\end{cases}
 $$
 
-where $k>2$ is known and $\theta>0$ is an unknown parameter.
+where $k> 2$ is known and $\theta> 0$ is an unknown parameter.
 
 (1) Prove that both $T_1=\frac{k-1}{2k}\left(X_1+X_2\right)$ and $T_2=\frac{2k-1}{2k}\min\left\{X_1,X_2\right\}$ are unbiased estimators of $\theta$;
 
@@ -100,10 +100,10 @@ $$
 E\left(T_1\right)=E\left[\frac{k-1}{2k}\left(X_1+X_2\right)\right]=\frac{k-1}{2k}\cdot 2\cdot\frac{k}{k-1}\theta=\theta.
 $$
 
-Write $X_{\left(1\right)}=\min\left\{X_1,X_2\right\}$; by independence, for $x>\theta$,
+Write $X_{\left(1\right)}=\min\left\{X_1,X_2\right\}$; by independence, for $x> \theta$,
 
 $$
-P\left(X_{\left(1\right)}>x\right)=\left[P\left(X_1>x\right)\right]^2=\left(\frac{\theta}{x}\right)^{2k},
+P\left(X_{\left(1\right)}> x\right)=\left[P\left(X_1> x\right)\right]^2=\left(\frac{\theta}{x}\right)^{2k},
 $$
 
 so the density function of $X_{\left(1\right)}$ is $2k\theta^{2k}x^{-\left(2k+1\right)}$, and therefore
@@ -150,7 +150,7 @@ $$
 D\left(T_2\right)=\left(\frac{2k-1}{2k}\right)^2\left[E\left(X_{\left(1\right)}^2\right)-\left(E\left(X_{\left(1\right)}\right)\right)^2\right]=\frac{\theta^2}{4k\left(k-1\right)}.
 $$
 
-Since $4k\left(k-1\right)>2k\left(k-2\right)$ ($k>2$), we have $D\left(T_2\right)<D\left(T_1\right)$. By **Definition 3.4.2** (Efficiency), $T_2$ is more efficient than $T_1$.
+Since $4k\left(k-1\right)> 2k\left(k-2\right)$ ($k> 2$), we have $D\left(T_2\right)< D\left(T_1\right)$. By **Definition 3.4.2** (Efficiency), $T_2$ is more efficient than $T_1$.
 
 $\blacksquare$
 
@@ -160,7 +160,7 @@ $\blacksquare$
 
 ### Solution to Problem 4
 
-By **Basic Knowledge** (Chebyshev's Inequality), for any $\varepsilon>0$,
+By **Basic Knowledge** (Chebyshev's Inequality), for any $\varepsilon> 0$,
 
 $$
 P\left\{\left|\hat\theta_n-\theta\right|\ge\varepsilon\right\}\le\frac{E\left[\left(\hat\theta_n-\theta\right)^2\right]}{\varepsilon^2}.
@@ -184,7 +184,7 @@ $\blacksquare$
 
 ### Problem 5
 
-(Problem 3.4-12) Let $X_1,X_2,\dots,X_n$ be a sample from the uniform distribution $U\left[0,\theta\right]$, $\theta>0$. Prove that $\sqrt\left[n\right]{X_1X_2\cdots X_n}$ is a consistent estimator of $\theta/e$.
+(Problem 3.4-12) Let $X_1,X_2,\dots,X_n$ be a sample from the uniform distribution $U\left[0,\theta\right]$, $\theta> 0$. Prove that $\sqrt\left[n\right]{X_1X_2\cdots X_n}$ is a consistent estimator of $\theta/e$.
 
 ### Solution to Problem 5
 

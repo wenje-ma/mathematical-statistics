@@ -8,7 +8,7 @@
 
 ### Problem 1
 
-(Problem 2.6-1) Let $X_1,X_2,\dots,X_n$ be a sample from a Poisson-distributed population $P\left(\lambda\right)$, $\lambda>0$. Prove that $\sum_{i=1}^n X_i$ is a complete statistic.
+(Problem 2.6-1) Let $X_1,X_2,\dots,X_n$ be a sample from a Poisson-distributed population $P\left(\lambda\right)$, $\lambda> 0$. Prove that $\sum_{i=1}^n X_i$ is a complete statistic.
 
 ### Solution to Problem 1
 
@@ -24,17 +24,17 @@ $$
 f\left(x_1,x_2,\dots,x_n;\eta\right)=e^{-ne^{\eta}}\exp\left\{\eta\sum_{i=1}^n x_i\right\}\prod_{i=1}^n\frac{1}{x_i!}=C\left(\eta\right)\exp\left\{\eta T\left(x_1,\dots,x_n\right)\right\}h\left(x_1,\dots,x_n\right),
 $$
 
-where $T=\sum_{i=1}^n x_i$ and $h=\prod_{i=1}^n\frac{1}{x_i!}$ do not depend on the parameters. Since $\lambda>0$, the natural parameter $\eta=\ln\lambda\in\left(-\infty,+\infty\right)$, whose natural parameter space has an interior point. By **Theorem 2.6.1** (Completeness of a Statistic in an Exponential Family), $T=\sum_{i=1}^n X_i$ is a complete statistic. $\blacksquare$
+where $T=\sum_{i=1}^n x_i$ and $h=\prod_{i=1}^n\frac{1}{x_i!}$ do not depend on the parameters. Since $\lambda> 0$, the natural parameter $\eta=\ln\lambda\in\left(-\infty,+\infty\right)$, whose natural parameter space has an interior point. By **Theorem 2.6.1** (Completeness of a Statistic in an Exponential Family), $T=\sum_{i=1}^n X_i$ is a complete statistic. $\blacksquare$
 
 ### Problem 2
 
 (Problem 2.6-5) Let $X_1,X_2,\dots,X_n$ be a sample from the Rayleigh distribution, whose density function is
 
 $$
-f\left(x\right)=\begin{cases}2\theta x e^{-\theta x^2},&x>0,\\0,&\text{其他},\end{cases}
+f\left(x\right)=\begin{cases}2\theta x e^{-\theta x^2},&x> 0,\\0,&\text{其他},\end{cases}
 $$
 
-where $\theta>0$. Give a complete statistic.
+where $\theta> 0$. Give a complete statistic.
 
 ### Solution to Problem 2
 
@@ -50,17 +50,17 @@ $$
 f\left(x_1,x_2,\dots,x_n;\eta\right)=\left(-2\eta\right)^n\exp\left\{\eta\sum_{i=1}^n x_i^2\right\}\prod_{i=1}^n x_i=C\left(\eta\right)\exp\left\{\eta T\left(x_1,\dots,x_n\right)\right\}h\left(x_1,\dots,x_n\right),
 $$
 
-where $T=\sum_{i=1}^n x_i^2$ and $h=\prod_{i=1}^n x_i$ do not depend on the parameters. Since $\theta>0$, the natural parameter $\eta=-\theta\in\left(-\infty,0\right)$, whose natural parameter space has an interior point. By **Theorem 2.6.1** (Completeness of a Statistic in an Exponential Family), $T=\sum_{i=1}^n X_i^2$ is a complete statistic, so we may take the complete statistic to be $T=\sum_{i=1}^n X_i^2$. $\blacksquare$
+where $T=\sum_{i=1}^n x_i^2$ and $h=\prod_{i=1}^n x_i$ do not depend on the parameters. Since $\theta> 0$, the natural parameter $\eta=-\theta\in\left(-\infty,0\right)$, whose natural parameter space has an interior point. By **Theorem 2.6.1** (Completeness of a Statistic in an Exponential Family), $T=\sum_{i=1}^n X_i^2$ is a complete statistic, so we may take the complete statistic to be $T=\sum_{i=1}^n X_i^2$. $\blacksquare$
 
 ### Problem 3
 
 (Problem 2.6-6) Let $X_1,X_2,\dots,X_n$ be a sample from the exponential distribution $E\left(\lambda\right)$, whose density function is
 
 $$
-f\left(x\right)=\begin{cases}\lambda e^{-\lambda x},&x>0,\\0,&x\le 0,\end{cases}
+f\left(x\right)=\begin{cases}\lambda e^{-\lambda x},&x> 0,\\0,&x\le 0,\end{cases}
 $$
 
-where $\lambda>0$. Prove that $\sum_{i=1}^n X_i$ is a complete statistic.
+where $\lambda> 0$. Prove that $\sum_{i=1}^n X_i$ is a complete statistic.
 
 ### Solution to Problem 3
 
@@ -76,7 +76,7 @@ $$
 f\left(x_1,x_2,\dots,x_n;\eta\right)=\left(-\eta\right)^n\exp\left\{\eta\sum_{i=1}^n x_i\right\}=C\left(\eta\right)\exp\left\{\eta T\left(x_1,\dots,x_n\right)\right\}h\left(x_1,\dots,x_n\right),
 $$
 
-where $T=\sum_{i=1}^n x_i$ and $h=1$ do not depend on the parameters. Since $\lambda>0$, the natural parameter $\eta=-\lambda\in\left(-\infty,0\right)$, whose natural parameter space has an interior point. By **Theorem 2.6.1** (Completeness of a Statistic in an Exponential Family), $T=\sum_{i=1}^n X_i$ is a complete statistic. $\blacksquare$
+where $T=\sum_{i=1}^n x_i$ and $h=1$ do not depend on the parameters. Since $\lambda> 0$, the natural parameter $\eta=-\lambda\in\left(-\infty,0\right)$, whose natural parameter space has an interior point. By **Theorem 2.6.1** (Completeness of a Statistic in an Exponential Family), $T=\sum_{i=1}^n X_i$ is a complete statistic. $\blacksquare$
 
 ### Problem 4
 
@@ -100,7 +100,7 @@ $$
 f=C\left(\sigma^2\right)\exp\left\{-\frac{1}{2\sigma^2}\sum_{i=1}^n\left(x_i-\mu\right)^2\right\}.
 $$
 
-Letting the natural parameter be $\eta=-\frac{1}{2\sigma^2}$, then $T=\sum_{i=1}^n\left(x_i-\mu\right)^2$. Since $\sigma^2>0$, the natural parameter $\eta\in\left(-\infty,0\right)$ has an interior point. By **Theorem 2.6.1** (Completeness of a Statistic in an Exponential Family), $T=\sum_{i=1}^n\left(X_i-\mu\right)^2$ is a complete statistic for $\sigma^2$.
+Letting the natural parameter be $\eta=-\frac{1}{2\sigma^2}$, then $T=\sum_{i=1}^n\left(x_i-\mu\right)^2$. Since $\sigma^2> 0$, the natural parameter $\eta\in\left(-\infty,0\right)$ has an interior point. By **Theorem 2.6.1** (Completeness of a Statistic in an Exponential Family), $T=\sum_{i=1}^n\left(X_i-\mu\right)^2$ is a complete statistic for $\sigma^2$.
 
 (2) When $\sigma^2$ is known, expand the exponential part:
 
@@ -118,7 +118,7 @@ Letting the natural parameter be $\eta=\frac{\mu}{\sigma^2}$, then $T=\sum_{i=1}
 
 ### Problem 5
 
-(Problem 2.6-10) Let $X_1,X_2,\dots,X_n$ be a sample from a uniform-distribution population $U\left[\theta,2\theta\right]$, $\theta>0$. Prove that $\left(X_{\left(1\right)},X_{\left(n\right)}\right)$ is a sufficient statistic but not a complete statistic.
+(Problem 2.6-10) Let $X_1,X_2,\dots,X_n$ be a sample from a uniform-distribution population $U\left[\theta,2\theta\right]$, $\theta> 0$. Prove that $\left(X_{\left(1\right)},X_{\left(n\right)}\right)$ is a sufficient statistic but not a complete statistic.
 
 ### Solution to Problem 5
 
@@ -142,7 +142,7 @@ $$
 \Phi\left(T\right)=\left(n+2\right)X_{\left(n\right)}-\left(2n+1\right)X_{\left(1\right)},
 $$
 
-then for all $\theta>0$,
+then for all $\theta> 0$,
 
 $$
 E\left[\Phi\left(T\right)\right]=\left(n+2\right)\frac{\theta\left(2n+1\right)}{n+1}-\left(2n+1\right)\frac{\theta\left(n+2\right)}{n+1}=0.

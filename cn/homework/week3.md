@@ -2,19 +2,19 @@
 
 > **定义 2.2.1**（$\chi^2$ 分布）<br>设 $X_1,X_2,\dots,X_n$ 相互独立且都服从 $N\left(0,1\right)$，则称 $$\chi^2=X_1^2+X_2^2+\dots+X_n^2$$ 为自由度为 $n$ 的 $\chi^2$ 变量，其分布称为自由度为 $n$ 的 $\chi^2$ 分布，记作 $\chi^2\sim\chi^2\left(n\right)$.
 
-> **定理 2.2.1**（$\chi^2$ 分布的密度函数）<br>设 $\chi^2\sim\chi^2\left(n\right)$，则其密度函数为 $$f\left(x\right)=\begin{cases}\frac{1}{2^{n/2}\Gamma\left(n/2\right)}x^{n/2-1}e^{-x/2},&x>0,\\0,&x\le0.\end{cases}$$
+> **定理 2.2.1**（$\chi^2$ 分布的密度函数）<br>设 $\chi^2\sim\chi^2\left(n\right)$，则其密度函数为 $$f\left(x\right)=\begin{cases}\frac{1}{2^{n/2}\Gamma\left(n/2\right)}x^{n/2-1}e^{-x/2},&x> 0,\\0,&x\le0.\end{cases}$$
 
 > **$\chi^2$ 分布的性质**<br>设 $\chi^2\sim\chi^2\left(n\right)$，则 $E\left(\chi^2\right)=n$，$D\left(\chi^2\right)=2n$. 若 $X_1\sim\chi^2\left(n_1\right)$，$X_2\sim\chi^2\left(n_2\right)$，且 $X_1$ 与 $X_2$ 相互独立，则 $X_1+X_2\sim\chi^2\left(n_1+n_2\right)$，该性质称为 $\chi^2$ 分布的可加性.
 
 > **定义 2.2.2**（$t$ 分布）<br>设随机变量 $X\sim N\left(0,1\right)$，$Y\sim\chi^2\left(n\right)$，且 $X$ 与 $Y$ 相互独立，则称随机变量 $$T=\frac{X}{\sqrt{Y/n}}$$ 为自由度为 $n$ 的 $t$ 变量，其分布称为自由度为 $n$ 的 $t$ 分布，记作 $T\sim t\left(n\right)$.
 
-> **定理 2.2.2**（$t$ 分布的密度函数）<br>设 $T\sim t\left(n\right)$，则其密度函数为 $$f\left(t\right)=\frac{\Gamma\left(\left(n+1\right)/2\right)}{\Gamma\left(n/2\right)\sqrt{n\pi}}\left(1+\frac{t^2}{n}\right)^{-\left(n+1\right)/2},\quad-\infty<t<+\infty.$$
+> **定理 2.2.2**（$t$ 分布的密度函数）<br>设 $T\sim t\left(n\right)$，则其密度函数为 $$f\left(t\right)=\frac{\Gamma\left(\left(n+1\right)/2\right)}{\Gamma\left(n/2\right)\sqrt{n\pi}}\left(1+\frac{t^2}{n}\right)^{-\left(n+1\right)/2},\quad-\infty< t< +\infty.$$
 
 > **定义 2.2.3**（$F$ 分布）<br>设随机变量 $X\sim\chi^2\left(m\right)$，$Y\sim\chi^2\left(n\right)$，且 $X$ 与 $Y$ 相互独立，则称随机变量 $$F=\frac{X/m}{Y/n}$$ 为自由度为 $m$ 和 $n$ 的 $F$ 变量，其所服从的分布称为 $F$ 分布，记作 $F\sim F\left(m,n\right)$.
 
 > **推论 2.2.1**（$X/Y$ 与 $X+Y$ 的独立性）<br>设随机变量 $X\sim\chi^2\left(m\right)$，$Y\sim\chi^2\left(n\right)$，且 $X$ 与 $Y$ 相互独立，则 $U=X/Y$ 与 $V=X+Y$ 相互独立.
 
-> **伽马分布**<br>若随机变量 $X$ 的密度函数为 $$f\left(x\right)=\begin{cases}\frac{\lambda^\alpha}{\Gamma\left(\alpha\right)}x^{\alpha-1}e^{-\lambda x},&x>0,\\0,&x\le0,\end{cases}$$ 其中 $\alpha>0$ 为形状参数，$\lambda>0$ 为尺度参数，则称 $X$ 服从参数为 $\left(\alpha,\lambda\right)$ 的伽马分布，记作 $X\sim Ga\left(\alpha,\lambda\right)$. 当 $\alpha=1$ 时，$Ga\left(1,\lambda\right)$ 为指数分布；当 $\alpha=n/2$，$\lambda=1/2$ 时，$Ga\left(n/2,1/2\right)$ 即 $\chi^2\left(n\right)$ 分布.
+> **伽马分布**<br>若随机变量 $X$ 的密度函数为 $$f\left(x\right)=\begin{cases}\frac{\lambda^\alpha}{\Gamma\left(\alpha\right)}x^{\alpha-1}e^{-\lambda x},&x> 0,\\0,&x\le0,\end{cases}$$ 其中 $\alpha> 0$ 为形状参数，$\lambda> 0$ 为尺度参数，则称 $X$ 服从参数为 $\left(\alpha,\lambda\right)$ 的伽马分布，记作 $X\sim Ga\left(\alpha,\lambda\right)$. 当 $\alpha=1$ 时，$Ga\left(1,\lambda\right)$ 为指数分布；当 $\alpha=n/2$，$\lambda=1/2$ 时，$Ga\left(n/2,1/2\right)$ 即 $\chi^2\left(n\right)$ 分布.
 
 ### 习题一
 
@@ -87,7 +87,7 @@ $$
 由**定理 2.2.1**（$\chi^2$ 分布的密度函数），$X\sim\chi^2\left(n\right)$ 的密度函数为
 
 $$
-f\left(x\right)=\frac{1}{2^{n/2}\Gamma\left(n/2\right)}x^{n/2-1}e^{-x/2},\quad x>0.
+f\left(x\right)=\frac{1}{2^{n/2}\Gamma\left(n/2\right)}x^{n/2-1}e^{-x/2},\quad x> 0.
 $$
 
 于是
@@ -144,11 +144,11 @@ $$
 P\left\{Y\le y\right\}=P\left\{F\left(X\right)\le y\right\}=P\left\{X\le F^{-1}\left(y\right)\right\}=F\left(F^{-1}\left(y\right)\right)=y.
 $$
 
-当 $y<0$ 时 $P\left\{Y\le y\right\}=0$；当 $y>1$ 时 $P\left\{Y\le y\right\}=1$. 故 $Y=F\left(X\right)\sim U\left(0,1\right)$.
+当 $y< 0$ 时 $P\left\{Y\le y\right\}=0$；当 $y> 1$ 时 $P\left\{Y\le y\right\}=1$. 故 $Y=F\left(X\right)\sim U\left(0,1\right)$.
 
 (2) 由**定义 1.3.2**（简单随机样本），$X_1,X_2,\dots,X_n$ 相互独立且与总体 $X$ 同分布，故由 (1)，$Y_i=F\left(X_i\right)\sim U\left(0,1\right)$，且 $Y_1,Y_2,\dots,Y_n$ 相互独立.
 
-令 $Z_i=-2\ln Y_i$. 对 $z>0$，
+令 $Z_i=-2\ln Y_i$. 对 $z> 0$，
 
 $$
 P\left\{Z_i\le z\right\}=P\left\{-2\ln Y_i\le z\right\}=P\left\{\ln Y_i\ge-\frac{z}{2}\right\}=P\left\{Y_i\ge e^{-z/2}\right\}=1-e^{-z/2}.
@@ -164,7 +164,7 @@ $\blacksquare$
 
 ### 习题四
 
-（习题 2.2-6）设随机变量 $X$ 服从参数为 $\alpha$，$\lambda$ 的伽马分布 $Ga\left(\alpha,\lambda\right)$，$\alpha>0$，$\lambda>0$. 证明：
+（习题 2.2-6）设随机变量 $X$ 服从参数为 $\alpha$，$\lambda$ 的伽马分布 $Ga\left(\alpha,\lambda\right)$，$\alpha> 0$，$\lambda> 0$. 证明：
 
 (1) $X$ 的特征函数为 $\varphi\left(t\right)=\left(1-\frac{it}{\lambda}\right)^{-\alpha}$；
 
@@ -181,7 +181,7 @@ $\blacksquare$
 由**伽马分布**，$X\sim Ga\left(\alpha,\lambda\right)$ 的密度函数为
 
 $$
-f\left(x\right)=\frac{\lambda^\alpha}{\Gamma\left(\alpha\right)}x^{\alpha-1}e^{-\lambda x},\quad x>0.
+f\left(x\right)=\frac{\lambda^\alpha}{\Gamma\left(\alpha\right)}x^{\alpha-1}e^{-\lambda x},\quad x> 0.
 $$
 
 (1) 特征函数为
@@ -190,7 +190,7 @@ $$
 \varphi\left(t\right)=E\left(e^{itX}\right)=\int_0^{+\infty}e^{itx}\cdot\frac{\lambda^\alpha}{\Gamma\left(\alpha\right)}x^{\alpha-1}e^{-\lambda x}\,\mathrm{d}x=\frac{\lambda^\alpha}{\Gamma\left(\alpha\right)}\int_0^{+\infty}x^{\alpha-1}e^{-\left(\lambda-it\right)x}\,\mathrm{d}x.
 $$
 
-由伽马函数定义，$\int_0^{+\infty}x^{\alpha-1}e^{-sx}\,\mathrm{d}x=\Gamma\left(\alpha\right)/s^\alpha$（$\mathrm{Re}\left(s\right)>0$），故
+由伽马函数定义，$\int_0^{+\infty}x^{\alpha-1}e^{-sx}\,\mathrm{d}x=\Gamma\left(\alpha\right)/s^\alpha$（$\mathrm{Re}\left(s\right)> 0$），故
 
 $$
 \varphi\left(t\right)=\frac{\lambda^\alpha}{\Gamma\left(\alpha\right)}\cdot\frac{\Gamma\left(\alpha\right)}{\left(\lambda-it\right)^\alpha}=\left(\frac{\lambda}{\lambda-it}\right)^\alpha=\left(1-\frac{it}{\lambda}\right)^{-\alpha}.
@@ -227,7 +227,7 @@ $$
 (5) 当 $\alpha=1$ 时，$\Gamma\left(1\right)=1$，密度函数为
 
 $$
-f\left(x\right)=\lambda e^{-\lambda x},\quad x>0,
+f\left(x\right)=\lambda e^{-\lambda x},\quad x> 0,
 $$
 
 即参数为 $\lambda$ 的指数分布. $\blacksquare$
@@ -241,7 +241,7 @@ $$
 由**定理 2.2.1**（$\chi^2$ 分布的密度函数）及 $X$ 与 $Y$ 相互独立，$\left(X,Y\right)$ 的联合密度函数为
 
 $$
-f\left(x,y\right)=\frac{1}{2^{\left(m+n\right)/2}\Gamma\left(m/2\right)\Gamma\left(n/2\right)}x^{m/2-1}y^{n/2-1}e^{-\left(x+y\right)/2},\quad x>0,\ y>0.
+f\left(x,y\right)=\frac{1}{2^{\left(m+n\right)/2}\Gamma\left(m/2\right)\Gamma\left(n/2\right)}x^{m/2-1}y^{n/2-1}e^{-\left(x+y\right)/2},\quad x> 0,\ y> 0.
 $$
 
 作变换 $u=x/y$，$v=x+y$，即 $x=\frac{uv}{1+u}$，$y=\frac{v}{1+u}$. 该变换的雅可比行列式为
@@ -316,7 +316,7 @@ $\blacksquare$
 
 ### 习题七
 
-（习题 2.2-10）设随机变量 $X\sim F\left(1,1\right)$，求 $P\left\{X<1\right\}$.
+（习题 2.2-10）设随机变量 $X\sim F\left(1,1\right)$，求 $P\left\{X< 1\right\}$.
 
 ### 解答 习题七
 
@@ -335,13 +335,13 @@ $$
 由 $Z_1,Z_2$ 独立同分布于 $N\left(0,1\right)$，它们关于原点对称且地位完全对等. 由**$F$ 分布的性质**，若 $X\sim F\left(1,1\right)$，则 $1/X\sim F\left(1,1\right)$，即 $X$ 与 $1/X$ 同分布. 因此
 
 $$
-P\left\{X<1\right\}=P\left\{\frac{1}{X}>1\right\}=P\left\{X>1\right\}.
+P\left\{X< 1\right\}=P\left\{\frac{1}{X}> 1\right\}=P\left\{X> 1\right\}.
 $$
 
 又 $P\left\{X=1\right\}=0$（连续型分布），故
 
 $$
-P\left\{X<1\right\}+P\left\{X>1\right\}=1,
+P\left\{X< 1\right\}+P\left\{X> 1\right\}=1,
 $$
 
-从而 $P\left\{X<1\right\}=\frac{1}{2}$. $\blacksquare$
+从而 $P\left\{X< 1\right\}=\frac{1}{2}$. $\blacksquare$

@@ -12,15 +12,15 @@
 
 (Problem 3.3-3) Let $X_1,X_2,\dots,X_n$ be a sample from the population $X$, and the density function $f\left(x\right)$ of $X$ is as follows. Find the maximum likelihood estimators of the unknown parameters:
 
-(1) $f\left(x,\theta\right)=\begin{cases}\left(\theta+1\right)x^\theta,&0<x<1,\\0,&\text{其他},\end{cases}$ where $\theta>-1$ is an unknown parameter;
+(1) $f\left(x,\theta\right)=\begin{cases}\left(\theta+1\right)x^\theta,&0< x< 1,\\0,&\text{其他},\end{cases}$ where $\theta> -1$ is an unknown parameter;
 
-(2) $f\left(x,\theta\right)=\begin{cases}\theta e^{-\theta x},&x>0,\\0,&x\le0,\end{cases}$ where $\theta>0$ is an unknown parameter;
+(2) $f\left(x,\theta\right)=\begin{cases}\theta e^{-\theta x},&x> 0,\\0,&x\le0,\end{cases}$ where $\theta> 0$ is an unknown parameter;
 
-(3) $f\left(x,\theta\right)=\frac{1}{2\theta}e^{-\frac{\left|x\right|}{\theta}},\ -\infty<x<+\infty$, where $\theta>0$ is an unknown parameter;
+(3) $f\left(x,\theta\right)=\frac{1}{2\theta}e^{-\frac{\left|x\right|}{\theta}},\ -\infty< x< +\infty$, where $\theta> 0$ is an unknown parameter;
 
 (4) $f\left(x,\theta\right)=\begin{cases}1,&\theta-0.5\le x\le\theta+0.5,\\0,&\text{其他},\end{cases}$ where $\theta\in\mathbb R$ is an unknown parameter;
 
-(5) $f\left(x,\mu,\sigma^2\right)=\begin{cases}\frac{1}{\sqrt{2\pi}\sigma x}e^{-\frac{\left(\ln x-\mu\right)^2}{2\sigma^2}},&x>0,\\0,&x\le0,\end{cases}$ where $\mu\in\mathbb R,\ \sigma^2>0$ are unknown parameters.
+(5) $f\left(x,\mu,\sigma^2\right)=\begin{cases}\frac{1}{\sqrt{2\pi}\sigma x}e^{-\frac{\left(\ln x-\mu\right)^2}{2\sigma^2}},&x> 0,\\0,&x\le0,\end{cases}$ where $\mu\in\mathbb R,\ \sigma^2> 0$ are unknown parameters.
 
 ### Solution to Problem 1
 
@@ -29,7 +29,7 @@ By **Likelihood Function and Log-likelihood Function**, write out the likelihood
 (1) The likelihood function is
 
 $$
-L\left(\theta\right)=\prod_{i=1}^n\left(\theta+1\right)x_i^\theta=\left(\theta+1\right)^n\left(\prod_{i=1}^n x_i\right)^\theta,\quad 0<x_i<1.
+L\left(\theta\right)=\prod_{i=1}^n\left(\theta+1\right)x_i^\theta=\left(\theta+1\right)^n\left(\prod_{i=1}^n x_i\right)^\theta,\quad 0< x_i< 1.
 $$
 
 The log-likelihood function is $\ln L\left(\theta\right)=n\ln\left(\theta+1\right)+\theta\sum_{i=1}^n\ln x_i$. By **How to Find the MLE**, setting
@@ -38,7 +38,7 @@ $$
 \frac{\mathrm{d}\ln L}{\mathrm{d}\theta}=\frac{n}{\theta+1}+\sum_{i=1}^n\ln x_i=0,
 $$
 
-and solving gives $\hat\theta=-1-\frac{n}{\sum_{i=1}^n\ln x_i}$. Since $0<x_i<1$, $\sum_{i=1}^n\ln x_i<0$, so $\hat\theta>-1$; also $\frac{\mathrm{d}^2\ln L}{\mathrm{d}\theta^2}=-\frac{n}{\left(\theta+1\right)^2}<0$, so this stationary point is a maximum point. Hence
+and solving gives $\hat\theta=-1-\frac{n}{\sum_{i=1}^n\ln x_i}$. Since $0< x_i< 1$, $\sum_{i=1}^n\ln x_i< 0$, so $\hat\theta> -1$; also $\frac{\mathrm{d}^2\ln L}{\mathrm{d}\theta^2}=-\frac{n}{\left(\theta+1\right)^2}< 0$, so this stationary point is a maximum point. Hence
 
 $$
 \hat\theta=-1-\frac{n}{\sum_{i=1}^n\ln X_i}.
@@ -47,7 +47,7 @@ $$
 (2) The likelihood function is
 
 $$
-L\left(\theta\right)=\prod_{i=1}^n\theta e^{-\theta x_i}=\theta^n e^{-\theta\sum_{i=1}^n x_i},\quad x_i>0.
+L\left(\theta\right)=\prod_{i=1}^n\theta e^{-\theta x_i}=\theta^n e^{-\theta\sum_{i=1}^n x_i},\quad x_i> 0.
 $$
 
 The log-likelihood function is $\ln L\left(\theta\right)=n\ln\theta-\theta\sum_{i=1}^n x_i$. Setting $\frac{\mathrm{d}\ln L}{\mathrm{d}\theta}=\frac{n}{\theta}-\sum_{i=1}^n x_i=0$ and solving gives
@@ -98,7 +98,7 @@ $\blacksquare$
 
 ### Problem 2
 
-(Problem 3.3-4) Let $X_1,X_2,\dots,X_n$ be a sample from the normal population $N\left(\mu,\sigma^2\right)$, where $\mu\in\mathbb R,\ \sigma>0$.
+(Problem 3.3-4) Let $X_1,X_2,\dots,X_n$ be a sample from the normal population $N\left(\mu,\sigma^2\right)$, where $\mu\in\mathbb R,\ \sigma> 0$.
 
 (1) If $\mu$ is unknown and $\sigma$ is known, find the maximum likelihood estimator of $\mu$;
 
@@ -139,10 +139,10 @@ $\blacksquare$
 (Problem 3.3-6) Let $X_1,X_2,\dots,X_n$ be a sample from a two-parameter exponential-distribution population, whose density function is
 
 $$
-f\left(x,\mu,\lambda\right)=\begin{cases}\lambda\exp\left\{-\lambda\left(x-\mu\right)\right\},&x>\mu,\\0,&\text{其他},\end{cases}
+f\left(x,\mu,\lambda\right)=\begin{cases}\lambda\exp\left\{-\lambda\left(x-\mu\right)\right\},&x> \mu,\\0,&\text{其他},\end{cases}
 $$
 
-where $-\infty<\mu<+\infty,\ \lambda>0$ are unknown parameters. Find respectively the maximum likelihood estimators of $\mu,\lambda$ and of $\alpha=P\left\{X_1\ge t\right\}$ ($t>\mu$).
+where $-\infty< \mu< +\infty,\ \lambda> 0$ are unknown parameters. Find respectively the maximum likelihood estimators of $\mu,\lambda$ and of $\alpha=P\left\{X_1\ge t\right\}$ ($t> \mu$).
 
 ### Solution to Problem 3
 
@@ -152,7 +152,7 @@ $$
 L\left(\mu,\lambda\right)=\prod_{i=1}^n\lambda e^{-\lambda\left(x_i-\mu\right)}=\lambda^n e^{-\lambda\sum_{i=1}^n x_i+n\lambda\mu},
 $$
 
-and when $\mu>x_{\left(1\right)}$, $L=0$. By **How to Find the MLE**, for fixed $\lambda>0$, $L\left(\mu,\lambda\right)=e^{n\lambda\mu}\cdot\lambda^n e^{-\lambda\sum x_i}$ is increasing in $\mu$, so the maximum is attained at the largest allowable $\mu$, namely
+and when $\mu> x_{\left(1\right)}$, $L=0$. By **How to Find the MLE**, for fixed $\lambda> 0$, $L\left(\mu,\lambda\right)=e^{n\lambda\mu}\cdot\lambda^n e^{-\lambda\sum x_i}$ is increasing in $\mu$, so the maximum is attained at the largest allowable $\mu$, namely
 
 $$
 \hat\mu=X_{\left(1\right)}=\min\left\{X_1,\dots,X_n\right\}.

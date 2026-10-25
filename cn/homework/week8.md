@@ -8,17 +8,17 @@
 
 （习题 3.2-3）设 $X_1,X_2,\dots,X_n$ 是来自总体 $X$ 的样本，且 $X$ 的密度函数 $f\left(x\right)$ 如下所示，求其中未知参数的矩估计.
 
-(1) $f\left(x,\theta\right)=\begin{cases}\left(\theta+1\right)x^\theta,&0<x<1,\\0,&\text{其他},\end{cases}$ 其中 $\theta>-1$ 为未知参数；
+(1) $f\left(x,\theta\right)=\begin{cases}\left(\theta+1\right)x^\theta,&0< x< 1,\\0,&\text{其他},\end{cases}$ 其中 $\theta> -1$ 为未知参数；
 
-(2) $f\left(x,\theta\right)=\begin{cases}\theta e^{-\theta x},&x>0,\\0,&x\le 0,\end{cases}$ 其中 $\theta>0$ 为未知参数；
+(2) $f\left(x,\theta\right)=\begin{cases}\theta e^{-\theta x},&x> 0,\\0,&x\le 0,\end{cases}$ 其中 $\theta> 0$ 为未知参数；
 
-(3) $f\left(x,\theta\right)=\frac{1}{2\theta}e^{-\frac{\left|x\right|}{\theta}},\ -\infty<x<+\infty$，其中 $\theta>0$ 为未知参数；
+(3) $f\left(x,\theta\right)=\frac{1}{2\theta}e^{-\frac{\left|x\right|}{\theta}},\ -\infty< x< +\infty$，其中 $\theta> 0$ 为未知参数；
 
 (4) $f\left(x,\theta\right)=\begin{cases}1,&\theta-0.5\le x\le\theta+0.5,\\0,&\text{其他},\end{cases}$ 其中 $\theta\in\mathbb R$ 为未知参数；
 
-(5) $f\left(x,\mu,\sigma^2\right)=\begin{cases}\frac{1}{\sqrt{2\pi}\sigma x}e^{-\frac{\left(\ln x-\mu\right)^2}{2\sigma^2}},&x>0,\\0,&x\le 0,\end{cases}$ 其中 $\mu\in\mathbb R$，$\sigma>0$ 为未知参数；
+(5) $f\left(x,\mu,\sigma^2\right)=\begin{cases}\frac{1}{\sqrt{2\pi}\sigma x}e^{-\frac{\left(\ln x-\mu\right)^2}{2\sigma^2}},&x> 0,\\0,&x\le 0,\end{cases}$ 其中 $\mu\in\mathbb R$，$\sigma> 0$ 为未知参数；
 
-(6) $f\left(x,\mu,\lambda\right)=\begin{cases}\lambda e^{-\lambda\left(x-\mu\right)},&x>\mu,\\0,&\text{其他},\end{cases}$ 其中 $\mu\in\mathbb R$，$\lambda>0$ 为未知参数.
+(6) $f\left(x,\mu,\lambda\right)=\begin{cases}\lambda e^{-\lambda\left(x-\mu\right)},&x> \mu,\\0,&\text{其他},\end{cases}$ 其中 $\mu\in\mathbb R$，$\lambda> 0$ 为未知参数.
 
 ### 解答 习题一
 
@@ -82,14 +82,14 @@ $\blacksquare$
 
 ### 习题二
 
-（习题 3.2-5）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$ 的样本，求 $P\left\{X>1\right\}$ 的矩估计.
+（习题 3.2-5）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$ 的样本，求 $P\left\{X> 1\right\}$ 的矩估计.
 
 ### 解答 习题二
 
 由 $X\sim N\left(\mu,\sigma^2\right)$，知
 
 $$
-P\left\{X>1\right\}=1-P\left\{X\le 1\right\}=1-\Phi\left(\frac{1-\mu}{\sigma}\right),
+P\left\{X> 1\right\}=1-P\left\{X\le 1\right\}=1-\Phi\left(\frac{1-\mu}{\sigma}\right),
 $$
 
 其中 $\Phi\left(\cdot\right)$ 为标准正态分布函数. 由**例 3.2.1 结论**（总体均值与方差的矩估计），$\mu$ 与 $\sigma$ 的矩估计分别为
@@ -98,10 +98,10 @@ $$
 \hat\mu=\bar X=\frac{1}{n}\sum_{i=1}^n X_i,\quad \hat\sigma=S_n=\sqrt{\frac{1}{n}\sum_{i=1}^n\left(X_i-\bar X\right)^2}.
 $$
 
-由**定义 3.2.1**（矩估计）中参数函数的矩估计方法，以 $\hat\mu,\hat\sigma$ 替换 $\mu,\sigma$，得 $P\left\{X>1\right\}$ 的矩估计为
+由**定义 3.2.1**（矩估计）中参数函数的矩估计方法，以 $\hat\mu,\hat\sigma$ 替换 $\mu,\sigma$，得 $P\left\{X> 1\right\}$ 的矩估计为
 
 $$
-\widehat{P\left\{X>1\right\}}=1-\Phi\left(\frac{1-\bar X}{S_n}\right).
+\widehat{P\left\{X> 1\right\}}=1-\Phi\left(\frac{1-\bar X}{S_n}\right).
 $$
 
 $\blacksquare$
@@ -111,10 +111,10 @@ $\blacksquare$
 （习题 3.2-7）设 $X_1,X_2,\dots,X_n$ 是来自总体 $X$ 的样本，且 $X$ 的分布函数为
 
 $$
-F\left(x;\theta\right)=\begin{cases}1-x^{-\theta},&x\ge 1,\\0,&x<1,\end{cases}
+F\left(x;\theta\right)=\begin{cases}1-x^{-\theta},&x\ge 1,\\0,&x< 1,\end{cases}
 $$
 
-其中 $\theta>1$ 为未知参数，求 $\theta$ 的矩估计.
+其中 $\theta> 1$ 为未知参数，求 $\theta$ 的矩估计.
 
 ### 解答 习题三
 
@@ -130,7 +130,7 @@ $$
 E\left(X\right)=\int_1^{+\infty}x\cdot\theta x^{-\left(\theta+1\right)}\,\mathrm dx=\theta\int_1^{+\infty}x^{-\theta}\,\mathrm dx=\frac{\theta}{\theta-1},
 $$
 
-其中积分收敛要求 $\theta>1$. 由**定义 3.2.1**（矩估计），令 $E\left(X\right)=\bar X$，即 $\frac{\theta}{\theta-1}=\bar X$，解得
+其中积分收敛要求 $\theta> 1$. 由**定义 3.2.1**（矩估计），令 $E\left(X\right)=\bar X$，即 $\frac{\theta}{\theta-1}=\bar X$，解得
 
 $$
 \bar X\left(\theta-1\right)=\theta\ \Longrightarrow\ \theta\left(\bar X-1\right)=\bar X\ \Longrightarrow\ \hat\theta=\frac{\bar X}{\bar X-1}.

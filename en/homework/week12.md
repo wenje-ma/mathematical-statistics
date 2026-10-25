@@ -1,10 +1,10 @@
 # Assignment 12
 
-> **Definition 3.6.1** (Regular Distribution Family)<br>If a one-parameter distribution family $\mathcal F=\left\{f\left(x,\theta\right):\theta\in\Theta\right\}$ satisfies: (1) the parameter space $\Theta$ is an open interval on the line; (2) for any $\theta\in\Theta$, $f\left(x,\theta\right)>0$, i.e. the support of the distribution does not depend on the parameter; (3) $\frac{\partial f\left(x,\theta\right)}{\partial\theta}$ exists for any $\theta\in\Theta$; (4) the integration and differentiation operations on $f\left(x,\theta\right)$ can be interchanged; (5) the Fisher information exists and $0<I\left(\theta\right)=E\left[\frac{\partial\ln f\left(X,\theta\right)}{\partial\theta}\right]^2<+\infty$, then the family is called a Cramér–Rao regular distribution family, where $$I\left(\theta\right)=E\left[\left(\frac{\partial\ln f\left(X,\theta\right)}{\partial\theta}\right)^2\right]$$ is the Fisher information of the family.
+> **Definition 3.6.1** (Regular Distribution Family)<br>If a one-parameter distribution family $\mathcal F=\left\{f\left(x,\theta\right):\theta\in\Theta\right\}$ satisfies: (1) the parameter space $\Theta$ is an open interval on the line; (2) for any $\theta\in\Theta$, $f\left(x,\theta\right)> 0$, i.e. the support of the distribution does not depend on the parameter; (3) $\frac{\partial f\left(x,\theta\right)}{\partial\theta}$ exists for any $\theta\in\Theta$; (4) the integration and differentiation operations on $f\left(x,\theta\right)$ can be interchanged; (5) the Fisher information exists and $0< I\left(\theta\right)=E\left[\frac{\partial\ln f\left(X,\theta\right)}{\partial\theta}\right]^2< +\infty$, then the family is called a Cramér–Rao regular distribution family, where $$I\left(\theta\right)=E\left[\left(\frac{\partial\ln f\left(X,\theta\right)}{\partial\theta}\right)^2\right]$$ is the Fisher information of the family.
 
 > **Theorem 3.6.1** (One-parameter Cramér–Rao Inequality)<br>Let the distribution family $\mathcal F=\left\{f\left(x,\theta\right):\theta\in\Theta\right\}$ be a Cramér–Rao regular distribution family, let the estimable function $g\left(\theta\right)$ be differentiable over the parameter space, let $X_1,X_2,\dots,X_n$ be a sample drawn from this population, and let $\hat g\left(X\right)=\hat g\left(X_1,X_2,\dots,X_n\right)$ be any unbiased estimator of $g\left(\theta\right)$, with differentiation under the integral sign with respect to $\theta$ permissible. Then $$D\left[\hat g\left(X\right)\right]\ge\frac{\left[g'\left(\theta\right)\right]^2}{nI\left(\theta\right)}.$$ The right-hand side $\frac{\left[g'\left(\theta\right)\right]^2}{nI\left(\theta\right)}$ is called the Cramér–Rao lower bound. If some unbiased estimator attains this bound, then it must be a uniformly minimum variance unbiased estimator.
 
-> **Definition 3.6.2** (Efficiency)<br>Let $\hat g\left(X\right)$ be an unbiased estimator of $g\left(\theta\right)$. Then the ratio $$e\left(\theta\right)=\frac{\left[g'\left(\theta\right)\right]^2}{nI\left(\theta\right)D\left[\hat g\left(X\right)\right]}$$ is called the efficiency of the unbiased estimator $\hat g\left(X\right)$, where $0<e\left(\theta\right)\le1$.
+> **Definition 3.6.2** (Efficiency)<br>Let $\hat g\left(X\right)$ be an unbiased estimator of $g\left(\theta\right)$. Then the ratio $$e\left(\theta\right)=\frac{\left[g'\left(\theta\right)\right]^2}{nI\left(\theta\right)D\left[\hat g\left(X\right)\right]}$$ is called the efficiency of the unbiased estimator $\hat g\left(X\right)$, where $0< e\left(\theta\right)\le1$.
 
 > **Definition 3.6.3** (Efficient Estimator)<br>When $e\left(\theta\right)\equiv1$, $\hat g\left(X\right)$ is called an efficient estimator of $g\left(\theta\right)$. An efficient estimator is always a uniformly minimum variance unbiased estimator.
 
@@ -68,7 +68,7 @@ $$
 P\left\{X=x\right\}=\left(x-1\right)\theta^2\left(1-\theta\right)^{x-2},\quad x=2,3,\dots
 $$
 
-where $0<\theta<1$. Find the Fisher information $I\left(\theta\right)$.
+where $0< \theta< 1$. Find the Fisher information $I\left(\theta\right)$.
 
 ### Solution to Problem 2
 
@@ -111,22 +111,22 @@ $\blacksquare$
 $$
 f\left(x,\theta\right)=
 \begin{cases}
-\frac{1}{\theta}e^{-\frac{x}{\theta}},& x>0,\\[6pt\right]
+\frac{1}{\theta}e^{-\frac{x}{\theta}},& x> 0,\\[6pt\right]
 0,& x\le0,
 \end{cases}
 $$
 
-where $\theta>0$ is an unknown parameter. Find the uniformly minimum variance unbiased estimator of $\theta$, and prove that its variance equals the Cramér–Rao lower bound, i.e. it is an efficient estimator.
+where $\theta> 0$ is an unknown parameter. Find the uniformly minimum variance unbiased estimator of $\theta$, and prove that its variance equals the Cramér–Rao lower bound, i.e. it is an efficient estimator.
 
 ### Solution to Problem 3
 
 By **Corollary 3.5.1** (Sufficient and Complete Statistic under the Natural Form of an Exponential Family), this density function can be written as
 
 $$
-f\left(x,\theta\right)=\frac{1}{\theta}\exp\left\{-\frac{x}{\theta}\right\}=\theta^{-1}\exp\left\{-\frac{1}{\theta}x\right\},\quad x>0,
+f\left(x,\theta\right)=\frac{1}{\theta}\exp\left\{-\frac{x}{\theta}\right\}=\theta^{-1}\exp\left\{-\frac{1}{\theta}x\right\},\quad x> 0,
 $$
 
-which is a one-parameter exponential family; the natural parameter space $\left\{-\frac{1}{\theta}:\theta>0\right\}=\left(-\infty,0\right)$ has an interior point, so $T=\sum_{i=1}^n X_i$ is a sufficient and complete statistic. This population is the exponential distribution $E\left(\frac{1}{\theta}\right)$, whose mean is $E\left(X\right)=\theta$. By **Definition 1.3.2** (Simple Random Sample), $X_1,X_2,\dots,X_n$ are independent and identically distributed, so
+which is a one-parameter exponential family; the natural parameter space $\left\{-\frac{1}{\theta}:\theta> 0\right\}=\left(-\infty,0\right)$ has an interior point, so $T=\sum_{i=1}^n X_i$ is a sufficient and complete statistic. This population is the exponential distribution $E\left(\frac{1}{\theta}\right)$, whose mean is $E\left(X\right)=\theta$. By **Definition 1.3.2** (Simple Random Sample), $X_1,X_2,\dots,X_n$ are independent and identically distributed, so
 
 $$
 E\left(\bar X\right)=\frac{1}{n}\sum_{i=1}^n E\left(X_i\right)=\theta.
@@ -137,7 +137,7 @@ Since $\bar X=\frac{T}{n}$ is a function of the sufficient and complete statisti
 We now prove that $\bar X$ attains the Cramér–Rao lower bound. By **Definition 3.6.1** (Regular Distribution Family), the log-density is
 
 $$
-\ln f\left(x,\theta\right)=-\ln\theta-\frac{x}{\theta},\quad x>0.
+\ln f\left(x,\theta\right)=-\ln\theta-\frac{x}{\theta},\quad x> 0.
 $$
 
 Differentiating with respect to $\theta$,
@@ -231,7 +231,7 @@ $$
 Comparing the two:
 
 $$
-D\left(\bar X^2-\frac{1}{n}\right)=\frac{4\mu^2}{n}+\frac{2}{n^2}>\frac{4\mu^2}{n}=\text{C-R 下界}.
+D\left(\bar X^2-\frac{1}{n}\right)=\frac{4\mu^2}{n}+\frac{2}{n^2}> \frac{4\mu^2}{n}=\text{C-R 下界}.
 $$
 
-The difference between the two is $\frac{2}{n^2}>0$, so the variance of $\bar X^2-\frac{1}{n}$ is strictly greater than the Cramér–Rao lower bound; by **Definition 3.6.3** (Efficient Estimator), it is not an efficient estimator. $\blacksquare$
+The difference between the two is $\frac{2}{n^2}> 0$, so the variance of $\bar X^2-\frac{1}{n}$ is strictly greater than the Cramér–Rao lower bound; by **Definition 3.6.3** (Efficient Estimator), it is not an efficient estimator. $\blacksquare$

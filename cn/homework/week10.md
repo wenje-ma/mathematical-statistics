@@ -4,9 +4,9 @@
 
 > **定义 3.4.2**（有效性）<br>设 $\hat\theta_1$ 与 $\hat\theta_2$ 都是 $\theta$ 的无偏估计，若对一切 $\theta\in\Theta$ 都有 $D\left(\hat\theta_1\right)\le D\left(\hat\theta_2\right)$，且不等号至少对某个 $\theta$ 成立，则称 $\hat\theta_1$ 比 $\hat\theta_2$ 有效.
 
-> **定义 3.4.3**（相合估计）<br>设对每个自然数 $n$，$\hat\theta_n=\hat\theta_n\left(X_1,X_2,\dots,X_n\right)$ 为 $\theta$ 的估计量，若对任意 $\theta\in\Theta$ 及任意 $\varepsilon>0$，都有 $$\lim_{n\to\infty}P\left\{\left|\hat\theta_n-\theta\right|\ge\varepsilon\right\}=0,$$ 则称 $\hat\theta_n$ 为 $\theta$ 的（弱）相合估计.
+> **定义 3.4.3**（相合估计）<br>设对每个自然数 $n$，$\hat\theta_n=\hat\theta_n\left(X_1,X_2,\dots,X_n\right)$ 为 $\theta$ 的估计量，若对任意 $\theta\in\Theta$ 及任意 $\varepsilon> 0$，都有 $$\lim_{n\to\infty}P\left\{\left|\hat\theta_n-\theta\right|\ge\varepsilon\right\}=0,$$ 则称 $\hat\theta_n$ 为 $\theta$ 的（弱）相合估计.
 
-> **基础知识**（切比雪夫不等式与大数定律）<br>对任意随机变量 $Y$ 及 $\varepsilon>0$，有 $P\left\{\left|Y-EY\right|\ge\varepsilon\right\}\le\frac{D\left(Y\right)}{\varepsilon^2}$；独立同分布且期望存在时，由大数定律 $\bar X_n\xrightarrow{P}E\left(X\right)$；依概率收敛经连续函数映射保持不变.
+> **基础知识**（切比雪夫不等式与大数定律）<br>对任意随机变量 $Y$ 及 $\varepsilon> 0$，有 $P\left\{\left|Y-EY\right|\ge\varepsilon\right\}\le\frac{D\left(Y\right)}{\varepsilon^2}$；独立同分布且期望存在时，由大数定律 $\bar X_n\xrightarrow{P}E\left(X\right)$；依概率收敛经连续函数映射保持不变.
 
 ### 习题一
 
@@ -39,7 +39,7 @@ $\blacksquare$
 （习题 3.4-5）设 $X_1,X_2,\dots,X_n$ 是来自总体 $X$ 的样本，且 $X$ 的密度函数为
 
 $$
-f\left(x,\theta\right)=\begin{cases}e^{-\left(x-\theta\right)},&x>\theta,\\0,&\text{其他}.\end{cases}
+f\left(x,\theta\right)=\begin{cases}e^{-\left(x-\theta\right)},&x> \theta,\\0,&\text{其他}.\end{cases}
 $$
 
 (1) 求参数 $\theta$ 的矩估计 $\hat\theta_1$，并判断 $\hat\theta_1$ 是否是 $\theta$ 的无偏估计？
@@ -77,10 +77,10 @@ $\blacksquare$
 （习题 3.4-7）设 $X_1,X_2$ 是来自总体 $X$ 的样本，且 $X$ 的密度函数为
 
 $$
-f\left(x,\theta\right)=\begin{cases}k\theta^k x^{-\left(k+1\right)},&x>\theta,\\0,&\text{其他},\end{cases}
+f\left(x,\theta\right)=\begin{cases}k\theta^k x^{-\left(k+1\right)},&x> \theta,\\0,&\text{其他},\end{cases}
 $$
 
-其中 $k>2$ 已知，$\theta>0$ 为未知参数.
+其中 $k> 2$ 已知，$\theta> 0$ 为未知参数.
 
 (1) 证明 $T_1=\frac{k-1}{2k}\left(X_1+X_2\right)$ 和 $T_2=\frac{2k-1}{2k}\min\left\{X_1,X_2\right\}$ 都是 $\theta$ 的无偏估计；
 
@@ -100,10 +100,10 @@ $$
 E\left(T_1\right)=E\left[\frac{k-1}{2k}\left(X_1+X_2\right)\right]=\frac{k-1}{2k}\cdot 2\cdot\frac{k}{k-1}\theta=\theta.
 $$
 
-记 $X_{\left(1\right)}=\min\left\{X_1,X_2\right\}$，由独立性，对 $x>\theta$，
+记 $X_{\left(1\right)}=\min\left\{X_1,X_2\right\}$，由独立性，对 $x> \theta$，
 
 $$
-P\left(X_{\left(1\right)}>x\right)=\left[P\left(X_1>x\right)\right]^2=\left(\frac{\theta}{x}\right)^{2k},
+P\left(X_{\left(1\right)}> x\right)=\left[P\left(X_1> x\right)\right]^2=\left(\frac{\theta}{x}\right)^{2k},
 $$
 
 故 $X_{\left(1\right)}$ 的密度函数为 $2k\theta^{2k}x^{-\left(2k+1\right)}$，从而
@@ -150,7 +150,7 @@ $$
 D\left(T_2\right)=\left(\frac{2k-1}{2k}\right)^2\left[E\left(X_{\left(1\right)}^2\right)-\left(E\left(X_{\left(1\right)}\right)\right)^2\right]=\frac{\theta^2}{4k\left(k-1\right)}.
 $$
 
-因 $4k\left(k-1\right)>2k\left(k-2\right)$（$k>2$），即 $D\left(T_2\right)<D\left(T_1\right)$. 由**定义 3.4.2**（有效性），$T_2$ 比 $T_1$ 有效.
+因 $4k\left(k-1\right)> 2k\left(k-2\right)$（$k> 2$），即 $D\left(T_2\right)< D\left(T_1\right)$. 由**定义 3.4.2**（有效性），$T_2$ 比 $T_1$ 有效.
 
 $\blacksquare$
 
@@ -160,7 +160,7 @@ $\blacksquare$
 
 ### 解答 习题四
 
-由**基础知识**（切比雪夫不等式），对任意 $\varepsilon>0$，
+由**基础知识**（切比雪夫不等式），对任意 $\varepsilon> 0$，
 
 $$
 P\left\{\left|\hat\theta_n-\theta\right|\ge\varepsilon\right\}\le\frac{E\left[\left(\hat\theta_n-\theta\right)^2\right]}{\varepsilon^2}.
@@ -184,7 +184,7 @@ $\blacksquare$
 
 ### 习题五
 
-（习题 3.4-12）设 $X_1,X_2,\dots,X_n$ 是来自均匀分布 $U\left[0,\theta\right]$，$\theta>0$ 的样本，证明 $\sqrt\left[n\right]{X_1X_2\cdots X_n}$ 为 $\theta/e$ 的相合估计.
+（习题 3.4-12）设 $X_1,X_2,\dots,X_n$ 是来自均匀分布 $U\left[0,\theta\right]$，$\theta> 0$ 的样本，证明 $\sqrt\left[n\right]{X_1X_2\cdots X_n}$ 为 $\theta/e$ 的相合估计.
 
 ### 解答 习题五
 

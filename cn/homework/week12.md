@@ -1,10 +1,10 @@
 # 作业 12
 
-> **定义 3.6.1**（正则分布族）<br>若单参数分布族 $\mathcal F=\left\{f\left(x,\theta\right):\theta\in\Theta\right\}$ 满足：(1) 参数空间 $\Theta$ 是直线上的开区间；(2) 对任意 $\theta\in\Theta$，$f\left(x,\theta\right)>0$，即分布的支撑与参数无关；(3) $\frac{\partial f\left(x,\theta\right)}{\partial\theta}$ 对任意 $\theta\in\Theta$ 存在；(4) $f\left(x,\theta\right)$ 的积分与微分运算可以交换；(5) 费希尔信息量存在且 $0<I\left(\theta\right)=E\left[\frac{\partial\ln f\left(X,\theta\right)}{\partial\theta}\right]^2<+\infty$，则称该分布族为 C-R 正则分布族，其中 $$I\left(\theta\right)=E\left[\left(\frac{\partial\ln f\left(X,\theta\right)}{\partial\theta}\right)^2\right]$$ 为该分布族的费希尔信息量.
+> **定义 3.6.1**（正则分布族）<br>若单参数分布族 $\mathcal F=\left\{f\left(x,\theta\right):\theta\in\Theta\right\}$ 满足：(1) 参数空间 $\Theta$ 是直线上的开区间；(2) 对任意 $\theta\in\Theta$，$f\left(x,\theta\right)> 0$，即分布的支撑与参数无关；(3) $\frac{\partial f\left(x,\theta\right)}{\partial\theta}$ 对任意 $\theta\in\Theta$ 存在；(4) $f\left(x,\theta\right)$ 的积分与微分运算可以交换；(5) 费希尔信息量存在且 $0< I\left(\theta\right)=E\left[\frac{\partial\ln f\left(X,\theta\right)}{\partial\theta}\right]^2< +\infty$，则称该分布族为 C-R 正则分布族，其中 $$I\left(\theta\right)=E\left[\left(\frac{\partial\ln f\left(X,\theta\right)}{\partial\theta}\right)^2\right]$$ 为该分布族的费希尔信息量.
 
 > **定理 3.6.1**（单参数 C-R 不等式）<br>设分布族 $\mathcal F=\left\{f\left(x,\theta\right):\theta\in\Theta\right\}$ 是 C-R 正则分布族，可估函数 $g\left(\theta\right)$ 在参数空间上可微，$X_1,X_2,\dots,X_n$ 是从该总体抽取的样本，$\hat g\left(X\right)=\hat g\left(X_1,X_2,\dots,X_n\right)$ 是 $g\left(\theta\right)$ 的任一无偏估计，且积分可在积分号下对 $\theta$ 求导，则有 $$D\left[\hat g\left(X\right)\right]\ge\frac{\left[g'\left(\theta\right)\right]^2}{nI\left(\theta\right)}.$$ 右端 $\frac{\left[g'\left(\theta\right)\right]^2}{nI\left(\theta\right)}$ 称为 C-R 下界. 若某一无偏估计达到该下界，则它必为一致最小方差无偏估计.
 
-> **定义 3.6.2**（效率）<br>设 $\hat g\left(X\right)$ 为 $g\left(\theta\right)$ 的无偏估计，则比值 $$e\left(\theta\right)=\frac{\left[g'\left(\theta\right)\right]^2}{nI\left(\theta\right)D\left[\hat g\left(X\right)\right]}$$ 称为无偏估计 $\hat g\left(X\right)$ 的效率，其中 $0<e\left(\theta\right)\le1$.
+> **定义 3.6.2**（效率）<br>设 $\hat g\left(X\right)$ 为 $g\left(\theta\right)$ 的无偏估计，则比值 $$e\left(\theta\right)=\frac{\left[g'\left(\theta\right)\right]^2}{nI\left(\theta\right)D\left[\hat g\left(X\right)\right]}$$ 称为无偏估计 $\hat g\left(X\right)$ 的效率，其中 $0< e\left(\theta\right)\le1$.
 
 > **定义 3.6.3**（有效估计）<br>当 $e\left(\theta\right)\equiv1$ 时，称 $\hat g\left(X\right)$ 为 $g\left(\theta\right)$ 的有效估计. 有效估计一定是一致最小方差无偏估计.
 
@@ -68,7 +68,7 @@ $$
 P\left\{X=x\right\}=\left(x-1\right)\theta^2\left(1-\theta\right)^{x-2},\quad x=2,3,\dots
 $$
 
-其中 $0<\theta<1$，求费希尔信息量 $I\left(\theta\right)$.
+其中 $0< \theta< 1$，求费希尔信息量 $I\left(\theta\right)$.
 
 ### 解答 习题二
 
@@ -111,22 +111,22 @@ $\blacksquare$
 $$
 f\left(x,\theta\right)=
 \begin{cases}
-\frac{1}{\theta}e^{-\frac{x}{\theta}},& x>0,\\[6pt\right]
+\frac{1}{\theta}e^{-\frac{x}{\theta}},& x> 0,\\[6pt\right]
 0,& x\le0,
 \end{cases}
 $$
 
-其中 $\theta>0$ 为未知参数，求 $\theta$ 的一致最小方差无偏估计，并证明其方差等于 C-R 下界，即它是有效估计.
+其中 $\theta> 0$ 为未知参数，求 $\theta$ 的一致最小方差无偏估计，并证明其方差等于 C-R 下界，即它是有效估计.
 
 ### 解答 习题三
 
 由**推论 3.5.1**（指数族自然形式下的充分完备统计量），该密度函数可写为
 
 $$
-f\left(x,\theta\right)=\frac{1}{\theta}\exp\left\{-\frac{x}{\theta}\right\}=\theta^{-1}\exp\left\{-\frac{1}{\theta}x\right\},\quad x>0,
+f\left(x,\theta\right)=\frac{1}{\theta}\exp\left\{-\frac{x}{\theta}\right\}=\theta^{-1}\exp\left\{-\frac{1}{\theta}x\right\},\quad x> 0,
 $$
 
-为单参数指数族，自然参数空间 $\left\{-\frac{1}{\theta}:\theta>0\right\}=\left(-\infty,0\right)$ 有内点，故 $T=\sum_{i=1}^n X_i$ 为充分完备统计量. 该总体为指数分布 $E\left(\frac{1}{\theta}\right)$，其均值 $E\left(X\right)=\theta$. 由**定义 1.3.2**（简单随机样本），$X_1,X_2,\dots,X_n$ 独立同分布，故
+为单参数指数族，自然参数空间 $\left\{-\frac{1}{\theta}:\theta> 0\right\}=\left(-\infty,0\right)$ 有内点，故 $T=\sum_{i=1}^n X_i$ 为充分完备统计量. 该总体为指数分布 $E\left(\frac{1}{\theta}\right)$，其均值 $E\left(X\right)=\theta$. 由**定义 1.3.2**（简单随机样本），$X_1,X_2,\dots,X_n$ 独立同分布，故
 
 $$
 E\left(\bar X\right)=\frac{1}{n}\sum_{i=1}^n E\left(X_i\right)=\theta.
@@ -137,7 +137,7 @@ $\bar X=\frac{T}{n}$ 是充分完备统计量 $T$ 的函数且无偏，由**定�
 下面证明 $\bar X$ 达到 C-R 下界. 由**定义 3.6.1**（正则分布族），对数密度为
 
 $$
-\ln f\left(x,\theta\right)=-\ln\theta-\frac{x}{\theta},\quad x>0.
+\ln f\left(x,\theta\right)=-\ln\theta-\frac{x}{\theta},\quad x> 0.
 $$
 
 对 $\theta$ 求导，
@@ -231,7 +231,7 @@ $$
 比较二者：
 
 $$
-D\left(\bar X^2-\frac{1}{n}\right)=\frac{4\mu^2}{n}+\frac{2}{n^2}>\frac{4\mu^2}{n}=\text{C-R 下界}.
+D\left(\bar X^2-\frac{1}{n}\right)=\frac{4\mu^2}{n}+\frac{2}{n^2}> \frac{4\mu^2}{n}=\text{C-R 下界}.
 $$
 
-二者之差为 $\frac{2}{n^2}>0$，故 $\bar X^2-\frac{1}{n}$ 的方差严格大于 C-R 下界，由**定义 3.6.3**（有效估计），它不是有效估计. $\blacksquare$
+二者之差为 $\frac{2}{n^2}> 0$，故 $\bar X^2-\frac{1}{n}$ 的方差严格大于 C-R 下界，由**定义 3.6.3**（有效估计），它不是有效估计. $\blacksquare$

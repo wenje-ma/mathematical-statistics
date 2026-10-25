@@ -8,17 +8,17 @@
 
 (Problem 3.2-3) Let $X_1,X_2,\dots,X_n$ be a sample from the population $X$, and the density function $f\left(x\right)$ of $X$ is as follows. Find the method of moments estimators of the unknown parameters.
 
-(1) $f\left(x,\theta\right)=\begin{cases}\left(\theta+1\right)x^\theta,&0<x<1,\\0,&\text{其他},\end{cases}$ where $\theta>-1$ is an unknown parameter;
+(1) $f\left(x,\theta\right)=\begin{cases}\left(\theta+1\right)x^\theta,&0< x< 1,\\0,&\text{其他},\end{cases}$ where $\theta> -1$ is an unknown parameter;
 
-(2) $f\left(x,\theta\right)=\begin{cases}\theta e^{-\theta x},&x>0,\\0,&x\le 0,\end{cases}$ where $\theta>0$ is an unknown parameter;
+(2) $f\left(x,\theta\right)=\begin{cases}\theta e^{-\theta x},&x> 0,\\0,&x\le 0,\end{cases}$ where $\theta> 0$ is an unknown parameter;
 
-(3) $f\left(x,\theta\right)=\frac{1}{2\theta}e^{-\frac{\left|x\right|}{\theta}},\ -\infty<x<+\infty$, where $\theta>0$ is an unknown parameter;
+(3) $f\left(x,\theta\right)=\frac{1}{2\theta}e^{-\frac{\left|x\right|}{\theta}},\ -\infty< x< +\infty$, where $\theta> 0$ is an unknown parameter;
 
 (4) $f\left(x,\theta\right)=\begin{cases}1,&\theta-0.5\le x\le\theta+0.5,\\0,&\text{其他},\end{cases}$ where $\theta\in\mathbb R$ is an unknown parameter;
 
-(5) $f\left(x,\mu,\sigma^2\right)=\begin{cases}\frac{1}{\sqrt{2\pi}\sigma x}e^{-\frac{\left(\ln x-\mu\right)^2}{2\sigma^2}},&x>0,\\0,&x\le 0,\end{cases}$ where $\mu\in\mathbb R$ and $\sigma>0$ are unknown parameters;
+(5) $f\left(x,\mu,\sigma^2\right)=\begin{cases}\frac{1}{\sqrt{2\pi}\sigma x}e^{-\frac{\left(\ln x-\mu\right)^2}{2\sigma^2}},&x> 0,\\0,&x\le 0,\end{cases}$ where $\mu\in\mathbb R$ and $\sigma> 0$ are unknown parameters;
 
-(6) $f\left(x,\mu,\lambda\right)=\begin{cases}\lambda e^{-\lambda\left(x-\mu\right)},&x>\mu,\\0,&\text{其他},\end{cases}$ where $\mu\in\mathbb R$ and $\lambda>0$ are unknown parameters.
+(6) $f\left(x,\mu,\lambda\right)=\begin{cases}\lambda e^{-\lambda\left(x-\mu\right)},&x> \mu,\\0,&\text{其他},\end{cases}$ where $\mu\in\mathbb R$ and $\lambda> 0$ are unknown parameters.
 
 ### Solution to Problem 1
 
@@ -82,14 +82,14 @@ $\blacksquare$
 
 ### Problem 2
 
-(Problem 3.2-5) Let $X_1,X_2,\dots,X_n$ be a sample from the normal population $N\left(\mu,\sigma^2\right)$. Find the method of moments estimator of $P\left\{X>1\right\}$.
+(Problem 3.2-5) Let $X_1,X_2,\dots,X_n$ be a sample from the normal population $N\left(\mu,\sigma^2\right)$. Find the method of moments estimator of $P\left\{X> 1\right\}$.
 
 ### Solution to Problem 2
 
 From $X\sim N\left(\mu,\sigma^2\right)$, we know
 
 $$
-P\left\{X>1\right\}=1-P\left\{X\le 1\right\}=1-\Phi\left(\frac{1-\mu}{\sigma}\right),
+P\left\{X> 1\right\}=1-P\left\{X\le 1\right\}=1-\Phi\left(\frac{1-\mu}{\sigma}\right),
 $$
 
 where $\Phi\left(\cdot\right)$ is the standard normal distribution function. By **Example 3.2.1 Conclusion** (Method of Moments Estimators of the Population Mean and Variance), the method of moments estimators of $\mu$ and $\sigma$ are respectively
@@ -98,10 +98,10 @@ $$
 \hat\mu=\bar X=\frac{1}{n}\sum_{i=1}^n X_i,\quad \hat\sigma=S_n=\sqrt{\frac{1}{n}\sum_{i=1}^n\left(X_i-\bar X\right)^2}.
 $$
 
-By the method of moments estimation method for functions of parameters in **Definition 3.2.1** (Method of Moments Estimator), replacing $\mu,\sigma$ by $\hat\mu,\hat\sigma$, the method of moments estimator of $P\left\{X>1\right\}$ is
+By the method of moments estimation method for functions of parameters in **Definition 3.2.1** (Method of Moments Estimator), replacing $\mu,\sigma$ by $\hat\mu,\hat\sigma$, the method of moments estimator of $P\left\{X> 1\right\}$ is
 
 $$
-\widehat{P\left\{X>1\right\}}=1-\Phi\left(\frac{1-\bar X}{S_n}\right).
+\widehat{P\left\{X> 1\right\}}=1-\Phi\left(\frac{1-\bar X}{S_n}\right).
 $$
 
 $\blacksquare$
@@ -111,10 +111,10 @@ $\blacksquare$
 (Problem 3.2-7) Let $X_1,X_2,\dots,X_n$ be a sample from the population $X$, and the distribution function of $X$ is
 
 $$
-F\left(x;\theta\right)=\begin{cases}1-x^{-\theta},&x\ge 1,\\0,&x<1,\end{cases}
+F\left(x;\theta\right)=\begin{cases}1-x^{-\theta},&x\ge 1,\\0,&x< 1,\end{cases}
 $$
 
-where $\theta>1$ is an unknown parameter. Find the method of moments estimator of $\theta$.
+where $\theta> 1$ is an unknown parameter. Find the method of moments estimator of $\theta$.
 
 ### Solution to Problem 3
 
@@ -130,7 +130,7 @@ $$
 E\left(X\right)=\int_1^{+\infty}x\cdot\theta x^{-\left(\theta+1\right)}\,\mathrm dx=\theta\int_1^{+\infty}x^{-\theta}\,\mathrm dx=\frac{\theta}{\theta-1},
 $$
 
-where convergence of the integral requires $\theta>1$. By **Definition 3.2.1** (Method of Moments Estimator), setting $E\left(X\right)=\bar X$, i.e. $\frac{\theta}{\theta-1}=\bar X$, and solving gives
+where convergence of the integral requires $\theta> 1$. By **Definition 3.2.1** (Method of Moments Estimator), setting $E\left(X\right)=\bar X$, i.e. $\frac{\theta}{\theta-1}=\bar X$, and solving gives
 
 $$
 \bar X\left(\theta-1\right)=\theta\ \Longrightarrow\ \theta\left(\bar X-1\right)=\bar X\ \Longrightarrow\ \hat\theta=\frac{\bar X}{\bar X-1}.

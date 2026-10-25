@@ -2,19 +2,19 @@
 
 > **Definition 2.2.1** ($\chi^2$ Distribution)<br>Let $X_1,X_2,\dots,X_n$ be mutually independent and all follow $N\left(0,1\right)$. Then $$\chi^2=X_1^2+X_2^2+\dots+X_n^2$$ is called a $\chi^2$ variable with $n$ degrees of freedom, its distribution is called the $\chi^2$ distribution with $n$ degrees of freedom, denoted by $\chi^2\sim\chi^2\left(n\right)$.
 
-> **Theorem 2.2.1** (Density Function of the $\chi^2$ Distribution)<br>Let $\chi^2\sim\chi^2\left(n\right)$. Then its density function is $$f\left(x\right)=\begin{cases}\frac{1}{2^{n/2}\Gamma\left(n/2\right)}x^{n/2-1}e^{-x/2},&x>0,\\0,&x\le0.\end{cases}$$
+> **Theorem 2.2.1** (Density Function of the $\chi^2$ Distribution)<br>Let $\chi^2\sim\chi^2\left(n\right)$. Then its density function is $$f\left(x\right)=\begin{cases}\frac{1}{2^{n/2}\Gamma\left(n/2\right)}x^{n/2-1}e^{-x/2},&x> 0,\\0,&x\le0.\end{cases}$$
 
 > **Properties of the $\chi^2$ Distribution**<br>Let $\chi^2\sim\chi^2\left(n\right)$. Then $E\left(\chi^2\right)=n$ and $D\left(\chi^2\right)=2n$. If $X_1\sim\chi^2\left(n_1\right)$, $X_2\sim\chi^2\left(n_2\right)$, and $X_1$ and $X_2$ are mutually independent, then $X_1+X_2\sim\chi^2\left(n_1+n_2\right)$; this property is called the additivity of the $\chi^2$ distribution.
 
 > **Definition 2.2.2** ($t$ Distribution)<br>Let the random variables $X\sim N\left(0,1\right)$ and $Y\sim\chi^2\left(n\right)$, with $X$ and $Y$ mutually independent. Then the random variable $$T=\frac{X}{\sqrt{Y/n}}$$ is called a $t$ variable with $n$ degrees of freedom, its distribution is called the $t$ distribution with $n$ degrees of freedom, denoted by $T\sim t\left(n\right)$.
 
-> **Theorem 2.2.2** (Density Function of the $t$ Distribution)<br>Let $T\sim t\left(n\right)$. Then its density function is $$f\left(t\right)=\frac{\Gamma\left(\left(n+1\right)/2\right)}{\Gamma\left(n/2\right)\sqrt{n\pi}}\left(1+\frac{t^2}{n}\right)^{-\left(n+1\right)/2},\quad-\infty<t<+\infty.$$
+> **Theorem 2.2.2** (Density Function of the $t$ Distribution)<br>Let $T\sim t\left(n\right)$. Then its density function is $$f\left(t\right)=\frac{\Gamma\left(\left(n+1\right)/2\right)}{\Gamma\left(n/2\right)\sqrt{n\pi}}\left(1+\frac{t^2}{n}\right)^{-\left(n+1\right)/2},\quad-\infty< t< +\infty.$$
 
 > **Definition 2.2.3** ($F$ Distribution)<br>Let the random variables $X\sim\chi^2\left(m\right)$ and $Y\sim\chi^2\left(n\right)$, with $X$ and $Y$ mutually independent. Then the random variable $$F=\frac{X/m}{Y/n}$$ is called an $F$ variable with degrees of freedom $m$ and $n$, and the distribution it follows is called the $F$ distribution, denoted by $F\sim F\left(m,n\right)$.
 
 > **Corollary 2.2.1** (Independence of $X/Y$ and $X+Y$)<br>Let the random variables $X\sim\chi^2\left(m\right)$ and $Y\sim\chi^2\left(n\right)$, with $X$ and $Y$ mutually independent. Then $U=X/Y$ and $V=X+Y$ are mutually independent.
 
-> **Gamma Distribution**<br>If the density function of the random variable $X$ is $$f\left(x\right)=\begin{cases}\frac{\lambda^\alpha}{\Gamma\left(\alpha\right)}x^{\alpha-1}e^{-\lambda x},&x>0,\\0,&x\le0,\end{cases}$$ where $\alpha>0$ is the shape parameter and $\lambda>0$ is the scale parameter, then $X$ is said to follow the Gamma distribution with parameters $\left(\alpha,\lambda\right)$, denoted by $X\sim Ga\left(\alpha,\lambda\right)$. When $\alpha=1$, $Ga\left(1,\lambda\right)$ is the exponential distribution; when $\alpha=n/2$ and $\lambda=1/2$, $Ga\left(n/2,1/2\right)$ is the $\chi^2\left(n\right)$ distribution.
+> **Gamma Distribution**<br>If the density function of the random variable $X$ is $$f\left(x\right)=\begin{cases}\frac{\lambda^\alpha}{\Gamma\left(\alpha\right)}x^{\alpha-1}e^{-\lambda x},&x> 0,\\0,&x\le0,\end{cases}$$ where $\alpha> 0$ is the shape parameter and $\lambda> 0$ is the scale parameter, then $X$ is said to follow the Gamma distribution with parameters $\left(\alpha,\lambda\right)$, denoted by $X\sim Ga\left(\alpha,\lambda\right)$. When $\alpha=1$, $Ga\left(1,\lambda\right)$ is the exponential distribution; when $\alpha=n/2$ and $\lambda=1/2$, $Ga\left(n/2,1/2\right)$ is the $\chi^2\left(n\right)$ distribution.
 
 ### Problem 1
 
@@ -87,7 +87,7 @@ In particular, $E\left(X\right)=n$ and $D\left(X\right)=2n$.
 By **Theorem 2.2.1** (Density Function of the $\chi^2$ Distribution), the density function of $X\sim\chi^2\left(n\right)$ is
 
 $$
-f\left(x\right)=\frac{1}{2^{n/2}\Gamma\left(n/2\right)}x^{n/2-1}e^{-x/2},\quad x>0.
+f\left(x\right)=\frac{1}{2^{n/2}\Gamma\left(n/2\right)}x^{n/2-1}e^{-x/2},\quad x> 0.
 $$
 
 Hence
@@ -144,11 +144,11 @@ $$
 P\left\{Y\le y\right\}=P\left\{F\left(X\right)\le y\right\}=P\left\{X\le F^{-1}\left(y\right)\right\}=F\left(F^{-1}\left(y\right)\right)=y.
 $$
 
-When $y<0$, $P\left\{Y\le y\right\}=0$; when $y>1$, $P\left\{Y\le y\right\}=1$. Hence $Y=F\left(X\right)\sim U\left(0,1\right)$.
+When $y< 0$, $P\left\{Y\le y\right\}=0$; when $y> 1$, $P\left\{Y\le y\right\}=1$. Hence $Y=F\left(X\right)\sim U\left(0,1\right)$.
 
 (2) By **Definition 1.3.2** (Simple Random Sample), $X_1,X_2,\dots,X_n$ are mutually independent and identically distributed with the population $X$, so by (1), $Y_i=F\left(X_i\right)\sim U\left(0,1\right)$, and $Y_1,Y_2,\dots,Y_n$ are mutually independent.
 
-Let $Z_i=-2\ln Y_i$. For $z>0$,
+Let $Z_i=-2\ln Y_i$. For $z> 0$,
 
 $$
 P\left\{Z_i\le z\right\}=P\left\{-2\ln Y_i\le z\right\}=P\left\{\ln Y_i\ge-\frac{z}{2}\right\}=P\left\{Y_i\ge e^{-z/2}\right\}=1-e^{-z/2}.
@@ -164,7 +164,7 @@ $\blacksquare$
 
 ### Problem 4
 
-(Problem 2.2-6) Let the random variable $X$ follow the Gamma distribution $Ga\left(\alpha,\lambda\right)$ with parameters $\alpha$ and $\lambda$, $\alpha>0$, $\lambda>0$. Prove:
+(Problem 2.2-6) Let the random variable $X$ follow the Gamma distribution $Ga\left(\alpha,\lambda\right)$ with parameters $\alpha$ and $\lambda$, $\alpha> 0$, $\lambda> 0$. Prove:
 
 (1) the characteristic function of $X$ is $\varphi\left(t\right)=\left(1-\frac{it}{\lambda}\right)^{-\alpha}$;
 
@@ -181,7 +181,7 @@ $\blacksquare$
 By **Gamma Distribution**, the density function of $X\sim Ga\left(\alpha,\lambda\right)$ is
 
 $$
-f\left(x\right)=\frac{\lambda^\alpha}{\Gamma\left(\alpha\right)}x^{\alpha-1}e^{-\lambda x},\quad x>0.
+f\left(x\right)=\frac{\lambda^\alpha}{\Gamma\left(\alpha\right)}x^{\alpha-1}e^{-\lambda x},\quad x> 0.
 $$
 
 (1) The characteristic function is
@@ -190,7 +190,7 @@ $$
 \varphi\left(t\right)=E\left(e^{itX}\right)=\int_0^{+\infty}e^{itx}\cdot\frac{\lambda^\alpha}{\Gamma\left(\alpha\right)}x^{\alpha-1}e^{-\lambda x}\,\mathrm{d}x=\frac{\lambda^\alpha}{\Gamma\left(\alpha\right)}\int_0^{+\infty}x^{\alpha-1}e^{-\left(\lambda-it\right)x}\,\mathrm{d}x.
 $$
 
-By the definition of the Gamma function, $\int_0^{+\infty}x^{\alpha-1}e^{-sx}\,\mathrm{d}x=\Gamma\left(\alpha\right)/s^\alpha$ ($\mathrm{Re}\left(s\right)>0$), so
+By the definition of the Gamma function, $\int_0^{+\infty}x^{\alpha-1}e^{-sx}\,\mathrm{d}x=\Gamma\left(\alpha\right)/s^\alpha$ ($\mathrm{Re}\left(s\right)> 0$), so
 
 $$
 \varphi\left(t\right)=\frac{\lambda^\alpha}{\Gamma\left(\alpha\right)}\cdot\frac{\Gamma\left(\alpha\right)}{\left(\lambda-it\right)^\alpha}=\left(\frac{\lambda}{\lambda-it}\right)^\alpha=\left(1-\frac{it}{\lambda}\right)^{-\alpha}.
@@ -227,7 +227,7 @@ which agrees with **Theorem 2.2.1** (Density Function of the $\chi^2$ Distributi
 (5) When $\alpha=1$, $\Gamma\left(1\right)=1$, and the density function is
 
 $$
-f\left(x\right)=\lambda e^{-\lambda x},\quad x>0,
+f\left(x\right)=\lambda e^{-\lambda x},\quad x> 0,
 $$
 
 namely the exponential distribution with parameter $\lambda$. $\blacksquare$
@@ -241,7 +241,7 @@ namely the exponential distribution with parameter $\lambda$. $\blacksquare$
 By **Theorem 2.2.1** (Density Function of the $\chi^2$ Distribution) and the mutual independence of $X$ and $Y$, the joint density function of $\left(X,Y\right)$ is
 
 $$
-f\left(x,y\right)=\frac{1}{2^{\left(m+n\right)/2}\Gamma\left(m/2\right)\Gamma\left(n/2\right)}x^{m/2-1}y^{n/2-1}e^{-\left(x+y\right)/2},\quad x>0,\ y>0.
+f\left(x,y\right)=\frac{1}{2^{\left(m+n\right)/2}\Gamma\left(m/2\right)\Gamma\left(n/2\right)}x^{m/2-1}y^{n/2-1}e^{-\left(x+y\right)/2},\quad x> 0,\ y> 0.
 $$
 
 Make the transformation $u=x/y$, $v=x+y$, namely $x=\frac{uv}{1+u}$ and $y=\frac{v}{1+u}$. The Jacobian determinant of this transformation is
@@ -316,7 +316,7 @@ $\blacksquare$
 
 ### Problem 7
 
-(Problem 2.2-10) Let the random variable $X\sim F\left(1,1\right)$. Find $P\left\{X<1\right\}$.
+(Problem 2.2-10) Let the random variable $X\sim F\left(1,1\right)$. Find $P\left\{X< 1\right\}$.
 
 ### Solution to Problem 7
 
@@ -335,13 +335,13 @@ $$
 Since $Z_1,Z_2$ are independent and identically distributed as $N\left(0,1\right)$, they are symmetric about the origin and play completely symmetric roles. By **Properties of the $F$ Distribution**, if $X\sim F\left(1,1\right)$, then $1/X\sim F\left(1,1\right)$, i.e. $X$ and $1/X$ are identically distributed. Therefore
 
 $$
-P\left\{X<1\right\}=P\left\{\frac{1}{X}>1\right\}=P\left\{X>1\right\}.
+P\left\{X< 1\right\}=P\left\{\frac{1}{X}> 1\right\}=P\left\{X> 1\right\}.
 $$
 
 Also, $P\left\{X=1\right\}=0$ (a continuous distribution), so
 
 $$
-P\left\{X<1\right\}+P\left\{X>1\right\}=1,
+P\left\{X< 1\right\}+P\left\{X> 1\right\}=1,
 $$
 
-and hence $P\left\{X<1\right\}=\frac{1}{2}$. $\blacksquare$
+and hence $P\left\{X< 1\right\}=\frac{1}{2}$. $\blacksquare$

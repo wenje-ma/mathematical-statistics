@@ -1,12 +1,12 @@
 # Assignment 17
 
-> **U-test** (Test for the Mean of a Single Normal Population with Known Variance)<br>Let $X_1,X_2,\dots,X_n$ be a sample from the normal population $N\left(\mu,\sigma^2\right)$, where $\sigma^2=\sigma_0^2$ is known and $\mu$ is unknown. For a given significance level $\alpha$, take the test statistic $$U=\frac{\bar X-\mu_0}{\sigma_0/\sqrt n},$$ and when $H_0:\mu=\mu_0$ holds, $U\sim N\left(0,1\right)$. The rejection regions for the three testing problems are respectively: for the two-sided test $H_0:\mu=\mu_0,\ H_1:\mu\ne\mu_0$, the rejection region is $\left\lvert U\right\rvert\ge u_{\alpha/2}$; for the right-tailed test $H_0:\mu\le\mu_0,\ H_1:\mu>\mu_0$, the rejection region is $U\ge u_\alpha$; for the left-tailed test $H_0:\mu\ge\mu_0,\ H_1:\mu<\mu_0$, the rejection region is $U\le-u_\alpha$.
+> **U-test** (Test for the Mean of a Single Normal Population with Known Variance)<br>Let $X_1,X_2,\dots,X_n$ be a sample from the normal population $N\left(\mu,\sigma^2\right)$, where $\sigma^2=\sigma_0^2$ is known and $\mu$ is unknown. For a given significance level $\alpha$, take the test statistic $$U=\frac{\bar X-\mu_0}{\sigma_0/\sqrt n},$$ and when $H_0:\mu=\mu_0$ holds, $U\sim N\left(0,1\right)$. The rejection regions for the three testing problems are respectively: for the two-sided test $H_0:\mu=\mu_0,\ H_1:\mu\ne\mu_0$, the rejection region is $\left\lvert U\right\rvert\ge u_{\alpha/2}$; for the right-tailed test $H_0:\mu\le\mu_0,\ H_1:\mu> \mu_0$, the rejection region is $U\ge u_\alpha$; for the left-tailed test $H_0:\mu\ge\mu_0,\ H_1:\mu< \mu_0$, the rejection region is $U\le-u_\alpha$.
 
 > **t-test** (Test for the Mean of a Single Normal Population with Unknown Variance)<br>Let $X_1,X_2,\dots,X_n$ be a sample from the normal population $N\left(\mu,\sigma^2\right)$, where $\sigma^2$ is unknown. For a given significance level $\alpha$, take the test statistic $$T=\frac{\bar X-\mu_0}{S/\sqrt n},$$ and when $H_0:\mu=\mu_0$ holds, $T\sim t\left(n-1\right)$. The rejection region for the two-sided test is $\left\lvert T\right\rvert\ge t_{\alpha/2}\left(n-1\right)$; for the right-tailed test it is $T\ge t_\alpha\left(n-1\right)$; for the left-tailed test it is $T\le-t_\alpha\left(n-1\right)$.
 
-> **$\chi^2$-test** (Test for the Variance of a Single Normal Population)<br>Let $X_1,X_2,\dots,X_n$ be a sample from the normal population $N\left(\mu,\sigma^2\right)$, where $\mu$ is unknown. For a given significance level $\alpha$, take the test statistic $$\chi^2=\frac{\left(n-1\right)S^2}{\sigma_0^2},$$ and when $H_0:\sigma^2=\sigma_0^2$ holds, $\chi^2\sim\chi^2\left(n-1\right)$. For the two-sided test $H_0:\sigma^2=\sigma_0^2,\ H_1:\sigma^2\ne\sigma_0^2$, the rejection region is $\chi^2\le\chi^2_{1-\alpha/2}\left(n-1\right)$ or $\chi^2\ge\chi^2_{\alpha/2}\left(n-1\right)$; for the right-tailed test $H_0:\sigma^2\le\sigma_0^2,\ H_1:\sigma^2>\sigma_0^2$, the rejection region is $\chi^2\ge\chi^2_\alpha\left(n-1\right)$; for the left-tailed test $H_0:\sigma^2\ge\sigma_0^2,\ H_1:\sigma^2<\sigma_0^2$, the rejection region is $\chi^2\le\chi^2_{1-\alpha}\left(n-1\right)$.
+> **$\chi^2$-test** (Test for the Variance of a Single Normal Population)<br>Let $X_1,X_2,\dots,X_n$ be a sample from the normal population $N\left(\mu,\sigma^2\right)$, where $\mu$ is unknown. For a given significance level $\alpha$, take the test statistic $$\chi^2=\frac{\left(n-1\right)S^2}{\sigma_0^2},$$ and when $H_0:\sigma^2=\sigma_0^2$ holds, $\chi^2\sim\chi^2\left(n-1\right)$. For the two-sided test $H_0:\sigma^2=\sigma_0^2,\ H_1:\sigma^2\ne\sigma_0^2$, the rejection region is $\chi^2\le\chi^2_{1-\alpha/2}\left(n-1\right)$ or $\chi^2\ge\chi^2_{\alpha/2}\left(n-1\right)$; for the right-tailed test $H_0:\sigma^2\le\sigma_0^2,\ H_1:\sigma^2> \sigma_0^2$, the rejection region is $\chi^2\ge\chi^2_\alpha\left(n-1\right)$; for the left-tailed test $H_0:\sigma^2\ge\sigma_0^2,\ H_1:\sigma^2< \sigma_0^2$, the rejection region is $\chi^2\le\chi^2_{1-\alpha}\left(n-1\right)$.
 
-> **U-test for the Difference of Means of Two Normal Populations** (Both Variances Known)<br>Let $X_1,X_2,\dots,X_m$ be from $N\left(\mu_1,\sigma_1^2\right)$ and $Y_1,Y_2,\dots,Y_n$ from $N\left(\mu_2,\sigma_2^2\right)$, with the two samples independent, where $\sigma_1^2,\sigma_2^2$ are both known. Take the test statistic $$U=\frac{\bar X-\bar Y}{\sqrt{\frac{\sigma_1^2}{m}+\frac{\sigma_2^2}{n}}},$$ and when $H_0:\mu_1=\mu_2$ holds, $U\sim N\left(0,1\right)$. The rejection region for the two-sided test is $\left\lvert U\right\rvert\ge u_{\alpha/2}$; for the right-tailed test $H_0:\mu_1\le\mu_2,\ H_1:\mu_1>\mu_2$, the rejection region is $U\ge u_\alpha$.
+> **U-test for the Difference of Means of Two Normal Populations** (Both Variances Known)<br>Let $X_1,X_2,\dots,X_m$ be from $N\left(\mu_1,\sigma_1^2\right)$ and $Y_1,Y_2,\dots,Y_n$ from $N\left(\mu_2,\sigma_2^2\right)$, with the two samples independent, where $\sigma_1^2,\sigma_2^2$ are both known. Take the test statistic $$U=\frac{\bar X-\bar Y}{\sqrt{\frac{\sigma_1^2}{m}+\frac{\sigma_2^2}{n}}},$$ and when $H_0:\mu_1=\mu_2$ holds, $U\sim N\left(0,1\right)$. The rejection region for the two-sided test is $\left\lvert U\right\rvert\ge u_{\alpha/2}$; for the right-tailed test $H_0:\mu_1\le\mu_2,\ H_1:\mu_1> \mu_2$, the rejection region is $U\ge u_\alpha$.
 
 > **Pooled t-test for the Difference of Means of Two Normal Populations** (Variances Unknown but Equal)<br>Let $X_1,X_2,\dots,X_m$ be from $N\left(\mu_1,\sigma^2\right)$ and $Y_1,Y_2,\dots,Y_n$ from $N\left(\mu_2,\sigma^2\right)$, with the two samples independent, where $\sigma^2$ is unknown. Take the pooled sample variance $$S_w^2=\frac{\left(m-1\right)S_1^2+\left(n-1\right)S_2^2}{m+n-2},$$ and the test statistic is $$T=\frac{\bar X-\bar Y}{S_w\sqrt{\frac1m+\frac1n}},$$ and when $H_0:\mu_1=\mu_2$ holds, $T\sim t\left(m+n-2\right)$. The rejection region for the two-sided test is $\left\lvert T\right\rvert\ge t_{\alpha/2}\left(m+n-2\right)$; for the right-tailed test it is $T\ge t_\alpha\left(m+n-2\right)$.
 
@@ -30,7 +30,7 @@ $$
 u=\frac{27.56-26}{5.2/\sqrt{16}}=\frac{1.56}{1.3}=1.2.
 $$
 
-At significance level $\alpha=0.05$, the rejection region for the two-sided test is $\left\lvert U\right\rvert\ge u_{0.025}=1.96$. Since $\left\lvert u\right\rvert=1.2<1.96$, the sample does not fall into the rejection region, so the null hypothesis is not rejected at significance level $\alpha=0.05$, i.e. the population mean can be regarded as $\mu=26$. $\blacksquare$
+At significance level $\alpha=0.05$, the rejection region for the two-sided test is $\left\lvert U\right\rvert\ge u_{0.025}=1.96$. Since $\left\lvert u\right\rvert=1.2< 1.96$, the sample does not fall into the rejection region, so the null hypothesis is not rejected at significance level $\alpha=0.05$, i.e. the population mean can be regarded as $\mu=26$. $\blacksquare$
 
 ### Problem 2
 
@@ -41,7 +41,7 @@ At significance level $\alpha=0.05$, the rejection region for the two-sided test
 The problem requires the average service life to be no less than $1000\mathrm{h}$, and the producer wishes to use the sample data to test whether the product is qualified. By **U-test** (Test for the Mean of a Single Normal Population with Known Variance), this is a left-tailed testing problem. Set up the hypotheses
 
 $$
-H_0:\mu\ge1000,\quad H_1:\mu<1000.
+H_0:\mu\ge1000,\quad H_1:\mu< 1000.
 $$
 
 The test statistic is $U=\frac{\bar X-\mu_0}{\sigma_0/\sqrt n}$. Substituting the data $\bar x=950$, $\mu_0=1000$, $\sigma_0=100$, $n=25$, we get
@@ -50,7 +50,7 @@ $$
 u=\frac{950-1000}{100/\sqrt{25}}=\frac{-50}{20}=-2.5.
 $$
 
-The rejection region for the left-tailed test at significance level $\alpha=0.05$ is $U\le-u_{0.05}=-1.645$. Since $u=-2.5<-1.645$, the sample falls into the rejection region, so the null hypothesis is rejected at significance level $\alpha=0.05$, i.e. the average service life of this batch is regarded as below $1000\mathrm{h}$, and this batch of components is not qualified. $\blacksquare$
+The rejection region for the left-tailed test at significance level $\alpha=0.05$ is $U\le-u_{0.05}=-1.645$. Since $u=-2.5< -1.645$, the sample falls into the rejection region, so the null hypothesis is rejected at significance level $\alpha=0.05$, i.e. the average service life of this batch is regarded as below $1000\mathrm{h}$, and this batch of components is not qualified. $\blacksquare$
 
 ### Problem 3
 
@@ -83,13 +83,13 @@ $$
 (2) When $\mu=\mu_1$ ($\mu_1\ne\mu_0$), $\bar X\sim N\left(\mu_1,\frac{3^2}{25}\right)$. The Type II error, i.e. the probability of accepting a false null, is
 
 $$
-\beta\left(\mu_1\right)=P\left(\left\lvert\bar X-\mu_0\right\rvert<c\,\middle|\,\mu=\mu_1\right)=P\left(-c<\bar X-\mu_0<c\right).
+\beta\left(\mu_1\right)=P\left(\left\lvert\bar X-\mu_0\right\rvert< c\,\middle|\,\mu=\mu_1\right)=P\left(-c< \bar X-\mu_0< c\right).
 $$
 
 Let $\delta=\mu_1-\mu_0$. Then $\bar X-\mu_1\sim N\left(0,\frac{3^2}{25}\right)$, i.e. $\frac{\bar X-\mu_1}{3/5}\sim N\left(0,1\right)$, so
 
 $$
-\beta\left(\mu_1\right)=P\left(-c-\delta<\bar X-\mu_1<c-\delta\right)=\Phi\left(\frac{c-\delta}{3/5}\right)-\Phi\left(\frac{-c-\delta}{3/5}\right).
+\beta\left(\mu_1\right)=P\left(-c-\delta< \bar X-\mu_1< c-\delta\right)=\Phi\left(\frac{c-\delta}{3/5}\right)-\Phi\left(\frac{-c-\delta}{3/5}\right).
 $$
 
 Substituting $c=1.176$ and simplifying,
@@ -127,17 +127,17 @@ $$
 \chi^2=\frac{4\times0.00778}{0.048^2}=13.507.
 $$
 
-The rejection region for the two-sided test at significance level $\alpha=0.05$ is $\chi^2\le\chi^2_{0.975}\left(4\right)=0.484$ or $\chi^2\ge\chi^2_{0.025}\left(4\right)=11.143$. Since $\chi^2=13.507>11.143$, the sample falls into the rejection region, so the null hypothesis is rejected at significance level $\alpha=0.05$, i.e. the standard deviation on this day is regarded as abnormal. $\blacksquare$
+The rejection region for the two-sided test at significance level $\alpha=0.05$ is $\chi^2\le\chi^2_{0.975}\left(4\right)=0.484$ or $\chi^2\ge\chi^2_{0.025}\left(4\right)=11.143$. Since $\chi^2=13.507> 11.143$, the sample falls into the rejection region, so the null hypothesis is rejected at significance level $\alpha=0.05$, i.e. the standard deviation on this day is regarded as abnormal. $\blacksquare$
 
 ### Problem 5
 
 (Problem 5.2-15) The weight of an object is measured $10$ times, giving a sample mean $\bar x=10.05$ and a sample variance $s^2=0.0576$. Assume the weight of this object follows a normal distribution $N\left(\mu,\sigma^2\right)$.
 
-(1) If $\sigma^2=0.2^2$, at significance level $\alpha=0.05$, test $H_0:\mu=10$; $H_1:\mu>10$;
+(1) If $\sigma^2=0.2^2$, at significance level $\alpha=0.05$, test $H_0:\mu=10$; $H_1:\mu> 10$;
 
-(2) If $\sigma^2$ is unknown, at significance level $\alpha=0.05$, test $H_0:\mu=10$; $H_1:\mu>10$;
+(2) If $\sigma^2$ is unknown, at significance level $\alpha=0.05$, test $H_0:\mu=10$; $H_1:\mu> 10$;
 
-(3) At significance level $\alpha=0.05$, test $H_0:\sigma^2\ge0.25^2$; $H_1:\sigma^2<0.25^2$.
+(3) At significance level $\alpha=0.05$, test $H_0:\sigma^2\ge0.25^2$; $H_1:\sigma^2< 0.25^2$.
 
 ### Solution to Problem 5
 
@@ -153,7 +153,7 @@ $$
 u=\frac{10.05-10}{0.2/\sqrt{10}}=0.791.
 $$
 
-The rejection region for the right-tailed test at $\alpha=0.05$ is $U\ge u_{0.05}=1.645$. Since $u=0.791<1.645$, the null hypothesis is not rejected.
+The rejection region for the right-tailed test at $\alpha=0.05$ is $U\ge u_{0.05}=1.645$. Since $u=0.791< 1.645$, the null hypothesis is not rejected.
 
 (2) $\sigma^2$ is unknown; by **t-test** (Test for the Mean of a Single Normal Population with Unknown Variance), this is still a right-tailed test. The test statistic is
 
@@ -167,7 +167,7 @@ $$
 t=\frac{10.05-10}{0.24/\sqrt{10}}=0.659.
 $$
 
-The rejection region for the right-tailed test at $\alpha=0.05$ is $T\ge t_{0.05}\left(9\right)=1.833$. Since $t=0.659<1.833$, the null hypothesis is not rejected.
+The rejection region for the right-tailed test at $\alpha=0.05$ is $T\ge t_{0.05}\left(9\right)=1.833$. Since $t=0.659< 1.833$, the null hypothesis is not rejected.
 
 (3) By **$\chi^2$-test** (Test for the Variance of a Single Normal Population), this is a left-tailed test. The test statistic is
 
@@ -181,15 +181,15 @@ $$
 \chi^2=\frac{9\times0.0576}{0.25^2}=8.294.
 $$
 
-The rejection region for the left-tailed test at $\alpha=0.05$ is $\chi^2\le\chi^2_{0.95}\left(9\right)=3.325$. Since $\chi^2=8.294>3.325$, the null hypothesis is not rejected, i.e. the assertion that the variance is no less than $0.25^2$ cannot be rejected. $\blacksquare$
+The rejection region for the left-tailed test at $\alpha=0.05$ is $\chi^2\le\chi^2_{0.95}\left(9\right)=3.325$. Since $\chi^2=8.294> 3.325$, the null hypothesis is not rejected, i.e. the assertion that the variance is no less than $0.25^2$ cannot be rejected. $\blacksquare$
 
 ### Problem 6
 
 (Problem 5.2-17) To compare the quality of two cotton varieties, A and B, assume the strengths of the cotton yarn spun from them follow normal distributions $N\left(\mu_1,\sigma_1^2\right)$ and $N\left(\mu_2,\sigma_2^2\right)$ respectively. The experimenter draws samples $X_1,X_2,\dots,X_{100}$ and $Y_1,Y_2,\dots,Y_{50}$ from these two yarns, obtaining sample means and sample variances $\bar x=5.6$, $\bar y=5.2$, $s_1^2=4$, $s_2^2=2.56$.
 
-(1) If $\sigma_1^2=2.2^2$, $\sigma_2^2=1.8^2$, at significance level $\alpha=0.05$, test $H_0:\mu_1\le\mu_2$; $H_1:\mu_1>\mu_2$;
+(1) If $\sigma_1^2=2.2^2$, $\sigma_2^2=1.8^2$, at significance level $\alpha=0.05$, test $H_0:\mu_1\le\mu_2$; $H_1:\mu_1> \mu_2$;
 
-(2) If $\sigma_1^2=\sigma_2^2$ is unknown, at significance level $\alpha=0.05$, test $H_0:\mu_1\le\mu_2$; $H_1:\mu_1>\mu_2$.
+(2) If $\sigma_1^2=\sigma_2^2$ is unknown, at significance level $\alpha=0.05$, test $H_0:\mu_1\le\mu_2$; $H_1:\mu_1> \mu_2$.
 
 ### Solution to Problem 6
 
@@ -205,7 +205,7 @@ $$
 u=\frac{5.6-5.2}{\sqrt{\frac{4.84}{100}+\frac{3.24}{50}}}=\frac{0.4}{\sqrt{0.1132}}=1.189.
 $$
 
-The rejection region for the right-tailed test at $\alpha=0.05$ is $U\ge u_{0.05}=1.645$. Since $u=1.189<1.645$, the null hypothesis is not rejected, i.e. the strength of variety A yarn cannot be regarded as significantly higher than that of variety B.
+The rejection region for the right-tailed test at $\alpha=0.05$ is $U\ge u_{0.05}=1.645$. Since $u=1.189< 1.645$, the null hypothesis is not rejected, i.e. the strength of variety A yarn cannot be regarded as significantly higher than that of variety B.
 
 (2) $\sigma_1^2=\sigma_2^2$ is unknown but equal; by **Pooled t-test for the Difference of Means of Two Normal Populations** (Variances Unknown but Equal), first compute the pooled sample variance
 
@@ -225,7 +225,7 @@ $$
 t=\frac{5.6-5.2}{1.877\times\sqrt{\frac1{100}+\frac1{50}}}=\frac{0.4}{1.877\times0.1732}=1.230.
 $$
 
-The rejection region for the right-tailed test at $\alpha=0.05$ is $T\ge t_{0.05}\left(148\right)\approx1.655$. Since $t=1.230<1.655$, the null hypothesis is not rejected, i.e. the strength of variety A yarn cannot be regarded as significantly higher than that of variety B. $\blacksquare$
+The rejection region for the right-tailed test at $\alpha=0.05$ is $T\ge t_{0.05}\left(148\right)\approx1.655$. Since $t=1.230< 1.655$, the null hypothesis is not rejected, i.e. the strength of variety A yarn cannot be regarded as significantly higher than that of variety B. $\blacksquare$
 
 ### Problem 7
 
@@ -264,7 +264,7 @@ $$
 f=\frac{7.867\times10^{-6}}{7.100\times10^{-6}}=1.108.
 $$
 
-The rejection region for the two-sided test at $\alpha=0.05$ is $F\le F_{0.975}\left(5,5\right)=0.140$ or $F\ge F_{0.025}\left(5,5\right)=7.146$. Since $0.140<f=1.108<7.146$, the sample does not fall into the rejection region, so the null hypothesis is not rejected, i.e. the variances of the resistances of the two batches can be regarded as equal.
+The rejection region for the two-sided test at $\alpha=0.05$ is $F\le F_{0.975}\left(5,5\right)=0.140$ or $F\ge F_{0.025}\left(5,5\right)=7.146$. Since $0.140< f=1.108< 7.146$, the sample does not fall into the rejection region, so the null hypothesis is not rejected, i.e. the variances of the resistances of the two batches can be regarded as equal.
 
 (2) From the conclusion of (1), the two population variances are equal but unknown; by **Pooled t-test for the Difference of Means of Two Normal Populations** (Variances Unknown but Equal), set up the hypotheses
 
@@ -290,4 +290,4 @@ $$
 t=\frac{0.14067-0.13850}{0.002736\times\sqrt{\frac16+\frac16}}=\frac{0.00217}{0.00158}=1.372.
 $$
 
-The rejection region for the two-sided test at $\alpha=0.05$ is $\left\lvert T\right\rvert\ge t_{0.025}\left(10\right)=2.228$. Since $\left\lvert t\right\rvert=1.372<2.228$, the null hypothesis is not rejected, i.e. there is no significant difference in the mean resistance of the two batches. $\blacksquare$
+The rejection region for the two-sided test at $\alpha=0.05$ is $\left\lvert T\right\rvert\ge t_{0.025}\left(10\right)=2.228$. Since $\left\lvert t\right\rvert=1.372< 2.228$, the null hypothesis is not rejected, i.e. there is no significant difference in the mean resistance of the two batches. $\blacksquare$

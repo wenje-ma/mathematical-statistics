@@ -125,7 +125,7 @@ $$
 
 ### 习题四
 
-（习题 4.2-11）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$ 的样本，$a,b$ 为常数，且 $0<a<b$，求随机区间 $\left[\frac{\left(n-1\right)S^2}{b\sigma^2},\frac{\left(n-1\right)S^2}{a\sigma^2}\right]$ 的长度 $L$ 的数学期望和方差.
+（习题 4.2-11）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$ 的样本，$a,b$ 为常数，且 $0< a< b$，求随机区间 $\left[\frac{\left(n-1\right)S^2}{b\sigma^2},\frac{\left(n-1\right)S^2}{a\sigma^2}\right]$ 的长度 $L$ 的数学期望和方差.
 
 ### 解答 习题四
 

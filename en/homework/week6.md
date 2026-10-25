@@ -8,7 +8,7 @@
 
 ### Problem 1
 
-(Problem 2.5-1) Let $X_1,X_2,\dots,X_n$ be a sample from a Poisson-distributed population $P\left(\lambda\right)$, $\lambda>0$.
+(Problem 2.5-1) Let $X_1,X_2,\dots,X_n$ be a sample from a Poisson-distributed population $P\left(\lambda\right)$, $\lambda> 0$.
 
 (1) Using respectively the definition method and the factorization-theorem method, prove that $\sum_{i=1}^n X_i$ is a sufficient statistic;
 
@@ -16,7 +16,7 @@
 
 ### Solution to Problem 1
 
-The probability mass function of the Poisson distribution $P\left(\lambda\right)$ is $P\left\{X=x\right\}=\frac{e^{-\lambda}\lambda^x}{x!},\ x=0,1,2,\dots$, where $\lambda>0$. By **Definition 1.3.2** (Simple Random Sample), $X_1,X_2,\dots,X_n$ are mutually independent and identically distributed.
+The probability mass function of the Poisson distribution $P\left(\lambda\right)$ is $P\left\{X=x\right\}=\frac{e^{-\lambda}\lambda^x}{x!},\ x=0,1,2,\dots$, where $\lambda> 0$. By **Definition 1.3.2** (Simple Random Sample), $X_1,X_2,\dots,X_n$ are mutually independent and identically distributed.
 
 (1) Prove that $T=\sum_{i=1}^n X_i$ is a sufficient statistic.
 
@@ -53,10 +53,10 @@ $\blacksquare$
 (Problem 2.5-5) Let $X_1,X_2,\dots,X_n$ be a sample from the Rayleigh distribution, whose density function is
 
 $$
-f\left(x\right)=\begin{cases}2\theta x e^{-\theta x^2},&x>0,\\0,&\text{其他},\end{cases}
+f\left(x\right)=\begin{cases}2\theta x e^{-\theta x^2},&x> 0,\\0,&\text{其他},\end{cases}
 $$
 
-where $\theta>0$. Give a sufficient statistic.
+where $\theta> 0$. Give a sufficient statistic.
 
 ### Solution to Problem 2
 
@@ -75,10 +75,10 @@ $\blacksquare$
 (Problem 2.5-6) Let $X_1,X_2,\dots,X_n$ be a sample from the exponential distribution $E\left(\lambda\right)$, whose density function is
 
 $$
-f\left(x\right)=\begin{cases}\lambda e^{-\lambda x},&x>0,\\0,&x\le0,\end{cases}
+f\left(x\right)=\begin{cases}\lambda e^{-\lambda x},&x> 0,\\0,&x\le0,\end{cases}
 $$
 
-where $\lambda>0$. Prove that $\sum_{i=1}^n X_i$ is a sufficient statistic.
+where $\lambda> 0$. Prove that $\sum_{i=1}^n X_i$ is a sufficient statistic.
 
 ### Solution to Problem 3
 

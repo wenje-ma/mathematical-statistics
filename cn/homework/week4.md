@@ -12,13 +12,13 @@
 
 > **$\chi^2$ 分布的性质**（可加性）<br>设 $X_1\sim\chi^2\left(n_1\right)$，$X_2\sim\chi^2\left(n_2\right)$，且 $X_1$ 与 $X_2$ 相互独立，则 $X_1+X_2\sim\chi^2\left(n_1+n_2\right)$.
 
-> **基础知识**（中心极限定理）<br>设 $X_1,X_2,\dots,X_n$ 独立同分布，且 $E\left(X_i\right)=\mu$，$D\left(X_i\right)=\sigma^2>0$，则 $$\frac{\bar X-\mu}{\sigma/\sqrt n}\xrightarrow{L}N\left(0,1\right).$$
+> **基础知识**（中心极限定理）<br>设 $X_1,X_2,\dots,X_n$ 独立同分布，且 $E\left(X_i\right)=\mu$，$D\left(X_i\right)=\sigma^2> 0$，则 $$\frac{\bar X-\mu}{\sigma/\sqrt n}\xrightarrow{L}N\left(0,1\right).$$
 
 > **基础知识**（Slutsky 引理）<br>设随机变量序列 $X_n\xrightarrow{L}X$，$Y_n\xrightarrow{P}c$（$c$ 为常数），则 $X_n/Y_n\xrightarrow{L}X/c$（$c\ne0$）.
 
 ### 习题一
 
-（习题 2.3-2）设 $X_1,X_2,\dots,X_n$ 是来自泊松分布总体 $P\left(\lambda\right)$，$\lambda>0$ 的样本，求 $E\left(\bar X\right)$，$D\left(\bar X\right)$，$E\left(S^2\right)$.
+（习题 2.3-2）设 $X_1,X_2,\dots,X_n$ 是来自泊松分布总体 $P\left(\lambda\right)$，$\lambda> 0$ 的样本，求 $E\left(\bar X\right)$，$D\left(\bar X\right)$，$E\left(S^2\right)$.
 
 ### 解答 习题一
 
@@ -32,7 +32,7 @@ $\blacksquare$
 
 ### 习题二
 
-（习题 2.3-4）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$，$\mu\in\mathbb R$，$\sigma^2>0$ 的样本，求 $E\left(\bar X\right)$，$D\left(\bar X\right)$，$E\left(S^2\right)$，$D\left(S^2\right)$.
+（习题 2.3-4）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$，$\mu\in\mathbb R$，$\sigma^2> 0$ 的样本，求 $E\left(\bar X\right)$，$D\left(\bar X\right)$，$E\left(S^2\right)$，$D\left(S^2\right)$.
 
 ### 解答 习题二
 
@@ -70,7 +70,7 @@ $\blacksquare$
 
 ### 习题三
 
-（习题 2.3-5）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$，$\mu\in\mathbb R$，$\sigma^2>0$ 的样本，且 $\bar X=\frac{1}{n}\sum_{i=1}^n X_i$，$S_n^2=\frac{1}{n}\sum_{i=1}^n\left(X_i-\bar X\right)^2$，又设 $X_{n+1}\sim N\left(\mu,\sigma^2\right)$，且 $X_{n+1}$ 与 $X_1,X_2,\dots,X_n$ 独立，求常数 $c$ 使得 $c\frac{X_{n+1}-\bar X}{S_n}$ 服从 $t$ 分布，并指出分布的自由度.
+（习题 2.3-5）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$，$\mu\in\mathbb R$，$\sigma^2> 0$ 的样本，且 $\bar X=\frac{1}{n}\sum_{i=1}^n X_i$，$S_n^2=\frac{1}{n}\sum_{i=1}^n\left(X_i-\bar X\right)^2$，又设 $X_{n+1}\sim N\left(\mu,\sigma^2\right)$，且 $X_{n+1}$ 与 $X_1,X_2,\dots,X_n$ 独立，求常数 $c$ 使得 $c\frac{X_{n+1}-\bar X}{S_n}$ 服从 $t$ 分布，并指出分布的自由度.
 
 ### 解答 习题三
 
@@ -102,7 +102,7 @@ $$
 
 ### 习题四
 
-（习题 2.3-7）设 $X_1,X_2,\dots,X_{n+m}$ 是来自正态总体 $N\left(0,\sigma^2\right)$，$\sigma^2>0$ 的样本，求常数 $c$ 使得 $F=c\frac{\sum_{i=1}^n X_i^2}{\sum_{i=n+1}^{n+m}X_i^2}$ 服从 $F$ 分布，并指出分布的自由度.
+（习题 2.3-7）设 $X_1,X_2,\dots,X_{n+m}$ 是来自正态总体 $N\left(0,\sigma^2\right)$，$\sigma^2> 0$ 的样本，求常数 $c$ 使得 $F=c\frac{\sum_{i=1}^n X_i^2}{\sum_{i=n+1}^{n+m}X_i^2}$ 服从 $F$ 分布，并指出分布的自由度.
 
 ### 解答 习题四
 
@@ -122,7 +122,7 @@ $$
 
 ### 习题五
 
-（习题 2.3-8）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$，$\mu\in\mathbb R$，$\sigma^2>0$ 的样本，求常数 $a$ 和 $b$ 使得 $a\left(\bar X-\mu\right)^2+bS^2\sim\chi^2\left(n\right)$.
+（习题 2.3-8）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$，$\mu\in\mathbb R$，$\sigma^2> 0$ 的样本，求常数 $a$ 和 $b$ 使得 $a\left(\bar X-\mu\right)^2+bS^2\sim\chi^2\left(n\right)$.
 
 ### 解答 习题五
 
@@ -154,7 +154,7 @@ $$
 
 ### 习题六
 
-（习题 2.3-9）设 $X_1,X_2$ 是来自正态总体 $N\left(0,\sigma^2\right)$，$\sigma^2>0$ 的样本，求 $Y=\left(\frac{X_1+X_2}{X_1-X_2}\right)^2$ 的分布，并写出分布的自由度.
+（习题 2.3-9）设 $X_1,X_2$ 是来自正态总体 $N\left(0,\sigma^2\right)$，$\sigma^2> 0$ 的样本，求 $Y=\left(\frac{X_1+X_2}{X_1-X_2}\right)^2$ 的分布，并写出分布的自由度.
 
 ### 解答 习题六
 
@@ -188,7 +188,7 @@ $$
 
 ### 习题七
 
-（习题 2.3-12）设 $X_1,X_2,X_3,X_4$ 是来自正态总体 $N\left(0,\sigma^2\right)$，$\sigma^2>0$ 的样本，记 $Y=\frac{X_1}{\sqrt{X_2^2+X_3^2+X_4^2}}$.
+（习题 2.3-12）设 $X_1,X_2,X_3,X_4$ 是来自正态总体 $N\left(0,\sigma^2\right)$，$\sigma^2> 0$ 的样本，记 $Y=\frac{X_1}{\sqrt{X_2^2+X_3^2+X_4^2}}$.
 
 (1) 求 $c$ 使得 $cY$ 服从 $t$ 分布，并指出分布的自由度；
 
@@ -210,7 +210,7 @@ $$
 
 因此 $c=\sqrt3$，自由度为 $3$.
 
-(2) 由 $T\sim t\left(3\right)$ 且 $3>1$，$E\left(T\right)=0$，故 $E\left(cY\right)=0$. 由 $t$ 分布的性质，当 $n>2$ 时 $D\left(T\right)=\frac{n}{n-2}$，故
+(2) 由 $T\sim t\left(3\right)$ 且 $3> 1$，$E\left(T\right)=0$，故 $E\left(cY\right)=0$. 由 $t$ 分布的性质，当 $n> 2$ 时 $D\left(T\right)=\frac{n}{n-2}$，故
 
 $$
 D\left(cY\right)=D\left(T\right)=\frac{3}{3-2}=3.
@@ -220,7 +220,7 @@ $\blacksquare$
 
 ### 习题八
 
-（习题 2.3-19）设 $X_1,X_2,\dots,X_n$ 是来自均匀分布总体 $U\left(0,\theta\right)$，$\theta>0$ 的样本，求 $\frac{\bar X-\theta/2}{\sqrt{\theta^2/12n}}$ 的极限分布.
+（习题 2.3-19）设 $X_1,X_2,\dots,X_n$ 是来自均匀分布总体 $U\left(0,\theta\right)$，$\theta> 0$ 的样本，求 $\frac{\bar X-\theta/2}{\sqrt{\theta^2/12n}}$ 的极限分布.
 
 ### 解答 习题八
 
@@ -234,7 +234,7 @@ $$
 
 ### 习题九
 
-（习题 2.3-20）若 $X_1,X_2,\dots,X_n$ 是来自泊松分布总体 $P\left(\lambda\right)$，$\lambda>0$ 的样本，求 $\frac{\bar X-\lambda}{\sqrt{\bar X/n}}$ 的极限分布.
+（习题 2.3-20）若 $X_1,X_2,\dots,X_n$ 是来自泊松分布总体 $P\left(\lambda\right)$，$\lambda> 0$ 的样本，求 $\frac{\bar X-\lambda}{\sqrt{\bar X/n}}$ 的极限分布.
 
 ### 解答 习题九
 
@@ -267,7 +267,7 @@ $$
 (1) 总体 $X\sim U\left(0,1\right)$，其分布函数 $F\left(x\right)=x$（$0\le x\le1$）. 由**定理**（顺序统计量的分布），$X_{\left(n\right)}$ 的分布函数为 $F_{\left(n\right)}\left(x\right)=\left[F\left(x\right)\right]^n=x^n$. 故
 
 $$
-P\left\{X_{\left(n\right)}\ge0.99\right\}=1-P\left\{X_{\left(n\right)}<0.99\right\}=1-0.99^n.
+P\left\{X_{\left(n\right)}\ge0.99\right\}=1-P\left\{X_{\left(n\right)}< 0.99\right\}=1-0.99^n.
 $$
 
 要求 $1-0.99^n\ge0.95$，即 $0.99^n\le0.05$，解得
@@ -281,13 +281,13 @@ $$
 (2) 由**定理**（顺序统计量的分布），最小与最大顺序统计量的联合密度函数为
 
 $$
-f_{\left(1\right),\left(n\right)}\left(x,y\right)=n\left(n-1\right)\left(y-x\right)^{n-2},\quad0<x<y<1.
+f_{\left(1\right),\left(n\right)}\left(x,y\right)=n\left(n-1\right)\left(y-x\right)^{n-2},\quad0< x< y< 1.
 $$
 
 令 $r=y-x$，$s=x$，即 $x=s$，$y=s+r$，雅可比行列式 $J=1$. 对 $s$ 积分得 $R_n=X_{\left(n\right)}-X_{\left(1\right)}$ 的密度函数：
 
 $$
-f_{R_n}\left(r\right)=\int_0^{1-r}n\left(n-1\right)r^{n-2}\,\mathrm{d}s=n\left(n-1\right)r^{n-2}\left(1-r\right),\quad0<r<1.
+f_{R_n}\left(r\right)=\int_0^{1-r}n\left(n-1\right)r^{n-2}\,\mathrm{d}s=n\left(n-1\right)r^{n-2}\left(1-r\right),\quad0< r< 1.
 $$
 
 (3) 当 $n\to+\infty$ 时，$X_{\left(n\right)}\to1$，$X_{\left(1\right)}\to0$，故 $R_n\to1$. 考虑中心化与标准化后的变量：
