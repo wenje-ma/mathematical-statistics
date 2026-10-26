@@ -28,10 +28,10 @@ $$
 
 Take $g\left(T,\lambda\right)=e^{-n\lambda}\lambda^{\sum_{i=1}^n x_i}$ and $h\left(x_1,\dots,x_n\right)=\frac{1}{\prod_{i=1}^n x_i!}$, where $h$ does not depend on $\lambda$, so $T=\sum_{i=1}^n X_i$ is a sufficient statistic for $\lambda$.
 
-The definition method: by **Basic Knowledge** (Additivity of the Poisson Distribution), $T=\sum_{i=1}^n X_i\sim P\left(n\lambda\right)$, so $P\left\{T=t\right\}=\frac{e^{-n\lambda}\left(n\lambda\right)^t}{t!}$. Conditional on $T=t$, when $\sum_{i=1}^n x_i=t$,
+The definition method: by **Basic Knowledge** (Additivity of the Poisson Distribution), $T=\sum_{i=1}^n X_i\sim P\left(n\lambda\right)$, so $P\left\{T=t\right\}=\frac{e^{-n\lambda}\left(n\lambda\right)^\top}{t!}$. Conditional on $T=t$, when $\sum_{i=1}^n x_i=t$,
 
 $$
-P\left\{X_1=x_1,\dots,X_n=x_n\mid T=t\right\}=\frac{P\left\{X_1=x_1,\dots,X_n=x_n,\ T=t\right\}}{P\left\{T=t\right\}}=\frac{\prod_{i=1}^n\frac{e^{-\lambda}\lambda^{x_i}}{x_i!}}{\frac{e^{-n\lambda}\left(n\lambda\right)^t}{t!}}=\frac{t!}{n^t\prod_{i=1}^n x_i!}.
+P\left\{X_1=x_1,\dots,X_n=x_n\mid T=t\right\}=\frac{P\left\{X_1=x_1,\dots,X_n=x_n,\ T=t\right\}}{P\left\{T=t\right\}}=\frac{\prod_{i=1}^n\frac{e^{-\lambda}\lambda^{x_i}}{x_i!}}{\frac{e^{-n\lambda}\left(n\lambda\right)^\top}{t!}}=\frac{t!}{n^\top\prod_{i=1}^n x_i!}.
 $$
 
 This conditional probability mass function does not depend on the parameter $\lambda$, so by **Definition 2.5.1** (Sufficient Statistic), $T=\sum_{i=1}^n X_i$ is a sufficient statistic for $\lambda$.

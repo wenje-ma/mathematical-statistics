@@ -26,7 +26,7 @@
 
 By **Example 3.5.3** (Sufficient and Complete Statistic for the Two-point Distribution), $T=\sum_{i=1}^n X_i\sim B\left(n,p\right)$ is a sufficient and complete statistic for $p$. By **Theorem 3.5.1** (L–S Theorem), as long as one finds a function $h\left(T\right)$ of $T$ that is an unbiased estimator of the function to be estimated, it is the unique uniformly minimum variance unbiased estimator of that function.
 
-(1) We wish to estimate $g\left(p\right)=p^m$. Let $h\left(T\right)$ satisfy $E\left[h\left(T\right)\right]=p^m$. Since $T\sim B\left(n,p\right)$, its probability mass function is $P\left\{T=t\right\}=\binom{n}{t}p^t\left(1-p\right)^{n-t}$, $t=0,1,\dots,n$. Take
+(1) We wish to estimate $g\left(p\right)=p^m$. Let $h\left(T\right)$ satisfy $E\left[h\left(T\right)\right]=p^m$. Since $T\sim B\left(n,p\right)$, its probability mass function is $P\left\{T=t\right\}=\binom{n}{t}p^\top\left(1-p\right)^{n-t}$, $t=0,1,\dots,n$. Take
 
 $$
 h\left(t\right)=
@@ -39,7 +39,7 @@ $$
 Then for any $0< p< 1$,
 
 $$
-E\left[h\left(T\right)\right]=\sum_{t=m}^n\frac{\binom{n-m}{t-m}}{\binom{n}{t}}\binom{n}{t}p^t\left(1-p\right)^{n-t}=\sum_{t=m}^n\binom{n-m}{t-m}p^t\left(1-p\right)^{n-t}.
+E\left[h\left(T\right)\right]=\sum_{t=m}^n\frac{\binom{n-m}{t-m}}{\binom{n}{t}}\binom{n}{t}p^\top\left(1-p\right)^{n-t}=\sum_{t=m}^n\binom{n-m}{t-m}p^\top\left(1-p\right)^{n-t}.
 $$
 
 Letting $s=t-m$, by the binomial theorem,

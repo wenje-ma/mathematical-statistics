@@ -26,7 +26,7 @@
 
 由**例 3.5.3**（两点分布的充分完备统计量），$T=\sum_{i=1}^n X_i\sim B\left(n,p\right)$ 是 $p$ 的充分完备统计量. 由**定理 3.5.1**（L-S 定理），只要找到 $T$ 的函数 $h\left(T\right)$ 使其为待估函数的无偏估计，即为该函数的唯一一致最小方差无偏估计.
 
-(1) 待估 $g\left(p\right)=p^m$. 设 $h\left(T\right)$ 满足 $E\left[h\left(T\right)\right]=p^m$. 由 $T\sim B\left(n,p\right)$，其分布列为 $P\left\{T=t\right\}=\binom{n}{t}p^t\left(1-p\right)^{n-t}$，$t=0,1,\dots,n$. 取
+(1) 待估 $g\left(p\right)=p^m$. 设 $h\left(T\right)$ 满足 $E\left[h\left(T\right)\right]=p^m$. 由 $T\sim B\left(n,p\right)$，其分布列为 $P\left\{T=t\right\}=\binom{n}{t}p^\top\left(1-p\right)^{n-t}$，$t=0,1,\dots,n$. 取
 
 $$
 h\left(t\right)=
@@ -39,7 +39,7 @@ $$
 则对任意 $0< p< 1$，
 
 $$
-E\left[h\left(T\right)\right]=\sum_{t=m}^n\frac{\binom{n-m}{t-m}}{\binom{n}{t}}\binom{n}{t}p^t\left(1-p\right)^{n-t}=\sum_{t=m}^n\binom{n-m}{t-m}p^t\left(1-p\right)^{n-t}.
+E\left[h\left(T\right)\right]=\sum_{t=m}^n\frac{\binom{n-m}{t-m}}{\binom{n}{t}}\binom{n}{t}p^\top\left(1-p\right)^{n-t}=\sum_{t=m}^n\binom{n-m}{t-m}p^\top\left(1-p\right)^{n-t}.
 $$
 
 令 $s=t-m$，由二项式定理，

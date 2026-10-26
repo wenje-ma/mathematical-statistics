@@ -28,10 +28,10 @@ $$
 
 取 $g\left(T,\lambda\right)=e^{-n\lambda}\lambda^{\sum_{i=1}^n x_i}$，$h\left(x_1,\dots,x_n\right)=\frac{1}{\prod_{i=1}^n x_i!}$，其中 $h$ 不依赖于 $\lambda$，故 $T=\sum_{i=1}^n X_i$ 是 $\lambda$ 的充分统计量.
 
-定义法：由**基础知识**（泊松分布的可加性），$T=\sum_{i=1}^n X_i\sim P\left(n\lambda\right)$，故 $P\left\{T=t\right\}=\frac{e^{-n\lambda}\left(n\lambda\right)^t}{t!}$. 在给定 $T=t$ 的条件下，当 $\sum_{i=1}^n x_i=t$ 时，
+定义法：由**基础知识**（泊松分布的可加性），$T=\sum_{i=1}^n X_i\sim P\left(n\lambda\right)$，故 $P\left\{T=t\right\}=\frac{e^{-n\lambda}\left(n\lambda\right)^\top}{t!}$. 在给定 $T=t$ 的条件下，当 $\sum_{i=1}^n x_i=t$ 时，
 
 $$
-P\left\{X_1=x_1,\dots,X_n=x_n\mid T=t\right\}=\frac{P\left\{X_1=x_1,\dots,X_n=x_n,\ T=t\right\}}{P\left\{T=t\right\}}=\frac{\prod_{i=1}^n\frac{e^{-\lambda}\lambda^{x_i}}{x_i!}}{\frac{e^{-n\lambda}\left(n\lambda\right)^t}{t!}}=\frac{t!}{n^t\prod_{i=1}^n x_i!}.
+P\left\{X_1=x_1,\dots,X_n=x_n\mid T=t\right\}=\frac{P\left\{X_1=x_1,\dots,X_n=x_n,\ T=t\right\}}{P\left\{T=t\right\}}=\frac{\prod_{i=1}^n\frac{e^{-\lambda}\lambda^{x_i}}{x_i!}}{\frac{e^{-n\lambda}\left(n\lambda\right)^\top}{t!}}=\frac{t!}{n^\top\prod_{i=1}^n x_i!}.
 $$
 
 该条件分布列与参数 $\lambda$ 无关，故由**定义 2.5.1**（充分统计量），$T=\sum_{i=1}^n X_i$ 是 $\lambda$ 的充分统计量.

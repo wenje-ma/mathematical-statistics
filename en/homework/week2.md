@@ -21,7 +21,7 @@ $$
 
 That is, the probability mass function of $T$ is
 $$
-P\left\{T=t\right\}=\frac{\left(n\lambda\right)^t}{t!}e^{-n\lambda},\quad t=0,1,2,\dots
+P\left\{T=t\right\}=\frac{\left(n\lambda\right)^\top}{t!}e^{-n\lambda},\quad t=0,1,2,\dots
 $$
 
 $\blacksquare$
