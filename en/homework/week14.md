@@ -2,17 +2,17 @@
 
 > **Definition 4.2.1** (Pivotal Quantity)<br>Let $G\left(X_1,X_2,\dots,X_n,\theta\right)$ be a measurable function of the sample $\left(X_1,X_2,\dots,X_n\right)$ and the parameter $\theta$. When and only when the distribution of $G\left(X_1,X_2,\dots,X_n,\theta\right)$ does not depend on the parameter $\theta$, $G\left(X_1,X_2,\dots,X_n,\theta\right)$ is called a pivotal quantity.
 
-> **Theorem** (Confidence Interval for the Mean of a Single Normal Population)<br>Let $X_1,X_2,\dots,X_n$ be a sample from the normal population $N\left(\mu,\sigma^2\right)$, with $\bar X=\frac{1}{n}\sum_{i=1}^n X_i$ and $S^2=\frac{1}{n-1}\sum_{i=1}^n\left(X_i-\bar X\right)^2$. When $\sigma^2$ is known, the confidence interval for $\mu$ with confidence level $1-\alpha$ is $\left[\bar X-\frac{\sigma}{\sqrt n}u_{\alpha/2},\bar X+\frac{\sigma}{\sqrt n}u_{\alpha/2}\right]$; when $\sigma^2$ is unknown, the confidence interval for $\mu$ with confidence level $1-\alpha$ is $\left[\bar X-\frac{S}{\sqrt n}t_{\alpha/2}\left(n-1\right),\bar X+\frac{S}{\sqrt n}t_{\alpha/2}\left(n-1\right)\right]$.
+> **Theorem** (Confidence Interval for the Mean of a Single Normal Population)<br>Let $X_1,X_2,\dots,X_n$ be a sample from the normal population $N\left(\mu,\sigma^2\right)$, with $\overline X=\frac{1}{n}\sum_{i=1}^n X_i$ and $S^2=\frac{1}{n-1}\sum_{i=1}^n\left(X_i-\overline X\right)^2$. When $\sigma^2$ is known, the confidence interval for $\mu$ with confidence level $1-\alpha$ is $\left[\overline X-\frac{\sigma}{\sqrt n}u_{\alpha/2},\overline X+\frac{\sigma}{\sqrt n}u_{\alpha/2}\right]$; when $\sigma^2$ is unknown, the confidence interval for $\mu$ with confidence level $1-\alpha$ is $\left[\overline X-\frac{S}{\sqrt n}t_{\alpha/2}\left(n-1\right),\overline X+\frac{S}{\sqrt n}t_{\alpha/2}\left(n-1\right)\right]$.
 
 > **Theorem** (Confidence Interval for the Variance of a Single Normal Population)<br>Let $X_1,X_2,\dots,X_n$ be a sample from the normal population $N\left(\mu,\sigma^2\right)$. When $\mu$ is unknown, the confidence interval for $\sigma^2$ with confidence level $1-\alpha$ is $$\left[\frac{\left(n-1\right)S^2}{\chi^2_{\alpha/2}\left(n-1\right)},\frac{\left(n-1\right)S^2}{\chi^2_{1-\alpha/2}\left(n-1\right)}\right],$$ where $\chi^2_\alpha\left(n-1\right)$ denotes the upper $\alpha$ quantile of the $\chi^2$ distribution with $n-1$ degrees of freedom. Correspondingly, the confidence interval for $\sigma$ with confidence level $1-\alpha$ is the square root of the endpoints of the above interval.
 
-> **Theorem** (Confidence Interval for the Difference of Means of Two Normal Populations)<br>Let $X_1,X_2,\dots,X_m$ be a sample from $N\left(\mu_1,\sigma_1^2\right)$ and $Y_1,Y_2,\dots,Y_n$ a sample from $N\left(\mu_2,\sigma_2^2\right)$, with the two samples independent, $\bar X,\bar Y$ the sample means and $S_1^2,S_2^2$ the sample variances. When $\sigma_1^2,\sigma_2^2$ are both known, the confidence interval for $\mu_2-\mu_1$ is $\left[\bar Y-\bar X-u_{\alpha/2}\sqrt{\frac{\sigma_1^2}{m}+\frac{\sigma_2^2}{n}},\bar Y-\bar X+u_{\alpha/2}\sqrt{\frac{\sigma_1^2}{m}+\frac{\sigma_2^2}{n}}\right]$; when $\sigma_1^2=\sigma_2^2=\sigma^2$ is unknown, the confidence interval for $\mu_2-\mu_1$ is $\left[\bar Y-\bar X-S_w t_{\alpha/2}\left(m+n-2\right)\sqrt{\frac{1}{m}+\frac{1}{n}},\bar Y-\bar X+S_w t_{\alpha/2}\left(m+n-2\right)\sqrt{\frac{1}{m}+\frac{1}{n}}\right]$, where $S_w^2=\frac{\left(m-1\right)S_1^2+\left(n-1\right)S_2^2}{m+n-2}$; when $\sigma_1^2\ne\sigma_2^2$ is unknown, the Welch approximation may be used: $\left[\bar Y-\bar X-t_{\alpha/2}\left(r\right)\sqrt{\frac{S_1^2}{m}+\frac{S_2^2}{n}},\bar Y-\bar X+t_{\alpha/2}\left(r\right)\sqrt{\frac{S_1^2}{m}+\frac{S_2^2}{n}}\right]$, where $r=\frac{\left(S_1^2/m+S_2^2/n\right)^2}{\frac{\left(S_1^2/m\right)^2}{m-1}+\frac{\left(S_2^2/n\right)^2}{n-1}}$.
+> **Theorem** (Confidence Interval for the Difference of Means of Two Normal Populations)<br>Let $X_1,X_2,\dots,X_m$ be a sample from $N\left(\mu_1,\sigma_1^2\right)$ and $Y_1,Y_2,\dots,Y_n$ a sample from $N\left(\mu_2,\sigma_2^2\right)$, with the two samples independent, $\overline X,\overline Y$ the sample means and $S_1^2,S_2^2$ the sample variances. When $\sigma_1^2,\sigma_2^2$ are both known, the confidence interval for $\mu_2-\mu_1$ is $\left[\overline Y-\overline X-u_{\alpha/2}\sqrt{\frac{\sigma_1^2}{m}+\frac{\sigma_2^2}{n}},\overline Y-\overline X+u_{\alpha/2}\sqrt{\frac{\sigma_1^2}{m}+\frac{\sigma_2^2}{n}}\right]$; when $\sigma_1^2=\sigma_2^2=\sigma^2$ is unknown, the confidence interval for $\mu_2-\mu_1$ is $\left[\overline Y-\overline X-S_w t_{\alpha/2}\left(m+n-2\right)\sqrt{\frac{1}{m}+\frac{1}{n}},\overline Y-\overline X+S_w t_{\alpha/2}\left(m+n-2\right)\sqrt{\frac{1}{m}+\frac{1}{n}}\right]$, where $S_w^2=\frac{\left(m-1\right)S_1^2+\left(n-1\right)S_2^2}{m+n-2}$; when $\sigma_1^2\ne\sigma_2^2$ is unknown, the Welch approximation may be used: $\left[\overline Y-\overline X-t_{\alpha/2}\left(r\right)\sqrt{\frac{S_1^2}{m}+\frac{S_2^2}{n}},\overline Y-\overline X+t_{\alpha/2}\left(r\right)\sqrt{\frac{S_1^2}{m}+\frac{S_2^2}{n}}\right]$, where $r=\frac{\left(S_1^2/m+S_2^2/n\right)^2}{\frac{\left(S_1^2/m\right)^2}{m-1}+\frac{\left(S_2^2/n\right)^2}{n-1}}$.
 
 > **Theorem** (Confidence Interval for the Variance Ratio of Two Normal Populations)<br>Let the means of both populations be unknown. Then the confidence interval for $\frac{\sigma_1^2}{\sigma_2^2}$ with confidence level $1-\alpha$ is $$\left[\frac{S_1^2/S_2^2}{F_{\alpha/2}\left(m-1,n-1\right)},\frac{S_1^2/S_2^2}{F_{1-\alpha/2}\left(m-1,n-1\right)}\right],$$ where $F_{\alpha/2}\left(m-1,n-1\right)$ denotes the upper $\alpha/2$ quantile of the $F$ distribution.
 
 ### Problem 1
 
-(Problem 4.2-3) Let $X_1,X_2,\dots,X_{21}$ be a sample from the normal population $N\left(\mu,\sigma^2\right)$. Computation gives the sample mean $\bar{x}=32.295$ and the sample standard deviation $s=0.343$.
+(Problem 4.2-3) Let $X_1,X_2,\dots,X_{21}$ be a sample from the normal population $N\left(\mu,\sigma^2\right)$. Computation gives the sample mean $\overline{x}=32.295$ and the sample standard deviation $s=0.343$.
 
 (1) If $\sigma$ is unknown, find the confidence interval for $\mu$ with confidence level $95\%$;
 
@@ -20,9 +20,9 @@
 
 ### Solution to Problem 1
 
-By **Theorem** (Confidence Interval for the Mean of a Single Normal Population), when $\sigma^2$ is unknown, the confidence interval for $\mu$ with confidence level $1-\alpha$ is $\left[\bar X-\frac{S}{\sqrt n}t_{\alpha/2}\left(n-1\right),\bar X+\frac{S}{\sqrt n}t_{\alpha/2}\left(n-1\right)\right]$.
+By **Theorem** (Confidence Interval for the Mean of a Single Normal Population), when $\sigma^2$ is unknown, the confidence interval for $\mu$ with confidence level $1-\alpha$ is $\left[\overline X-\frac{S}{\sqrt n}t_{\alpha/2}\left(n-1\right),\overline X+\frac{S}{\sqrt n}t_{\alpha/2}\left(n-1\right)\right]$.
 
-In this problem, $n=21$, $\bar{x}=32.295$, $s=0.343$, and the degrees of freedom are $n-1=20$.
+In this problem, $n=21$, $\overline{x}=32.295$, $s=0.343$, and the degrees of freedom are $n-1=20$.
 
 (1) The confidence level is $95\%$, i.e. $\alpha=0.05$. From the $t$-distribution table, $t_{0.025}\left(20\right)=2.086$. Computation gives
 
@@ -56,10 +56,10 @@ $\blacksquare$
 
 ### Solution to Problem 2
 
-By **Definition 4.2.1** (Pivotal Quantity), when $\sigma^2$ is known, the pivotal quantity is $U=\frac{\sqrt n\left(\bar X-\mu\right)}{\sigma_0}\sim N\left(0,1\right)$. By **Theorem** (Confidence Interval for the Mean of a Single Normal Population), the confidence interval for $\mu$ with confidence level $1-\alpha$ is
+By **Definition 4.2.1** (Pivotal Quantity), when $\sigma^2$ is known, the pivotal quantity is $U=\frac{\sqrt n\left(\overline X-\mu\right)}{\sigma_0}\sim N\left(0,1\right)$. By **Theorem** (Confidence Interval for the Mean of a Single Normal Population), the confidence interval for $\mu$ with confidence level $1-\alpha$ is
 
 $$
-\left[\bar X-\frac{\sigma_0}{\sqrt n}u_{\alpha/2},\ \bar X+\frac{\sigma_0}{\sqrt n}u_{\alpha/2}\right].
+\left[\overline X-\frac{\sigma_0}{\sqrt n}u_{\alpha/2},\ \overline X+\frac{\sigma_0}{\sqrt n}u_{\alpha/2}\right].
 $$
 
 The length of this interval is
@@ -221,7 +221,7 @@ $\blacksquare$
 
 ### Problem 7
 
-(Problem 4.2-21) Samples of sizes $m=10$ and $n=15$ are drawn respectively from the population $X\sim N\left(\mu_1,\sigma_1^2\right)$ and the population $Y\sim N\left(\mu_2,\sigma_2^2\right)$. Computation gives sample means $\bar{x}=82$ and $\bar{y}=76$, and sample variances $s_x^2=56.5$ and $s_y^2=52.4$.
+(Problem 4.2-21) Samples of sizes $m=10$ and $n=15$ are drawn respectively from the population $X\sim N\left(\mu_1,\sigma_1^2\right)$ and the population $Y\sim N\left(\mu_2,\sigma_2^2\right)$. Computation gives sample means $\overline{x}=82$ and $\overline{y}=76$, and sample variances $s_x^2=56.5$ and $s_y^2=52.4$.
 
 (1) If it is known that $\sigma_1^2=64$ and $\sigma_2^2=49$, find the confidence interval for $\mu_1-\mu_2$ with confidence level $95\%$;
 
@@ -238,10 +238,10 @@ By **Theorem** (Confidence Interval for the Difference of Means of Two Normal Po
 (1) $\sigma_1^2=64$ and $\sigma_2^2=49$ are both known. The confidence interval is
 
 $$
-\left[\bar x-\bar y-u_{0.025}\sqrt{\frac{\sigma_1^2}{m}+\frac{\sigma_2^2}{n}},\ \bar x-\bar y+u_{0.025}\sqrt{\frac{\sigma_1^2}{m}+\frac{\sigma_2^2}{n}}\right].
+\left[\overline x-\overline y-u_{0.025}\sqrt{\frac{\sigma_1^2}{m}+\frac{\sigma_2^2}{n}},\ \overline x-\overline y+u_{0.025}\sqrt{\frac{\sigma_1^2}{m}+\frac{\sigma_2^2}{n}}\right].
 $$
 
-where $\bar x-\bar y=82-76=6$, $u_{0.025}=1.96$,
+where $\overline x-\overline y=82-76=6$, $u_{0.025}=1.96$,
 
 $$
 \sqrt{\frac{64}{10}+\frac{49}{15}}=\sqrt{6.4+3.267}=\sqrt{9.667}=3.109.

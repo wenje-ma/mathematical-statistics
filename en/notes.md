@@ -300,25 +300,25 @@ $$
 \alpha_k\left(\theta_1,\theta_2,\dots,\theta_m\right)=A_k,\quad k=1,2,\dots,m,
 $$
 
-Its solution $\hat\theta_i=\hat\theta_i\left(X_1,X_2,\dots,X_n\right)$ is called the method of moments estimator of $\theta_i$. One may also use the sample $k$-th central moment to estimate the population $k$-th central moment and set up the corresponding equations. If one wishes to estimate a function of the parameters $g\left(\theta_1,\dots,\theta_m\right)$, then $g\left(\hat\theta_1,\dots,\hat\theta_m\right)$ is taken as its method of moments estimator.
+Its solution $\widehat\theta_i=\widehat\theta_i\left(X_1,X_2,\dots,X_n\right)$ is called the method of moments estimator of $\theta_i$. One may also use the sample $k$-th central moment to estimate the population $k$-th central moment and set up the corresponding equations. If one wishes to estimate a function of the parameters $g\left(\theta_1,\dots,\theta_m\right)$, then $g\left(\widehat\theta_1,\dots,\widehat\theta_m\right)$ is taken as its method of moments estimator.
 
 **Example 3.2.1 Conclusion** (Method of Moments Estimators of the Population Mean and Variance)
 
-Let the mean $\mu$ and variance $\sigma^2$ of the population $X$ both exist and be unknown, and let $X_1,X_2,\dots,X_n$ be a sample from the population $X$. Then the method of moments estimator of the population mean is $\hat\mu=\overline X=\frac{1}{n}\sum_{i=1}^n X_i$, and the method of moments estimator of the population variance is
+Let the mean $\mu$ and variance $\sigma^2$ of the population $X$ both exist and be unknown, and let $X_1,X_2,\dots,X_n$ be a sample from the population $X$. Then the method of moments estimator of the population mean is $\widehat\mu=\overline X=\frac{1}{n}\sum_{i=1}^n X_i$, and the method of moments estimator of the population variance is
 
 $$
-\hat\sigma^2=S_n^2=\frac{1}{n}\sum_{i=1}^n\left(X_i-\overline X\right)^2.
+\widehat\sigma^2=S_n^2=\frac{1}{n}\sum_{i=1}^n\left(X_i-\overline X\right)^2.
 $$
 
 **Definition 3.3.2** (Maximum Likelihood Estimator)
 
-Let the density function (or probability mass function) of the population be $f\left(x;\theta\right)$, and let $X_1,X_2,\dots,X_n$ be a sample from this population with observed values $x_1,x_2,\dots,x_n$. If the likelihood function $L\left(\theta\right)=L\left(\theta;x_1,x_2,\dots,x_n\right)$ attains its maximum at $\hat\theta=\hat\theta\left(x_1,x_2,\dots,x_n\right)$, i.e.
+Let the density function (or probability mass function) of the population be $f\left(x;\theta\right)$, and let $X_1,X_2,\dots,X_n$ be a sample from this population with observed values $x_1,x_2,\dots,x_n$. If the likelihood function $L\left(\theta\right)=L\left(\theta;x_1,x_2,\dots,x_n\right)$ attains its maximum at $\widehat\theta=\widehat\theta\left(x_1,x_2,\dots,x_n\right)$, i.e.
 
 $$
-L\left(\hat\theta\right)=\sup_{\theta\in\Theta}L\left(\theta\right),
+L\left(\widehat\theta\right)=\sup_{\theta\in\Theta}L\left(\theta\right),
 $$
 
-then $\hat\theta\left(x_1,x_2,\dots,x_n\right)$ is called the maximum likelihood estimate of $\theta$, and $\hat\theta\left(X_1,X_2,\dots,X_n\right)$ is called the maximum likelihood estimator, abbreviated as the maximum likelihood estimate.
+then $\widehat\theta\left(x_1,x_2,\dots,x_n\right)$ is called the maximum likelihood estimate of $\theta$, and $\widehat\theta\left(X_1,X_2,\dots,X_n\right)$ is called the maximum likelihood estimator, abbreviated as the maximum likelihood estimate.
 
 **Likelihood Function and Log-Likelihood Function**
 
@@ -332,37 +332,37 @@ is called the log-likelihood function; $L\left(\theta\right)$ and $\ln L\left(\t
 
 **How to Find the Maximum Likelihood Estimator**
 
-If the likelihood function is differentiable with respect to $\theta$, then $\hat\theta$ is found from the log-likelihood equation $\frac{\mathrm{d}\ln L}{\mathrm{d}\theta}=0$ (a system of equations when there are multiple parameters); when the stationary point is unique and is a maximum, it is the maximum likelihood estimator. If the likelihood function is not differentiable, then by **Definition 3.3.2** (Maximum Likelihood Estimator) one directly compares the points where the likelihood function attains its maximum over the parameter space.
+If the likelihood function is differentiable with respect to $\theta$, then $\widehat\theta$ is found from the log-likelihood equation $\frac{\mathrm{d}\ln L}{\mathrm{d}\theta}=0$ (a system of equations when there are multiple parameters); when the stationary point is unique and is a maximum, it is the maximum likelihood estimator. If the likelihood function is not differentiable, then by **Definition 3.3.2** (Maximum Likelihood Estimator) one directly compares the points where the likelihood function attains its maximum over the parameter space.
 
 **Invariance of the Maximum Likelihood Estimator**
 
-If $\hat\theta$ is the maximum likelihood estimator of $\theta$, and $g\left(\theta\right)$ is a known function with a one-to-one inverse, then $g\left(\hat\theta\right)$ is the maximum likelihood estimator of $g\left(\theta\right)$.
+If $\widehat\theta$ is the maximum likelihood estimator of $\theta$, and $g\left(\theta\right)$ is a known function with a one-to-one inverse, then $g\left(\widehat\theta\right)$ is the maximum likelihood estimator of $g\left(\theta\right)$.
 
 ## Criteria for Evaluating Estimators
 
 **Definition 3.4.1** (Unbiased Estimator)
 
-Let $\hat\theta=\hat\theta\left(X_1,X_2,\dots,X_n\right)$ be an estimator of the unknown parameter $\theta$. If for any $\theta\in\Theta$ one has
+Let $\widehat\theta=\widehat\theta\left(X_1,X_2,\dots,X_n\right)$ be an estimator of the unknown parameter $\theta$. If for any $\theta\in\Theta$ one has
 
 $$
-E\left[\hat\theta\left(X_1,X_2,\dots,X_n\right)\right]=\theta,
+E\left[\widehat\theta\left(X_1,X_2,\dots,X_n\right)\right]=\theta,
 $$
 
-then $\hat\theta$ is called an unbiased estimator of $\theta$. For an estimator $\hat g$ of $g\left(\theta\right)$, if $E\left[\hat g\right]=g\left(\theta\right)$, then $\hat g$ is called an unbiased estimator of $g\left(\theta\right)$.
+then $\widehat\theta$ is called an unbiased estimator of $\theta$. For an estimator $\widehat g$ of $g\left(\theta\right)$, if $E\left[\widehat g\right]=g\left(\theta\right)$, then $\widehat g$ is called an unbiased estimator of $g\left(\theta\right)$.
 
 **Definition 3.4.2** (Efficiency)
 
-Let $\hat\theta_1$ and $\hat\theta_2$ both be unbiased estimators of $\theta$. If for all $\theta\in\Theta$ one has $D\left(\hat\theta_1\right)\le D\left(\hat\theta_2\right)$, with the strict inequality holding for at least one $\theta$, then $\hat\theta_1$ is said to be more efficient than $\hat\theta_2$.
+Let $\widehat\theta_1$ and $\widehat\theta_2$ both be unbiased estimators of $\theta$. If for all $\theta\in\Theta$ one has $D\left(\widehat\theta_1\right)\le D\left(\widehat\theta_2\right)$, with the strict inequality holding for at least one $\theta$, then $\widehat\theta_1$ is said to be more efficient than $\widehat\theta_2$.
 
 **Definition 3.4.3** (Consistent Estimator)
 
-For each natural number $n$, let $\hat\theta_n=\hat\theta_n\left(X_1,X_2,\dots,X_n\right)$ be an estimator of $\theta$. If for any $\theta\in\Theta$ and any $\varepsilon> 0$ one has
+For each natural number $n$, let $\widehat\theta_n=\widehat\theta_n\left(X_1,X_2,\dots,X_n\right)$ be an estimator of $\theta$. If for any $\theta\in\Theta$ and any $\varepsilon> 0$ one has
 
 $$
-\lim_{n\to\infty}P\left\{\left|\hat\theta_n-\theta\right|\ge\varepsilon\right\}=0,
+\lim_{n\to\infty}P\left\{\left|\widehat\theta_n-\theta\right|\ge\varepsilon\right\}=0,
 $$
 
-then $\hat\theta_n$ is called a (weakly) consistent estimator of $\theta$.
+then $\widehat\theta_n$ is called a (weakly) consistent estimator of $\theta$.
 
 **Basic Knowledge** (Chebyshev's Inequality and the Law of Large Numbers)
 
@@ -372,7 +372,7 @@ For any random variable $Y$ and $\varepsilon> 0$, one has $P\left\{\left|Y-EY\ri
 
 **Lemma 3.5.1** (A Method for Improving an Unbiased Estimator)
 
-Let $T=T\left(X_1,X_2,\dots,X_n\right)$ be a sufficient statistic, and let $\hat g\left(X_1,X_2,\dots,X_n\right)$ be an unbiased estimator of $g\left(\theta\right)$. Then $h\left(T\right)=E\left[\hat g\left(X_1,X_2,\dots,X_n\right)\mid T\right]$ is an unbiased estimator of $g\left(\theta\right)$, and for any $\theta$, $D\left[h\left(T\right)\right]\le D\left[\hat g\left(X_1,X_2,\dots,X_n\right)\right]$, with equality if and only if $\hat g\left(X_1,X_2,\dots,X_n\right)=h\left(T\right)$ almost everywhere.
+Let $T=T\left(X_1,X_2,\dots,X_n\right)$ be a sufficient statistic, and let $\widehat g\left(X_1,X_2,\dots,X_n\right)$ be an unbiased estimator of $g\left(\theta\right)$. Then $h\left(T\right)=E\left[\widehat g\left(X_1,X_2,\dots,X_n\right)\mid T\right]$ is an unbiased estimator of $g\left(\theta\right)$, and for any $\theta$, $D\left[h\left(T\right)\right]\le D\left[\widehat g\left(X_1,X_2,\dots,X_n\right)\right]$, with equality if and only if $\widehat g\left(X_1,X_2,\dots,X_n\right)=h\left(T\right)$ almost everywhere.
 
 **Theorem 3.5.1** (Lehmann–Scheffé Theorem)
 
@@ -410,27 +410,27 @@ is the Fisher information of this family.
 
 **Theorem 3.6.1** (One-Parameter Cramér–Rao Inequality)
 
-Let the family $\mathcal F=\left\{f\left(x,\theta\right):\theta\in\Theta\right\}$ be a Cramér–Rao regular family, let the estimable function $g\left(\theta\right)$ be differentiable on the parameter space, let $X_1,X_2,\dots,X_n$ be a sample drawn from this population, and let $\hat g\left(X\right)=\hat g\left(X_1,X_2,\dots,X_n\right)$ be any unbiased estimator of $g\left(\theta\right)$, with differentiation under the integral sign with respect to $\theta$ permissible. Then
+Let the family $\mathcal F=\left\{f\left(x,\theta\right):\theta\in\Theta\right\}$ be a Cramér–Rao regular family, let the estimable function $g\left(\theta\right)$ be differentiable on the parameter space, let $X_1,X_2,\dots,X_n$ be a sample drawn from this population, and let $\widehat g\left(X\right)=\widehat g\left(X_1,X_2,\dots,X_n\right)$ be any unbiased estimator of $g\left(\theta\right)$, with differentiation under the integral sign with respect to $\theta$ permissible. Then
 
 $$
-D\left[\hat g\left(X\right)\right]\ge\frac{\left[g'\left(\theta\right)\right]^2}{nI\left(\theta\right)}.
+D\left[\widehat g\left(X\right)\right]\ge\frac{\left[g'\left(\theta\right)\right]^2}{nI\left(\theta\right)}.
 $$
 
 The right-hand side $\frac{\left[g'\left(\theta\right)\right]^2}{nI\left(\theta\right)}$ is called the Cramér–Rao lower bound. If some unbiased estimator attains this lower bound, then it must be the uniformly minimum variance unbiased estimator.
 
 **Definition 3.6.2** (Efficiency)
 
-Let $\hat g\left(X\right)$ be an unbiased estimator of $g\left(\theta\right)$. Then the ratio
+Let $\widehat g\left(X\right)$ be an unbiased estimator of $g\left(\theta\right)$. Then the ratio
 
 $$
-e\left(\theta\right)=\frac{\left[g'\left(\theta\right)\right]^2}{nI\left(\theta\right)D\left[\hat g\left(X\right)\right]}
+e\left(\theta\right)=\frac{\left[g'\left(\theta\right)\right]^2}{nI\left(\theta\right)D\left[\widehat g\left(X\right)\right]}
 $$
 
-is called the efficiency of the unbiased estimator $\hat g\left(X\right)$, where $0< e\left(\theta\right)\le1$.
+is called the efficiency of the unbiased estimator $\widehat g\left(X\right)$, where $0< e\left(\theta\right)\le1$.
 
 **Definition 3.6.3** (Efficient Estimator)
 
-When $e\left(\theta\right)\equiv1$, $\hat g\left(X\right)$ is called an efficient estimator of $g\left(\theta\right)$. An efficient estimator is always a uniformly minimum variance unbiased estimator.
+When $e\left(\theta\right)\equiv1$, $\widehat g\left(X\right)$ is called an efficient estimator of $g\left(\theta\right)$. An efficient estimator is always a uniformly minimum variance unbiased estimator.
 
 **Corollary 3.5.1** (Sufficient and Complete Statistic in the Natural Form of an Exponential Family)
 
@@ -544,7 +544,7 @@ where $F_{\alpha/2}\left(m-1,n-1\right)$ denotes the upper $\alpha/2$ quantile o
 
 **Pivotal Quantity Method** (Construction of Confidence Intervals)
 
-Let $X_1,X_2,\dots,X_n$ be a sample from a population, with unknown parameter $\theta$. If one can construct a function $G\left(X_1,X_2,\dots,X_n,\theta\right)$ of the sample and $\theta$ whose distribution is completely known and does not depend on $\theta$, then $G$ is called a pivotal quantity. For a given confidence level $1-\alpha$, choose $c_1,c_2$ so that $P\left\{c_1\le G\le c_2\right\}=1-\alpha$, then equivalently transform the inequality $c_1\le G\le c_2$ into $\hat\theta_1\le\theta\le\hat\theta_2$, which gives the confidence interval $\left[\hat\theta_1,\hat\theta_2\right]$ for $\theta$ with confidence level $1-\alpha$.
+Let $X_1,X_2,\dots,X_n$ be a sample from a population, with unknown parameter $\theta$. If one can construct a function $G\left(X_1,X_2,\dots,X_n,\theta\right)$ of the sample and $\theta$ whose distribution is completely known and does not depend on $\theta$, then $G$ is called a pivotal quantity. For a given confidence level $1-\alpha$, choose $c_1,c_2$ so that $P\left\{c_1\le G\le c_2\right\}=1-\alpha$, then equivalently transform the inequality $c_1\le G\le c_2$ into $\widehat\theta_1\le\theta\le\widehat\theta_2$, which gives the confidence interval $\left[\widehat\theta_1,\widehat\theta_2\right]$ for $\theta$ with confidence level $1-\alpha$.
 
 **Confidence Interval for the Parameter of an Exponential Distribution**
 

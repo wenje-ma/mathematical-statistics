@@ -1,20 +1,20 @@
 # Assignment 17
 
-> **U-test** (Test for the Mean of a Single Normal Population with Known Variance)<br>Let $X_1,X_2,\dots,X_n$ be a sample from the normal population $N\left(\mu,\sigma^2\right)$, where $\sigma^2=\sigma_0^2$ is known and $\mu$ is unknown. For a given significance level $\alpha$, take the test statistic $$U=\frac{\bar X-\mu_0}{\sigma_0/\sqrt n},$$ and when $H_0:\mu=\mu_0$ holds, $U\sim N\left(0,1\right)$. The rejection regions for the three testing problems are respectively: for the two-sided test $H_0:\mu=\mu_0,\ H_1:\mu\ne\mu_0$, the rejection region is $\left\lvert U\right\rvert\ge u_{\alpha/2}$; for the right-tailed test $H_0:\mu\le\mu_0,\ H_1:\mu> \mu_0$, the rejection region is $U\ge u_\alpha$; for the left-tailed test $H_0:\mu\ge\mu_0,\ H_1:\mu< \mu_0$, the rejection region is $U\le-u_\alpha$.
+> **U-test** (Test for the Mean of a Single Normal Population with Known Variance)<br>Let $X_1,X_2,\dots,X_n$ be a sample from the normal population $N\left(\mu,\sigma^2\right)$, where $\sigma^2=\sigma_0^2$ is known and $\mu$ is unknown. For a given significance level $\alpha$, take the test statistic $$U=\frac{\overline X-\mu_0}{\sigma_0/\sqrt n},$$ and when $H_0:\mu=\mu_0$ holds, $U\sim N\left(0,1\right)$. The rejection regions for the three testing problems are respectively: for the two-sided test $H_0:\mu=\mu_0,\ H_1:\mu\ne\mu_0$, the rejection region is $\left\lvert U\right\rvert\ge u_{\alpha/2}$; for the right-tailed test $H_0:\mu\le\mu_0,\ H_1:\mu> \mu_0$, the rejection region is $U\ge u_\alpha$; for the left-tailed test $H_0:\mu\ge\mu_0,\ H_1:\mu< \mu_0$, the rejection region is $U\le-u_\alpha$.
 
-> **t-test** (Test for the Mean of a Single Normal Population with Unknown Variance)<br>Let $X_1,X_2,\dots,X_n$ be a sample from the normal population $N\left(\mu,\sigma^2\right)$, where $\sigma^2$ is unknown. For a given significance level $\alpha$, take the test statistic $$T=\frac{\bar X-\mu_0}{S/\sqrt n},$$ and when $H_0:\mu=\mu_0$ holds, $T\sim t\left(n-1\right)$. The rejection region for the two-sided test is $\left\lvert T\right\rvert\ge t_{\alpha/2}\left(n-1\right)$; for the right-tailed test it is $T\ge t_\alpha\left(n-1\right)$; for the left-tailed test it is $T\le-t_\alpha\left(n-1\right)$.
+> **t-test** (Test for the Mean of a Single Normal Population with Unknown Variance)<br>Let $X_1,X_2,\dots,X_n$ be a sample from the normal population $N\left(\mu,\sigma^2\right)$, where $\sigma^2$ is unknown. For a given significance level $\alpha$, take the test statistic $$T=\frac{\overline X-\mu_0}{S/\sqrt n},$$ and when $H_0:\mu=\mu_0$ holds, $T\sim t\left(n-1\right)$. The rejection region for the two-sided test is $\left\lvert T\right\rvert\ge t_{\alpha/2}\left(n-1\right)$; for the right-tailed test it is $T\ge t_\alpha\left(n-1\right)$; for the left-tailed test it is $T\le-t_\alpha\left(n-1\right)$.
 
 > **$\chi^2$-test** (Test for the Variance of a Single Normal Population)<br>Let $X_1,X_2,\dots,X_n$ be a sample from the normal population $N\left(\mu,\sigma^2\right)$, where $\mu$ is unknown. For a given significance level $\alpha$, take the test statistic $$\chi^2=\frac{\left(n-1\right)S^2}{\sigma_0^2},$$ and when $H_0:\sigma^2=\sigma_0^2$ holds, $\chi^2\sim\chi^2\left(n-1\right)$. For the two-sided test $H_0:\sigma^2=\sigma_0^2,\ H_1:\sigma^2\ne\sigma_0^2$, the rejection region is $\chi^2\le\chi^2_{1-\alpha/2}\left(n-1\right)$ or $\chi^2\ge\chi^2_{\alpha/2}\left(n-1\right)$; for the right-tailed test $H_0:\sigma^2\le\sigma_0^2,\ H_1:\sigma^2> \sigma_0^2$, the rejection region is $\chi^2\ge\chi^2_\alpha\left(n-1\right)$; for the left-tailed test $H_0:\sigma^2\ge\sigma_0^2,\ H_1:\sigma^2< \sigma_0^2$, the rejection region is $\chi^2\le\chi^2_{1-\alpha}\left(n-1\right)$.
 
-> **U-test for the Difference of Means of Two Normal Populations** (Both Variances Known)<br>Let $X_1,X_2,\dots,X_m$ be from $N\left(\mu_1,\sigma_1^2\right)$ and $Y_1,Y_2,\dots,Y_n$ from $N\left(\mu_2,\sigma_2^2\right)$, with the two samples independent, where $\sigma_1^2,\sigma_2^2$ are both known. Take the test statistic $$U=\frac{\bar X-\bar Y}{\sqrt{\frac{\sigma_1^2}{m}+\frac{\sigma_2^2}{n}}},$$ and when $H_0:\mu_1=\mu_2$ holds, $U\sim N\left(0,1\right)$. The rejection region for the two-sided test is $\left\lvert U\right\rvert\ge u_{\alpha/2}$; for the right-tailed test $H_0:\mu_1\le\mu_2,\ H_1:\mu_1> \mu_2$, the rejection region is $U\ge u_\alpha$.
+> **U-test for the Difference of Means of Two Normal Populations** (Both Variances Known)<br>Let $X_1,X_2,\dots,X_m$ be from $N\left(\mu_1,\sigma_1^2\right)$ and $Y_1,Y_2,\dots,Y_n$ from $N\left(\mu_2,\sigma_2^2\right)$, with the two samples independent, where $\sigma_1^2,\sigma_2^2$ are both known. Take the test statistic $$U=\frac{\overline X-\overline Y}{\sqrt{\frac{\sigma_1^2}{m}+\frac{\sigma_2^2}{n}}},$$ and when $H_0:\mu_1=\mu_2$ holds, $U\sim N\left(0,1\right)$. The rejection region for the two-sided test is $\left\lvert U\right\rvert\ge u_{\alpha/2}$; for the right-tailed test $H_0:\mu_1\le\mu_2,\ H_1:\mu_1> \mu_2$, the rejection region is $U\ge u_\alpha$.
 
-> **Pooled t-test for the Difference of Means of Two Normal Populations** (Variances Unknown but Equal)<br>Let $X_1,X_2,\dots,X_m$ be from $N\left(\mu_1,\sigma^2\right)$ and $Y_1,Y_2,\dots,Y_n$ from $N\left(\mu_2,\sigma^2\right)$, with the two samples independent, where $\sigma^2$ is unknown. Take the pooled sample variance $$S_w^2=\frac{\left(m-1\right)S_1^2+\left(n-1\right)S_2^2}{m+n-2},$$ and the test statistic is $$T=\frac{\bar X-\bar Y}{S_w\sqrt{\frac1m+\frac1n}},$$ and when $H_0:\mu_1=\mu_2$ holds, $T\sim t\left(m+n-2\right)$. The rejection region for the two-sided test is $\left\lvert T\right\rvert\ge t_{\alpha/2}\left(m+n-2\right)$; for the right-tailed test it is $T\ge t_\alpha\left(m+n-2\right)$.
+> **Pooled t-test for the Difference of Means of Two Normal Populations** (Variances Unknown but Equal)<br>Let $X_1,X_2,\dots,X_m$ be from $N\left(\mu_1,\sigma^2\right)$ and $Y_1,Y_2,\dots,Y_n$ from $N\left(\mu_2,\sigma^2\right)$, with the two samples independent, where $\sigma^2$ is unknown. Take the pooled sample variance $$S_w^2=\frac{\left(m-1\right)S_1^2+\left(n-1\right)S_2^2}{m+n-2},$$ and the test statistic is $$T=\frac{\overline X-\overline Y}{S_w\sqrt{\frac1m+\frac1n}},$$ and when $H_0:\mu_1=\mu_2$ holds, $T\sim t\left(m+n-2\right)$. The rejection region for the two-sided test is $\left\lvert T\right\rvert\ge t_{\alpha/2}\left(m+n-2\right)$; for the right-tailed test it is $T\ge t_\alpha\left(m+n-2\right)$.
 
 > **F-test** (Test for the Variance Ratio of Two Normal Populations)<br>Let $X_1,X_2,\dots,X_m$ be from $N\left(\mu_1,\sigma_1^2\right)$ and $Y_1,Y_2,\dots,Y_n$ from $N\left(\mu_2,\sigma_2^2\right)$, with the two samples independent, where $\mu_1,\mu_2$ are unknown. Take the test statistic $$F=\frac{S_1^2}{S_2^2},$$ and when $H_0:\sigma_1^2=\sigma_2^2$ holds, $F\sim F\left(m-1,n-1\right)$. For the two-sided test $H_0:\sigma_1^2=\sigma_2^2,\ H_1:\sigma_1^2\ne\sigma_2^2$, the rejection region is $F\le F_{1-\alpha/2}\left(m-1,n-1\right)$ or $F\ge F_{\alpha/2}\left(m-1,n-1\right)$.
 
 ### Problem 1
 
-(Problem 5.2-5) A sample of size $16$ is randomly drawn from the normal population $N\left(\mu,\sigma^2\right)$ with standard deviation $\sigma=5.2$, and computation gives the sample mean $\bar x=27.56$. At significance level $\alpha=0.05$, can the population mean be regarded as $\mu=26$?
+(Problem 5.2-5) A sample of size $16$ is randomly drawn from the normal population $N\left(\mu,\sigma^2\right)$ with standard deviation $\sigma=5.2$, and computation gives the sample mean $\overline x=27.56$. At significance level $\alpha=0.05$, can the population mean be regarded as $\mu=26$?
 
 ### Solution to Problem 1
 
@@ -24,7 +24,7 @@ $$
 H_0:\mu=26,\quad H_1:\mu\ne26.
 $$
 
-The test statistic is $U=\frac{\bar X-\mu_0}{\sigma_0/\sqrt n}$. Substituting the data $\bar x=27.56$, $\mu_0=26$, $\sigma_0=5.2$, $n=16$, we get
+The test statistic is $U=\frac{\overline X-\mu_0}{\sigma_0/\sqrt n}$. Substituting the data $\overline x=27.56$, $\mu_0=26$, $\sigma_0=5.2$, $n=16$, we get
 
 $$
 u=\frac{27.56-26}{5.2/\sqrt{16}}=\frac{1.56}{1.3}=1.2.
@@ -44,7 +44,7 @@ $$
 H_0:\mu\ge1000,\quad H_1:\mu< 1000.
 $$
 
-The test statistic is $U=\frac{\bar X-\mu_0}{\sigma_0/\sqrt n}$. Substituting the data $\bar x=950$, $\mu_0=1000$, $\sigma_0=100$, $n=25$, we get
+The test statistic is $U=\frac{\overline X-\mu_0}{\sigma_0/\sqrt n}$. Substituting the data $\overline x=950$, $\mu_0=1000$, $\sigma_0=100$, $n=25$, we get
 
 $$
 u=\frac{950-1000}{100/\sqrt{25}}=\frac{-50}{20}=-2.5.
@@ -54,7 +54,7 @@ The rejection region for the left-tailed test at significance level $\alpha=0.05
 
 ### Problem 3
 
-(Problem 5.2-9) Let $X_1,X_2,\dots,X_{25}$ be a sample from the normal population $N\left(\mu,3^2\right)$, where $\mu\in\mathbb R$ is an unknown parameter. Let the rejection region of the testing problem $H_0:\mu=\mu_0$; $H_1:\mu\ne\mu_0$ ($\mu_0$ known) be $D=\left\{\left\lvert\bar X-\mu_0\right\rvert\ge c\right\}$.
+(Problem 5.2-9) Let $X_1,X_2,\dots,X_{25}$ be a sample from the normal population $N\left(\mu,3^2\right)$, where $\mu\in\mathbb R$ is an unknown parameter. Let the rejection region of the testing problem $H_0:\mu=\mu_0$; $H_1:\mu\ne\mu_0$ ($\mu_0$ known) be $D=\left\{\left\lvert\overline X-\mu_0\right\rvert\ge c\right\}$.
 
 (1) At significance level $\alpha=0.05$, find the constant $c$;
 
@@ -62,16 +62,16 @@ The rejection region for the left-tailed test at significance level $\alpha=0.05
 
 ### Solution to Problem 3
 
-By **U-test** (Test for the Mean of a Single Normal Population with Known Variance), when $H_0:\mu=\mu_0$ holds, $\bar X\sim N\left(\mu_0,\frac{3^2}{25}\right)$, so
+By **U-test** (Test for the Mean of a Single Normal Population with Known Variance), when $H_0:\mu=\mu_0$ holds, $\overline X\sim N\left(\mu_0,\frac{3^2}{25}\right)$, so
 
 $$
-\frac{\bar X-\mu_0}{3/5}\sim N\left(0,1\right).
+\frac{\overline X-\mu_0}{3/5}\sim N\left(0,1\right).
 $$
 
 (1) From the significance level $\alpha=0.05$, we have
 
 $$
-\alpha=P\left(\left\lvert\bar X-\mu_0\right\rvert\ge c\,\middle|\,H_0\right)=P\left(\left\lvert\frac{\bar X-\mu_0}{3/5}\right\rvert\ge\frac{5c}{3}\right)=2\left[1-\Phi\left(\frac{5c}{3}\right)\right].
+\alpha=P\left(\left\lvert\overline X-\mu_0\right\rvert\ge c\,\middle|\,H_0\right)=P\left(\left\lvert\frac{\overline X-\mu_0}{3/5}\right\rvert\ge\frac{5c}{3}\right)=2\left[1-\Phi\left(\frac{5c}{3}\right)\right].
 $$
 
 Hence $\Phi\left(\frac{5c}{3}\right)=1-\frac{\alpha}{2}=0.975$. From the table, $\frac{5c}{3}=u_{0.025}=1.96$, so
@@ -80,16 +80,16 @@ $$
 c=\frac{3}{5}\times1.96=1.176.
 $$
 
-(2) When $\mu=\mu_1$ ($\mu_1\ne\mu_0$), $\bar X\sim N\left(\mu_1,\frac{3^2}{25}\right)$. The Type II error, i.e. the probability of accepting a false null, is
+(2) When $\mu=\mu_1$ ($\mu_1\ne\mu_0$), $\overline X\sim N\left(\mu_1,\frac{3^2}{25}\right)$. The Type II error, i.e. the probability of accepting a false null, is
 
 $$
-\beta\left(\mu_1\right)=P\left(\left\lvert\bar X-\mu_0\right\rvert< c\,\middle|\,\mu=\mu_1\right)=P\left(-c< \bar X-\mu_0< c\right).
+\beta\left(\mu_1\right)=P\left(\left\lvert\overline X-\mu_0\right\rvert< c\,\middle|\,\mu=\mu_1\right)=P\left(-c< \overline X-\mu_0< c\right).
 $$
 
-Let $\delta=\mu_1-\mu_0$. Then $\bar X-\mu_1\sim N\left(0,\frac{3^2}{25}\right)$, i.e. $\frac{\bar X-\mu_1}{3/5}\sim N\left(0,1\right)$, so
+Let $\delta=\mu_1-\mu_0$. Then $\overline X-\mu_1\sim N\left(0,\frac{3^2}{25}\right)$, i.e. $\frac{\overline X-\mu_1}{3/5}\sim N\left(0,1\right)$, so
 
 $$
-\beta\left(\mu_1\right)=P\left(-c-\delta< \bar X-\mu_1< c-\delta\right)=\Phi\left(\frac{c-\delta}{3/5}\right)-\Phi\left(\frac{-c-\delta}{3/5}\right).
+\beta\left(\mu_1\right)=P\left(-c-\delta< \overline X-\mu_1< c-\delta\right)=\Phi\left(\frac{c-\delta}{3/5}\right)-\Phi\left(\frac{-c-\delta}{3/5}\right).
 $$
 
 Substituting $c=1.176$ and simplifying,
@@ -115,10 +115,10 @@ $$
 From the sample data, compute the sample mean and sample variance:
 
 $$
-\bar x=\frac{1.32+1.55+1.36+1.40+1.44}{5}=1.414,
+\overline x=\frac{1.32+1.55+1.36+1.40+1.44}{5}=1.414,
 $$
 $$
-s^2=\frac{1}{5-1}\sum_{i=1}^5\left(x_i-\bar x\right)^2=0.00778.
+s^2=\frac{1}{5-1}\sum_{i=1}^5\left(x_i-\overline x\right)^2=0.00778.
 $$
 
 The test statistic is $\chi^2=\frac{\left(n-1\right)S^2}{\sigma_0^2}$. Substituting $n=5$, $\sigma_0=0.048$, we get
@@ -131,7 +131,7 @@ The rejection region for the two-sided test at significance level $\alpha=0.05$ 
 
 ### Problem 5
 
-(Problem 5.2-15) The weight of an object is measured $10$ times, giving a sample mean $\bar x=10.05$ and a sample variance $s^2=0.0576$. Assume the weight of this object follows a normal distribution $N\left(\mu,\sigma^2\right)$.
+(Problem 5.2-15) The weight of an object is measured $10$ times, giving a sample mean $\overline x=10.05$ and a sample variance $s^2=0.0576$. Assume the weight of this object follows a normal distribution $N\left(\mu,\sigma^2\right)$.
 
 (1) If $\sigma^2=0.2^2$, at significance level $\alpha=0.05$, test $H_0:\mu=10$; $H_1:\mu> 10$;
 
@@ -144,10 +144,10 @@ The rejection region for the two-sided test at significance level $\alpha=0.05$ 
 (1) Since $\sigma^2=0.2^2$ is known, by **U-test** (Test for the Mean of a Single Normal Population with Known Variance), this is a right-tailed test. The test statistic is
 
 $$
-U=\frac{\bar X-\mu_0}{\sigma_0/\sqrt n},
+U=\frac{\overline X-\mu_0}{\sigma_0/\sqrt n},
 $$
 
-Substituting $\bar x=10.05$, $\mu_0=10$, $\sigma_0=0.2$, $n=10$, we get
+Substituting $\overline x=10.05$, $\mu_0=10$, $\sigma_0=0.2$, $n=10$, we get
 
 $$
 u=\frac{10.05-10}{0.2/\sqrt{10}}=0.791.
@@ -158,7 +158,7 @@ The rejection region for the right-tailed test at $\alpha=0.05$ is $U\ge u_{0.05
 (2) $\sigma^2$ is unknown; by **t-test** (Test for the Mean of a Single Normal Population with Unknown Variance), this is still a right-tailed test. The test statistic is
 
 $$
-T=\frac{\bar X-\mu_0}{S/\sqrt n},
+T=\frac{\overline X-\mu_0}{S/\sqrt n},
 $$
 
 Substituting $s=\sqrt{0.0576}=0.24$, we get
@@ -185,7 +185,7 @@ The rejection region for the left-tailed test at $\alpha=0.05$ is $\chi^2\le\chi
 
 ### Problem 6
 
-(Problem 5.2-17) To compare the quality of two cotton varieties, A and B, assume the strengths of the cotton yarn spun from them follow normal distributions $N\left(\mu_1,\sigma_1^2\right)$ and $N\left(\mu_2,\sigma_2^2\right)$ respectively. The experimenter draws samples $X_1,X_2,\dots,X_{100}$ and $Y_1,Y_2,\dots,Y_{50}$ from these two yarns, obtaining sample means and sample variances $\bar x=5.6$, $\bar y=5.2$, $s_1^2=4$, $s_2^2=2.56$.
+(Problem 5.2-17) To compare the quality of two cotton varieties, A and B, assume the strengths of the cotton yarn spun from them follow normal distributions $N\left(\mu_1,\sigma_1^2\right)$ and $N\left(\mu_2,\sigma_2^2\right)$ respectively. The experimenter draws samples $X_1,X_2,\dots,X_{100}$ and $Y_1,Y_2,\dots,Y_{50}$ from these two yarns, obtaining sample means and sample variances $\overline x=5.6$, $\overline y=5.2$, $s_1^2=4$, $s_2^2=2.56$.
 
 (1) If $\sigma_1^2=2.2^2$, $\sigma_2^2=1.8^2$, at significance level $\alpha=0.05$, test $H_0:\mu_1\le\mu_2$; $H_1:\mu_1> \mu_2$;
 
@@ -196,10 +196,10 @@ The rejection region for the left-tailed test at $\alpha=0.05$ is $\chi^2\le\chi
 (1) Since $\sigma_1^2=2.2^2=4.84$, $\sigma_2^2=1.8^2=3.24$ are known, by **U-test for the Difference of Means of Two Normal Populations** (Both Variances Known), the test statistic is
 
 $$
-U=\frac{\bar X-\bar Y}{\sqrt{\frac{\sigma_1^2}{m}+\frac{\sigma_2^2}{n}}},
+U=\frac{\overline X-\overline Y}{\sqrt{\frac{\sigma_1^2}{m}+\frac{\sigma_2^2}{n}}},
 $$
 
-Substituting $\bar x=5.6$, $\bar y=5.2$, $m=100$, $n=50$, we get
+Substituting $\overline x=5.6$, $\overline y=5.2$, $m=100$, $n=50$, we get
 
 $$
 u=\frac{5.6-5.2}{\sqrt{\frac{4.84}{100}+\frac{3.24}{50}}}=\frac{0.4}{\sqrt{0.1132}}=1.189.
@@ -216,7 +216,7 @@ $$
 $s_w=\sqrt{3.523}=1.877$. The test statistic is
 
 $$
-T=\frac{\bar X-\bar Y}{S_w\sqrt{\frac1m+\frac1n}},
+T=\frac{\overline X-\overline Y}{S_w\sqrt{\frac1m+\frac1n}},
 $$
 
 Substituting the data,
@@ -252,10 +252,10 @@ $$
 From the sample data, compute the sample means and sample variances of the two batches:
 
 $$
-\bar x_1=\frac{1}{6}\sum_{i=1}^6x_{1i}=0.14067,\quad s_1^2=7.867\times10^{-6},
+\overline x_1=\frac{1}{6}\sum_{i=1}^6x_{1i}=0.14067,\quad s_1^2=7.867\times10^{-6},
 $$
 $$
-\bar x_2=\frac{1}{6}\sum_{i=1}^6x_{2i}=0.13850,\quad s_2^2=7.100\times10^{-6}.
+\overline x_2=\frac{1}{6}\sum_{i=1}^6x_{2i}=0.13850,\quad s_2^2=7.100\times10^{-6}.
 $$
 
 The test statistic is $F=\frac{S_1^2}{S_2^2}$. Substituting,
@@ -281,7 +281,7 @@ $$
 $s_w=\sqrt{7.483\times10^{-6}}=0.002736$. The test statistic is
 
 $$
-T=\frac{\bar X_1-\bar X_2}{S_w\sqrt{\frac1m+\frac1n}},
+T=\frac{\overline X_1-\overline X_2}{S_w\sqrt{\frac1m+\frac1n}},
 $$
 
 Substituting $m=n=6$, we get

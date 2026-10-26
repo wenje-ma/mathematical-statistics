@@ -120,6 +120,6 @@ $$
 f=\left(2\pi\sigma^2\right)^{-n/2}\exp\left\{-\frac{1}{2\sigma^2}\sum_{i=1}^n x_i^2\right\}\cdot\exp\left\{\frac{\mu}{\sigma^2}\sum_{i=1}^n x_i-\frac{n\mu^2}{2\sigma^2}\right\}.
 $$
 
-当 $\sigma^2$ 已知时，取 $g\left(T,\mu\right)=\exp\left\{\frac{\mu}{\sigma^2}\sum_{i=1}^n x_i-\frac{n\mu^2}{2\sigma^2}\right\}$，$h\left(x_1,\dots,x_n\right)=\left(2\pi\sigma^2\right)^{-n/2}\exp\left\{-\frac{1}{2\sigma^2}\sum_{i=1}^n x_i^2\right\}$，其中 $h$ 不依赖于 $\mu$. 由**定理 2.5.1**（因子分解定理），$T=\sum_{i=1}^n X_i$ 是 $\mu$ 的充分统计量. 由**推论 2.5.1**，$\bar X=\frac{1}{n}\sum_{i=1}^n X_i$ 也是 $\mu$ 的充分统计量.
+当 $\sigma^2$ 已知时，取 $g\left(T,\mu\right)=\exp\left\{\frac{\mu}{\sigma^2}\sum_{i=1}^n x_i-\frac{n\mu^2}{2\sigma^2}\right\}$，$h\left(x_1,\dots,x_n\right)=\left(2\pi\sigma^2\right)^{-n/2}\exp\left\{-\frac{1}{2\sigma^2}\sum_{i=1}^n x_i^2\right\}$，其中 $h$ 不依赖于 $\mu$. 由**定理 2.5.1**（因子分解定理），$T=\sum_{i=1}^n X_i$ 是 $\mu$ 的充分统计量. 由**推论 2.5.1**，$\overline X=\frac{1}{n}\sum_{i=1}^n X_i$ 也是 $\mu$ 的充分统计量.
 
 $\blacksquare$

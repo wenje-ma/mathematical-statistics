@@ -1,12 +1,12 @@
 # 作业 10
 
-> **定义 3.4.1**（无偏估计）<br>设 $\hat\theta=\hat\theta\left(X_1,X_2,\dots,X_n\right)$ 为未知参数 $\theta$ 的估计量，若对任意 $\theta\in\Theta$ 都有 $$E\left[\hat\theta\left(X_1,X_2,\dots,X_n\right)\right]=\theta,$$ 则称 $\hat\theta$ 为 $\theta$ 的无偏估计. 对 $g\left(\theta\right)$ 的估计量 $\hat g$，若 $E\left[\hat g\right]=g\left(\theta\right)$，则称 $\hat g$ 为 $g\left(\theta\right)$ 的无偏估计.
+> **定义 3.4.1**（无偏估计）<br>设 $\widehat\theta=\widehat\theta\left(X_1,X_2,\dots,X_n\right)$ 为未知参数 $\theta$ 的估计量，若对任意 $\theta\in\Theta$ 都有 $$E\left[\widehat\theta\left(X_1,X_2,\dots,X_n\right)\right]=\theta,$$ 则称 $\widehat\theta$ 为 $\theta$ 的无偏估计. 对 $g\left(\theta\right)$ 的估计量 $\widehat g$，若 $E\left[\widehat g\right]=g\left(\theta\right)$，则称 $\widehat g$ 为 $g\left(\theta\right)$ 的无偏估计.
 
-> **定义 3.4.2**（有效性）<br>设 $\hat\theta_1$ 与 $\hat\theta_2$ 都是 $\theta$ 的无偏估计，若对一切 $\theta\in\Theta$ 都有 $D\left(\hat\theta_1\right)\le D\left(\hat\theta_2\right)$，且不等号至少对某个 $\theta$ 成立，则称 $\hat\theta_1$ 比 $\hat\theta_2$ 有效.
+> **定义 3.4.2**（有效性）<br>设 $\widehat\theta_1$ 与 $\widehat\theta_2$ 都是 $\theta$ 的无偏估计，若对一切 $\theta\in\Theta$ 都有 $D\left(\widehat\theta_1\right)\le D\left(\widehat\theta_2\right)$，且不等号至少对某个 $\theta$ 成立，则称 $\widehat\theta_1$ 比 $\widehat\theta_2$ 有效.
 
-> **定义 3.4.3**（相合估计）<br>设对每个自然数 $n$，$\hat\theta_n=\hat\theta_n\left(X_1,X_2,\dots,X_n\right)$ 为 $\theta$ 的估计量，若对任意 $\theta\in\Theta$ 及任意 $\varepsilon> 0$，都有 $$\lim_{n\to\infty}P\left\{\left|\hat\theta_n-\theta\right|\ge\varepsilon\right\}=0,$$ 则称 $\hat\theta_n$ 为 $\theta$ 的（弱）相合估计.
+> **定义 3.4.3**（相合估计）<br>设对每个自然数 $n$，$\widehat\theta_n=\widehat\theta_n\left(X_1,X_2,\dots,X_n\right)$ 为 $\theta$ 的估计量，若对任意 $\theta\in\Theta$ 及任意 $\varepsilon> 0$，都有 $$\lim_{n\to\infty}P\left\{\left|\widehat\theta_n-\theta\right|\ge\varepsilon\right\}=0,$$ 则称 $\widehat\theta_n$ 为 $\theta$ 的（弱）相合估计.
 
-> **基础知识**（切比雪夫不等式与大数定律）<br>对任意随机变量 $Y$ 及 $\varepsilon> 0$，有 $P\left\{\left|Y-EY\right|\ge\varepsilon\right\}\le\frac{D\left(Y\right)}{\varepsilon^2}$；独立同分布且期望存在时，由大数定律 $\bar X_n\xrightarrow{P}E\left(X\right)$；依概率收敛经连续函数映射保持不变.
+> **基础知识**（切比雪夫不等式与大数定律）<br>对任意随机变量 $Y$ 及 $\varepsilon> 0$，有 $P\left\{\left|Y-EY\right|\ge\varepsilon\right\}\le\frac{D\left(Y\right)}{\varepsilon^2}$；独立同分布且期望存在时，由大数定律 $\overline X_n\xrightarrow{P}E\left(X\right)$；依概率收敛经连续函数映射保持不变.
 
 ### 习题一
 
@@ -42,19 +42,19 @@ $$
 f\left(x,\theta\right)=\begin{cases}e^{-\left(x-\theta\right)},&x> \theta,\\0,&\text{其他}.\end{cases}
 $$
 
-(1) 求参数 $\theta$ 的矩估计 $\hat\theta_1$，并判断 $\hat\theta_1$ 是否是 $\theta$ 的无偏估计？
+(1) 求参数 $\theta$ 的矩估计 $\widehat\theta_1$，并判断 $\widehat\theta_1$ 是否是 $\theta$ 的无偏估计？
 
-(2) 求参数 $\theta$ 的极大似然估计 $\hat\theta_2$，并判断 $\hat\theta_2$ 是否是 $\theta$ 的无偏估计？
+(2) 求参数 $\theta$ 的极大似然估计 $\widehat\theta_2$，并判断 $\widehat\theta_2$ 是否是 $\theta$ 的无偏估计？
 
 ### 解答 习题二
 
-(1) 由密度函数，$X=\theta+Y$，其中 $Y\sim E\left(1\right)$ 为标准指数分布，故 $E\left(X\right)=\theta+1$. 用样本矩代替总体矩，令 $\bar X=\theta+1$，得矩估计
+(1) 由密度函数，$X=\theta+Y$，其中 $Y\sim E\left(1\right)$ 为标准指数分布，故 $E\left(X\right)=\theta+1$. 用样本矩代替总体矩，令 $\overline X=\theta+1$，得矩估计
 
 $$
-\hat\theta_1=\bar X-1.
+\widehat\theta_1=\overline X-1.
 $$
 
-由 $E\left(\bar X\right)=E\left(X\right)=\theta+1$，得 $E\left(\hat\theta_1\right)=\left(\theta+1\right)-1=\theta$. 由**定义 3.4.1**（无偏估计），$\hat\theta_1=\bar X-1$ 是 $\theta$ 的无偏估计.
+由 $E\left(\overline X\right)=E\left(X\right)=\theta+1$，得 $E\left(\widehat\theta_1\right)=\left(\theta+1\right)-1=\theta$. 由**定义 3.4.1**（无偏估计），$\widehat\theta_1=\overline X-1$ 是 $\theta$ 的无偏估计.
 
 (2) 似然函数为
 
@@ -65,10 +65,10 @@ $$
 其非零当且仅当 $\theta\le x_{\left(1\right)}$. 由**定义 3.3.2**（极大似然估计），$L\left(\theta\right)=e^{n\theta}\cdot e^{-\sum x_i}$ 关于 $\theta$ 单调递增，故在允许范围内取 $\theta$ 最大时达极大值，即
 
 $$
-\hat\theta_2=X_{\left(1\right)}=\min\left\{X_1,X_2,\dots,X_n\right\}.
+\widehat\theta_2=X_{\left(1\right)}=\min\left\{X_1,X_2,\dots,X_n\right\}.
 $$
 
-由 $X_i-\theta\sim E\left(1\right)$，最小顺序统计量满足 $X_{\left(1\right)}-\theta\sim E\left(n\right)$，故 $E\left(X_{\left(1\right)}-\theta\right)=\frac{1}{n}$，即 $E\left(\hat\theta_2\right)=\theta+\frac{1}{n}\ne\theta$. 由**定义 3.4.1**（无偏估计），$\hat\theta_2$ 不是 $\theta$ 的无偏估计（它是渐近无偏估计）.
+由 $X_i-\theta\sim E\left(1\right)$，最小顺序统计量满足 $X_{\left(1\right)}-\theta\sim E\left(n\right)$，故 $E\left(X_{\left(1\right)}-\theta\right)=\frac{1}{n}$，即 $E\left(\widehat\theta_2\right)=\theta+\frac{1}{n}\ne\theta$. 由**定义 3.4.1**（无偏估计），$\widehat\theta_2$ 不是 $\theta$ 的无偏估计（它是渐近无偏估计）.
 
 $\blacksquare$
 
@@ -156,29 +156,29 @@ $\blacksquare$
 
 ### 习题四
 
-（习题 3.4-10）设 $\hat\theta_n$ 是 $\theta$ 的估计量，证明：若 $n\to+\infty$ 时，$E\left(\hat\theta_n\right)\to\theta$，$D\left(\hat\theta_n\right)\to0$，则 $\hat\theta_n$ 是 $\theta$ 的相合估计.
+（习题 3.4-10）设 $\widehat\theta_n$ 是 $\theta$ 的估计量，证明：若 $n\to+\infty$ 时，$E\left(\widehat\theta_n\right)\to\theta$，$D\left(\widehat\theta_n\right)\to0$，则 $\widehat\theta_n$ 是 $\theta$ 的相合估计.
 
 ### 解答 习题四
 
 由**基础知识**（切比雪夫不等式），对任意 $\varepsilon> 0$，
 
 $$
-P\left\{\left|\hat\theta_n-\theta\right|\ge\varepsilon\right\}\le\frac{E\left[\left(\hat\theta_n-\theta\right)^2\right]}{\varepsilon^2}.
+P\left\{\left|\widehat\theta_n-\theta\right|\ge\varepsilon\right\}\le\frac{E\left[\left(\widehat\theta_n-\theta\right)^2\right]}{\varepsilon^2}.
 $$
 
 将均方误差分解为方差与偏差平方之和：
 
 $$
-E\left[\left(\hat\theta_n-\theta\right)^2\right]=D\left(\hat\theta_n\right)+\left[E\left(\hat\theta_n\right)-\theta\right]^2.
+E\left[\left(\widehat\theta_n-\theta\right)^2\right]=D\left(\widehat\theta_n\right)+\left[E\left(\widehat\theta_n\right)-\theta\right]^2.
 $$
 
-由题设 $E\left(\hat\theta_n\right)\to\theta$，$D\left(\hat\theta_n\right)\to0$，故 $E\left[\left(\hat\theta_n-\theta\right)^2\right]\to0$，从而
+由题设 $E\left(\widehat\theta_n\right)\to\theta$，$D\left(\widehat\theta_n\right)\to0$，故 $E\left[\left(\widehat\theta_n-\theta\right)^2\right]\to0$，从而
 
 $$
-\lim_{n\to\infty}P\left\{\left|\hat\theta_n-\theta\right|\ge\varepsilon\right\}=0.
+\lim_{n\to\infty}P\left\{\left|\widehat\theta_n-\theta\right|\ge\varepsilon\right\}=0.
 $$
 
-由**定义 3.4.3**（相合估计），$\hat\theta_n$ 是 $\theta$ 的相合估计.
+由**定义 3.4.3**（相合估计），$\widehat\theta_n$ 是 $\theta$ 的相合估计.
 
 $\blacksquare$
 

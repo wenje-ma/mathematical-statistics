@@ -136,7 +136,7 @@ $\blacksquare$
 
 （习题 1-8）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$ 的样本，其中 $\mu$ 已知，$\sigma^2$ 未知，判断下列量哪些是统计量哪些不是统计量，为什么？
 $$
-\frac{1}{n}\sum_{i=1}^n X_i,\quad\frac{1}{n-1}\sum_{i=1}^n\left(X_i-\bar X\right)^2,\quad\frac{1}{\sigma^2}\sum_{i=1}^n X_i^2,\quad\frac{1}{n}\sum_{i=1}^n\left(X_i-\mu\right)^2,
+\frac{1}{n}\sum_{i=1}^n X_i,\quad\frac{1}{n-1}\sum_{i=1}^n\left(X_i-\overline X\right)^2,\quad\frac{1}{\sigma^2}\sum_{i=1}^n X_i^2,\quad\frac{1}{n}\sum_{i=1}^n\left(X_i-\mu\right)^2,
 $$
 $$
 \frac{1}{\sigma^2}\sum_{i=1}^n\left(X_i-\mu\right)^2,\quad X_1+2\mu,\quad\max\left\{X_1,\dots,X_n\right\},\quad\min\left\{X_1,\dots,X_n\right\}.
@@ -147,7 +147,7 @@ $$
 由**定义 1.4.1**（统计量），统计量是样本的函数，且除样本外不依赖于任何未知量. 本题中 $\mu$ 已知，$\sigma^2$ 未知，故凡含未知参数 $\sigma^2$ 的量不是统计量，其余为统计量.
 
 - $\frac{1}{n}\sum_{i=1}^n X_i$：只含样本，是统计量.
-- $\frac{1}{n-1}\sum_{i=1}^n\left(X_i-\bar X\right)^2$：只含样本（$\bar X$ 为样本均值），是统计量.
+- $\frac{1}{n-1}\sum_{i=1}^n\left(X_i-\overline X\right)^2$：只含样本（$\overline X$ 为样本均值），是统计量.
 - $\frac{1}{\sigma^2}\sum_{i=1}^n X_i^2$：含未知参数 $\sigma^2$，不是统计量.
 - $\frac{1}{n}\sum_{i=1}^n\left(X_i-\mu\right)^2$：$\mu$ 已知，只含样本与已知常数，是统计量.
 - $\frac{1}{\sigma^2}\sum_{i=1}^n\left(X_i-\mu\right)^2$：含未知参数 $\sigma^2$，不是统计量.

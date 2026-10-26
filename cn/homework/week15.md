@@ -1,10 +1,10 @@
 # 作业 15
 
-> **枢轴量法**（置信区间的构造）<br>设 $X_1,X_2,\dots,X_n$ 是来自总体的样本，未知参数为 $\theta$. 若能构造出一个样本与 $\theta$ 的函数 $G\left(X_1,X_2,\dots,X_n,\theta\right)$，其分布完全已知且与 $\theta$ 无关，则称 $G$ 为枢轴量. 对给定置信水平 $1-\alpha$，选取 $c_1,c_2$ 使 $P\left\{c_1\le G\le c_2\right\}=1-\alpha$，再将不等式 $c_1\le G\le c_2$ 等价变形为 $\hat\theta_1\le\theta\le\hat\theta_2$，即得 $\theta$ 的置信水平为 $1-\alpha$ 的置信区间 $\left[\hat\theta_1,\hat\theta_2\right]$.
+> **枢轴量法**（置信区间的构造）<br>设 $X_1,X_2,\dots,X_n$ 是来自总体的样本，未知参数为 $\theta$. 若能构造出一个样本与 $\theta$ 的函数 $G\left(X_1,X_2,\dots,X_n,\theta\right)$，其分布完全已知且与 $\theta$ 无关，则称 $G$ 为枢轴量. 对给定置信水平 $1-\alpha$，选取 $c_1,c_2$ 使 $P\left\{c_1\le G\le c_2\right\}=1-\alpha$，再将不等式 $c_1\le G\le c_2$ 等价变形为 $\widehat\theta_1\le\theta\le\widehat\theta_2$，即得 $\theta$ 的置信水平为 $1-\alpha$ 的置信区间 $\left[\widehat\theta_1,\widehat\theta_2\right]$.
 
-> **指数分布参数的置信区间**<br>设 $X_1,X_2,\dots,X_n$ 是来自指数分布总体 $E\left(\lambda\right)$ 的样本，其密度函数为 $f\left(x\right)=\lambda e^{-\lambda x},\ x> 0$. 由 $\chi^2$ 分布的可加性，枢轴量为 $$T=2\lambda\sum_{i=1}^n X_i=2n\lambda\bar X\sim\chi^2\left(2n\right).$$ 由此均值 $\theta=\frac{1}{\lambda}$ 的置信水平为 $1-\alpha$ 的置信区间为 $$\left[\frac{2n\bar X}{\chi^2_{\alpha/2}\left(2n\right)},\ \frac{2n\bar X}{\chi^2_{1-\alpha/2}\left(2n\right)}\right],$$ 其中 $\chi^2_{\alpha/2}\left(2n\right)$ 与 $\chi^2_{1-\alpha/2}\left(2n\right)$ 分别为自由度 $2n$ 的 $\chi^2$ 分布的上 $\alpha/2$ 与上 $1-\alpha/2$ 分位数.
+> **指数分布参数的置信区间**<br>设 $X_1,X_2,\dots,X_n$ 是来自指数分布总体 $E\left(\lambda\right)$ 的样本，其密度函数为 $f\left(x\right)=\lambda e^{-\lambda x},\ x> 0$. 由 $\chi^2$ 分布的可加性，枢轴量为 $$T=2\lambda\sum_{i=1}^n X_i=2n\lambda\overline X\sim\chi^2\left(2n\right).$$ 由此均值 $\theta=\frac{1}{\lambda}$ 的置信水平为 $1-\alpha$ 的置信区间为 $$\left[\frac{2n\overline X}{\chi^2_{\alpha/2}\left(2n\right)},\ \frac{2n\overline X}{\chi^2_{1-\alpha/2}\left(2n\right)}\right],$$ 其中 $\chi^2_{\alpha/2}\left(2n\right)$ 与 $\chi^2_{1-\alpha/2}\left(2n\right)$ 分别为自由度 $2n$ 的 $\chi^2$ 分布的上 $\alpha/2$ 与上 $1-\alpha/2$ 分位数.
 
-> **大样本方法**（两点分布参数的近似置信区间）<br>设 $X_1,X_2,\dots,X_n$ 是来自两点分布 $B\left(1,p\right)$ 的样本，$\bar X$ 为样本均值. 由中心极限定理，当 $n$ 充分大时 $\frac{\bar X-p}{\sqrt{p\left(1-p\right)/n}}\overset{\mathrm{d}}{\to}N\left(0,1\right)$. 用 $\bar X$ 估计 $p$，得参数 $p$ 的置信水平近似为 $1-\alpha$ 的置信区间 $$\left[\bar X-u_{\alpha/2}\sqrt{\frac{\bar X\left(1-\bar X\right)}{n}},\ \bar X+u_{\alpha/2}\sqrt{\frac{\bar X\left(1-\bar X\right)}{n}}\right],$$ 其中 $u_{\alpha/2}$ 为标准正态分布的上 $\alpha/2$ 分位数.
+> **大样本方法**（两点分布参数的近似置信区间）<br>设 $X_1,X_2,\dots,X_n$ 是来自两点分布 $B\left(1,p\right)$ 的样本，$\overline X$ 为样本均值. 由中心极限定理，当 $n$ 充分大时 $\frac{\overline X-p}{\sqrt{p\left(1-p\right)/n}}\overset{\mathrm{d}}{\to}N\left(0,1\right)$. 用 $\overline X$ 估计 $p$，得参数 $p$ 的置信水平近似为 $1-\alpha$ 的置信区间 $$\left[\overline X-u_{\alpha/2}\sqrt{\frac{\overline X\left(1-\overline X\right)}{n}},\ \overline X+u_{\alpha/2}\sqrt{\frac{\overline X\left(1-\overline X\right)}{n}}\right],$$ 其中 $u_{\alpha/2}$ 为标准正态分布的上 $\alpha/2$ 分位数.
 
 ### 习题一
 
@@ -12,18 +12,18 @@
 
 ### 解答 习题一
 
-由**指数分布参数的置信区间**，枢轴量 $T=2n\lambda\bar X\sim\chi^2\left(2n\right)$. 样本均值为
+由**指数分布参数的置信区间**，枢轴量 $T=2n\lambda\overline X\sim\chi^2\left(2n\right)$. 样本均值为
 
 $$
-\bar X=\frac{15+45+50+53+60+65+70+83+90}{9}=\frac{531}{9}=59,
+\overline X=\frac{15+45+50+53+60+65+70+83+90}{9}=\frac{531}{9}=59,
 $$
 
-故 $2n\bar X=18\times59=1062$，自由度为 $2n=18$.
+故 $2n\overline X=18\times59=1062$，自由度为 $2n=18$.
 
 由**枢轴量法**（置信区间的构造），对置信水平 $1-\alpha=0.90$，即 $\alpha=0.10$，有
 
 $$
-P\left\{\chi^2_{0.05}\left(18\right)\le 2n\lambda\bar X\le\chi^2_{0.95}\left(18\right)\right\}=0.90.
+P\left\{\chi^2_{0.05}\left(18\right)\le 2n\lambda\overline X\le\chi^2_{0.95}\left(18\right)\right\}=0.90.
 $$
 
 查表得 $\chi^2_{0.05}\left(18\right)=9.390$，$\chi^2_{0.95}\left(18\right)=28.869$. 解不等式即得平均寿命 $\theta=\frac{1}{\lambda}$ 的置信水平为 $90\%$ 的置信区间为
@@ -32,16 +32,16 @@ $$
 \left[\frac{1062}{28.869},\ \frac{1062}{9.390}\right]=\left[36.79,\ 113.09\right]\ \text{kh}.
 $$
 
-单侧置信上限 $\theta_U$ 满足 $P\left\{\theta\le\theta_U\right\}=0.90$，即 $P\left\{2n\lambda\bar X\ge\chi^2_{0.10}\left(18\right)\right\}=0.90$，故
+单侧置信上限 $\theta_U$ 满足 $P\left\{\theta\le\theta_U\right\}=0.90$，即 $P\left\{2n\lambda\overline X\ge\chi^2_{0.10}\left(18\right)\right\}=0.90$，故
 
 $$
-\theta_U=\frac{2n\bar X}{\chi^2_{0.10}\left(18\right)}=\frac{1062}{10.865}=97.75.
+\theta_U=\frac{2n\overline X}{\chi^2_{0.10}\left(18\right)}=\frac{1062}{10.865}=97.75.
 $$
 
-单侧置信下限 $\theta_L$ 满足 $P\left\{\theta\ge\theta_L\right\}=0.90$，即 $P\left\{2n\lambda\bar X\le\chi^2_{0.90}\left(18\right)\right\}=0.90$，故
+单侧置信下限 $\theta_L$ 满足 $P\left\{\theta\ge\theta_L\right\}=0.90$，即 $P\left\{2n\lambda\overline X\le\chi^2_{0.90}\left(18\right)\right\}=0.90$，故
 
 $$
-\theta_L=\frac{2n\bar X}{\chi^2_{0.90}\left(18\right)}=\frac{1062}{25.989}=40.86.
+\theta_L=\frac{2n\overline X}{\chi^2_{0.90}\left(18\right)}=\frac{1062}{25.989}=40.86.
 $$
 
 $\blacksquare$
@@ -138,18 +138,18 @@ $\blacksquare$
 
 ### 解答 习题四
 
-设不合格品率为 $p$，则样本均值即频率 $\bar X=\frac{16}{100}=0.16$，样本容量 $n=100$.
+设不合格品率为 $p$，则样本均值即频率 $\overline X=\frac{16}{100}=0.16$，样本容量 $n=100$.
 
 由**大样本方法**（两点分布参数的近似置信区间），$p$ 的置信水平近似为 $1-\alpha$ 的置信区间为
 
 $$
-\left[\bar X-u_{\alpha/2}\sqrt{\frac{\bar X\left(1-\bar X\right)}{n}},\ \bar X+u_{\alpha/2}\sqrt{\frac{\bar X\left(1-\bar X\right)}{n}}\right].
+\left[\overline X-u_{\alpha/2}\sqrt{\frac{\overline X\left(1-\overline X\right)}{n}},\ \overline X+u_{\alpha/2}\sqrt{\frac{\overline X\left(1-\overline X\right)}{n}}\right].
 $$
 
 取 $1-\alpha=0.95$，则 $\alpha=0.05$，$u_{0.025}=1.96$，且
 
 $$
-\sqrt{\frac{\bar X\left(1-\bar X\right)}{n}}=\sqrt{\frac{0.16\times0.84}{100}}=\sqrt{0.001344}=0.0367.
+\sqrt{\frac{\overline X\left(1-\overline X\right)}{n}}=\sqrt{\frac{0.16\times0.84}{100}}=\sqrt{0.001344}=0.0367.
 $$
 
 故不合格品率 $p$ 的置信水平近似为 $95\%$ 的置信区间为

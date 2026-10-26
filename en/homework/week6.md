@@ -120,6 +120,6 @@ $$
 f=\left(2\pi\sigma^2\right)^{-n/2}\exp\left\{-\frac{1}{2\sigma^2}\sum_{i=1}^n x_i^2\right\}\cdot\exp\left\{\frac{\mu}{\sigma^2}\sum_{i=1}^n x_i-\frac{n\mu^2}{2\sigma^2}\right\}.
 $$
 
-When $\sigma^2$ is known, take $g\left(T,\mu\right)=\exp\left\{\frac{\mu}{\sigma^2}\sum_{i=1}^n x_i-\frac{n\mu^2}{2\sigma^2}\right\}$ and $h\left(x_1,\dots,x_n\right)=\left(2\pi\sigma^2\right)^{-n/2}\exp\left\{-\frac{1}{2\sigma^2}\sum_{i=1}^n x_i^2\right\}$, where $h$ does not depend on $\mu$. By **Theorem 2.5.1** (Factorization Theorem), $T=\sum_{i=1}^n X_i$ is a sufficient statistic for $\mu$. By **Corollary 2.5.1**, $\bar X=\frac{1}{n}\sum_{i=1}^n X_i$ is also a sufficient statistic for $\mu$.
+When $\sigma^2$ is known, take $g\left(T,\mu\right)=\exp\left\{\frac{\mu}{\sigma^2}\sum_{i=1}^n x_i-\frac{n\mu^2}{2\sigma^2}\right\}$ and $h\left(x_1,\dots,x_n\right)=\left(2\pi\sigma^2\right)^{-n/2}\exp\left\{-\frac{1}{2\sigma^2}\sum_{i=1}^n x_i^2\right\}$, where $h$ does not depend on $\mu$. By **Theorem 2.5.1** (Factorization Theorem), $T=\sum_{i=1}^n X_i$ is a sufficient statistic for $\mu$. By **Corollary 2.5.1**, $\overline X=\frac{1}{n}\sum_{i=1}^n X_i$ is also a sufficient statistic for $\mu$.
 
 $\blacksquare$

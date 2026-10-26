@@ -1,12 +1,12 @@
 # Assignment 9
 
-> **Definition 3.3.2** (Maximum Likelihood Estimator)<br>Let the density function (or probability mass function) of the population be $f\left(x;\theta\right)$, and let $X_1,X_2,\dots,X_n$ be a sample from this population with observed values $x_1,x_2,\dots,x_n$. If the likelihood function $L\left(\theta\right)=L\left(\theta;x_1,x_2,\dots,x_n\right)$ attains its maximum at $\hat\theta=\hat\theta\left(x_1,x_2,\dots,x_n\right)$, i.e. $$L\left(\hat\theta\right)=\sup_{\theta\in\Theta}L\left(\theta\right),$$ then $\hat\theta\left(x_1,x_2,\dots,x_n\right)$ is called the maximum likelihood estimate of $\theta$, and $\hat\theta\left(X_1,X_2,\dots,X_n\right)$ is called the maximum likelihood estimator, abbreviated as MLE.
+> **Definition 3.3.2** (Maximum Likelihood Estimator)<br>Let the density function (or probability mass function) of the population be $f\left(x;\theta\right)$, and let $X_1,X_2,\dots,X_n$ be a sample from this population with observed values $x_1,x_2,\dots,x_n$. If the likelihood function $L\left(\theta\right)=L\left(\theta;x_1,x_2,\dots,x_n\right)$ attains its maximum at $\widehat\theta=\widehat\theta\left(x_1,x_2,\dots,x_n\right)$, i.e. $$L\left(\widehat\theta\right)=\sup_{\theta\in\Theta}L\left(\theta\right),$$ then $\widehat\theta\left(x_1,x_2,\dots,x_n\right)$ is called the maximum likelihood estimate of $\theta$, and $\widehat\theta\left(X_1,X_2,\dots,X_n\right)$ is called the maximum likelihood estimator, abbreviated as MLE.
 
 > **Likelihood Function and Log-likelihood Function**<br>For a continuous population, the likelihood function is $L\left(\theta\right)=\prod_{i=1}^n f\left(x_i;\theta\right)$; for a discrete population, the likelihood function is $L\left(\theta\right)=\prod_{i=1}^n P\left(X=x_i;\theta\right)$. The function $$\ln L\left(\theta\right)=\sum_{i=1}^n\ln f\left(x_i;\theta\right)$$ is called the log-likelihood function, and $L\left(\theta\right)$ and $\ln L\left(\theta\right)$ attain their extrema at the same parameter.
 
-> **How to Find the MLE**<br>If the likelihood function is differentiable with respect to $\theta$, then $\hat\theta$ is found from the log-likelihood equation $\frac{\mathrm{d}\ln L}{\mathrm{d}\theta}=0$ (a system of equations when there are multiple parameters); when the stationary point is unique and is a maximum point, it is the MLE. If the likelihood function is not differentiable, then by **Definition 3.3.2** (Maximum Likelihood Estimator) directly compare the maximum point of the likelihood function over the parameter space.
+> **How to Find the MLE**<br>If the likelihood function is differentiable with respect to $\theta$, then $\widehat\theta$ is found from the log-likelihood equation $\frac{\mathrm{d}\ln L}{\mathrm{d}\theta}=0$ (a system of equations when there are multiple parameters); when the stationary point is unique and is a maximum point, it is the MLE. If the likelihood function is not differentiable, then by **Definition 3.3.2** (Maximum Likelihood Estimator) directly compare the maximum point of the likelihood function over the parameter space.
 
-> **Invariance of the MLE**<br>If $\hat\theta$ is the MLE of $\theta$ and $g\left(\theta\right)$ is a known function with a single-valued inverse, then $g\left(\hat\theta\right)$ is the MLE of $g\left(\theta\right)$.
+> **Invariance of the MLE**<br>If $\widehat\theta$ is the MLE of $\theta$ and $g\left(\theta\right)$ is a known function with a single-valued inverse, then $g\left(\widehat\theta\right)$ is the MLE of $g\left(\theta\right)$.
 
 ### Problem 1
 
@@ -38,10 +38,10 @@ $$
 \frac{\mathrm{d}\ln L}{\mathrm{d}\theta}=\frac{n}{\theta+1}+\sum_{i=1}^n\ln x_i=0,
 $$
 
-and solving gives $\hat\theta=-1-\frac{n}{\sum_{i=1}^n\ln x_i}$. Since $0< x_i< 1$, $\sum_{i=1}^n\ln x_i< 0$, so $\hat\theta> -1$; also $\frac{\mathrm{d}^2\ln L}{\mathrm{d}\theta^2}=-\frac{n}{\left(\theta+1\right)^2}< 0$, so this stationary point is a maximum point. Hence
+and solving gives $\widehat\theta=-1-\frac{n}{\sum_{i=1}^n\ln x_i}$. Since $0< x_i< 1$, $\sum_{i=1}^n\ln x_i< 0$, so $\widehat\theta> -1$; also $\frac{\mathrm{d}^2\ln L}{\mathrm{d}\theta^2}=-\frac{n}{\left(\theta+1\right)^2}< 0$, so this stationary point is a maximum point. Hence
 
 $$
-\hat\theta=-1-\frac{n}{\sum_{i=1}^n\ln X_i}.
+\widehat\theta=-1-\frac{n}{\sum_{i=1}^n\ln X_i}.
 $$
 
 (2) The likelihood function is
@@ -53,7 +53,7 @@ $$
 The log-likelihood function is $\ln L\left(\theta\right)=n\ln\theta-\theta\sum_{i=1}^n x_i$. Setting $\frac{\mathrm{d}\ln L}{\mathrm{d}\theta}=\frac{n}{\theta}-\sum_{i=1}^n x_i=0$ and solving gives
 
 $$
-\hat\theta=\frac{1}{\bar X},\quad \bar X=\frac{1}{n}\sum_{i=1}^n X_i.
+\widehat\theta=\frac{1}{\overline X},\quad \overline X=\frac{1}{n}\sum_{i=1}^n X_i.
 $$
 
 (3) The likelihood function is
@@ -65,13 +65,13 @@ $$
 The log-likelihood function is $\ln L\left(\theta\right)=-n\ln\left(2\theta\right)-\frac{1}{\theta}\sum_{i=1}^n\left|x_i\right|$. Setting $\frac{\mathrm{d}\ln L}{\mathrm{d}\theta}=-\frac{n}{\theta}+\frac{1}{\theta^2}\sum_{i=1}^n\left|x_i\right|=0$ and solving gives
 
 $$
-\hat\theta=\frac{1}{n}\sum_{i=1}^n\left|X_i\right|.
+\widehat\theta=\frac{1}{n}\sum_{i=1}^n\left|X_i\right|.
 $$
 
 (4) $L\left(\theta\right)=1$ if and only if all samples fall in $\left[\theta-0.5,\theta+0.5\right]$, i.e. $\theta-0.5\le x_{\left(1\right)}$ and $x_{\left(n\right)}\le\theta+0.5$, and $L\left(\theta\right)=0$ otherwise. By **Definition 3.3.2** (Maximum Likelihood Estimator), any $\theta$ for which the likelihood function attains its maximum $1$ is an MLE, so the MLE is not unique and is the interval
 
 $$
-\hat\theta\in\left[X_{\left(n\right)}-0.5,\ X_{\left(1\right)}+0.5\right],
+\widehat\theta\in\left[X_{\left(n\right)}-0.5,\ X_{\left(1\right)}+0.5\right],
 $$
 
 where $X_{\left(1\right)}=\min\left\{X_1,\dots,X_n\right\}$ and $X_{\left(n\right)}=\max\left\{X_1,\dots,X_n\right\}$.
@@ -88,10 +88,10 @@ $$
 \ln L\left(\mu,\sigma^2\right)=-\frac{n}{2}\ln\left(2\pi\sigma^2\right)-\sum_{i=1}^n\ln x_i-\frac{1}{2\sigma^2}\sum_{i=1}^n\left(y_i-\mu\right)^2.
 $$
 
-By **How to Find the MLE**, setting $\frac{\partial\ln L}{\partial\mu}=0$ gives $\hat\mu=\bar y=\frac{1}{n}\sum_{i=1}^n\ln x_i$; setting $\frac{\partial\ln L}{\partial\left(\sigma^2\right)}=0$ gives
+By **How to Find the MLE**, setting $\frac{\partial\ln L}{\partial\mu}=0$ gives $\widehat\mu=\overline y=\frac{1}{n}\sum_{i=1}^n\ln x_i$; setting $\frac{\partial\ln L}{\partial\left(\sigma^2\right)}=0$ gives
 
 $$
-\hat\sigma^2=\frac{1}{n}\sum_{i=1}^n\left(\ln X_i-\frac{1}{n}\sum_{j=1}^n\ln X_j\right)^2.
+\widehat\sigma^2=\frac{1}{n}\sum_{i=1}^n\left(\ln X_i-\frac{1}{n}\sum_{j=1}^n\ln X_j\right)^2.
 $$
 
 $\blacksquare$
@@ -118,7 +118,7 @@ $$
 \frac{\mathrm{d}}{\mathrm{d}\mu}\sum_{i=1}^n\left(x_i-\mu\right)^2=-2\sum_{i=1}^n\left(x_i-\mu\right)=0,
 $$
 
-and solving gives $\hat\mu=\bar X=\frac{1}{n}\sum_{i=1}^n X_i$, at which the residual sum of squares is minimized, so it is the MLE.
+and solving gives $\widehat\mu=\overline X=\frac{1}{n}\sum_{i=1}^n X_i$, at which the residual sum of squares is minimized, so it is the MLE.
 
 (2) When $\mu$ is known, the log-likelihood function is
 
@@ -129,7 +129,7 @@ $$
 Setting $\frac{\mathrm{d}\ln L}{\mathrm{d}\left(\sigma^2\right)}=-\frac{n}{2\sigma^2}+\frac{1}{2\sigma^4}\sum_{i=1}^n\left(x_i-\mu\right)^2=0$ and solving gives
 
 $$
-\hat\sigma^2=\frac{1}{n}\sum_{i=1}^n\left(X_i-\mu\right)^2.
+\widehat\sigma^2=\frac{1}{n}\sum_{i=1}^n\left(X_i-\mu\right)^2.
 $$
 
 $\blacksquare$
@@ -155,10 +155,10 @@ $$
 and when $\mu> x_{\left(1\right)}$, $L=0$. By **How to Find the MLE**, for fixed $\lambda> 0$, $L\left(\mu,\lambda\right)=e^{n\lambda\mu}\cdot\lambda^n e^{-\lambda\sum x_i}$ is increasing in $\mu$, so the maximum is attained at the largest allowable $\mu$, namely
 
 $$
-\hat\mu=X_{\left(1\right)}=\min\left\{X_1,\dots,X_n\right\}.
+\widehat\mu=X_{\left(1\right)}=\min\left\{X_1,\dots,X_n\right\}.
 $$
 
-Substituting $\hat\mu=x_{\left(1\right)}$ gives the profile log-likelihood function
+Substituting $\widehat\mu=x_{\left(1\right)}$ gives the profile log-likelihood function
 
 $$
 \ln L\left(x_{\left(1\right)},\lambda\right)=n\ln\lambda-\lambda\sum_{i=1}^n\left(x_i-x_{\left(1\right)}\right).
@@ -167,7 +167,7 @@ $$
 Setting $\frac{\mathrm{d}\ln L}{\mathrm{d}\lambda}=\frac{n}{\lambda}-\sum_{i=1}^n\left(x_i-x_{\left(1\right)}\right)=0$ and solving gives
 
 $$
-\hat\lambda=\frac{n}{\sum_{i=1}^n\left(X_i-X_{\left(1\right)}\right)}=\frac{1}{\bar X-X_{\left(1\right)}}.
+\widehat\lambda=\frac{n}{\sum_{i=1}^n\left(X_i-X_{\left(1\right)}\right)}=\frac{1}{\overline X-X_{\left(1\right)}}.
 $$
 
 For the survival probability, since $X-\mu\sim E\left(\lambda\right)$,
@@ -179,7 +179,7 @@ $$
 By **Invariance of the MLE**,
 
 $$
-\hat\alpha=e^{-\hat\lambda\left(t-\hat\mu\right)}=\exp\left\{-\frac{t-X_{\left(1\right)}}{\bar X-X_{\left(1\right)}}\right\}.
+\widehat\alpha=e^{-\widehat\lambda\left(t-\widehat\mu\right)}=\exp\left\{-\frac{t-X_{\left(1\right)}}{\overline X-X_{\left(1\right)}}\right\}.
 $$
 
 $\blacksquare$

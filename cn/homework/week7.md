@@ -114,7 +114,7 @@ $$
 f=C'\left(\mu,\sigma^2\right)\exp\left\{\frac{\mu}{\sigma^2}\sum_{i=1}^n x_i\right\}.
 $$
 
-令自然参数 $\eta=\frac{\mu}{\sigma^2}$，则 $T=\sum_{i=1}^n x_i$. 由于 $\mu\in\mathbb R$，自然参数 $\eta\in\left(-\infty,+\infty\right)$ 有内点. 由**定理 2.6.1**（指数族中统计量的完备性），$T=\sum_{i=1}^n X_i$ 为 $\mu$ 的一个完备统计量（等价地，样本均值 $\bar X$ 也是）. $\blacksquare$
+令自然参数 $\eta=\frac{\mu}{\sigma^2}$，则 $T=\sum_{i=1}^n x_i$. 由于 $\mu\in\mathbb R$，自然参数 $\eta\in\left(-\infty,+\infty\right)$ 有内点. 由**定理 2.6.1**（指数族中统计量的完备性），$T=\sum_{i=1}^n X_i$ 为 $\mu$ 的一个完备统计量（等价地，样本均值 $\overline X$ 也是）. $\blacksquare$
 
 ### 习题五
 

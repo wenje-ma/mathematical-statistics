@@ -1,10 +1,10 @@
 # Assignment 15
 
-> **Pivotal Quantity Method** (Construction of a Confidence Interval)<br>Let $X_1,X_2,\dots,X_n$ be a sample from a population, with unknown parameter $\theta$. If one can construct a function $G\left(X_1,X_2,\dots,X_n,\theta\right)$ of the sample and $\theta$ whose distribution is completely known and independent of $\theta$, then $G$ is called a pivotal quantity. For a given confidence level $1-\alpha$, choose $c_1,c_2$ such that $P\left\{c_1\le G\le c_2\right\}=1-\alpha$, then equivalently rewrite the inequality $c_1\le G\le c_2$ as $\hat\theta_1\le\theta\le\hat\theta_2$, yielding the confidence interval $\left[\hat\theta_1,\hat\theta_2\right]$ for $\theta$ with confidence level $1-\alpha$.
+> **Pivotal Quantity Method** (Construction of a Confidence Interval)<br>Let $X_1,X_2,\dots,X_n$ be a sample from a population, with unknown parameter $\theta$. If one can construct a function $G\left(X_1,X_2,\dots,X_n,\theta\right)$ of the sample and $\theta$ whose distribution is completely known and independent of $\theta$, then $G$ is called a pivotal quantity. For a given confidence level $1-\alpha$, choose $c_1,c_2$ such that $P\left\{c_1\le G\le c_2\right\}=1-\alpha$, then equivalently rewrite the inequality $c_1\le G\le c_2$ as $\widehat\theta_1\le\theta\le\widehat\theta_2$, yielding the confidence interval $\left[\widehat\theta_1,\widehat\theta_2\right]$ for $\theta$ with confidence level $1-\alpha$.
 
-> **Confidence Interval for the Parameter of an Exponential Distribution**<br>Let $X_1,X_2,\dots,X_n$ be a sample from the exponential-distribution population $E\left(\lambda\right)$, whose density function is $f\left(x\right)=\lambda e^{-\lambda x},\ x> 0$. By the additivity of the $\chi^2$ distribution, the pivotal quantity is $$T=2\lambda\sum_{i=1}^n X_i=2n\lambda\bar X\sim\chi^2\left(2n\right).$$ Hence the confidence interval for the mean $\theta=\frac{1}{\lambda}$ with confidence level $1-\alpha$ is $$\left[\frac{2n\bar X}{\chi^2_{\alpha/2}\left(2n\right)},\ \frac{2n\bar X}{\chi^2_{1-\alpha/2}\left(2n\right)}\right],$$ where $\chi^2_{\alpha/2}\left(2n\right)$ and $\chi^2_{1-\alpha/2}\left(2n\right)$ are respectively the upper $\alpha/2$ and upper $1-\alpha/2$ quantiles of the $\chi^2$ distribution with $2n$ degrees of freedom.
+> **Confidence Interval for the Parameter of an Exponential Distribution**<br>Let $X_1,X_2,\dots,X_n$ be a sample from the exponential-distribution population $E\left(\lambda\right)$, whose density function is $f\left(x\right)=\lambda e^{-\lambda x},\ x> 0$. By the additivity of the $\chi^2$ distribution, the pivotal quantity is $$T=2\lambda\sum_{i=1}^n X_i=2n\lambda\overline X\sim\chi^2\left(2n\right).$$ Hence the confidence interval for the mean $\theta=\frac{1}{\lambda}$ with confidence level $1-\alpha$ is $$\left[\frac{2n\overline X}{\chi^2_{\alpha/2}\left(2n\right)},\ \frac{2n\overline X}{\chi^2_{1-\alpha/2}\left(2n\right)}\right],$$ where $\chi^2_{\alpha/2}\left(2n\right)$ and $\chi^2_{1-\alpha/2}\left(2n\right)$ are respectively the upper $\alpha/2$ and upper $1-\alpha/2$ quantiles of the $\chi^2$ distribution with $2n$ degrees of freedom.
 
-> **Large-sample Method** (Approximate Confidence Interval for the Parameter of a Two-point Distribution)<br>Let $X_1,X_2,\dots,X_n$ be a sample from the two-point distribution $B\left(1,p\right)$, with $\bar X$ the sample mean. By the central limit theorem, when $n$ is sufficiently large, $\frac{\bar X-p}{\sqrt{p\left(1-p\right)/n}}\overset{\mathrm{d}}{\to}N\left(0,1\right)$. Estimating $p$ by $\bar X$, the confidence interval for the parameter $p$ with approximate confidence level $1-\alpha$ is $$\left[\bar X-u_{\alpha/2}\sqrt{\frac{\bar X\left(1-\bar X\right)}{n}},\ \bar X+u_{\alpha/2}\sqrt{\frac{\bar X\left(1-\bar X\right)}{n}}\right],$$ where $u_{\alpha/2}$ is the upper $\alpha/2$ quantile of the standard normal distribution.
+> **Large-sample Method** (Approximate Confidence Interval for the Parameter of a Two-point Distribution)<br>Let $X_1,X_2,\dots,X_n$ be a sample from the two-point distribution $B\left(1,p\right)$, with $\overline X$ the sample mean. By the central limit theorem, when $n$ is sufficiently large, $\frac{\overline X-p}{\sqrt{p\left(1-p\right)/n}}\overset{\mathrm{d}}{\to}N\left(0,1\right)$. Estimating $p$ by $\overline X$, the confidence interval for the parameter $p$ with approximate confidence level $1-\alpha$ is $$\left[\overline X-u_{\alpha/2}\sqrt{\frac{\overline X\left(1-\overline X\right)}{n}},\ \overline X+u_{\alpha/2}\sqrt{\frac{\overline X\left(1-\overline X\right)}{n}}\right],$$ where $u_{\alpha/2}$ is the upper $\alpha/2$ quantile of the standard normal distribution.
 
 ### Problem 1
 
@@ -12,18 +12,18 @@
 
 ### Solution to Problem 1
 
-By **Confidence Interval for the Parameter of an Exponential Distribution**, the pivotal quantity is $T=2n\lambda\bar X\sim\chi^2\left(2n\right)$. The sample mean is
+By **Confidence Interval for the Parameter of an Exponential Distribution**, the pivotal quantity is $T=2n\lambda\overline X\sim\chi^2\left(2n\right)$. The sample mean is
 
 $$
-\bar X=\frac{15+45+50+53+60+65+70+83+90}{9}=\frac{531}{9}=59,
+\overline X=\frac{15+45+50+53+60+65+70+83+90}{9}=\frac{531}{9}=59,
 $$
 
-so $2n\bar X=18\times59=1062$, and the degrees of freedom are $2n=18$.
+so $2n\overline X=18\times59=1062$, and the degrees of freedom are $2n=18$.
 
 By **Pivotal Quantity Method** (Construction of a Confidence Interval), for confidence level $1-\alpha=0.90$, i.e. $\alpha=0.10$, we have
 
 $$
-P\left\{\chi^2_{0.05}\left(18\right)\le 2n\lambda\bar X\le\chi^2_{0.95}\left(18\right)\right\}=0.90.
+P\left\{\chi^2_{0.05}\left(18\right)\le 2n\lambda\overline X\le\chi^2_{0.95}\left(18\right)\right\}=0.90.
 $$
 
 From the table, $\chi^2_{0.05}\left(18\right)=9.390$ and $\chi^2_{0.95}\left(18\right)=28.869$. Solving the inequality, the confidence interval for the mean lifetime $\theta=\frac{1}{\lambda}$ with confidence level $90\%$ is
@@ -32,16 +32,16 @@ $$
 \left[\frac{1062}{28.869},\ \frac{1062}{9.390}\right]=\left[36.79,\ 113.09\right]\ \text{kh}.
 $$
 
-The one-sided upper confidence bound $\theta_U$ satisfies $P\left\{\theta\le\theta_U\right\}=0.90$, i.e. $P\left\{2n\lambda\bar X\ge\chi^2_{0.10}\left(18\right)\right\}=0.90$, so
+The one-sided upper confidence bound $\theta_U$ satisfies $P\left\{\theta\le\theta_U\right\}=0.90$, i.e. $P\left\{2n\lambda\overline X\ge\chi^2_{0.10}\left(18\right)\right\}=0.90$, so
 
 $$
-\theta_U=\frac{2n\bar X}{\chi^2_{0.10}\left(18\right)}=\frac{1062}{10.865}=97.75.
+\theta_U=\frac{2n\overline X}{\chi^2_{0.10}\left(18\right)}=\frac{1062}{10.865}=97.75.
 $$
 
-The one-sided lower confidence bound $\theta_L$ satisfies $P\left\{\theta\ge\theta_L\right\}=0.90$, i.e. $P\left\{2n\lambda\bar X\le\chi^2_{0.90}\left(18\right)\right\}=0.90$, so
+The one-sided lower confidence bound $\theta_L$ satisfies $P\left\{\theta\ge\theta_L\right\}=0.90$, i.e. $P\left\{2n\lambda\overline X\le\chi^2_{0.90}\left(18\right)\right\}=0.90$, so
 
 $$
-\theta_L=\frac{2n\bar X}{\chi^2_{0.90}\left(18\right)}=\frac{1062}{25.989}=40.86.
+\theta_L=\frac{2n\overline X}{\chi^2_{0.90}\left(18\right)}=\frac{1062}{25.989}=40.86.
 $$
 
 $\blacksquare$
@@ -138,18 +138,18 @@ $\blacksquare$
 
 ### Solution to Problem 4
 
-Let the defective rate be $p$. Then the sample mean, i.e. the frequency, is $\bar X=\frac{16}{100}=0.16$, and the sample size is $n=100$.
+Let the defective rate be $p$. Then the sample mean, i.e. the frequency, is $\overline X=\frac{16}{100}=0.16$, and the sample size is $n=100$.
 
 By **Large-sample Method** (Approximate Confidence Interval for the Parameter of a Two-point Distribution), the confidence interval for $p$ with approximate confidence level $1-\alpha$ is
 
 $$
-\left[\bar X-u_{\alpha/2}\sqrt{\frac{\bar X\left(1-\bar X\right)}{n}},\ \bar X+u_{\alpha/2}\sqrt{\frac{\bar X\left(1-\bar X\right)}{n}}\right].
+\left[\overline X-u_{\alpha/2}\sqrt{\frac{\overline X\left(1-\overline X\right)}{n}},\ \overline X+u_{\alpha/2}\sqrt{\frac{\overline X\left(1-\overline X\right)}{n}}\right].
 $$
 
 Taking $1-\alpha=0.95$, then $\alpha=0.05$, $u_{0.025}=1.96$, and
 
 $$
-\sqrt{\frac{\bar X\left(1-\bar X\right)}{n}}=\sqrt{\frac{0.16\times0.84}{100}}=\sqrt{0.001344}=0.0367.
+\sqrt{\frac{\overline X\left(1-\overline X\right)}{n}}=\sqrt{\frac{0.16\times0.84}{100}}=\sqrt{0.001344}=0.0367.
 $$
 
 Hence the confidence interval for the defective rate $p$ with approximate confidence level $95\%$ is

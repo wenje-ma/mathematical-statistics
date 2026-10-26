@@ -6,11 +6,11 @@
 
 > **定义 5.1.2**（显著性检验与检验水平）<br>若检验函数 $\varphi\left(x\right)$ 犯第一类错误的概率总不超过 $\alpha$，即 $\beta\left(\theta\right)\le\alpha,\ \theta\in\Theta_0$，则称 $\alpha$ 为该检验的一个水平，称 $\varphi$ 为显著性水平为 $\alpha$ 的检验，简称水平为 $\alpha$ 的检验.
 
-> **抽样分布**（正态样本均值的分布）<br>设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$ 的样本，则样本均值 $$\bar X=\frac{1}{n}\sum_{i=1}^n X_i\sim N\left(\mu,\frac{\sigma^2}{n}\right).$$
+> **抽样分布**（正态样本均值的分布）<br>设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$ 的样本，则样本均值 $$\overline X=\frac{1}{n}\sum_{i=1}^n X_i\sim N\left(\mu,\frac{\sigma^2}{n}\right).$$
 
 ### 习题一
 
-（习题 5.1-5）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,1\right)$ 的样本，其中 $\mu\in\mathbb R$ 为未知参数，设检验问题 $H_0:\mu=0$；$H_1:\mu=1$ 的拒绝域为 $D=\left\{\bar X\ge0.98\right\}$.
+（习题 5.1-5）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,1\right)$ 的样本，其中 $\mu\in\mathbb R$ 为未知参数，设检验问题 $H_0:\mu=0$；$H_1:\mu=1$ 的拒绝域为 $D=\left\{\overline X\ge0.98\right\}$.
 
 (1) 若 $n=4$，求该检验犯第一类错误的概率和犯第二类错误的概率；
 
@@ -18,12 +18,12 @@
 
 ### 解答 习题一
 
-由**抽样分布**（正态样本均值的分布），在 $H_0:\mu=0$ 下 $\bar X\sim N\left(0,\frac{1}{n}\right)$，在 $H_1:\mu=1$ 下 $\bar X\sim N\left(1,\frac{1}{n}\right)$. 由**定义 5.1.1**（功效函数），$\beta\left(\mu\right)=P_\mu\left\{\bar X\ge0.98\right\}$.
+由**抽样分布**（正态样本均值的分布），在 $H_0:\mu=0$ 下 $\overline X\sim N\left(0,\frac{1}{n}\right)$，在 $H_1:\mu=1$ 下 $\overline X\sim N\left(1,\frac{1}{n}\right)$. 由**定义 5.1.1**（功效函数），$\beta\left(\mu\right)=P_\mu\left\{\overline X\ge0.98\right\}$.
 
-(1) 当 $n=4$ 时，在 $H_0$ 下 $\bar X\sim N\left(0,\frac{1}{4}\right)$. 由**两类错误**（第一类错误与第二类错误），犯第一类错误的概率为
+(1) 当 $n=4$ 时，在 $H_0$ 下 $\overline X\sim N\left(0,\frac{1}{4}\right)$. 由**两类错误**（第一类错误与第二类错误），犯第一类错误的概率为
 
 $$
-\alpha=\beta\left(0\right)=P_0\left\{\bar X\ge0.98\right\}=P\left\{Z\ge\frac{0.98}{1/2}\right\}=P\left\{Z\ge1.96\right\}=0.025,
+\alpha=\beta\left(0\right)=P_0\left\{\overline X\ge0.98\right\}=P\left\{Z\ge\frac{0.98}{1/2}\right\}=P\left\{Z\ge1.96\right\}=0.025,
 $$
 
 其中 $Z\sim N\left(0,1\right)$.
@@ -31,13 +31,13 @@ $$
 犯第二类错误的概率为
 
 $$
-\beta_2=1-\beta\left(1\right)=P_1\left\{\bar X< 0.98\right\}=P\left\{Z< \frac{0.98-1}{1/2}\right\}=P\left\{Z< -0.04\right\}=\Phi\left(-0.04\right)=0.484.
+\beta_2=1-\beta\left(1\right)=P_1\left\{\overline X< 0.98\right\}=P\left\{Z< \frac{0.98-1}{1/2}\right\}=P\left\{Z< -0.04\right\}=\Phi\left(-0.04\right)=0.484.
 $$
 
 (2) 由**定义 5.1.2**（显著性检验与检验水平），要求犯第一类错误的概率不超过 $0.01$，即
 
 $$
-\beta\left(0\right)=P_0\left\{\bar X\ge0.98\right\}=P\left\{Z\ge0.98\sqrt n\right\}\le0.01.
+\beta\left(0\right)=P_0\left\{\overline X\ge0.98\right\}=P\left\{Z\ge0.98\sqrt n\right\}\le0.01.
 $$
 
 故 $0.98\sqrt n\ge u_{0.01}=2.326$，即 $\sqrt n\ge2.373$，$n\ge5.64$. 因此样本容量 $n$ 最少取 $6$.

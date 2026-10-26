@@ -114,7 +114,7 @@ $$
 f=C'\left(\mu,\sigma^2\right)\exp\left\{\frac{\mu}{\sigma^2}\sum_{i=1}^n x_i\right\}.
 $$
 
-Letting the natural parameter be $\eta=\frac{\mu}{\sigma^2}$, then $T=\sum_{i=1}^n x_i$. Since $\mu\in\mathbb R$, the natural parameter $\eta\in\left(-\infty,+\infty\right)$ has an interior point. By **Theorem 2.6.1** (Completeness of a Statistic in an Exponential Family), $T=\sum_{i=1}^n X_i$ is a complete statistic for $\mu$ (equivalently, the sample mean $\bar X$ is also one). $\blacksquare$
+Letting the natural parameter be $\eta=\frac{\mu}{\sigma^2}$, then $T=\sum_{i=1}^n x_i$. Since $\mu\in\mathbb R$, the natural parameter $\eta\in\left(-\infty,+\infty\right)$ has an interior point. By **Theorem 2.6.1** (Completeness of a Statistic in an Exponential Family), $T=\sum_{i=1}^n X_i$ is a complete statistic for $\mu$ (equivalently, the sample mean $\overline X$ is also one). $\blacksquare$
 
 ### Problem 5
 

@@ -1,8 +1,8 @@
 # 作业 4
 
-> **引理 2.3.1**（样本均值与样本方差的期望）<br>设 $X_1,X_2,\dots,X_n$ 是来自总体 $X$ 的一个样本，且 $E\left(X\right)=\mu$，$D\left(X\right)=\sigma^2$，$\bar X=\frac{1}{n}\sum_{i=1}^n X_i$ 和 $S^2=\frac{1}{n-1}\sum_{i=1}^n\left(X_i-\bar X\right)^2$ 分别为样本均值和样本方差，则 $$E\left(\bar X\right)=\mu,\quad D\left(\bar X\right)=\frac{\sigma^2}{n},\quad E\left(S^2\right)=\sigma^2.$$
+> **引理 2.3.1**（样本均值与样本方差的期望）<br>设 $X_1,X_2,\dots,X_n$ 是来自总体 $X$ 的一个样本，且 $E\left(X\right)=\mu$，$D\left(X\right)=\sigma^2$，$\overline X=\frac{1}{n}\sum_{i=1}^n X_i$ 和 $S^2=\frac{1}{n-1}\sum_{i=1}^n\left(X_i-\overline X\right)^2$ 分别为样本均值和样本方差，则 $$E\left(\overline X\right)=\mu,\quad D\left(\overline X\right)=\frac{\sigma^2}{n},\quad E\left(S^2\right)=\sigma^2.$$
 
-> **定理 2.3.3**（正态总体样本均值与样本方差的分布）<br>设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$ 的样本，$\bar X$ 和 $S^2$ 分别为样本均值和样本方差，则有：<br>(1) $\bar X\sim N\left(\mu,\sigma^2/n\right)$，即 $\frac{\bar X-\mu}{\sigma/\sqrt n}\sim N\left(0,1\right)$；<br>(2) $\frac{\left(n-1\right)S^2}{\sigma^2}\sim\chi^2\left(n-1\right)$；<br>(3) $\bar X$ 和 $S^2$ 相互独立.
+> **定理 2.3.3**（正态总体样本均值与样本方差的分布）<br>设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$ 的样本，$\overline X$ 和 $S^2$ 分别为样本均值和样本方差，则有：<br>(1) $\overline X\sim N\left(\mu,\sigma^2/n\right)$，即 $\frac{\overline X-\mu}{\sigma/\sqrt n}\sim N\left(0,1\right)$；<br>(2) $\frac{\left(n-1\right)S^2}{\sigma^2}\sim\chi^2\left(n-1\right)$；<br>(3) $\overline X$ 和 $S^2$ 相互独立.
 
 > **定理 2.3.4**<br>设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$ 的样本，则 $$\frac{1}{\sigma^2}\sum_{i=1}^n\left(X_i-\mu\right)^2\sim\chi^2\left(n\right).$$
 
@@ -12,34 +12,34 @@
 
 > **$\chi^2$ 分布的性质**（可加性）<br>设 $X_1\sim\chi^2\left(n_1\right)$，$X_2\sim\chi^2\left(n_2\right)$，且 $X_1$ 与 $X_2$ 相互独立，则 $X_1+X_2\sim\chi^2\left(n_1+n_2\right)$.
 
-> **基础知识**（中心极限定理）<br>设 $X_1,X_2,\dots,X_n$ 独立同分布，且 $E\left(X_i\right)=\mu$，$D\left(X_i\right)=\sigma^2> 0$，则 $$\frac{\bar X-\mu}{\sigma/\sqrt n}\xrightarrow{L}N\left(0,1\right).$$
+> **基础知识**（中心极限定理）<br>设 $X_1,X_2,\dots,X_n$ 独立同分布，且 $E\left(X_i\right)=\mu$，$D\left(X_i\right)=\sigma^2> 0$，则 $$\frac{\overline X-\mu}{\sigma/\sqrt n}\xrightarrow{L}N\left(0,1\right).$$
 
 > **基础知识**（Slutsky 引理）<br>设随机变量序列 $X_n\xrightarrow{L}X$，$Y_n\xrightarrow{P}c$（$c$ 为常数），则 $X_n/Y_n\xrightarrow{L}X/c$（$c\ne0$）.
 
 ### 习题一
 
-（习题 2.3-2）设 $X_1,X_2,\dots,X_n$ 是来自泊松分布总体 $P\left(\lambda\right)$，$\lambda> 0$ 的样本，求 $E\left(\bar X\right)$，$D\left(\bar X\right)$，$E\left(S^2\right)$.
+（习题 2.3-2）设 $X_1,X_2,\dots,X_n$ 是来自泊松分布总体 $P\left(\lambda\right)$，$\lambda> 0$ 的样本，求 $E\left(\overline X\right)$，$D\left(\overline X\right)$，$E\left(S^2\right)$.
 
 ### 解答 习题一
 
 总体 $X\sim P\left(\lambda\right)$，故 $E\left(X\right)=\lambda$，$D\left(X\right)=\lambda$. 由**引理 2.3.1**（样本均值与样本方差的期望），
 
 $$
-E\left(\bar X\right)=E\left(X\right)=\lambda,\quad D\left(\bar X\right)=\frac{D\left(X\right)}{n}=\frac{\lambda}{n},\quad E\left(S^2\right)=D\left(X\right)=\lambda.
+E\left(\overline X\right)=E\left(X\right)=\lambda,\quad D\left(\overline X\right)=\frac{D\left(X\right)}{n}=\frac{\lambda}{n},\quad E\left(S^2\right)=D\left(X\right)=\lambda.
 $$
 
 $\blacksquare$
 
 ### 习题二
 
-（习题 2.3-4）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$，$\mu\in\mathbb R$，$\sigma^2> 0$ 的样本，求 $E\left(\bar X\right)$，$D\left(\bar X\right)$，$E\left(S^2\right)$，$D\left(S^2\right)$.
+（习题 2.3-4）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$，$\mu\in\mathbb R$，$\sigma^2> 0$ 的样本，求 $E\left(\overline X\right)$，$D\left(\overline X\right)$，$E\left(S^2\right)$，$D\left(S^2\right)$.
 
 ### 解答 习题二
 
 由**引理 2.3.1**（样本均值与样本方差的期望），
 
 $$
-E\left(\bar X\right)=\mu,\quad D\left(\bar X\right)=\frac{\sigma^2}{n},\quad E\left(S^2\right)=\sigma^2.
+E\left(\overline X\right)=\mu,\quad D\left(\overline X\right)=\frac{\sigma^2}{n},\quad E\left(S^2\right)=\sigma^2.
 $$
 
 求 $D\left(S^2\right)$. 由**定理 2.3.3**（正态总体样本均值与样本方差的分布）之结论 (2)，
@@ -70,32 +70,32 @@ $\blacksquare$
 
 ### 习题三
 
-（习题 2.3-5）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$，$\mu\in\mathbb R$，$\sigma^2> 0$ 的样本，且 $\bar X=\frac{1}{n}\sum_{i=1}^n X_i$，$S_n^2=\frac{1}{n}\sum_{i=1}^n\left(X_i-\bar X\right)^2$，又设 $X_{n+1}\sim N\left(\mu,\sigma^2\right)$，且 $X_{n+1}$ 与 $X_1,X_2,\dots,X_n$ 独立，求常数 $c$ 使得 $c\frac{X_{n+1}-\bar X}{S_n}$ 服从 $t$ 分布，并指出分布的自由度.
+（习题 2.3-5）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$，$\mu\in\mathbb R$，$\sigma^2> 0$ 的样本，且 $\overline X=\frac{1}{n}\sum_{i=1}^n X_i$，$S_n^2=\frac{1}{n}\sum_{i=1}^n\left(X_i-\overline X\right)^2$，又设 $X_{n+1}\sim N\left(\mu,\sigma^2\right)$，且 $X_{n+1}$ 与 $X_1,X_2,\dots,X_n$ 独立，求常数 $c$ 使得 $c\frac{X_{n+1}-\overline X}{S_n}$ 服从 $t$ 分布，并指出分布的自由度.
 
 ### 解答 习题三
 
-由**定理 2.3.3**（正态总体样本均值与样本方差的分布）之结论 (1)，$\bar X\sim N\left(\mu,\sigma^2/n\right)$. 又 $X_{n+1}\sim N\left(\mu,\sigma^2\right)$ 且与 $\bar X$ 独立，由正态分布的可加性，
+由**定理 2.3.3**（正态总体样本均值与样本方差的分布）之结论 (1)，$\overline X\sim N\left(\mu,\sigma^2/n\right)$. 又 $X_{n+1}\sim N\left(\mu,\sigma^2\right)$ 且与 $\overline X$ 独立，由正态分布的可加性，
 
 $$
-X_{n+1}-\bar X\sim N\left(0,\sigma^2+\frac{\sigma^2}{n}\right)=N\left(0,\frac{n+1}{n}\sigma^2\right),
+X_{n+1}-\overline X\sim N\left(0,\sigma^2+\frac{\sigma^2}{n}\right)=N\left(0,\frac{n+1}{n}\sigma^2\right),
 $$
 
 标准化得
 
 $$
-\frac{X_{n+1}-\bar X}{\sigma\sqrt{\left(n+1\right)/n}}\sim N\left(0,1\right).
+\frac{X_{n+1}-\overline X}{\sigma\sqrt{\left(n+1\right)/n}}\sim N\left(0,1\right).
 $$
 
-另一方面，$S_n^2=\frac{1}{n}\sum_{i=1}^n\left(X_i-\bar X\right)^2$ 与无偏样本方差 $S^2=\frac{1}{n-1}\sum_{i=1}^n\left(X_i-\bar X\right)^2$ 满足 $nS_n^2=\left(n-1\right)S^2$. 由**定理 2.3.3** 之结论 (2)，
+另一方面，$S_n^2=\frac{1}{n}\sum_{i=1}^n\left(X_i-\overline X\right)^2$ 与无偏样本方差 $S^2=\frac{1}{n-1}\sum_{i=1}^n\left(X_i-\overline X\right)^2$ 满足 $nS_n^2=\left(n-1\right)S^2$. 由**定理 2.3.3** 之结论 (2)，
 
 $$
 \frac{nS_n^2}{\sigma^2}=\frac{\left(n-1\right)S^2}{\sigma^2}\sim\chi^2\left(n-1\right).
 $$
 
-由**定理 2.3.3** 之结论 (3)，$\bar X$ 与 $S^2$ 相互独立，又 $X_{n+1}$ 与 $X_1,\dots,X_n$ 独立，故 $X_{n+1}-\bar X$ 与 $S_n^2$ 相互独立. 由**定义 2.2.2**（$t$ 分布），
+由**定理 2.3.3** 之结论 (3)，$\overline X$ 与 $S^2$ 相互独立，又 $X_{n+1}$ 与 $X_1,\dots,X_n$ 独立，故 $X_{n+1}-\overline X$ 与 $S_n^2$ 相互独立. 由**定义 2.2.2**（$t$ 分布），
 
 $$
-T=\frac{\frac{X_{n+1}-\bar X}{\sigma\sqrt{\left(n+1\right)/n}}}{\sqrt{\frac{nS_n^2/\sigma^2}{n-1}}}=\sqrt{\frac{n-1}{n+1}}\cdot\frac{X_{n+1}-\bar X}{S_n}\sim t\left(n-1\right).
+T=\frac{\frac{X_{n+1}-\overline X}{\sigma\sqrt{\left(n+1\right)/n}}}{\sqrt{\frac{nS_n^2/\sigma^2}{n-1}}}=\sqrt{\frac{n-1}{n+1}}\cdot\frac{X_{n+1}-\overline X}{S_n}\sim t\left(n-1\right).
 $$
 
 因此 $c=\sqrt{\frac{n-1}{n+1}}$，自由度为 $n-1$. $\blacksquare$
@@ -122,20 +122,20 @@ $$
 
 ### 习题五
 
-（习题 2.3-8）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$，$\mu\in\mathbb R$，$\sigma^2> 0$ 的样本，求常数 $a$ 和 $b$ 使得 $a\left(\bar X-\mu\right)^2+bS^2\sim\chi^2\left(n\right)$.
+（习题 2.3-8）设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$，$\mu\in\mathbb R$，$\sigma^2> 0$ 的样本，求常数 $a$ 和 $b$ 使得 $a\left(\overline X-\mu\right)^2+bS^2\sim\chi^2\left(n\right)$.
 
 ### 解答 习题五
 
 由**定理 2.3.3**（正态总体样本均值与样本方差的分布）之结论 (1)，
 
 $$
-\frac{\bar X-\mu}{\sigma/\sqrt n}\sim N\left(0,1\right),
+\frac{\overline X-\mu}{\sigma/\sqrt n}\sim N\left(0,1\right),
 $$
 
 平方得
 
 $$
-\frac{n\left(\bar X-\mu\right)^2}{\sigma^2}\sim\chi^2\left(1\right).
+\frac{n\left(\overline X-\mu\right)^2}{\sigma^2}\sim\chi^2\left(1\right).
 $$
 
 由**定理 2.3.3** 之结论 (2)，
@@ -144,10 +144,10 @@ $$
 \frac{\left(n-1\right)S^2}{\sigma^2}\sim\chi^2\left(n-1\right).
 $$
 
-由**定理 2.3.3** 之结论 (3)，$\bar X$ 与 $S^2$ 相互独立，故上述两个 $\chi^2$ 变量相互独立. 由**$\chi^2$ 分布的性质**（可加性），
+由**定理 2.3.3** 之结论 (3)，$\overline X$ 与 $S^2$ 相互独立，故上述两个 $\chi^2$ 变量相互独立. 由**$\chi^2$ 分布的性质**（可加性），
 
 $$
-\frac{n\left(\bar X-\mu\right)^2}{\sigma^2}+\frac{\left(n-1\right)S^2}{\sigma^2}\sim\chi^2\left(1\right)+\chi^2\left(n-1\right)=\chi^2\left(n\right).
+\frac{n\left(\overline X-\mu\right)^2}{\sigma^2}+\frac{\left(n-1\right)S^2}{\sigma^2}\sim\chi^2\left(1\right)+\chi^2\left(n-1\right)=\chi^2\left(n\right).
 $$
 
 因此 $a=\frac{n}{\sigma^2}$，$b=\frac{n-1}{\sigma^2}$. $\blacksquare$
@@ -220,34 +220,34 @@ $\blacksquare$
 
 ### 习题八
 
-（习题 2.3-19）设 $X_1,X_2,\dots,X_n$ 是来自均匀分布总体 $U\left(0,\theta\right)$，$\theta> 0$ 的样本，求 $\frac{\bar X-\theta/2}{\sqrt{\theta^2/12n}}$ 的极限分布.
+（习题 2.3-19）设 $X_1,X_2,\dots,X_n$ 是来自均匀分布总体 $U\left(0,\theta\right)$，$\theta> 0$ 的样本，求 $\frac{\overline X-\theta/2}{\sqrt{\theta^2/12n}}$ 的极限分布.
 
 ### 解答 习题八
 
 总体 $X\sim U\left(0,\theta\right)$，故 $E\left(X\right)=\frac{\theta}{2}$，$D\left(X\right)=\frac{\theta^2}{12}$. 由**基础知识**（中心极限定理），
 
 $$
-\frac{\bar X-\theta/2}{\sqrt{\theta^2/12n}}\xrightarrow{L}N\left(0,1\right).
+\frac{\overline X-\theta/2}{\sqrt{\theta^2/12n}}\xrightarrow{L}N\left(0,1\right).
 $$
 
 即该统计量的极限分布为标准正态分布 $N\left(0,1\right)$. $\blacksquare$
 
 ### 习题九
 
-（习题 2.3-20）若 $X_1,X_2,\dots,X_n$ 是来自泊松分布总体 $P\left(\lambda\right)$，$\lambda> 0$ 的样本，求 $\frac{\bar X-\lambda}{\sqrt{\bar X/n}}$ 的极限分布.
+（习题 2.3-20）若 $X_1,X_2,\dots,X_n$ 是来自泊松分布总体 $P\left(\lambda\right)$，$\lambda> 0$ 的样本，求 $\frac{\overline X-\lambda}{\sqrt{\overline X/n}}$ 的极限分布.
 
 ### 解答 习题九
 
 总体 $X\sim P\left(\lambda\right)$，故 $E\left(X\right)=\lambda$，$D\left(X\right)=\lambda$. 由**基础知识**（中心极限定理），
 
 $$
-\frac{\bar X-\lambda}{\sqrt{\lambda/n}}\xrightarrow{L}N\left(0,1\right).
+\frac{\overline X-\lambda}{\sqrt{\lambda/n}}\xrightarrow{L}N\left(0,1\right).
 $$
 
-又由大数定律，$\bar X\xrightarrow{P}\lambda$，故 $\bar X/\lambda\xrightarrow{P}1$，从而 $\sqrt{\bar X/\lambda}\xrightarrow{P}1$. 由**基础知识**（Slutsky 引理），
+又由大数定律，$\overline X\xrightarrow{P}\lambda$，故 $\overline X/\lambda\xrightarrow{P}1$，从而 $\sqrt{\overline X/\lambda}\xrightarrow{P}1$. 由**基础知识**（Slutsky 引理），
 
 $$
-\frac{\bar X-\lambda}{\sqrt{\bar X/n}}=\frac{\bar X-\lambda}{\sqrt{\lambda/n}}\cdot\sqrt{\frac{\lambda}{\bar X}}\xrightarrow{L}N\left(0,1\right)\cdot1=N\left(0,1\right).
+\frac{\overline X-\lambda}{\sqrt{\overline X/n}}=\frac{\overline X-\lambda}{\sqrt{\lambda/n}}\cdot\sqrt{\frac{\lambda}{\overline X}}\xrightarrow{L}N\left(0,1\right)\cdot1=N\left(0,1\right).
 $$
 
 即该统计量的极限分布为标准正态分布 $N\left(0,1\right)$. $\blacksquare$

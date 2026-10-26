@@ -6,11 +6,11 @@
 
 > **Definition 5.1.2** (Significance Test and Level of the Test)<br>If the probability that the test function $\varphi\left(x\right)$ commits a Type I error never exceeds $\alpha$, i.e. $\beta\left(\theta\right)\le\alpha,\ \theta\in\Theta_0$, then $\alpha$ is called a level of the test, and $\varphi$ is called a test with significance level $\alpha$, abbreviated as a test of level $\alpha$.
 
-> **Sampling Distribution** (Distribution of the Mean of a Normal Sample)<br>Let $X_1,X_2,\dots,X_n$ be a sample from the normal population $N\left(\mu,\sigma^2\right)$. Then the sample mean $$\bar X=\frac{1}{n}\sum_{i=1}^n X_i\sim N\left(\mu,\frac{\sigma^2}{n}\right).$$
+> **Sampling Distribution** (Distribution of the Mean of a Normal Sample)<br>Let $X_1,X_2,\dots,X_n$ be a sample from the normal population $N\left(\mu,\sigma^2\right)$. Then the sample mean $$\overline X=\frac{1}{n}\sum_{i=1}^n X_i\sim N\left(\mu,\frac{\sigma^2}{n}\right).$$
 
 ### Problem 1
 
-(Problem 5.1-5) Let $X_1,X_2,\dots,X_n$ be a sample from the normal population $N\left(\mu,1\right)$, where $\mu\in\mathbb R$ is an unknown parameter. Let the rejection region of the testing problem $H_0:\mu=0$; $H_1:\mu=1$ be $D=\left\{\bar X\ge0.98\right\}$.
+(Problem 5.1-5) Let $X_1,X_2,\dots,X_n$ be a sample from the normal population $N\left(\mu,1\right)$, where $\mu\in\mathbb R$ is an unknown parameter. Let the rejection region of the testing problem $H_0:\mu=0$; $H_1:\mu=1$ be $D=\left\{\overline X\ge0.98\right\}$.
 
 (1) If $n=4$, find the probability that the test commits a Type I error and the probability that it commits a Type II error;
 
@@ -18,12 +18,12 @@
 
 ### Solution to Problem 1
 
-By **Sampling Distribution** (Distribution of the Mean of a Normal Sample), under $H_0:\mu=0$, $\bar X\sim N\left(0,\frac{1}{n}\right)$, and under $H_1:\mu=1$, $\bar X\sim N\left(1,\frac{1}{n}\right)$. By **Definition 5.1.1** (Power Function), $\beta\left(\mu\right)=P_\mu\left\{\bar X\ge0.98\right\}$.
+By **Sampling Distribution** (Distribution of the Mean of a Normal Sample), under $H_0:\mu=0$, $\overline X\sim N\left(0,\frac{1}{n}\right)$, and under $H_1:\mu=1$, $\overline X\sim N\left(1,\frac{1}{n}\right)$. By **Definition 5.1.1** (Power Function), $\beta\left(\mu\right)=P_\mu\left\{\overline X\ge0.98\right\}$.
 
-(1) When $n=4$, under $H_0$, $\bar X\sim N\left(0,\frac{1}{4}\right)$. By **Two Types of Error** (Type I Error and Type II Error), the probability of committing a Type I error is
+(1) When $n=4$, under $H_0$, $\overline X\sim N\left(0,\frac{1}{4}\right)$. By **Two Types of Error** (Type I Error and Type II Error), the probability of committing a Type I error is
 
 $$
-\alpha=\beta\left(0\right)=P_0\left\{\bar X\ge0.98\right\}=P\left\{Z\ge\frac{0.98}{1/2}\right\}=P\left\{Z\ge1.96\right\}=0.025,
+\alpha=\beta\left(0\right)=P_0\left\{\overline X\ge0.98\right\}=P\left\{Z\ge\frac{0.98}{1/2}\right\}=P\left\{Z\ge1.96\right\}=0.025,
 $$
 
 where $Z\sim N\left(0,1\right)$.
@@ -31,13 +31,13 @@ where $Z\sim N\left(0,1\right)$.
 The probability of committing a Type II error is
 
 $$
-\beta_2=1-\beta\left(1\right)=P_1\left\{\bar X< 0.98\right\}=P\left\{Z< \frac{0.98-1}{1/2}\right\}=P\left\{Z< -0.04\right\}=\Phi\left(-0.04\right)=0.484.
+\beta_2=1-\beta\left(1\right)=P_1\left\{\overline X< 0.98\right\}=P\left\{Z< \frac{0.98-1}{1/2}\right\}=P\left\{Z< -0.04\right\}=\Phi\left(-0.04\right)=0.484.
 $$
 
 (2) By **Definition 5.1.2** (Significance Test and Level of the Test), requiring the probability of a Type I error to be no greater than $0.01$, i.e.
 
 $$
-\beta\left(0\right)=P_0\left\{\bar X\ge0.98\right\}=P\left\{Z\ge0.98\sqrt n\right\}\le0.01.
+\beta\left(0\right)=P_0\left\{\overline X\ge0.98\right\}=P\left\{Z\ge0.98\sqrt n\right\}\le0.01.
 $$
 
 Hence $0.98\sqrt n\ge u_{0.01}=2.326$, i.e. $\sqrt n\ge2.373$, $n\ge5.64$. Therefore the minimum sample size $n$ is $6$.

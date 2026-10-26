@@ -136,7 +136,7 @@ $\blacksquare$
 
 (Problem 1-8) Let $X_1,X_2,\dots,X_n$ be a sample from the normal population $N\left(\mu,\sigma^2\right)$, where $\mu$ is known and $\sigma^2$ is unknown. Determine which of the following quantities are statistics and which are not statistics, and why?
 $$
-\frac{1}{n}\sum_{i=1}^n X_i,\quad\frac{1}{n-1}\sum_{i=1}^n\left(X_i-\bar X\right)^2,\quad\frac{1}{\sigma^2}\sum_{i=1}^n X_i^2,\quad\frac{1}{n}\sum_{i=1}^n\left(X_i-\mu\right)^2,
+\frac{1}{n}\sum_{i=1}^n X_i,\quad\frac{1}{n-1}\sum_{i=1}^n\left(X_i-\overline X\right)^2,\quad\frac{1}{\sigma^2}\sum_{i=1}^n X_i^2,\quad\frac{1}{n}\sum_{i=1}^n\left(X_i-\mu\right)^2,
 $$
 $$
 \frac{1}{\sigma^2}\sum_{i=1}^n\left(X_i-\mu\right)^2,\quad X_1+2\mu,\quad\max\left\{X_1,\dots,X_n\right\},\quad\min\left\{X_1,\dots,X_n\right\}.
@@ -147,7 +147,7 @@ $$
 By **Definition 1.4.1** (Statistic), a statistic is a function of the sample and, apart from the sample, does not depend on any unknown quantity. In this problem $\mu$ is known and $\sigma^2$ is unknown, so any quantity containing the unknown parameter $\sigma^2$ is not a statistic; the others are statistics.
 
 - $\frac{1}{n}\sum_{i=1}^n X_i$: contains only the sample; it is a statistic.
-- $\frac{1}{n-1}\sum_{i=1}^n\left(X_i-\bar X\right)^2$: contains only the sample ($\bar X$ is the sample mean); it is a statistic.
+- $\frac{1}{n-1}\sum_{i=1}^n\left(X_i-\overline X\right)^2$: contains only the sample ($\overline X$ is the sample mean); it is a statistic.
 - $\frac{1}{\sigma^2}\sum_{i=1}^n X_i^2$: contains the unknown parameter $\sigma^2$; it is not a statistic.
 - $\frac{1}{n}\sum_{i=1}^n\left(X_i-\mu\right)^2$: $\mu$ is known and it contains only the sample and known constants; it is a statistic.
 - $\frac{1}{\sigma^2}\sum_{i=1}^n\left(X_i-\mu\right)^2$: contains the unknown parameter $\sigma^2$; it is not a statistic.

@@ -300,25 +300,25 @@ $$
 \alpha_k\left(\theta_1,\theta_2,\dots,\theta_m\right)=A_k,\quad k=1,2,\dots,m,
 $$
 
-其解 $\hat\theta_i=\hat\theta_i\left(X_1,X_2,\dots,X_n\right)$ 即称为 $\theta_i$ 的矩估计. 也可用样本 $k$ 阶中心矩去估计总体 $k$ 阶中心矩而建立相应方程. 若要估计参数的函数 $g\left(\theta_1,\dots,\theta_m\right)$, 则以 $g\left(\hat\theta_1,\dots,\hat\theta_m\right)$ 作为其矩估计.
+其解 $\widehat\theta_i=\widehat\theta_i\left(X_1,X_2,\dots,X_n\right)$ 即称为 $\theta_i$ 的矩估计. 也可用样本 $k$ 阶中心矩去估计总体 $k$ 阶中心矩而建立相应方程. 若要估计参数的函数 $g\left(\theta_1,\dots,\theta_m\right)$, 则以 $g\left(\widehat\theta_1,\dots,\widehat\theta_m\right)$ 作为其矩估计.
 
 **例 3.2.1 结论** (总体均值与方差的矩估计)
 
-设总体 $X$ 的均值 $\mu$ 与方差 $\sigma^2$ 都存在且未知, $X_1,X_2,\dots,X_n$ 是来自总体 $X$ 的样本, 则总体均值的矩估计为 $\hat\mu=\overline X=\frac{1}{n}\sum_{i=1}^n X_i$, 总体方差的矩估计为
+设总体 $X$ 的均值 $\mu$ 与方差 $\sigma^2$ 都存在且未知, $X_1,X_2,\dots,X_n$ 是来自总体 $X$ 的样本, 则总体均值的矩估计为 $\widehat\mu=\overline X=\frac{1}{n}\sum_{i=1}^n X_i$, 总体方差的矩估计为
 
 $$
-\hat\sigma^2=S_n^2=\frac{1}{n}\sum_{i=1}^n\left(X_i-\overline X\right)^2.
+\widehat\sigma^2=S_n^2=\frac{1}{n}\sum_{i=1}^n\left(X_i-\overline X\right)^2.
 $$
 
 **定义 3.3.2** (极大似然估计)
 
-设总体的密度函数 (或分布列) 为 $f\left(x;\theta\right)$, $X_1,X_2,\dots,X_n$ 为来自该总体的样本, 其观察值为 $x_1,x_2,\dots,x_n$. 若似然函数 $L\left(\theta\right)=L\left(\theta;x_1,x_2,\dots,x_n\right)$ 在 $\hat\theta=\hat\theta\left(x_1,x_2,\dots,x_n\right)$ 处达到极大值, 即
+设总体的密度函数 (或分布列) 为 $f\left(x;\theta\right)$, $X_1,X_2,\dots,X_n$ 为来自该总体的样本, 其观察值为 $x_1,x_2,\dots,x_n$. 若似然函数 $L\left(\theta\right)=L\left(\theta;x_1,x_2,\dots,x_n\right)$ 在 $\widehat\theta=\widehat\theta\left(x_1,x_2,\dots,x_n\right)$ 处达到极大值, 即
 
 $$
-L\left(\hat\theta\right)=\sup_{\theta\in\Theta}L\left(\theta\right),
+L\left(\widehat\theta\right)=\sup_{\theta\in\Theta}L\left(\theta\right),
 $$
 
-则称 $\hat\theta\left(x_1,x_2,\dots,x_n\right)$ 为 $\theta$ 的极大似然估计值, 称 $\hat\theta\left(X_1,X_2,\dots,X_n\right)$ 为极大似然估计量, 简称 极大似然估计.
+则称 $\widehat\theta\left(x_1,x_2,\dots,x_n\right)$ 为 $\theta$ 的极大似然估计值, 称 $\widehat\theta\left(X_1,X_2,\dots,X_n\right)$ 为极大似然估计量, 简称 极大似然估计.
 
 **似然函数与对数似然函数**
 
@@ -332,37 +332,37 @@ $$
 
 **极大似然估计的求法**
 
-若似然函数关于 $\theta$ 可微, 则 $\hat\theta$ 由对数似然方程 $\frac{\mathrm{d}\ln L}{\mathrm{d}\theta}=0$ (多参数时为方程组) 求得, 当驻点唯一且为极大值点时即为 极大似然估计; 若似然函数不可微, 则按**定义 3.3.2** (极大似然估计) 直接比较似然函数在参数空间上的极大值点.
+若似然函数关于 $\theta$ 可微, 则 $\widehat\theta$ 由对数似然方程 $\frac{\mathrm{d}\ln L}{\mathrm{d}\theta}=0$ (多参数时为方程组) 求得, 当驻点唯一且为极大值点时即为 极大似然估计; 若似然函数不可微, 则按**定义 3.3.2** (极大似然估计) 直接比较似然函数在参数空间上的极大值点.
 
 **极大似然估计的不变性**
 
-若 $\hat\theta$ 为 $\theta$ 的 极大似然估计, $g\left(\theta\right)$ 为具有单值反函数的已知函数, 则 $g\left(\hat\theta\right)$ 为 $g\left(\theta\right)$ 的 极大似然估计.
+若 $\widehat\theta$ 为 $\theta$ 的 极大似然估计, $g\left(\theta\right)$ 为具有单值反函数的已知函数, 则 $g\left(\widehat\theta\right)$ 为 $g\left(\theta\right)$ 的 极大似然估计.
 
 ## 估计量的评价标准
 
 **定义 3.4.1** (无偏估计)
 
-设 $\hat\theta=\hat\theta\left(X_1,X_2,\dots,X_n\right)$ 为未知参数 $\theta$ 的估计量, 若对任意 $\theta\in\Theta$ 都有
+设 $\widehat\theta=\widehat\theta\left(X_1,X_2,\dots,X_n\right)$ 为未知参数 $\theta$ 的估计量, 若对任意 $\theta\in\Theta$ 都有
 
 $$
-E\left[\hat\theta\left(X_1,X_2,\dots,X_n\right)\right]=\theta,
+E\left[\widehat\theta\left(X_1,X_2,\dots,X_n\right)\right]=\theta,
 $$
 
-则称 $\hat\theta$ 为 $\theta$ 的无偏估计. 对 $g\left(\theta\right)$ 的估计量 $\hat g$, 若 $E\left[\hat g\right]=g\left(\theta\right)$, 则称 $\hat g$ 为 $g\left(\theta\right)$ 的无偏估计.
+则称 $\widehat\theta$ 为 $\theta$ 的无偏估计. 对 $g\left(\theta\right)$ 的估计量 $\widehat g$, 若 $E\left[\widehat g\right]=g\left(\theta\right)$, 则称 $\widehat g$ 为 $g\left(\theta\right)$ 的无偏估计.
 
 **定义 3.4.2** (有效性)
 
-设 $\hat\theta_1$ 与 $\hat\theta_2$ 都是 $\theta$ 的无偏估计, 若对一切 $\theta\in\Theta$ 都有 $D\left(\hat\theta_1\right)\le D\left(\hat\theta_2\right)$, 且不等号至少对某个 $\theta$ 成立, 则称 $\hat\theta_1$ 比 $\hat\theta_2$ 有效.
+设 $\widehat\theta_1$ 与 $\widehat\theta_2$ 都是 $\theta$ 的无偏估计, 若对一切 $\theta\in\Theta$ 都有 $D\left(\widehat\theta_1\right)\le D\left(\widehat\theta_2\right)$, 且不等号至少对某个 $\theta$ 成立, 则称 $\widehat\theta_1$ 比 $\widehat\theta_2$ 有效.
 
 **定义 3.4.3** (相合估计)
 
-设对每个自然数 $n$, $\hat\theta_n=\hat\theta_n\left(X_1,X_2,\dots,X_n\right)$ 为 $\theta$ 的估计量, 若对任意 $\theta\in\Theta$ 及任意 $\varepsilon> 0$, 都有
+设对每个自然数 $n$, $\widehat\theta_n=\widehat\theta_n\left(X_1,X_2,\dots,X_n\right)$ 为 $\theta$ 的估计量, 若对任意 $\theta\in\Theta$ 及任意 $\varepsilon> 0$, 都有
 
 $$
-\lim_{n\to\infty}P\left\{\left|\hat\theta_n-\theta\right|\ge\varepsilon\right\}=0,
+\lim_{n\to\infty}P\left\{\left|\widehat\theta_n-\theta\right|\ge\varepsilon\right\}=0,
 $$
 
-则称 $\hat\theta_n$ 为 $\theta$ 的 (弱) 相合估计.
+则称 $\widehat\theta_n$ 为 $\theta$ 的 (弱) 相合估计.
 
 **基础知识** (切比雪夫不等式与大数定律)
 
@@ -372,7 +372,7 @@ $$
 
 **引理 3.5.1** (改进无偏估计的方法)
 
-设 $T=T\left(X_1,X_2,\dots,X_n\right)$ 是一个充分统计量, 而 $\hat g\left(X_1,X_2,\dots,X_n\right)$ 是 $g\left(\theta\right)$ 的一个无偏估计, 则 $h\left(T\right)=E\left[\hat g\left(X_1,X_2,\dots,X_n\right)\mid T\right]$ 是 $g\left(\theta\right)$ 的无偏估计, 且对任意 $\theta$, 有 $D\left[h\left(T\right)\right]\le D\left[\hat g\left(X_1,X_2,\dots,X_n\right)\right]$, 等号当且仅当 $\hat g\left(X_1,X_2,\dots,X_n\right)=h\left(T\right)$ 几乎处处成立.
+设 $T=T\left(X_1,X_2,\dots,X_n\right)$ 是一个充分统计量, 而 $\widehat g\left(X_1,X_2,\dots,X_n\right)$ 是 $g\left(\theta\right)$ 的一个无偏估计, 则 $h\left(T\right)=E\left[\widehat g\left(X_1,X_2,\dots,X_n\right)\mid T\right]$ 是 $g\left(\theta\right)$ 的无偏估计, 且对任意 $\theta$, 有 $D\left[h\left(T\right)\right]\le D\left[\widehat g\left(X_1,X_2,\dots,X_n\right)\right]$, 等号当且仅当 $\widehat g\left(X_1,X_2,\dots,X_n\right)=h\left(T\right)$ 几乎处处成立.
 
 **定理 3.5.1** (莱曼-谢弗定理)
 
@@ -410,27 +410,27 @@ $$
 
 **定理 3.6.1** (单参数克拉默-拉奥不等式)
 
-设分布族 $\mathcal F=\left\{f\left(x,\theta\right):\theta\in\Theta\right\}$ 是 克拉默-拉奥正则分布族, 可估函数 $g\left(\theta\right)$ 在参数空间上可微, $X_1,X_2,\dots,X_n$ 是从该总体抽取的样本, $\hat g\left(X\right)=\hat g\left(X_1,X_2,\dots,X_n\right)$ 是 $g\left(\theta\right)$ 的任一无偏估计, 且积分可在积分号下对 $\theta$ 求导, 则有
+设分布族 $\mathcal F=\left\{f\left(x,\theta\right):\theta\in\Theta\right\}$ 是 克拉默-拉奥正则分布族, 可估函数 $g\left(\theta\right)$ 在参数空间上可微, $X_1,X_2,\dots,X_n$ 是从该总体抽取的样本, $\widehat g\left(X\right)=\widehat g\left(X_1,X_2,\dots,X_n\right)$ 是 $g\left(\theta\right)$ 的任一无偏估计, 且积分可在积分号下对 $\theta$ 求导, 则有
 
 $$
-D\left[\hat g\left(X\right)\right]\ge\frac{\left[g'\left(\theta\right)\right]^2}{nI\left(\theta\right)}.
+D\left[\widehat g\left(X\right)\right]\ge\frac{\left[g'\left(\theta\right)\right]^2}{nI\left(\theta\right)}.
 $$
 
 右端 $\frac{\left[g'\left(\theta\right)\right]^2}{nI\left(\theta\right)}$ 称为 克拉默-拉奥下界. 若某一无偏估计达到该下界, 则它必为一致最小方差无偏估计.
 
 **定义 3.6.2** (效率)
 
-设 $\hat g\left(X\right)$ 为 $g\left(\theta\right)$ 的无偏估计, 则比值
+设 $\widehat g\left(X\right)$ 为 $g\left(\theta\right)$ 的无偏估计, 则比值
 
 $$
-e\left(\theta\right)=\frac{\left[g'\left(\theta\right)\right]^2}{nI\left(\theta\right)D\left[\hat g\left(X\right)\right]}
+e\left(\theta\right)=\frac{\left[g'\left(\theta\right)\right]^2}{nI\left(\theta\right)D\left[\widehat g\left(X\right)\right]}
 $$
 
-称为无偏估计 $\hat g\left(X\right)$ 的效率, 其中 $0< e\left(\theta\right)\le1$.
+称为无偏估计 $\widehat g\left(X\right)$ 的效率, 其中 $0< e\left(\theta\right)\le1$.
 
 **定义 3.6.3** (有效估计)
 
-当 $e\left(\theta\right)\equiv1$ 时, 称 $\hat g\left(X\right)$ 为 $g\left(\theta\right)$ 的有效估计. 有效估计一定是一致最小方差无偏估计.
+当 $e\left(\theta\right)\equiv1$ 时, 称 $\widehat g\left(X\right)$ 为 $g\left(\theta\right)$ 的有效估计. 有效估计一定是一致最小方差无偏估计.
 
 **推论 3.5.1** (指数族自然形式下的充分完备统计量)
 
@@ -544,7 +544,7 @@ $$
 
 **枢轴量法** (置信区间的构造)
 
-设 $X_1,X_2,\dots,X_n$ 是来自总体的样本, 未知参数为 $\theta$. 若能构造出一个样本与 $\theta$ 的函数 $G\left(X_1,X_2,\dots,X_n,\theta\right)$, 其分布完全已知且与 $\theta$ 无关, 则称 $G$ 为枢轴量. 对给定置信水平 $1-\alpha$, 选取 $c_1,c_2$ 使 $P\left\{c_1\le G\le c_2\right\}=1-\alpha$, 再将不等式 $c_1\le G\le c_2$ 等价变形为 $\hat\theta_1\le\theta\le\hat\theta_2$, 即得 $\theta$ 的置信水平为 $1-\alpha$ 的置信区间 $\left[\hat\theta_1,\hat\theta_2\right]$.
+设 $X_1,X_2,\dots,X_n$ 是来自总体的样本, 未知参数为 $\theta$. 若能构造出一个样本与 $\theta$ 的函数 $G\left(X_1,X_2,\dots,X_n,\theta\right)$, 其分布完全已知且与 $\theta$ 无关, 则称 $G$ 为枢轴量. 对给定置信水平 $1-\alpha$, 选取 $c_1,c_2$ 使 $P\left\{c_1\le G\le c_2\right\}=1-\alpha$, 再将不等式 $c_1\le G\le c_2$ 等价变形为 $\widehat\theta_1\le\theta\le\widehat\theta_2$, 即得 $\theta$ 的置信水平为 $1-\alpha$ 的置信区间 $\left[\widehat\theta_1,\widehat\theta_2\right]$.
 
 **指数分布参数的置信区间**
 

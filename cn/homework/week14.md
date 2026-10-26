@@ -2,17 +2,17 @@
 
 > **定义 4.2.1**（枢轴量）<br>令 $G\left(X_1,X_2,\dots,X_n,\theta\right)$ 是样本 $\left(X_1,X_2,\dots,X_n\right)$ 和参数 $\theta$ 的一个可测函数，当且仅当 $G\left(X_1,X_2,\dots,X_n,\theta\right)$ 的分布不依赖于参数 $\theta$ 时，$G\left(X_1,X_2,\dots,X_n,\theta\right)$ 被称为枢轴量.
 
-> **定理**（单个正态总体均值的置信区间）<br>设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$ 的样本，$\bar X=\frac{1}{n}\sum_{i=1}^n X_i$，$S^2=\frac{1}{n-1}\sum_{i=1}^n\left(X_i-\bar X\right)^2$. 当 $\sigma^2$ 已知时，$\mu$ 的置信水平为 $1-\alpha$ 的置信区间为 $\left[\bar X-\frac{\sigma}{\sqrt n}u_{\alpha/2},\bar X+\frac{\sigma}{\sqrt n}u_{\alpha/2}\right]$；当 $\sigma^2$ 未知时，$\mu$ 的置信水平为 $1-\alpha$ 的置信区间为 $\left[\bar X-\frac{S}{\sqrt n}t_{\alpha/2}\left(n-1\right),\bar X+\frac{S}{\sqrt n}t_{\alpha/2}\left(n-1\right)\right]$.
+> **定理**（单个正态总体均值的置信区间）<br>设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$ 的样本，$\overline X=\frac{1}{n}\sum_{i=1}^n X_i$，$S^2=\frac{1}{n-1}\sum_{i=1}^n\left(X_i-\overline X\right)^2$. 当 $\sigma^2$ 已知时，$\mu$ 的置信水平为 $1-\alpha$ 的置信区间为 $\left[\overline X-\frac{\sigma}{\sqrt n}u_{\alpha/2},\overline X+\frac{\sigma}{\sqrt n}u_{\alpha/2}\right]$；当 $\sigma^2$ 未知时，$\mu$ 的置信水平为 $1-\alpha$ 的置信区间为 $\left[\overline X-\frac{S}{\sqrt n}t_{\alpha/2}\left(n-1\right),\overline X+\frac{S}{\sqrt n}t_{\alpha/2}\left(n-1\right)\right]$.
 
 > **定理**（单个正态总体方差的置信区间）<br>设 $X_1,X_2,\dots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$ 的样本，当 $\mu$ 未知时，$\sigma^2$ 的置信水平为 $1-\alpha$ 的置信区间为 $$\left[\frac{\left(n-1\right)S^2}{\chi^2_{\alpha/2}\left(n-1\right)},\frac{\left(n-1\right)S^2}{\chi^2_{1-\alpha/2}\left(n-1\right)}\right],$$ 其中 $\chi^2_\alpha\left(n-1\right)$ 表示自由度为 $n-1$ 的 $\chi^2$ 分布的上 $\alpha$ 分位数. 相应地，$\sigma$ 的置信水平为 $1-\alpha$ 的置信区间为上述区间端点的平方根.
 
-> **定理**（两个正态总体均值差的置信区间）<br>设 $X_1,X_2,\dots,X_m$ 是来自 $N\left(\mu_1,\sigma_1^2\right)$ 的样本，$Y_1,Y_2,\dots,Y_n$ 是来自 $N\left(\mu_2,\sigma_2^2\right)$ 的样本，两样本独立，$\bar X,\bar Y$ 为样本均值，$S_1^2,S_2^2$ 为样本方差. 当 $\sigma_1^2,\sigma_2^2$ 均已知时，$\mu_2-\mu_1$ 的置信区间为 $\left[\bar Y-\bar X-u_{\alpha/2}\sqrt{\frac{\sigma_1^2}{m}+\frac{\sigma_2^2}{n}},\bar Y-\bar X+u_{\alpha/2}\sqrt{\frac{\sigma_1^2}{m}+\frac{\sigma_2^2}{n}}\right]$；当 $\sigma_1^2=\sigma_2^2=\sigma^2$ 未知时，$\mu_2-\mu_1$ 的置信区间为 $\left[\bar Y-\bar X-S_w t_{\alpha/2}\left(m+n-2\right)\sqrt{\frac{1}{m}+\frac{1}{n}},\bar Y-\bar X+S_w t_{\alpha/2}\left(m+n-2\right)\sqrt{\frac{1}{m}+\frac{1}{n}}\right]$，其中 $S_w^2=\frac{\left(m-1\right)S_1^2+\left(n-1\right)S_2^2}{m+n-2}$；当 $\sigma_1^2\ne\sigma_2^2$ 未知时，可用 Welch 近似：$\left[\bar Y-\bar X-t_{\alpha/2}\left(r\right)\sqrt{\frac{S_1^2}{m}+\frac{S_2^2}{n}},\bar Y-\bar X+t_{\alpha/2}\left(r\right)\sqrt{\frac{S_1^2}{m}+\frac{S_2^2}{n}}\right]$，其中 $r=\frac{\left(S_1^2/m+S_2^2/n\right)^2}{\frac{\left(S_1^2/m\right)^2}{m-1}+\frac{\left(S_2^2/n\right)^2}{n-1}}$.
+> **定理**（两个正态总体均值差的置信区间）<br>设 $X_1,X_2,\dots,X_m$ 是来自 $N\left(\mu_1,\sigma_1^2\right)$ 的样本，$Y_1,Y_2,\dots,Y_n$ 是来自 $N\left(\mu_2,\sigma_2^2\right)$ 的样本，两样本独立，$\overline X,\overline Y$ 为样本均值，$S_1^2,S_2^2$ 为样本方差. 当 $\sigma_1^2,\sigma_2^2$ 均已知时，$\mu_2-\mu_1$ 的置信区间为 $\left[\overline Y-\overline X-u_{\alpha/2}\sqrt{\frac{\sigma_1^2}{m}+\frac{\sigma_2^2}{n}},\overline Y-\overline X+u_{\alpha/2}\sqrt{\frac{\sigma_1^2}{m}+\frac{\sigma_2^2}{n}}\right]$；当 $\sigma_1^2=\sigma_2^2=\sigma^2$ 未知时，$\mu_2-\mu_1$ 的置信区间为 $\left[\overline Y-\overline X-S_w t_{\alpha/2}\left(m+n-2\right)\sqrt{\frac{1}{m}+\frac{1}{n}},\overline Y-\overline X+S_w t_{\alpha/2}\left(m+n-2\right)\sqrt{\frac{1}{m}+\frac{1}{n}}\right]$，其中 $S_w^2=\frac{\left(m-1\right)S_1^2+\left(n-1\right)S_2^2}{m+n-2}$；当 $\sigma_1^2\ne\sigma_2^2$ 未知时，可用 Welch 近似：$\left[\overline Y-\overline X-t_{\alpha/2}\left(r\right)\sqrt{\frac{S_1^2}{m}+\frac{S_2^2}{n}},\overline Y-\overline X+t_{\alpha/2}\left(r\right)\sqrt{\frac{S_1^2}{m}+\frac{S_2^2}{n}}\right]$，其中 $r=\frac{\left(S_1^2/m+S_2^2/n\right)^2}{\frac{\left(S_1^2/m\right)^2}{m-1}+\frac{\left(S_2^2/n\right)^2}{n-1}}$.
 
 > **定理**（两个正态总体方差比的置信区间）<br>设两总体均值均未知，则 $\frac{\sigma_1^2}{\sigma_2^2}$ 的置信水平为 $1-\alpha$ 的置信区间为 $$\left[\frac{S_1^2/S_2^2}{F_{\alpha/2}\left(m-1,n-1\right)},\frac{S_1^2/S_2^2}{F_{1-\alpha/2}\left(m-1,n-1\right)}\right],$$ 其中 $F_{\alpha/2}\left(m-1,n-1\right)$ 表示 $F$ 分布的上 $\alpha/2$ 分位数.
 
 ### 习题一
 
-（习题 4.2-3）设 $X_1,X_2,\dots,X_{21}$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$ 的样本，计算得样本均值 $\bar{x}=32.295$，样本标准差 $s=0.343$.
+（习题 4.2-3）设 $X_1,X_2,\dots,X_{21}$ 是来自正态总体 $N\left(\mu,\sigma^2\right)$ 的样本，计算得样本均值 $\overline{x}=32.295$，样本标准差 $s=0.343$.
 
 (1) 若 $\sigma$ 未知，求 $\mu$ 的置信水平为 $95\%$ 的置信区间；
 
@@ -20,9 +20,9 @@
 
 ### 解答 习题一
 
-由**定理**（单个正态总体均值的置信区间），当 $\sigma^2$ 未知时，$\mu$ 的置信水平为 $1-\alpha$ 的置信区间为 $\left[\bar X-\frac{S}{\sqrt n}t_{\alpha/2}\left(n-1\right),\bar X+\frac{S}{\sqrt n}t_{\alpha/2}\left(n-1\right)\right]$.
+由**定理**（单个正态总体均值的置信区间），当 $\sigma^2$ 未知时，$\mu$ 的置信水平为 $1-\alpha$ 的置信区间为 $\left[\overline X-\frac{S}{\sqrt n}t_{\alpha/2}\left(n-1\right),\overline X+\frac{S}{\sqrt n}t_{\alpha/2}\left(n-1\right)\right]$.
 
-本题中 $n=21$，$\bar{x}=32.295$，$s=0.343$，自由度 $n-1=20$.
+本题中 $n=21$，$\overline{x}=32.295$，$s=0.343$，自由度 $n-1=20$.
 
 (1) 置信水平为 $95\%$，即 $\alpha=0.05$，查 $t$ 分布表得 $t_{0.025}\left(20\right)=2.086$. 计算得
 
@@ -56,10 +56,10 @@ $\blacksquare$
 
 ### 解答 习题二
 
-由**定义 4.2.1**（枢轴量），当 $\sigma^2$ 已知时，枢轴量为 $U=\frac{\sqrt n\left(\bar X-\mu\right)}{\sigma_0}\sim N\left(0,1\right)$. 由**定理**（单个正态总体均值的置信区间），$\mu$ 的置信水平为 $1-\alpha$ 的置信区间为
+由**定义 4.2.1**（枢轴量），当 $\sigma^2$ 已知时，枢轴量为 $U=\frac{\sqrt n\left(\overline X-\mu\right)}{\sigma_0}\sim N\left(0,1\right)$. 由**定理**（单个正态总体均值的置信区间），$\mu$ 的置信水平为 $1-\alpha$ 的置信区间为
 
 $$
-\left[\bar X-\frac{\sigma_0}{\sqrt n}u_{\alpha/2},\ \bar X+\frac{\sigma_0}{\sqrt n}u_{\alpha/2}\right].
+\left[\overline X-\frac{\sigma_0}{\sqrt n}u_{\alpha/2},\ \overline X+\frac{\sigma_0}{\sqrt n}u_{\alpha/2}\right].
 $$
 
 该区间的长度为
@@ -221,7 +221,7 @@ $\blacksquare$
 
 ### 习题七
 
-（习题 4.2-21）设从总体 $X\sim N\left(\mu_1,\sigma_1^2\right)$ 和总体 $Y\sim N\left(\mu_2,\sigma_2^2\right)$ 中分别抽取容量为 $m=10$，$n=15$ 的样本，计算得样本均值分别为 $\bar{x}=82$，$\bar{y}=76$，样本方差分别为 $s_x^2=56.5$，$s_y^2=52.4$.
+（习题 4.2-21）设从总体 $X\sim N\left(\mu_1,\sigma_1^2\right)$ 和总体 $Y\sim N\left(\mu_2,\sigma_2^2\right)$ 中分别抽取容量为 $m=10$，$n=15$ 的样本，计算得样本均值分别为 $\overline{x}=82$，$\overline{y}=76$，样本方差分别为 $s_x^2=56.5$，$s_y^2=52.4$.
 
 (1) 若已知 $\sigma_1^2=64$，$\sigma_2^2=49$，求 $\mu_1-\mu_2$ 的置信水平为 $95\%$ 的置信区间；
 
@@ -238,10 +238,10 @@ $\blacksquare$
 (1) $\sigma_1^2=64$，$\sigma_2^2=49$ 均已知. 置信区间为
 
 $$
-\left[\bar x-\bar y-u_{0.025}\sqrt{\frac{\sigma_1^2}{m}+\frac{\sigma_2^2}{n}},\ \bar x-\bar y+u_{0.025}\sqrt{\frac{\sigma_1^2}{m}+\frac{\sigma_2^2}{n}}\right].
+\left[\overline x-\overline y-u_{0.025}\sqrt{\frac{\sigma_1^2}{m}+\frac{\sigma_2^2}{n}},\ \overline x-\overline y+u_{0.025}\sqrt{\frac{\sigma_1^2}{m}+\frac{\sigma_2^2}{n}}\right].
 $$
 
-其中 $\bar x-\bar y=82-76=6$，$u_{0.025}=1.96$，
+其中 $\overline x-\overline y=82-76=6$，$u_{0.025}=1.96$，
 
 $$
 \sqrt{\frac{64}{10}+\frac{49}{15}}=\sqrt{6.4+3.267}=\sqrt{9.667}=3.109.
