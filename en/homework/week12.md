@@ -1,12 +1,20 @@
 # week12
 
-> **Definition 3.6.1 (Regular Family)**<br>C-R conditions.
+> **Definition 3.6.1 (Regular Family)**
+>
+> C-R conditions.
 
-> **Theorem 3.6.1 (C-R Inequality)**<br>Lower bound.
+> **Theorem 3.6.1 (C-R Inequality)**
+>
+> Lower bound.
 
-> **Definition 3.6.2 (Efficiency)**<br>Ratio to C-R bound.
+> **Definition 3.6.2 (Efficiency)**
+>
+> Ratio to C-R bound.
 
-> **Definition 3.6.3 (Efficient Estimator)**<br>Efficiency = 1.
+> **Definition 3.6.3 (Efficient Estimator)**
+>
+> Efficiency = 1.
 ---
 
 ## Exercise 3.6-1

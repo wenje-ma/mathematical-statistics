@@ -1,8 +1,12 @@
 # week5
 
-> **定义 2.4.1 (指数族)**<br>$f=C(\theta)\exp\{\sum Q_i(\theta)T_i(x)\}h(x)$.
+> **定义 2.4.1 (指数族)**
+>
+> $f=C(\theta)\exp\{\sum Q_i(\theta)T_i(x)\}h(x)$.
 
-> **定义 2.4.2 (指数族的自然形式)**<br>$f=C(\varphi)\exp\{\sum\varphi_i T_i(x)\}h(x)$.
+> **定义 2.4.2 (指数族的自然形式)**
+>
+> $f=C(\varphi)\exp\{\sum\varphi_i T_i(x)\}h(x)$.
 
 ---
 

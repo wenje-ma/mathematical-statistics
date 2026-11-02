@@ -1,20 +1,36 @@
 # week3
 
-> **Basic Knowledge: Chi-square Properties**<br>$E=n$, $D=2n$.
+> **Basic Knowledge: Chi-square Properties**
+>
+> $E=n$, $D=2n$.
 
-> **Basic Knowledge: Gamma Distribution**<br>$Ga(\alpha,\lambda)$.
+> **Basic Knowledge: Gamma Distribution**
+>
+> $Ga(\alpha,\lambda)$.
 
-> **Definition 2.2.1 (Chi-square)**<br>$\sum N(0,1)^2$.
+> **Definition 2.2.1 (Chi-square)**
+>
+> $\sum N(0,1)^2$.
 
-> **Theorem 2.2.1 (Chi-square Density)**<br>Gamma form.
+> **Theorem 2.2.1 (Chi-square Density)**
+>
+> Gamma form.
 
-> **Corollary 2.2.1 (Ratio and Sum Independence)**<br>$X/Y$ independent of $X+Y$.
+> **Corollary 2.2.1 (Ratio and Sum Independence)**
+>
+> $X/Y$ independent of $X+Y$.
 
-> **Definition 2.2.2 (t-distribution)**<br>$N(0,1)/\sqrt{\chi^2/n}$.
+> **Definition 2.2.2 (t-distribution)**
+>
+> $N(0,1)/\sqrt{\chi^2/n}$.
 
-> **Theorem 2.2.2 (t-density)**<br>Symmetric bell.
+> **Theorem 2.2.2 (t-density)**
+>
+> Symmetric bell.
 
-> **Definition 2.2.3 (F-distribution)**<br>Ratio of chi-squares.
+> **Definition 2.2.3 (F-distribution)**
+>
+> Ratio of chi-squares.
 ---
 
 ## Exercise 2.2-1

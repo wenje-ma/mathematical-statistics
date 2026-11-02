@@ -1,16 +1,28 @@
 # week17
 
-> **Basic Knowledge: Z Test**<br>Known variance.
+> **Basic Knowledge: Z Test**
+>
+> Known variance.
 
-> **Basic Knowledge: t Test**<br>Unknown variance.
+> **Basic Knowledge: t Test**
+>
+> Unknown variance.
 
-> **Basic Knowledge: Chi-square Test**<br>Variance test.
+> **Basic Knowledge: Chi-square Test**
+>
+> Variance test.
 
-> **Basic Knowledge: Two-sample Z**<br>Known variances.
+> **Basic Knowledge: Two-sample Z**
+>
+> Known variances.
 
-> **Basic Knowledge: Pooled t**<br>Equal unknown variance.
+> **Basic Knowledge: Pooled t**
+>
+> Equal unknown variance.
 
-> **Basic Knowledge: F Test**<br>Variance ratio.
+> **Basic Knowledge: F Test**
+>
+> Variance ratio.
 
 ---
 

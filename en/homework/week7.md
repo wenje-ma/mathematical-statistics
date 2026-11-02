@@ -1,12 +1,20 @@
 # week7
 
-> **Definition 2.5.1 (Sufficient Statistic)**<br>Conditional distribution independent.
+> **Definition 2.5.1 (Sufficient Statistic)**
+>
+> Conditional distribution independent.
 
-> **Theorem 2.5.1 (Factorization)**<br>$f=g(T,\theta)h(x)$.
+> **Theorem 2.5.1 (Factorization)**
+>
+> $f=g(T,\theta)h(x)$.
 
-> **Definition 2.6.1 (Complete Statistic)**<br>Zero expectation implies zero a.s.
+> **Definition 2.6.1 (Complete Statistic)**
+>
+> Zero expectation implies zero a.s.
 
-> **Theorem 2.6.1 (Completeness in Exponential Families)**<br>Natural parameter space has interior.
+> **Theorem 2.6.1 (Completeness in Exponential Families)**
+>
+> Natural parameter space has interior.
 
 ---
 

@@ -1,12 +1,20 @@
 # week10
 
-> **Basic Knowledge: Chebyshev and LLN**<br>Bound and convergence.
+> **Basic Knowledge: Chebyshev and LLN**
+>
+> Bound and convergence.
 
-> **Definition 3.4.1 (Unbiased Estimator)**<br>$E(\hat\theta)=\theta$.
+> **Definition 3.4.1 (Unbiased Estimator)**
+>
+> $E(\hat\theta)=\theta$.
 
-> **Definition 3.4.2 (Efficiency)**<br>Smaller variance.
+> **Definition 3.4.2 (Efficiency)**
+>
+> Smaller variance.
 
-> **Definition 3.4.3 (Consistency)**<br>Converges in probability.
+> **Definition 3.4.3 (Consistency)**
+>
+> Converges in probability.
 ---
 
 ## Exercise 3.4-1

@@ -1,8 +1,12 @@
 # week8
 
-> **Definition 3.2.1 (Method of Moments)**<br>Population moments = sample moments.
+> **Definition 3.2.1 (Method of Moments)**
+>
+> Population moments = sample moments.
 
-> **Example 3.2.1 Conclusion**<br>$\hat\mu=\bar X$, $\hat\sigma^2=S_n^2$.
+> **Example 3.2.1 Conclusion**
+>
+> $\hat\mu=\bar X$, $\hat\sigma^2=S_n^2$.
 
 ---
 

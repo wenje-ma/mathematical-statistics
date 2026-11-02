@@ -1,10 +1,16 @@
 # week6
 
-> **Definition 2.5.1 (Sufficient Statistic)**<br>Conditional distribution independent of parameter.
+> **Definition 2.5.1 (Sufficient Statistic)**
+>
+> Conditional distribution independent of parameter.
 
-> **Theorem 2.5.1 (Factorization Criterion)**<br>$f=g(T,\theta)h(x)$.
+> **Theorem 2.5.1 (Factorization Criterion)**
+>
+> $f=g(T,\theta)h(x)$.
 
-> **Corollary 2.5.1**<br>Invertible transforms preserve sufficiency.
+> **Corollary 2.5.1**
+>
+> Invertible transforms preserve sufficiency.
 
 ---
 

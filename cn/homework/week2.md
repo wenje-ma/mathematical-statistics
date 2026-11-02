@@ -1,12 +1,20 @@
 # week2
 
-> **基础知识: 泊松分布的可加性**<br>$\sum P(\lambda_i)\sim P(\sum\lambda_i)$.
+> **基础知识: 泊松分布的可加性**
+>
+> $\sum P(\lambda_i)\sim P(\sum\lambda_i)$.
 
-> **基础知识: 正态分布的可加性**<br>$\sum N(\mu_i,\sigma_i^2)\sim N(\sum\mu_i,\sum\sigma_i^2)$.
+> **基础知识: 正态分布的可加性**
+>
+> $\sum N(\mu_i,\sigma_i^2)\sim N(\sum\mu_i,\sum\sigma_i^2)$.
 
-> **基础知识: 抽样分布**<br>统计量的分布.
+> **基础知识: 抽样分布**
+>
+> 统计量的分布.
 
-> **基础知识: 顺序统计量的分布**<br>$f_{(r)}(x)=rC_n^r F^{r-1}(x)(1-F)^{n-r}f(x)$.
+> **基础知识: 顺序统计量的分布**
+>
+> $f_{(r)}(x)=rC_n^r F^{r-1}(x)(1-F)^{n-r}f(x)$.
 
 ---
 

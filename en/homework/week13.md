@@ -1,12 +1,20 @@
 # week13
 
-> **Basic Knowledge: Normal Sampling Distribution**<br>Z and t statistics.
+> **Basic Knowledge: Normal Sampling Distribution**
+>
+> Z and t statistics.
 
-> **Definition 4.1.1 (Interval Estimation)**<br>Random interval.
+> **Definition 4.1.1 (Interval Estimation)**
+>
+> Random interval.
 
-> **Definition 4.1.4 (Confidence Interval)**<br>Coverage probability.
+> **Definition 4.1.4 (Confidence Interval)**
+>
+> Coverage probability.
 
-> **Definition 4.1.5 (Confidence Bounds)**<br>One-sided bounds.
+> **Definition 4.1.5 (Confidence Bounds)**
+>
+> One-sided bounds.
 ---
 
 ## Exercise 4.1-4

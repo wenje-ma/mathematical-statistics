@@ -1,14 +1,24 @@
 # week14
 
-> **Basic Knowledge: Mean CI**<br>Z or t.
+> **Basic Knowledge: Mean CI**
+>
+> Z or t.
 
-> **Basic Knowledge: Variance CI**<br>Chi-square.
+> **Basic Knowledge: Variance CI**
+>
+> Chi-square.
 
-> **Basic Knowledge: Mean Difference CI**<br>Four cases.
+> **Basic Knowledge: Mean Difference CI**
+>
+> Four cases.
 
-> **Basic Knowledge: Variance Ratio CI**<br>F ratio.
+> **Basic Knowledge: Variance Ratio CI**
+>
+> F ratio.
 
-> **Definition 4.2.1 (Pivotal Quantity)**<br>Distribution-free of parameter.
+> **Definition 4.2.1 (Pivotal Quantity)**
+>
+> Distribution-free of parameter.
 ---
 
 ## Exercise 4.2-3

@@ -1,8 +1,12 @@
 # week5
 
-> **Definition 2.4.1 (Exponential Family)**<br>Standard form.
+> **Definition 2.4.1 (Exponential Family)**
+>
+> Standard form.
 
-> **Definition 2.4.2 (Natural Form)**<br>Natural parameters.
+> **Definition 2.4.2 (Natural Form)**
+>
+> Natural parameters.
 
 ---
 

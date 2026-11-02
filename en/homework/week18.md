@@ -1,12 +1,20 @@
 # week18
 
-> **Basic Knowledge: Exponential Test**<br>Chi-square pivot.
+> **Basic Knowledge: Exponential Test**
+>
+> Chi-square pivot.
 
-> **Basic Knowledge: Two Exponential Ratio**<br>F statistic.
+> **Basic Knowledge: Two Exponential Ratio**
+>
+> F statistic.
 
-> **Basic Knowledge: Large Sample Binomial**<br>Z approximation.
+> **Basic Knowledge: Large Sample Binomial**
+>
+> Z approximation.
 
-> **Basic Knowledge: Large Sample Poisson**<br>$S\sim P(n\lambda)$.
+> **Basic Knowledge: Large Sample Poisson**
+>
+> $S\sim P(n\lambda)$.
 
 ---
 

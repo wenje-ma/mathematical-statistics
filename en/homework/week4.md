@@ -1,12 +1,20 @@
 # week4
 
-> **Basic Knowledge: CLT**<br>Normal limit.
+> **Basic Knowledge: CLT**
+>
+> Normal limit.
 
-> **Basic Knowledge: Slutsky's Lemma**<br>Ratio convergence.
+> **Basic Knowledge: Slutsky's Lemma**
+>
+> Ratio convergence.
 
-> **Lemma 2.3.1 (Mean and Variance of Sample Mean/Variance)**<br>$E(\bar X)=\mu$, etc.
+> **Lemma 2.3.1 (Mean and Variance of Sample Mean/Variance)**
+>
+> $E(\bar X)=\mu$, etc.
 
-> **Theorem 2.3.3 (Normal Sample Distributions)**<br>$\bar X$ and $S^2$ independent.
+> **Theorem 2.3.3 (Normal Sample Distributions)**
+>
+> $\bar X$ and $S^2$ independent.
 ---
 
 ## Exercise 2.3-2

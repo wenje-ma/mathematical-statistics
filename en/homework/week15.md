@@ -1,10 +1,16 @@
 # week15
 
-> **Basic Knowledge: Pivotal Method**<br>Invert pivotal quantity.
+> **Basic Knowledge: Pivotal Method**
+>
+> Invert pivotal quantity.
 
-> **Basic Knowledge: Exponential CI**<br>Chi-square pivot.
+> **Basic Knowledge: Exponential CI**
+>
+> Chi-square pivot.
 
-> **Basic Knowledge: Large Sample**<br>Binomial approximate.
+> **Basic Knowledge: Large Sample**
+>
+> Binomial approximate.
 
 ---
 

@@ -1,12 +1,20 @@
 # week4
 
-> **基础知识: 中心极限定理**<br>$(\bar X-\mu)/(\sigma/\sqrt n)\to N(0,1)$.
+> **基础知识: 中心极限定理**
+>
+> $(\bar X-\mu)/(\sigma/\sqrt n)\to N(0,1)$.
 
-> **基础知识: 斯卢茨基引理**<br>$X_n\to X$, $Y_n\to c$ 则 $X_n/Y_n\to X/c$.
+> **基础知识: 斯卢茨基引理**
+>
+> $X_n\to X$, $Y_n\to c$ 则 $X_n/Y_n\to X/c$.
 
-> **引理 2.3.1 (样本均值与样本方差的期望)**<br>$E(\bar X)=\mu$, $D(\bar X)=\sigma^2/n$, $E(S^2)=\sigma^2$.
+> **引理 2.3.1 (样本均值与样本方差的期望)**
+>
+> $E(\bar X)=\mu$, $D(\bar X)=\sigma^2/n$, $E(S^2)=\sigma^2$.
 
-> **定理 2.3.3 (正态总体样本均值与样本方差的分布)**<br>$\bar X\sim N(\mu,\sigma^2/n)$, $(n-1)S^2/\sigma^2\sim\chi^2(n-1)$, 二者独立.
+> **定理 2.3.3 (正态总体样本均值与样本方差的分布)**
+>
+> $\bar X\sim N(\mu,\sigma^2/n)$, $(n-1)S^2/\sigma^2\sim\chi^2(n-1)$, 二者独立.
 ---
 
 ## 习题 2.3-2

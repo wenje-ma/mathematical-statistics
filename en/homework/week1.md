@@ -1,20 +1,36 @@
 # week1
 
-> **Basic Knowledge: Sample Distribution**<br>$\prod F(x_i)$.
+> **Basic Knowledge: Sample Distribution**
+>
+> $\prod F(x_i)$.
 
-> **Basic Knowledge: Distribution Family**<br>$\{\prod f(x_i;\theta)\}$.
+> **Basic Knowledge: Distribution Family**
+>
+> $\{\prod f(x_i;\theta)\}$.
 
-> **Definition 1.2.1 (Population)**<br>Collection of study objects.
+> **Definition 1.2.1 (Population)**
+>
+> Collection of study objects.
 
-> **Definition 1.3.1 (Sample Space)**<br>All possible sample values.
+> **Definition 1.3.1 (Sample Space)**
+>
+> All possible sample values.
 
-> **Definition 1.3.2 (Simple Random Sample)**<br>Independent and identically distributed.
+> **Definition 1.3.2 (Simple Random Sample)**
+>
+> Independent and identically distributed.
 
-> **Definition 1.3.3 (Parameter Space)**<br>All possible parameter values.
+> **Definition 1.3.3 (Parameter Space)**
+>
+> All possible parameter values.
 
-> **Definition 1.4.1 (Statistic)**<br>Function of sample, no unknown parameters.
+> **Definition 1.4.1 (Statistic)**
+>
+> Function of sample, no unknown parameters.
 
-> **Definition 1.5.1 (Empirical CDF)**<br>$F_n(x)=\frac1n\sum I\{X_i\le x\}$.
+> **Definition 1.5.1 (Empirical CDF)**
+>
+> $F_n(x)=\frac1n\sum I\{X_i\le x\}$.
 ---
 
 ## Exercise 1-1
