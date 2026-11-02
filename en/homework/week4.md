@@ -1,19 +1,19 @@
 # week4
 
 > **Basic Knowledge: CLT**
->
+> 
 > Normal limit.
 
 > **Basic Knowledge: Slutsky's Lemma**
->
+> 
 > Ratio convergence.
 
 > **Lemma 2.3.1 (Mean and Variance of Sample Mean/Variance)**
->
-> $E(\bar X)=\mu$, etc.
+> 
+> $E\left(\bar X\right)=\mu$, etc.
 
 > **Theorem 2.3.3 (Normal Sample Distributions)**
->
+> 
 > $\bar X$ and $S^2$ independent.
 ---
 
@@ -33,7 +33,7 @@ Variance of $S^2$.
 
 ### Solution Exercise 2.3-4
 
-$2\sigma^4/(n-1)$. $\blacksquare$
+$2\sigma^4/\left(n-1\right)$. $\blacksquare$
 
 ---
 
@@ -43,7 +43,7 @@ Find $c$.
 
 ### Solution Exercise 2.3-5
 
-$c=\sqrt{(n-1)/(n+1)}$. $\blacksquare$
+$c=\sqrt{\left(n-1\right)/\left(n+1\right)}$. $\blacksquare$
 
 ---
 
@@ -63,7 +63,7 @@ Find $a,b$.
 
 ### Solution Exercise 2.3-8
 
-$n/\sigma^2$, $(n-1)/\sigma^2$. $\blacksquare$
+$n/\sigma^2$, $\left(n-1\right)/\sigma^2$. $\blacksquare$
 
 ---
 
@@ -73,7 +73,7 @@ Distribution of $Y$.
 
 ### Solution Exercise 2.3-9
 
-$F(1,1)$. $\blacksquare$
+$F\left(1,1\right)$. $\blacksquare$
 
 ---
 
@@ -83,7 +83,7 @@ Find $c$.
 
 ### Solution Exercise 2.3-12
 
-$\sqrt3$, $t(3)$. $\blacksquare$
+$\sqrt3$, $t\left(3\right)$. $\blacksquare$
 
 ---
 
@@ -93,7 +93,7 @@ Uniform CLT.
 
 ### Solution Exercise 2.3-19
 
-$N(0,1)$. $\blacksquare$
+$N\left(0,1\right)$. $\blacksquare$
 
 ---
 
@@ -103,7 +103,7 @@ Poisson CLT.
 
 ### Solution Exercise 2.3-20
 
-$N(0,1)$. $\blacksquare$
+$N\left(0,1\right)$. $\blacksquare$
 
 ---
 
@@ -113,4 +113,4 @@ Uniform order stats.
 
 ### Solution Exercise 2.3-21
 
-$n=299$, $\chi^2(4)$. $\blacksquare$
+$n=299$, $\chi^2\left(4\right)$. $\blacksquare$

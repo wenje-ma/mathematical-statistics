@@ -1,35 +1,35 @@
 # week3
 
 > **Basic Knowledge: Chi-square Properties**
->
+> 
 > $E=n$, $D=2n$.
 
 > **Basic Knowledge: Gamma Distribution**
->
-> $Ga(\alpha,\lambda)$.
+> 
+> $Ga\left(\alpha,\lambda\right)$.
 
 > **Definition 2.2.1 (Chi-square)**
->
-> $\sum N(0,1)^2$.
+> 
+> $\sum N\left(0,1\right)^2$.
 
 > **Theorem 2.2.1 (Chi-square Density)**
->
+> 
 > Gamma form.
 
 > **Corollary 2.2.1 (Ratio and Sum Independence)**
->
+> 
 > $X/Y$ independent of $X+Y$.
 
 > **Definition 2.2.2 (t-distribution)**
->
-> $N(0,1)/\sqrt{\chi^2/n}$.
+> 
+> $N\left(0,1\right)/\sqrt{\chi^2/n}$.
 
 > **Theorem 2.2.2 (t-density)**
->
+> 
 > Symmetric bell.
 
 > **Definition 2.2.3 (F-distribution)**
->
+> 
 > Ratio of chi-squares.
 ---
 
@@ -59,7 +59,7 @@ Probability integral transform.
 
 ### Solution Exercise 2.2-3
 
-$F(X)\sim U(0,1)$. $\blacksquare$
+$F\left(X\right)\sim U\left(0,1\right)$. $\blacksquare$
 
 ---
 
@@ -95,7 +95,7 @@ Stirling formula. $\blacksquare$
 
 ## Exercise 2.2-10
 
-$P(F(1,1)<1)$.
+$P\left(F\left(1,1\right)< 1\right)$.
 
 ### Solution Exercise 2.2-10
 

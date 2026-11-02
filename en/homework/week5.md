@@ -1,11 +1,11 @@
 # week5
 
 > **Definition 2.4.1 (Exponential Family)**
->
+> 
 > Standard form.
 
 > **Definition 2.4.2 (Natural Form)**
->
+> 
 > Natural parameters.
 
 ---
@@ -16,7 +16,7 @@ Power distribution.
 
 ### Solution Exercise 2.4-3
 
-$(0,\infty)$. $\blacksquare$
+$\left(0,\infty\right)$. $\blacksquare$
 
 ---
 
@@ -26,7 +26,7 @@ Laplace distribution.
 
 ### Solution Exercise 2.4-4
 
-$(-\infty,0)$. $\blacksquare$
+$\left(-\infty,0\right)$. $\blacksquare$
 
 ---
 
@@ -36,7 +36,7 @@ Rayleigh distribution.
 
 ### Solution Exercise 2.4-5
 
-$(-\infty,0)$. $\blacksquare$
+$\left(-\infty,0\right)$. $\blacksquare$
 
 ---
 
@@ -46,7 +46,7 @@ Exponential distribution.
 
 ### Solution Exercise 2.4-6
 
-$(-\infty,0)$. $\blacksquare$
+$\left(-\infty,0\right)$. $\blacksquare$
 
 ---
 
@@ -56,4 +56,4 @@ Lognormal distribution.
 
 ### Solution Exercise 2.4-7
 
-$\varphi_2<0$. $\blacksquare$
+$\varphi_2< 0$. $\blacksquare$

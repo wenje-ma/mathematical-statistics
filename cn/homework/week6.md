@@ -1,15 +1,15 @@
 # week6
 
 > **定义 2.5.1 (充分统计量)**
->
+> 
 > 条件分布与参数无关.
 
 > **定理 2.5.1 (因子分解定理)**
->
-> $f=g(T,\theta)h(x)$.
+> 
+> $f=g\left(T,\theta\right)h\left(x\right)$.
 
 > **推论 2.5.1**
->
+> 
 > 可逆变换保持充分性.
 
 ---
@@ -50,4 +50,4 @@ $\sum X_i$. $\blacksquare$
 
 ### 解答 习题 2.5-7
 
-$\mu$ 已知时 $\sum(X_i-\mu)^2$; $\sigma^2$ 已知时 $\sum X_i$. $\blacksquare$
+$\mu$ 已知时 $\sum\left(X_i-\mu\right)^2$; $\sigma^2$ 已知时 $\sum X_i$. $\blacksquare$

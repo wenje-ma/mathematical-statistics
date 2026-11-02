@@ -1,37 +1,37 @@
 # week11
 
 > **基础知识: $\chi^2$ 分布的矩**
->
+> 
 > $E=k$, $D=2k$.
 
 > **引理 3.5.1 (改进无偏估计的方法)**
->
+> 
 > 对充分统计量取条件期望.
 
 > **定理 3.5.1 (Lehmann-Scheffe 定理)**
->
+> 
 > 充分完备统计量的无偏函数为 UMVUE.
 
 > **推论 3.5.1 (指数族自然形式下的充分完备统计量)**
->
+> 
 > 自然参数空间有内点.
 
 > **例 3.5.3 (两点分布的充分完备统计量)**
->
-> $\sum X_i\sim B(n,p)$.
+> 
+> $\sum X_i\sim B\left(n,p\right)$.
 
 > **例 3.5.7 (正态总体的充分完备统计量)**
->
-> $(\bar X,\sum(X_i-\bar X)^2)$.
+> 
+> $\left(\bar X,\sum\left(X_i-\bar X\right)^2\right)$.
 ---
 
 ## 习题 3.5-4
 
-求 $p^m$ 与 $p(1-p)$ 的 UMVUE.
+求 $p^m$ 与 $p\left(1-p\right)$ 的 UMVUE.
 
 ### 解答 习题 3.5-4
 
-$\hat g_1$ 组合数比; $\hat g_2=T(n-T)/[n(n-1)]$. $\blacksquare$
+$\hat g_1$ 组合数比; $\hat g_2=T\left(n-T\right)/\left[n\left(n-1\right)\right]$. $\blacksquare$
 
 ---
 
@@ -41,7 +41,7 @@ $\hat g_1$ 组合数比; $\hat g_2=T(n-T)/[n(n-1)]$. $\blacksquare$
 
 ### 解答 习题 3.5-6
 
-$\hat\sigma=\Gamma(n/2)/[\sqrt2\Gamma((n+1)/2)]\sqrt T$; $\hat\sigma^4=T^2/[n(n+2)]$. $\blacksquare$
+$\hat\sigma=\Gamma\left(n/2\right)/\left[\sqrt2\Gamma\left(\left(n+1\right)/2\right)\right]\sqrt T$; $\hat\sigma^4=T^2/\left[n\left(n+2\right)\right]$. $\blacksquare$
 
 ---
 
@@ -51,4 +51,4 @@ $\hat\sigma=\Gamma(n/2)/[\sqrt2\Gamma((n+1)/2)]\sqrt T$; $\hat\sigma^4=T^2/[n(n+
 
 ### 解答 习题 3.5-7
 
-$\bar X+S^2$; $[(n-3)\bar X^2]/[(n-1)S^2]-1/n$. $\blacksquare$
+$\bar X+S^2$; $\left[\left(n-3\right)\bar X^2\right]/\left[\left(n-1\right)S^2\right]-1/n$. $\blacksquare$

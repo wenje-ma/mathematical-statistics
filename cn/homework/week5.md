@@ -1,12 +1,12 @@
 # week5
 
 > **定义 2.4.1 (指数族)**
->
-> $f=C(\theta)\exp\{\sum Q_i(\theta)T_i(x)\}h(x)$.
+> 
+> $f=C\left(\theta\right)\exp\left\{\sum Q_i\left(\theta\right)T_i\left(x\right)\right\}h\left(x\right)$.
 
 > **定义 2.4.2 (指数族的自然形式)**
->
-> $f=C(\varphi)\exp\{\sum\varphi_i T_i(x)\}h(x)$.
+> 
+> $f=C\left(\varphi\right)\exp\left\{\sum\varphi_i T_i\left(x\right)\right\}h\left(x\right)$.
 
 ---
 
@@ -16,7 +16,7 @@
 
 ### 解答 习题 2.4-3
 
-$f=\theta^n\exp\{\theta\sum\ln x_i\}/\prod x_i$. 自然参数空间 $(0,\infty)$. $\blacksquare$
+$f=\theta^n\exp\left\{\theta\sum\ln x_i\right\}/\prod x_i$. 自然参数空间 $\left(0,\infty\right)$. $\blacksquare$
 
 ---
 
@@ -26,7 +26,7 @@ $f=\theta^n\exp\{\theta\sum\ln x_i\}/\prod x_i$. 自然参数空间 $(0,\infty)$
 
 ### 解答 习题 2.4-4
 
-$(2\theta)^{-n}\exp\{-\sum|x_i|/\theta\}$. 自然空间 $(-\infty,0)$. $\blacksquare$
+$\left(2\theta\right)^{-n}\exp\left\{-\sum\left|x_i\right|/\theta\right\}$. 自然空间 $\left(-\infty,0\right)$. $\blacksquare$
 
 ---
 
@@ -36,7 +36,7 @@ $(2\theta)^{-n}\exp\{-\sum|x_i|/\theta\}$. 自然空间 $(-\infty,0)$. $\blacksq
 
 ### 解答 习题 2.4-5
 
-$(2\theta)^n\exp\{-\theta\sum x_i^2\}\prod x_i$. 自然空间 $(-\infty,0)$. $\blacksquare$
+$\left(2\theta\right)^n\exp\left\{-\theta\sum x_i^2\right\}\prod x_i$. 自然空间 $\left(-\infty,0\right)$. $\blacksquare$
 
 ---
 
@@ -46,7 +46,7 @@ $(2\theta)^n\exp\{-\theta\sum x_i^2\}\prod x_i$. 自然空间 $(-\infty,0)$. $\b
 
 ### 解答 习题 2.4-6
 
-$\lambda^n\exp\{-\lambda\sum x_i\}$. 自然空间 $(-\infty,0)$. $\blacksquare$
+$\lambda^n\exp\left\{-\lambda\sum x_i\right\}$. 自然空间 $\left(-\infty,0\right)$. $\blacksquare$
 
 ---
 
@@ -56,4 +56,4 @@ $\lambda^n\exp\{-\lambda\sum x_i\}$. 自然空间 $(-\infty,0)$. $\blacksquare$
 
 ### 解答 习题 2.4-7
 
-二维自然参数 $\varphi_1=\mu/\sigma^2$, $\varphi_2=-1/(2\sigma^2)$. 空间 $\varphi_2<0$. $\blacksquare$
+二维自然参数 $\varphi_1=\mu/\sigma^2$, $\varphi_2=-1/\left(2\sigma^2\right)$. 空间 $\varphi_2< 0$. $\blacksquare$

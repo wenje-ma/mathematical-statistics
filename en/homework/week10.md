@@ -1,19 +1,19 @@
 # week10
 
 > **Basic Knowledge: Chebyshev and LLN**
->
+> 
 > Bound and convergence.
 
 > **Definition 3.4.1 (Unbiased Estimator)**
->
-> $E(\hat\theta)=\theta$.
+> 
+> $E\left(\hat\theta\right)=\theta$.
 
 > **Definition 3.4.2 (Efficiency)**
->
+> 
 > Smaller variance.
 
 > **Definition 3.4.3 (Consistency)**
->
+> 
 > Converges in probability.
 ---
 
@@ -23,7 +23,7 @@ Find $c$.
 
 ### Solution Exercise 3.4-1
 
-$1/[2(n-1)]$. $\blacksquare$
+$1/\left[2\left(n-1\right)\right]$. $\blacksquare$
 
 ---
 

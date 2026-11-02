@@ -1,15 +1,15 @@
 # week6
 
 > **Definition 2.5.1 (Sufficient Statistic)**
->
+> 
 > Conditional distribution independent of parameter.
 
 > **Theorem 2.5.1 (Factorization Criterion)**
->
-> $f=g(T,\theta)h(x)$.
+> 
+> $f=g\left(T,\theta\right)h\left(x\right)$.
 
 > **Corollary 2.5.1**
->
+> 
 > Invertible transforms preserve sufficiency.
 
 ---
@@ -50,4 +50,4 @@ Normal sufficiency.
 
 ### Solution Exercise 2.5-7
 
-$\sum(X_i-\mu)^2$ or $\sum X_i$. $\blacksquare$
+$\sum\left(X_i-\mu\right)^2$ or $\sum X_i$. $\blacksquare$

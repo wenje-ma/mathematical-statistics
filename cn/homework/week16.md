@@ -1,19 +1,19 @@
 # week16
 
 > **基础知识: 两类错误**
->
+> 
 > 第一类弃真, 第二类取伪.
 
 > **基础知识: 正态样本均值的分布**
->
-> $\bar X\sim N(\mu,\sigma^2/n)$.
+> 
+> $\bar X\sim N\left(\mu,\sigma^2/n\right)$.
 
 > **定义 5.1.1 (功效函数)**
->
-> $\beta(\theta)=P_\theta\{拒绝 H_0\}$.
+> 
+> $\beta\left(\theta\right)=P_\theta\left\{拒绝 H_0\right\}$.
 
 > **定义 5.1.2 (显著性检验与检验水平)**
->
+> 
 > 第一类错误概率 $\le\alpha$.
 ---
 
@@ -43,4 +43,4 @@ $\alpha=1/3$, $\beta_2=4/9$. $\blacksquare$
 
 ### 解答 习题 5.1-8
 
-$\alpha=0.4013$; $\beta(\theta)=1-(0.95/\theta)^{10}$ ($\theta>0.95$). $\blacksquare$
+$\alpha=0.4013$; $\beta\left(\theta\right)=1-\left(0.95/\theta\right)^{10}$ ($\theta> 0.95$). $\blacksquare$

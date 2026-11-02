@@ -1,25 +1,25 @@
 # week4
 
 > **基础知识: 中心极限定理**
->
-> $(\bar X-\mu)/(\sigma/\sqrt n)\to N(0,1)$.
+> 
+> $\left(\bar X-\mu\right)/\left(\sigma/\sqrt n\right)\to N\left(0,1\right)$.
 
 > **基础知识: 斯卢茨基引理**
->
+> 
 > $X_n\to X$, $Y_n\to c$ 则 $X_n/Y_n\to X/c$.
 
 > **引理 2.3.1 (样本均值与样本方差的期望)**
->
-> $E(\bar X)=\mu$, $D(\bar X)=\sigma^2/n$, $E(S^2)=\sigma^2$.
+> 
+> $E\left(\bar X\right)=\mu$, $D\left(\bar X\right)=\sigma^2/n$, $E\left(S^2\right)=\sigma^2$.
 
 > **定理 2.3.3 (正态总体样本均值与样本方差的分布)**
->
-> $\bar X\sim N(\mu,\sigma^2/n)$, $(n-1)S^2/\sigma^2\sim\chi^2(n-1)$, 二者独立.
+> 
+> $\bar X\sim N\left(\mu,\sigma^2/n\right)$, $\left(n-1\right)S^2/\sigma^2\sim\chi^2\left(n-1\right)$, 二者独立.
 ---
 
 ## 习题 2.3-2
 
-泊松样本的 $E(\bar X)$, $D(\bar X)$, $E(S^2)$.
+泊松样本的 $E\left(\bar X\right)$, $D\left(\bar X\right)$, $E\left(S^2\right)$.
 
 ### 解答 习题 2.3-2
 
@@ -29,21 +29,21 @@
 
 ## 习题 2.3-4
 
-正态样本的 $D(S^2)$.
+正态样本的 $D\left(S^2\right)$.
 
 ### 解答 习题 2.3-4
 
-$D(S^2)=2\sigma^4/(n-1)$. $\blacksquare$
+$D\left(S^2\right)=2\sigma^4/\left(n-1\right)$. $\blacksquare$
 
 ---
 
 ## 习题 2.3-5
 
-求 $c$ 使 $c(X_{n+1}-\bar X)/S_n\sim t$.
+求 $c$ 使 $c\left(X_{n+1}-\bar X\right)/S_n\sim t$.
 
 ### 解答 习题 2.3-5
 
-$c=\sqrt{(n-1)/(n+1)}$, $t(n-1)$. $\blacksquare$
+$c=\sqrt{\left(n-1\right)/\left(n+1\right)}$, $t\left(n-1\right)$. $\blacksquare$
 
 ---
 
@@ -53,27 +53,27 @@ $c=\sqrt{(n-1)/(n+1)}$, $t(n-1)$. $\blacksquare$
 
 ### 解答 习题 2.3-7
 
-$c=m/n$, $F(n,m)$. $\blacksquare$
+$c=m/n$, $F\left(n,m\right)$. $\blacksquare$
 
 ---
 
 ## 习题 2.3-8
 
-求 $a,b$ 使 $a(\bar X-\mu)^2+bS^2\sim\chi^2(n)$.
+求 $a,b$ 使 $a\left(\bar X-\mu\right)^2+bS^2\sim\chi^2\left(n\right)$.
 
 ### 解答 习题 2.3-8
 
-$a=n/\sigma^2$, $b=(n-1)/\sigma^2$. $\blacksquare$
+$a=n/\sigma^2$, $b=\left(n-1\right)/\sigma^2$. $\blacksquare$
 
 ---
 
 ## 习题 2.3-9
 
-求 $Y=((X_1+X_2)/(X_1-X_2))^2$ 的分布.
+求 $Y=\left(\left(X_1+X_2\right)/\left(X_1-X_2\right)\right)^2$ 的分布.
 
 ### 解答 习题 2.3-9
 
-$F(1,1)$. $\blacksquare$
+$F\left(1,1\right)$. $\blacksquare$
 
 ---
 
@@ -83,7 +83,7 @@ $F(1,1)$. $\blacksquare$
 
 ### 解答 习题 2.3-12
 
-$c=\sqrt3$, $t(3)$, $E=0$, $D=3$. $\blacksquare$
+$c=\sqrt3$, $t\left(3\right)$, $E=0$, $D=3$. $\blacksquare$
 
 ---
 
@@ -93,7 +93,7 @@ $c=\sqrt3$, $t(3)$, $E=0$, $D=3$. $\blacksquare$
 
 ### 解答 习题 2.3-19
 
-由**基础知识: 中心极限定理**, $N(0,1)$. $\blacksquare$
+由**基础知识: 中心极限定理**, $N\left(0,1\right)$. $\blacksquare$
 
 ---
 
@@ -103,7 +103,7 @@ $c=\sqrt3$, $t(3)$, $E=0$, $D=3$. $\blacksquare$
 
 ### 解答 习题 2.3-20
 
-由**基础知识: 斯卢茨基引理**, $N(0,1)$. $\blacksquare$
+由**基础知识: 斯卢茨基引理**, $N\left(0,1\right)$. $\blacksquare$
 
 ---
 
@@ -113,4 +113,4 @@ $c=\sqrt3$, $t(3)$, $E=0$, $D=3$. $\blacksquare$
 
 ### 解答 习题 2.3-21
 
-$n=299$, $f_{R_n}=n(n-1)r^{n-2}(1-r)$, $\chi^2(4)$. $\blacksquare$
+$n=299$, $f_{R_n}=n\left(n-1\right)r^{n-2}\left(1-r\right)$, $\chi^2\left(4\right)$. $\blacksquare$

@@ -1,19 +1,19 @@
 # week7
 
 > **Definition 2.5.1 (Sufficient Statistic)**
->
+> 
 > Conditional distribution independent.
 
 > **Theorem 2.5.1 (Factorization)**
->
-> $f=g(T,\theta)h(x)$.
+> 
+> $f=g\left(T,\theta\right)h\left(x\right)$.
 
 > **Definition 2.6.1 (Complete Statistic)**
->
+> 
 > Zero expectation implies zero a.s.
 
 > **Theorem 2.6.1 (Completeness in Exponential Families)**
->
+> 
 > Natural parameter space has interior.
 
 ---
@@ -54,7 +54,7 @@ Normal complete statistic.
 
 ### Solution Exercise 2.6-7
 
-$\sum(X_i-\mu)^2$ or $\sum X_i$. $\blacksquare$
+$\sum\left(X_i-\mu\right)^2$ or $\sum X_i$. $\blacksquare$
 
 ---
 

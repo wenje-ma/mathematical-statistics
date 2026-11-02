@@ -1,36 +1,36 @@
 # week1
 
 > **Basic Knowledge: Sample Distribution**
->
-> $\prod F(x_i)$.
+> 
+> $\prod F\left(x_i\right)$.
 
 > **Basic Knowledge: Distribution Family**
->
-> $\{\prod f(x_i;\theta)\}$.
+> 
+> $\left\{\prod f\left(x_i;\theta\right)\right\}$.
 
 > **Definition 1.2.1 (Population)**
->
+> 
 > Collection of study objects.
 
 > **Definition 1.3.1 (Sample Space)**
->
+> 
 > All possible sample values.
 
 > **Definition 1.3.2 (Simple Random Sample)**
->
+> 
 > Independent and identically distributed.
 
 > **Definition 1.3.3 (Parameter Space)**
->
+> 
 > All possible parameter values.
 
 > **Definition 1.4.1 (Statistic)**
->
+> 
 > Function of sample, no unknown parameters.
 
 > **Definition 1.5.1 (Empirical CDF)**
->
-> $F_n(x)=\frac1n\sum I\{X_i\le x\}$.
+> 
+> $F_n\left(x\right)=\frac1n\sum I\left\{X_i\le x\right\}$.
 ---
 
 ## Exercise 1-1
@@ -79,7 +79,7 @@ Normal model.
 
 ### Solution Exercise 1-7
 
-$\Theta=\{(\mu,\sigma^2)\}$. $\blacksquare$
+$\Theta=\left\{\left(\mu,\sigma^2\right)\right\}$. $\blacksquare$
 
 ---
 

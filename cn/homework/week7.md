@@ -1,19 +1,19 @@
 # week7
 
 > **定义 2.5.1 (充分统计量)**
->
+> 
 > 条件分布与参数无关.
 
 > **定理 2.5.1 (因子分解定理)**
->
-> $f=g(T,\theta)h(x)$.
+> 
+> $f=g\left(T,\theta\right)h\left(x\right)$.
 
 > **定义 2.6.1 (完备统计量)**
->
-> $E[\Phi(T)]=0$ 对一切 $\theta$ 蕴含 $\Phi(T)=0$ a.s.
+> 
+> $E\left[\Phi\left(T\right)\right]=0$ 对一切 $\theta$ 蕴含 $\Phi\left(T\right)=0$ a.s.
 
 > **定理 2.6.1 (指数族中统计量的完备性)**
->
+> 
 > 自然参数空间有内点时, 充分统计量完备.
 
 ---
@@ -54,14 +54,14 @@ $\sum X_i^2$. $\blacksquare$
 
 ### 解答 习题 2.6-7
 
-$\mu$ 已知时 $\sum(X_i-\mu)^2$; $\sigma^2$ 已知时 $\sum X_i$. $\blacksquare$
+$\mu$ 已知时 $\sum\left(X_i-\mu\right)^2$; $\sigma^2$ 已知时 $\sum X_i$. $\blacksquare$
 
 ---
 
 ## 习题 2.6-10
 
-证明均匀 $U[\theta,2\theta]$ 的 $(X_{(1)},X_{(n)})$ 充分但不完备.
+证明均匀 $U\left[\theta,2\theta\right]$ 的 $\left(X_{\left(1\right)},X_{\left(n\right)}\right)$ 充分但不完备.
 
 ### 解答 习题 2.6-10
 
-$(n+2)X_{(n)}-(2n+1)X_{(1)}$ 期望为零但非零. $\blacksquare$
+$\left(n+2\right)X_{\left(n\right)}-\left(2n+1\right)X_{\left(1\right)}$ 期望为零但非零. $\blacksquare$

@@ -1,23 +1,23 @@
 # week14
 
 > **Basic Knowledge: Mean CI**
->
+> 
 > Z or t.
 
 > **Basic Knowledge: Variance CI**
->
+> 
 > Chi-square.
 
 > **Basic Knowledge: Mean Difference CI**
->
+> 
 > Four cases.
 
 > **Basic Knowledge: Variance Ratio CI**
->
+> 
 > F ratio.
 
 > **Definition 4.2.1 (Pivotal Quantity)**
->
+> 
 > Distribution-free of parameter.
 ---
 
@@ -27,7 +27,7 @@ Mean CI.
 
 ### Solution Exercise 4.2-3
 
-$[32.139,32.451]$ and $[32.082,32.508]$. $\blacksquare$
+$\left[32.139,32.451\right]$ and $\left[32.082,32.508\right]$. $\blacksquare$
 
 ---
 
@@ -47,7 +47,7 @@ Variance ratio CI.
 
 ### Solution Exercise 4.2-9
 
-$[0.024,0.285]$. $\blacksquare$
+$\left[0.024,0.285\right]$. $\blacksquare$
 
 ---
 
@@ -57,7 +57,7 @@ Length moments.
 
 ### Solution Exercise 4.2-11
 
-$E(L)$ and $D(L)$. $\blacksquare$
+$E\left(L\right)$ and $D\left(L\right)$. $\blacksquare$
 
 ---
 
@@ -77,7 +77,7 @@ SD ratio CI.
 
 ### Solution Exercise 4.2-20
 
-$[0.377,2.153]$. $\blacksquare$
+$\left[0.377,2.153\right]$. $\blacksquare$
 
 ---
 

@@ -1,19 +1,19 @@
 # week16
 
 > **Basic Knowledge: Two Types of Error**
->
+> 
 > Type I and Type II.
 
 > **Basic Knowledge: Normal Mean Distribution**
->
-> $\bar X\sim N(\mu,\sigma^2/n)$.
+> 
+> $\bar X\sim N\left(\mu,\sigma^2/n\right)$.
 
 > **Definition 5.1.1 (Power Function)**
->
-> $\beta(\theta)$.
+> 
+> $\beta\left(\theta\right)$.
 
 > **Definition 5.1.2 (Significance Level)**
->
+> 
 > Type I error $\le\alpha$.
 ---
 

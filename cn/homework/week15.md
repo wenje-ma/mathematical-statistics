@@ -1,15 +1,15 @@
 # week15
 
 > **基础知识: 枢轴量法**
->
+> 
 > 构造枢轴量反解参数.
 
 > **基础知识: 指数分布参数的置信区间**
->
-> $2n\lambda\bar X\sim\chi^2(2n)$.
+> 
+> $2n\lambda\bar X\sim\chi^2\left(2n\right)$.
 
 > **基础知识: 大样本方法**
->
+> 
 > 两点分布近似置信区间.
 
 ---
@@ -20,7 +20,7 @@
 
 ### 解答 习题 4.3-1
 
-$[36.79,113.09]$ kh. $\blacksquare$
+$\left[36.79,113.09\right]$ kh. $\blacksquare$
 
 ---
 
@@ -30,7 +30,7 @@ $[36.79,113.09]$ kh. $\blacksquare$
 
 ### 解答 习题 4.3-3
 
-$[\alpha^{1/n}X_{(1)},X_{(1)}]$. $\blacksquare$
+$\left[\alpha^{1/n}X_{\left(1\right)},X_{\left(1\right)}\right]$. $\blacksquare$
 
 ---
 
@@ -40,7 +40,7 @@ $[\alpha^{1/n}X_{(1)},X_{(1)}]$. $\blacksquare$
 
 ### 解答 习题 4.3-4
 
-$[\chi^2_{1-\alpha/2}/(2\sum X_i^2),\chi^2_{\alpha/2}/(2\sum X_i^2)]$. $\blacksquare$
+$\left[\chi^2_{1-\alpha/2}/\left(2\sum X_i^2\right),\chi^2_{\alpha/2}/\left(2\sum X_i^2\right)\right]$. $\blacksquare$
 
 ---
 
@@ -50,4 +50,4 @@ $[\chi^2_{1-\alpha/2}/(2\sum X_i^2),\chi^2_{\alpha/2}/(2\sum X_i^2)]$. $\blacksq
 
 ### 解答 习题 4.3-10
 
-$[0.088,0.232]$. $\blacksquare$
+$\left[0.088,0.232\right]$. $\blacksquare$

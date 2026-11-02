@@ -1,15 +1,15 @@
 # week15
 
 > **Basic Knowledge: Pivotal Method**
->
+> 
 > Invert pivotal quantity.
 
 > **Basic Knowledge: Exponential CI**
->
+> 
 > Chi-square pivot.
 
 > **Basic Knowledge: Large Sample**
->
+> 
 > Binomial approximate.
 
 ---
@@ -20,7 +20,7 @@ Exponential mean CI.
 
 ### Solution Exercise 4.3-1
 
-$[36.79,113.09]$. $\blacksquare$
+$\left[36.79,113.09\right]$. $\blacksquare$
 
 ---
 
@@ -30,7 +30,7 @@ Pareto CI.
 
 ### Solution Exercise 4.3-3
 
-$[\alpha^{1/n}X_{(1)},X_{(1)}]$. $\blacksquare$
+$\left[\alpha^{1/n}X_{\left(1\right)},X_{\left(1\right)}\right]$. $\blacksquare$
 
 ---
 
@@ -50,4 +50,4 @@ Binomial large sample.
 
 ### Solution Exercise 4.3-10
 
-$[0.088,0.232]$. $\blacksquare$
+$\left[0.088,0.232\right]$. $\blacksquare$

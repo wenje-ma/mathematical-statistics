@@ -1,19 +1,19 @@
 # week10
 
 > **基础知识: 切比雪夫不等式与大数定律**
->
-> $P(|Y-EY|\ge\varepsilon)\le D(Y)/\varepsilon^2$.
+> 
+> $P\left(\left|Y-EY\right|\ge\varepsilon\right)\le D\left(Y\right)/\varepsilon^2$.
 
 > **定义 3.4.1 (无偏估计)**
->
-> $E(\hat\theta)=\theta$.
+> 
+> $E\left(\hat\theta\right)=\theta$.
 
 > **定义 3.4.2 (有效性)**
->
+> 
 > 方差小者有效.
 
 > **定义 3.4.3 (相合估计)**
->
+> 
 > 依概率收敛于 $\theta$.
 ---
 
@@ -23,7 +23,7 @@
 
 ### 解答 习题 3.4-1
 
-$c=1/[2(n-1)]$. $\blacksquare$
+$c=1/\left[2\left(n-1\right)\right]$. $\blacksquare$
 
 ---
 
@@ -33,7 +33,7 @@ $c=1/[2(n-1)]$. $\blacksquare$
 
 ### 解答 习题 3.4-5
 
-$\hat\theta_1=\bar X-1$ 无偏; $\hat\theta_2=X_{(1)}$ 有偏. $\blacksquare$
+$\hat\theta_1=\bar X-1$ 无偏; $\hat\theta_2=X_{\left(1\right)}$ 有偏. $\blacksquare$
 
 ---
 

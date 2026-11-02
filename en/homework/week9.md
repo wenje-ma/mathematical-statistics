@@ -1,19 +1,19 @@
 # week9
 
 > **Basic Knowledge: Likelihood Function**
->
-> $L=\prod f(x_i;\theta)$.
+> 
+> $L=\prod f\left(x_i;\theta\right)$.
 
 > **Basic Knowledge: MLE Method**
->
+> 
 > Score equation.
 
 > **Basic Knowledge: Invariance Property**
->
-> $g(\hat\theta)$ is MLE of $g(\theta)$.
+> 
+> $g\left(\hat\theta\right)$ is MLE of $g\left(\theta\right)$.
 
 > **Definition 3.3.2 (MLE)**
->
+> 
 > Maximize likelihood.
 ---
 
@@ -33,7 +33,7 @@ Normal MLE.
 
 ### Solution Exercise 3.3-4
 
-$\bar X$ and $\frac1n\sum(X_i-\mu)^2$. $\blacksquare$
+$\bar X$ and $\frac1n\sum\left(X_i-\mu\right)^2$. $\blacksquare$
 
 ---
 
@@ -43,4 +43,4 @@ Two-parameter exponential.
 
 ### Solution Exercise 3.3-6
 
-$X_{(1)}$ and $1/(\bar X-X_{(1)})$. $\blacksquare$
+$X_{\left(1\right)}$ and $1/\left(\bar X-X_{\left(1\right)}\right)$. $\blacksquare$

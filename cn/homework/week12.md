@@ -1,25 +1,25 @@
 # week12
 
 > **定义 3.6.1 (正则分布族)**
->
+> 
 > C-R 正则条件.
 
 > **定理 3.6.1 (单参数 C-R 不等式)**
->
-> $D(\hat g)\ge [g']^2/[nI(\theta)]$.
+> 
+> $D\left(\hat g\right)\ge \left[g'\right]^2/\left[nI\left(\theta\right)\right]$.
 
 > **定义 3.6.2 (效率)**
->
+> 
 > C-R 下界与方差之比.
 
 > **定义 3.6.3 (有效估计)**
->
+> 
 > 效率为 1.
 ---
 
 ## 习题 3.6-1
 
-证明 $I(\theta)=-E[\partial^2\ln f/\partial\theta^2]$.
+证明 $I\left(\theta\right)=-E\left[\partial^2\ln f/\partial\theta^2\right]$.
 
 ### 解答 习题 3.6-1
 
@@ -33,7 +33,7 @@
 
 ### 解答 习题 3.6-2
 
-$I(\theta)=2/[\theta^2(1-\theta)]$. $\blacksquare$
+$I\left(\theta\right)=2/\left[\theta^2\left(1-\theta\right)\right]$. $\blacksquare$
 
 ---
 
@@ -43,7 +43,7 @@ $I(\theta)=2/[\theta^2(1-\theta)]$. $\blacksquare$
 
 ### 解答 习题 3.6-4
 
-$D(\bar X)=\theta^2/n$ 等于 C-R 下界. $\blacksquare$
+$D\left(\bar X\right)=\theta^2/n$ 等于 C-R 下界. $\blacksquare$
 
 ---
 
@@ -53,4 +53,4 @@ $D(\bar X)=\theta^2/n$ 等于 C-R 下界. $\blacksquare$
 
 ### 解答 习题 3.6-6
 
-方差 $4\mu^2/n+2/n^2>4\mu^2/n$. $\blacksquare$
+方差 $4\mu^2/n+2/n^2> 4\mu^2/n$. $\blacksquare$

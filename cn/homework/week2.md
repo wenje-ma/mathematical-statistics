@@ -1,40 +1,40 @@
 # week2
 
 > **基础知识: 泊松分布的可加性**
->
-> $\sum P(\lambda_i)\sim P(\sum\lambda_i)$.
+> 
+> $\sum P\left(\lambda_i\right)\sim P\left(\sum\lambda_i\right)$.
 
 > **基础知识: 正态分布的可加性**
->
-> $\sum N(\mu_i,\sigma_i^2)\sim N(\sum\mu_i,\sum\sigma_i^2)$.
+> 
+> $\sum N\left(\mu_i,\sigma_i^2\right)\sim N\left(\sum\mu_i,\sum\sigma_i^2\right)$.
 
 > **基础知识: 抽样分布**
->
+> 
 > 统计量的分布.
 
 > **基础知识: 顺序统计量的分布**
->
-> $f_{(r)}(x)=rC_n^r F^{r-1}(x)(1-F)^{n-r}f(x)$.
+> 
+> $f_{\left(r\right)}\left(x\right)=rC_n^r F^{r-1}\left(x\right)\left(1-F\right)^{n-r}f\left(x\right)$.
 
 ---
 
 ## 习题 2.1-1
 
-求 $\sum X_i$ 的分布, $X_i\sim P(\lambda)$.
+求 $\sum X_i$ 的分布, $X_i\sim P\left(\lambda\right)$.
 
 ### 解答 习题 2.1-1
 
-由**基础知识: 泊松分布的可加性**, $T\sim P(n\lambda)$. $\blacksquare$
+由**基础知识: 泊松分布的可加性**, $T\sim P\left(n\lambda\right)$. $\blacksquare$
 
 ---
 
 ## 习题 2.1-2
 
-求 $\sum X_i$ 的分布, $X_i\sim N(\mu,\sigma^2)$.
+求 $\sum X_i$ 的分布, $X_i\sim N\left(\mu,\sigma^2\right)$.
 
 ### 解答 习题 2.1-2
 
-由**基础知识: 正态分布的可加性**, $T\sim N(n\mu,n\sigma^2)$. $\blacksquare$
+由**基础知识: 正态分布的可加性**, $T\sim N\left(n\mu,n\sigma^2\right)$. $\blacksquare$
 
 ---
 
@@ -54,7 +54,7 @@
 
 ### 解答 习题 2.1-5
 
-$X_{(1)}\sim E(n\lambda)$. $\blacksquare$
+$X_{\left(1\right)}\sim E\left(n\lambda\right)$. $\blacksquare$
 
 ---
 
@@ -64,7 +64,7 @@ $X_{(1)}\sim E(n\lambda)$. $\blacksquare$
 
 ### 解答 习题 2.1-6
 
-$[1-\Phi(1)]^9$ 与 $[\Phi(1)]^9$. $\blacksquare$
+$\left[1-\Phi\left(1\right)\right]^9$ 与 $\left[\Phi\left(1\right)\right]^9$. $\blacksquare$
 
 ---
 
@@ -74,4 +74,4 @@ $[1-\Phi(1)]^9$ 与 $[\Phi(1)]^9$. $\blacksquare$
 
 ### 解答 习题 2.1-7
 
-$f_{(1)}=n(\theta_2-x)^{n-1}/(\theta_2-\theta_1)^n$. $\blacksquare$
+$f_{\left(1\right)}=n\left(\theta_2-x\right)^{n-1}/\left(\theta_2-\theta_1\right)^n$. $\blacksquare$

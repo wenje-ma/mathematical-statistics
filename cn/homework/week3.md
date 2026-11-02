@@ -1,36 +1,36 @@
 # week3
 
 > **基础知识: $\chi^2$ 分布的性质**
->
+> 
 > $E=n$, $D=2n$, 可加.
 
 > **基础知识: 伽马分布**
->
-> $Ga(\alpha,\lambda)$.
+> 
+> $Ga\left(\alpha,\lambda\right)$.
 
 > **定义 2.2.1 ($\chi^2$ 分布)**
->
-> $\sum N(0,1)^2$.
+> 
+> $\sum N\left(0,1\right)^2$.
 
 > **定理 2.2.1 ($\chi^2$ 分布的密度函数)**
->
-> $Ga(n/2,1/2)$.
+> 
+> $Ga\left(n/2,1/2\right)$.
 
 > **推论 2.2.1 ($X/Y$ 与 $X+Y$ 的独立性)**
->
+> 
 > 独立卡方变量的比值与和独立.
 
 > **定义 2.2.2 ($t$ 分布)**
->
-> $N(0,1)/\sqrt{\chi^2(n)/n}$.
+> 
+> $N\left(0,1\right)/\sqrt{\chi^2\left(n\right)/n}$.
 
 > **定理 2.2.2 ($t$ 分布的密度函数)**
->
+> 
 > 对称钟形.
 
 > **定义 2.2.3 ($F$ 分布)**
->
-> $(\chi^2(m)/m)/(\chi^2(n)/n)$.
+> 
+> $\left(\chi^2\left(m\right)/m\right)/\left(\chi^2\left(n\right)/n\right)$.
 ---
 
 ## 习题 2.2-1
@@ -45,7 +45,7 @@ $a=1/14$, $b=1/41$; $c=\sqrt{2/3}$; $d=2/3$. $\blacksquare$
 
 ## 习题 2.2-2
 
-证明 $E(X^k)=2^k\Gamma(n/2+k)/\Gamma(n/2)$.
+证明 $E\left(X^k\right)=2^k\Gamma\left(n/2+k\right)/\Gamma\left(n/2\right)$.
 
 ### 解答 习题 2.2-2
 
@@ -55,11 +55,11 @@ $a=1/14$, $b=1/41$; $c=\sqrt{2/3}$; $d=2/3$. $\blacksquare$
 
 ## 习题 2.2-3
 
-证明概率积分变换与 $-2\sum\ln Y_i\sim\chi^2(2n)$.
+证明概率积分变换与 $-2\sum\ln Y_i\sim\chi^2\left(2n\right)$.
 
 ### 解答 习题 2.2-3
 
-$F(X)\sim U(0,1)$, $-2\ln U\sim\chi^2(2)$. $\blacksquare$
+$F\left(X\right)\sim U\left(0,1\right)$, $-2\ln U\sim\chi^2\left(2\right)$. $\blacksquare$
 
 ---
 
@@ -85,7 +85,7 @@ $F(X)\sim U(0,1)$, $-2\ln U\sim\chi^2(2)$. $\blacksquare$
 
 ## 习题 2.2-8
 
-证明 $t(n)\to N(0,1)$.
+证明 $t\left(n\right)\to N\left(0,1\right)$.
 
 ### 解答 习题 2.2-8
 
@@ -95,7 +95,7 @@ $F(X)\sim U(0,1)$, $-2\ln U\sim\chi^2(2)$. $\blacksquare$
 
 ## 习题 2.2-10
 
-求 $P(F(1,1)<1)$.
+求 $P\left(F\left(1,1\right)< 1\right)$.
 
 ### 解答 习题 2.2-10
 
