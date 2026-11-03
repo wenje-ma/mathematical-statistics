@@ -1,17 +1,5 @@
 # week15
 
-> **Basic Knowledge: Pivotal Method**
-> 
-> Invert pivotal quantity.
-
-> **Basic Knowledge: Exponential CI**
-> 
-> Chi-square pivot.
-
-> **Basic Knowledge: Large Sample**
-> 
-> Binomial approximate.
-
 ---
 
 ## Exercise 4.3-1

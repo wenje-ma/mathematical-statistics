@@ -1,13 +1,5 @@
 # week1
 
-> **Basic Knowledge: Sample Distribution**
-> 
-> $\prod F\left(x_i\right)$.
-
-> **Basic Knowledge: Distribution Family**
-> 
-> $\left\{\prod f\left(x_i;\theta\right)\right\}$.
-
 > **Definition 1.2.1 (Population)**
 > 
 > Collection of study objects.

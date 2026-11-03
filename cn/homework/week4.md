@@ -1,13 +1,5 @@
 # week4
 
-> **基础知识: 中心极限定理**
-> 
-> $\left(\bar X-\mu\right)/\left(\sigma/\sqrt n\right)\to N\left(0,1\right)$.
-
-> **基础知识: 斯卢茨基引理**
-> 
-> $X_n\to X$, $Y_n\to c$ 则 $X_n/Y_n\to X/c$.
-
 > **引理 2.3.1 (样本均值与样本方差的期望)**
 > 
 > $E\left(\bar X\right)=\mu$, $D\left(\bar X\right)=\sigma^2/n$, $E\left(S^2\right)=\sigma^2$.
@@ -93,7 +85,7 @@ $c=\sqrt3$, $t\left(3\right)$, $E=0$, $D=3$. $\blacksquare$
 
 ### 解答 习题 2.3-19
 
-由**基础知识: 中心极限定理**, $N\left(0,1\right)$. $\blacksquare$
+由中心极限定理, $N\left(0,1\right)$. $\blacksquare$
 
 ---
 
@@ -103,7 +95,7 @@ $c=\sqrt3$, $t\left(3\right)$, $E=0$, $D=3$. $\blacksquare$
 
 ### 解答 习题 2.3-20
 
-由**基础知识: 斯卢茨基引理**, $N\left(0,1\right)$. $\blacksquare$
+由斯卢茨基引理, $N\left(0,1\right)$. $\blacksquare$
 
 ---
 

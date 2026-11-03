@@ -1,13 +1,5 @@
 # week3
 
-> **Basic Knowledge: Chi-square Properties**
-> 
-> $E=n$, $D=2n$.
-
-> **Basic Knowledge: Gamma Distribution**
-> 
-> $Ga\left(\alpha,\lambda\right)$.
-
 > **Definition 2.2.1 (Chi-square)**
 > 
 > $\sum N\left(0,1\right)^2$.

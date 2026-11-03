@@ -1,13 +1,5 @@
 # week1
 
-> **基础知识: 样本分布**
-> 
-> 联合分布为 $\prod F\left(x_i\right)$.
-
-> **基础知识: 总体分布族与样本分布族**
-> 
-> $\left\{\prod f\left(x_i;\theta\right):\theta\in\Theta\right\}$.
-
 > **定义 1.2.1 (总体)**
 > 
 > 研究对象的全体.
@@ -59,7 +51,7 @@
 
 ### 解答 习题 1-4
 
-由**基础知识: 样本分布**, 几何分布 $p^n\left(1-p\right)^{\sum x_i-n}$, 指数分布 $\lambda^n e^{-\lambda\sum x_i}$, 拉普拉斯分布 $\left(\lambda/2\right)^n e^{-\lambda\sum\left|x_i\right|}$. $\blacksquare$
+由样本分布, 几何分布 $p^n\left(1-p\right)^{\sum x_i-n}$, 指数分布 $\lambda^n e^{-\lambda\sum x_i}$, 拉普拉斯分布 $\left(\lambda/2\right)^n e^{-\lambda\sum\left|x_i\right|}$. $\blacksquare$
 
 ---
 
@@ -69,7 +61,7 @@
 
 ### 解答 习题 1-6
 
-由**基础知识: 总体分布族与样本分布族**, 分别写出 $\left\{\prod f\left(x_i;\theta\right)\right\}$. $\blacksquare$
+由总体分布族与样本分布族, 分别写出 $\left\{\prod f\left(x_i;\theta\right)\right\}$. $\blacksquare$
 
 ---
 

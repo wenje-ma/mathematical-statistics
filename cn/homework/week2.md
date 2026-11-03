@@ -1,21 +1,5 @@
 # week2
 
-> **基础知识: 泊松分布的可加性**
-> 
-> $\sum P\left(\lambda_i\right)\sim P\left(\sum\lambda_i\right)$.
-
-> **基础知识: 正态分布的可加性**
-> 
-> $\sum N\left(\mu_i,\sigma_i^2\right)\sim N\left(\sum\mu_i,\sum\sigma_i^2\right)$.
-
-> **基础知识: 抽样分布**
-> 
-> 统计量的分布.
-
-> **基础知识: 顺序统计量的分布**
-> 
-> $f_{\left(r\right)}\left(x\right)=rC_n^r F^{r-1}\left(x\right)\left(1-F\right)^{n-r}f\left(x\right)$.
-
 ---
 
 ## 习题 2.1-1
@@ -24,7 +8,7 @@
 
 ### 解答 习题 2.1-1
 
-由**基础知识: 泊松分布的可加性**, $T\sim P\left(n\lambda\right)$. $\blacksquare$
+由泊松分布的可加性, $T\sim P\left(n\lambda\right)$. $\blacksquare$
 
 ---
 
@@ -34,7 +18,7 @@
 
 ### 解答 习题 2.1-2
 
-由**基础知识: 正态分布的可加性**, $T\sim N\left(n\mu,n\sigma^2\right)$. $\blacksquare$
+由正态分布的可加性, $T\sim N\left(n\mu,n\sigma^2\right)$. $\blacksquare$
 
 ---
 

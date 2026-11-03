@@ -1,17 +1,5 @@
 # week9
 
-> **Basic Knowledge: Likelihood Function**
-> 
-> $L=\prod f\left(x_i;\theta\right)$.
-
-> **Basic Knowledge: MLE Method**
-> 
-> Score equation.
-
-> **Basic Knowledge: Invariance Property**
-> 
-> $g\left(\hat\theta\right)$ is MLE of $g\left(\theta\right)$.
-
 > **Definition 3.3.2 (MLE)**
 > 
 > Maximize likelihood.

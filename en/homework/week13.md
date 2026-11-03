@@ -1,9 +1,5 @@
 # week13
 
-> **Basic Knowledge: Normal Sampling Distribution**
-> 
-> Z and t statistics.
-
 > **Definition 4.1.1 (Interval Estimation)**
 > 
 > Random interval.

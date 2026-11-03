@@ -1,13 +1,5 @@
 # week4
 
-> **Basic Knowledge: CLT**
-> 
-> Normal limit.
-
-> **Basic Knowledge: Slutsky's Lemma**
-> 
-> Ratio convergence.
-
 > **Lemma 2.3.1 (Mean and Variance of Sample Mean/Variance)**
 > 
 > $E\left(\bar X\right)=\mu$, etc.

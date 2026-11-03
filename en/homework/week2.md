@@ -1,21 +1,5 @@
 # week2
 
-> **Basic Knowledge: Poisson Additivity**
-> 
-> $\sum P\left(\lambda_i\right)\sim P\left(\sum\lambda_i\right)$.
-
-> **Basic Knowledge: Normal Additivity**
-> 
-> $\sum N\left(\mu_i,\sigma_i^2\right)\sim N\left(\sum\mu_i,\sum\sigma_i^2\right)$.
-
-> **Basic Knowledge: Sampling Distribution**
-> 
-> Distribution of statistic.
-
-> **Basic Knowledge: Order Statistics**
-> 
-> Beta density.
-
 ---
 
 ## Exercise 2.1-1

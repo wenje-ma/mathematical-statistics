@@ -1,9 +1,5 @@
 # week10
 
-> **Basic Knowledge: Chebyshev and LLN**
-> 
-> Bound and convergence.
-
 > **Definition 3.4.1 (Unbiased Estimator)**
 > 
 > $E\left(\hat\theta\right)=\theta$.

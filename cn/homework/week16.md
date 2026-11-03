@@ -1,13 +1,5 @@
 # week16
 
-> **基础知识: 两类错误**
-> 
-> 第一类弃真, 第二类取伪.
-
-> **基础知识: 正态样本均值的分布**
-> 
-> $\bar X\sim N\left(\mu,\sigma^2/n\right)$.
-
 > **定义 5.1.1 (功效函数)**
 > 
 > $\beta\left(\theta\right)=P_\theta\left\{拒绝 H_0\right\}$.

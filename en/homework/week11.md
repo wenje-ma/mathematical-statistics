@@ -1,9 +1,5 @@
 # week11
 
-> **Basic Knowledge: Chi-square Moments**
-> 
-> $E=k$, $D=2k$.
-
 > **Lemma 3.5.1 (Rao-Blackwell)**
 > 
 > Condition on sufficient statistic.

@@ -1,9 +1,5 @@
 # week10
 
-> **基础知识: 切比雪夫不等式与大数定律**
-> 
-> $P\left(\left|Y-EY\right|\ge\varepsilon\right)\le D\left(Y\right)/\varepsilon^2$.
-
 > **定义 3.4.1 (无偏估计)**
 > 
 > $E\left(\hat\theta\right)=\theta$.

@@ -1,17 +1,5 @@
 # week9
 
-> **基础知识: 似然函数与对数似然函数**
-> 
-> $L=\prod f\left(x_i;\theta\right)$.
-
-> **基础知识: 极大似然估计的求法**
-> 
-> 对数似然方程.
-
-> **基础知识: 极大似然估计的不变性**
-> 
-> $g\left(\hat\theta\right)$ 为 $g\left(\theta\right)$ 的 MLE.
-
 > **定义 3.3.2 (极大似然估计)**
 > 
 > $L\left(\hat\theta\right)=\sup L\left(\theta\right)$.
