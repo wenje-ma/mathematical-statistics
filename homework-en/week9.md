@@ -3,8 +3,6 @@
 > **Definition 3.3.2 (MLE)**
 > 
 > Maximize likelihood.
----
-
 ## Exercise 3.3-3
 
 Five distributions.
@@ -13,8 +11,6 @@ Five distributions.
 
 Various MLEs. $\blacksquare$
 
----
-
 ## Exercise 3.3-4
 
 Normal MLE.
@@ -22,8 +18,6 @@ Normal MLE.
 ### Solution Exercise 3.3-4
 
 $\overline X$ and $\frac1n\sum\left(X_i-\mu\right)^2$. $\blacksquare$
-
----
 
 ## Exercise 3.3-6
 

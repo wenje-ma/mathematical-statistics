@@ -3,8 +3,6 @@
 > **定义 4.2.1 (枢轴量)**
 > 
 > 分布与参数无关的样本函数.
----
-
 ## 习题 4.2-3
 
 求 $\mu$ 的置信区间.
@@ -12,8 +10,6 @@
 ### 解答 习题 4.2-3
 
 $95\%$: $\left[32.139,32.451\right]$; $99\%$: $\left[32.082,32.508\right]$. $\blacksquare$
-
----
 
 ## 习题 4.2-5
 
@@ -23,8 +19,6 @@ $95\%$: $\left[32.139,32.451\right]$; $99\%$: $\left[32.082,32.508\right]$. $\bl
 
 $n\ge\left(2\sigma_0u_{\alpha/2}/k\right)^2$. $\blacksquare$
 
----
-
 ## 习题 4.2-9
 
 求方差比置信区间.
@@ -32,8 +26,6 @@ $n\ge\left(2\sigma_0u_{\alpha/2}/k\right)^2$. $\blacksquare$
 ### 解答 习题 4.2-9
 
 $\left[0.024,0.285\right]$. $\blacksquare$
-
----
 
 ## 习题 4.2-11
 
@@ -43,8 +35,6 @@ $\left[0.024,0.285\right]$. $\blacksquare$
 
 $E\left(L\right)=\left(n-1\right)\left(1/a-1/b\right)$; $D\left(L\right)=2\left(n-1\right)\left(1/a-1/b\right)^2$. $\blacksquare$
 
----
-
 ## 习题 4.2-14
 
 求 $\sigma$ 的单侧置信上限.
@@ -53,8 +43,6 @@ $E\left(L\right)=\left(n-1\right)\left(1/a-1/b\right)$; $D\left(L\right)=2\left(
 
 $18.82$. $\blacksquare$
 
----
-
 ## 习题 4.2-20
 
 求 $\sigma_1/\sigma_2$ 的置信区间.
@@ -62,8 +50,6 @@ $18.82$. $\blacksquare$
 ### 解答 习题 4.2-20
 
 $\left[0.377,2.153\right]$. $\blacksquare$
-
----
 
 ## 习题 4.2-21
 

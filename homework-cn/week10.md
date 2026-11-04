@@ -11,8 +11,6 @@
 > **定义 3.4.3 (相合估计)**
 > 
 > 依概率收敛于 $\theta$.
----
-
 ## 习题 3.4-1
 
 求 $c$ 使相邻差平方和无偏.
@@ -20,8 +18,6 @@
 ### 解答 习题 3.4-1
 
 $c=1/\left[2\left(n-1\right)\right]$. $\blacksquare$
-
----
 
 ## 习题 3.4-5
 
@@ -31,8 +27,6 @@ $c=1/\left[2\left(n-1\right)\right]$. $\blacksquare$
 
 $\widehat\theta_1=\overline X-1$ 无偏; $\widehat\theta_2=X_{\left(1\right)}$ 有偏. $\blacksquare$
 
----
-
 ## 习题 3.4-7
 
 比较两个无偏估计的有效性.
@@ -41,8 +35,6 @@ $\widehat\theta_1=\overline X-1$ 无偏; $\widehat\theta_2=X_{\left(1\right)}$ �
 
 $T_2$ 更有效. $\blacksquare$
 
----
-
 ## 习题 3.4-10
 
 均方收敛蕴含相合.
@@ -50,8 +42,6 @@ $T_2$ 更有效. $\blacksquare$
 ### 解答 习题 3.4-10
 
 切比雪夫不等式. $\blacksquare$
-
----
 
 ## 习题 3.4-12
 

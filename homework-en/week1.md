@@ -23,8 +23,6 @@
 > **Definition 1.5.1 (Empirical CDF)**
 > 
 > $F_n\left(x\right)=\frac1n\sum I\left\{X_i\le x\right\}$.
----
-
 ## Exercise 1-1
 
 What is population? Sample?
@@ -32,8 +30,6 @@ What is population? Sample?
 ### Solution Exercise 1-1
 
 By Definition 1.2.1. $\blacksquare$
-
----
 
 ## Exercise 1-2
 
@@ -43,8 +39,6 @@ Conditions for simple random sample.
 
 Independence and identical distribution. $\blacksquare$
 
----
-
 ## Exercise 1-4
 
 Joint distributions.
@@ -52,8 +46,6 @@ Joint distributions.
 ### Solution Exercise 1-4
 
 Three cases. $\blacksquare$
-
----
 
 ## Exercise 1-6
 
@@ -63,8 +55,6 @@ Sample distribution families.
 
 Seven distributions. $\blacksquare$
 
----
-
 ## Exercise 1-7
 
 Normal model.
@@ -72,8 +62,6 @@ Normal model.
 ### Solution Exercise 1-7
 
 $\Theta=\left\{\left(\mu,\sigma^2\right)\right\}$. $\blacksquare$
-
----
 
 ## Exercise 1-8
 
@@ -83,8 +71,6 @@ Identify statistics.
 
 Those with $\sigma^2$ are not. $\blacksquare$
 
----
-
 ## Exercise 1-9
 
 Empirical CDF.
@@ -92,8 +78,6 @@ Empirical CDF.
 ### Solution Exercise 1-9
 
 Step function. $\blacksquare$
-
----
 
 ## Exercise 1-10
 

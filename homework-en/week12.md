@@ -15,8 +15,6 @@
 > **Definition 3.6.3 (Efficient Estimator)**
 > 
 > Efficiency = 1.
----
-
 ## Exercise 3.6-1
 
 Fisher information formula.
@@ -24,8 +22,6 @@ Fisher information formula.
 ### Solution Exercise 3.6-1
 
 Differentiate twice. $\blacksquare$
-
----
 
 ## Exercise 3.6-2
 
@@ -35,8 +31,6 @@ Negative binomial information.
 
 $2/\left[\theta^2\left(1-\theta\right)\right]$. $\blacksquare$
 
----
-
 ## Exercise 3.6-4
 
 $\overline X$ is efficient.
@@ -44,8 +38,6 @@ $\overline X$ is efficient.
 ### Solution Exercise 3.6-4
 
 Variance equals C-R bound. $\blacksquare$
-
----
 
 ## Exercise 3.6-6
 

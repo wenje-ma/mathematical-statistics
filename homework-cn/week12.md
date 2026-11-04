@@ -15,8 +15,6 @@
 > **定义 3.6.3 (有效估计)**
 > 
 > 效率为 1.
----
-
 ## 习题 3.6-1
 
 证明 $I\left(\theta\right)=-E\left[\partial^2\ln f/\partial\theta^2\right]$.
@@ -24,8 +22,6 @@
 ### 解答 习题 3.6-1
 
 对 $\int f=1$ 两次求导. $\blacksquare$
-
----
 
 ## 习题 3.6-2
 
@@ -35,8 +31,6 @@
 
 $I\left(\theta\right)=2/\left[\theta^2\left(1-\theta\right)\right]$. $\blacksquare$
 
----
-
 ## 习题 3.6-4
 
 证明 $\overline X$ 是有效估计.
@@ -44,8 +38,6 @@ $I\left(\theta\right)=2/\left[\theta^2\left(1-\theta\right)\right]$. $\blacksqua
 ### 解答 习题 3.6-4
 
 $D\left(\overline X\right)=\theta^2/n$ 等于 C-R 下界. $\blacksquare$
-
----
 
 ## 习题 3.6-6
 

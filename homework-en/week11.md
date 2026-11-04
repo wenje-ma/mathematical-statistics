@@ -19,8 +19,6 @@
 > **Example 3.5.7 (Normal)**
 > 
 > $\left(\overline X,S^2\right)$.
----
-
 ## Exercise 3.5-4
 
 UMVUE of $p^m$ and $p\left(1-p\right)$.
@@ -29,8 +27,6 @@ UMVUE of $p^m$ and $p\left(1-p\right)$.
 
 Combinatorial and $T\left(n-T\right)/\left[n\left(n-1\right)\right]$. $\blacksquare$
 
----
-
 ## Exercise 3.5-6
 
 UMVUE of $\sigma$ and $\sigma^4$.
@@ -38,8 +34,6 @@ UMVUE of $\sigma$ and $\sigma^4$.
 ### Solution Exercise 3.5-6
 
 Gamma ratio and $T^2/\left[n\left(n+2\right)\right]$. $\blacksquare$
-
----
 
 ## Exercise 3.5-7
 

@@ -19,8 +19,6 @@
 > **例 3.5.7 (正态总体的充分完备统计量)**
 > 
 > $\left(\overline X,\sum\left(X_i-\overline X\right)^2\right)$.
----
-
 ## 习题 3.5-4
 
 求 $p^m$ 与 $p\left(1-p\right)$ 的 UMVUE.
@@ -29,8 +27,6 @@
 
 $\widehat g_1$ 组合数比; $\widehat g_2=T\left(n-T\right)/\left[n\left(n-1\right)\right]$. $\blacksquare$
 
----
-
 ## 习题 3.5-6
 
 求 $\sigma$ 与 $\sigma^4$ 的 UMVUE.
@@ -38,8 +34,6 @@ $\widehat g_1$ 组合数比; $\widehat g_2=T\left(n-T\right)/\left[n\left(n-1\ri
 ### 解答 习题 3.5-6
 
 $\widehat\sigma=\Gamma\left(n/2\right)/\left[\sqrt2\Gamma\left(\left(n+1\right)/2\right)\right]\sqrt T$; $\widehat\sigma^4=T^2/\left[n\left(n+2\right)\right]$. $\blacksquare$
-
----
 
 ## 习题 3.5-7
 

@@ -1,7 +1,5 @@
 # week15
 
----
-
 ## Exercise 4.3-1
 
 Exponential mean CI.
@@ -9,8 +7,6 @@ Exponential mean CI.
 ### Solution Exercise 4.3-1
 
 $\left[36.79,113.09\right]$. $\blacksquare$
-
----
 
 ## Exercise 4.3-3
 
@@ -20,8 +16,6 @@ Pareto CI.
 
 $\left[\alpha^{1/n}X_{\left(1\right)},X_{\left(1\right)}\right]$. $\blacksquare$
 
----
-
 ## Exercise 4.3-4
 
 Rayleigh CI.
@@ -29,8 +23,6 @@ Rayleigh CI.
 ### Solution Exercise 4.3-4
 
 Chi-square based. $\blacksquare$
-
----
 
 ## Exercise 4.3-10
 

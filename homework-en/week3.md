@@ -23,8 +23,6 @@
 > **Definition 2.2.3 (F-distribution)**
 > 
 > Ratio of chi-squares.
----
-
 ## Exercise 2.2-1
 
 Find constants.
@@ -32,8 +30,6 @@ Find constants.
 ### Solution Exercise 2.2-1
 
 $a=1/14$, $c=\sqrt{2/3}$, $d=2/3$. $\blacksquare$
-
----
 
 ## Exercise 2.2-2
 
@@ -43,8 +39,6 @@ Moments of chi-square.
 
 Gamma integral. $\blacksquare$
 
----
-
 ## Exercise 2.2-3
 
 Probability integral transform.
@@ -52,8 +46,6 @@ Probability integral transform.
 ### Solution Exercise 2.2-3
 
 $F\left(X\right)\sim U\left(0,1\right)$. $\blacksquare$
-
----
 
 ## Exercise 2.2-6
 
@@ -63,8 +55,6 @@ Gamma properties.
 
 Characteristic function. $\blacksquare$
 
----
-
 ## Exercise 2.2-7
 
 Ratio and sum independence.
@@ -73,8 +63,6 @@ Ratio and sum independence.
 
 Change of variables. $\blacksquare$
 
----
-
 ## Exercise 2.2-8
 
 t tends to normal.
@@ -82,8 +70,6 @@ t tends to normal.
 ### Solution Exercise 2.2-8
 
 Stirling formula. $\blacksquare$
-
----
 
 ## Exercise 2.2-10
 

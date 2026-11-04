@@ -16,8 +16,6 @@
 > 
 > Natural parameter space has interior.
 
----
-
 ## Exercise 2.6-1
 
 Poisson completeness.
@@ -25,8 +23,6 @@ Poisson completeness.
 ### Solution Exercise 2.6-1
 
 Exponential family. $\blacksquare$
-
----
 
 ## Exercise 2.6-5
 
@@ -36,8 +32,6 @@ Rayleigh complete statistic.
 
 $\sum X_i^2$. $\blacksquare$
 
----
-
 ## Exercise 2.6-6
 
 Exponential completeness.
@@ -46,8 +40,6 @@ Exponential completeness.
 
 Exponential family. $\blacksquare$
 
----
-
 ## Exercise 2.6-7
 
 Normal complete statistic.
@@ -55,8 +47,6 @@ Normal complete statistic.
 ### Solution Exercise 2.6-7
 
 $\sum\left(X_i-\mu\right)^2$ or $\sum X_i$. $\blacksquare$
-
----
 
 ## Exercise 2.6-10
 

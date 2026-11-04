@@ -11,8 +11,6 @@
 > **Definition 3.4.3 (Consistency)**
 > 
 > Converges in probability.
----
-
 ## Exercise 3.4-1
 
 Find $c$.
@@ -20,8 +18,6 @@ Find $c$.
 ### Solution Exercise 3.4-1
 
 $1/\left[2\left(n-1\right)\right]$. $\blacksquare$
-
----
 
 ## Exercise 3.4-5
 
@@ -31,8 +27,6 @@ Unbiasedness of estimators.
 
 Moment estimator unbiased, MLE biased. $\blacksquare$
 
----
-
 ## Exercise 3.4-7
 
 Compare efficiency.
@@ -41,8 +35,6 @@ Compare efficiency.
 
 $T_2$ more efficient. $\blacksquare$
 
----
-
 ## Exercise 3.4-10
 
 MSE implies consistency.
@@ -50,8 +42,6 @@ MSE implies consistency.
 ### Solution Exercise 3.4-10
 
 Chebyshev. $\blacksquare$
-
----
 
 ## Exercise 3.4-12
 

@@ -1,7 +1,5 @@
 # week17
 
----
-
 ## Exercise 5.2-5
 
 Z test.
@@ -9,8 +7,6 @@ Z test.
 ### Solution Exercise 5.2-5
 
 $u=1.2$, do not reject. $\blacksquare$
-
----
 
 ## Exercise 5.2-7
 
@@ -20,8 +16,6 @@ Left Z test.
 
 Reject. $\blacksquare$
 
----
-
 ## Exercise 5.2-9
 
 Critical value.
@@ -29,8 +23,6 @@ Critical value.
 ### Solution Exercise 5.2-9
 
 $c=1.176$. $\blacksquare$
-
----
 
 ## Exercise 5.2-12
 
@@ -40,8 +32,6 @@ Chi-square variance.
 
 Reject. $\blacksquare$
 
----
-
 ## Exercise 5.2-15
 
 Three tests.
@@ -50,8 +40,6 @@ Three tests.
 
 All do not reject. $\blacksquare$
 
----
-
 ## Exercise 5.2-17
 
 Two-sample mean.
@@ -59,8 +47,6 @@ Two-sample mean.
 ### Solution Exercise 5.2-17
 
 Do not reject. $\blacksquare$
-
----
 
 ## Exercise 5.2-21
 

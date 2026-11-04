@@ -11,8 +11,6 @@
 > **Definition 4.1.5 (Confidence Bounds)**
 > 
 > One-sided bounds.
----
-
 ## Exercise 4.1-4
 
 Find confidence level.
@@ -20,8 +18,6 @@ Find confidence level.
 ### Solution Exercise 4.1-4
 
 $0.90$. $\blacksquare$
-
----
 
 ## Exercise 4.1-5
 

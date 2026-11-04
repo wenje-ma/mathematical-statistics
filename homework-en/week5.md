@@ -8,8 +8,6 @@
 > 
 > Natural parameters.
 
----
-
 ## Exercise 2.4-3
 
 Power distribution.
@@ -17,8 +15,6 @@ Power distribution.
 ### Solution Exercise 2.4-3
 
 $\left(0,\infty\right)$. $\blacksquare$
-
----
 
 ## Exercise 2.4-4
 
@@ -28,8 +24,6 @@ Laplace distribution.
 
 $\left(-\infty,0\right)$. $\blacksquare$
 
----
-
 ## Exercise 2.4-5
 
 Rayleigh distribution.
@@ -38,8 +32,6 @@ Rayleigh distribution.
 
 $\left(-\infty,0\right)$. $\blacksquare$
 
----
-
 ## Exercise 2.4-6
 
 Exponential distribution.
@@ -47,8 +39,6 @@ Exponential distribution.
 ### Solution Exercise 2.4-6
 
 $\left(-\infty,0\right)$. $\blacksquare$
-
----
 
 ## Exercise 2.4-7
 

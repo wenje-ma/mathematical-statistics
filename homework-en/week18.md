@@ -1,7 +1,5 @@
 # week18
 
----
-
 ## Exercise 5.3-1
 
 Exponential mean test.
@@ -9,8 +7,6 @@ Exponential mean test.
 ### Solution Exercise 5.3-1
 
 Do not reject. $\blacksquare$
-
----
 
 ## Exercise 5.3-3
 
@@ -20,8 +16,6 @@ Two exponential ratio.
 
 F test. $\blacksquare$
 
----
-
 ## Exercise 5.3-4
 
 Poisson large sample.
@@ -29,8 +23,6 @@ Poisson large sample.
 ### Solution Exercise 5.3-4
 
 Z rejection region. $\blacksquare$
-
----
 
 ## Exercise 5.3-6
 

@@ -8,8 +8,6 @@
 > 
 > $f=C\left(\varphi\right)\exp\left\{\sum\varphi_i T_i\left(x\right)\right\}h\left(x\right)$.
 
----
-
 ## 习题 2.4-3
 
 证明幂分布族是指数族.
@@ -17,8 +15,6 @@
 ### 解答 习题 2.4-3
 
 $f=\theta^n\exp\left\{\theta\sum\ln x_i\right\}/\prod x_i$. 自然参数空间 $\left(0,\infty\right)$. $\blacksquare$
-
----
 
 ## 习题 2.4-4
 
@@ -28,8 +24,6 @@ $f=\theta^n\exp\left\{\theta\sum\ln x_i\right\}/\prod x_i$. 自然参数空间 $
 
 $\left(2\theta\right)^{-n}\exp\left\{-\sum\left|x_i\right|/\theta\right\}$. 自然空间 $\left(-\infty,0\right)$. $\blacksquare$
 
----
-
 ## 习题 2.4-5
 
 证明瑞利分布族是指数族.
@@ -38,8 +32,6 @@ $\left(2\theta\right)^{-n}\exp\left\{-\sum\left|x_i\right|/\theta\right\}$. 自�
 
 $\left(2\theta\right)^n\exp\left\{-\theta\sum x_i^2\right\}\prod x_i$. 自然空间 $\left(-\infty,0\right)$. $\blacksquare$
 
----
-
 ## 习题 2.4-6
 
 证明指数分布族是指数族.
@@ -47,8 +39,6 @@ $\left(2\theta\right)^n\exp\left\{-\theta\sum x_i^2\right\}\prod x_i$. 自然空
 ### 解答 习题 2.4-6
 
 $\lambda^n\exp\left\{-\lambda\sum x_i\right\}$. 自然空间 $\left(-\infty,0\right)$. $\blacksquare$
-
----
 
 ## 习题 2.4-7
 
