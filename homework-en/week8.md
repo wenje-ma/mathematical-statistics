@@ -1,33 +1,93 @@
 # week8
 
-> **Definition 3.2.1 (Method of Moments)**
+> **Definition 3.3.2 (MLE)**
 > 
-> Population moments = sample moments.
+> Maximize likelihood.
 
-> **Example 3.2.1 Conclusion**
+> **Definition 3.4.1 (Unbiased Estimator)**
 > 
-> $\widehat\mu=\overline X$, $\widehat\sigma^2=S_n^2$.
+> $E\left(\widehat\theta\right)=\theta$.
 
-## Exercise 3.2-3
+> **Definition 3.4.2 (Efficiency)**
+> 
+> Smaller variance.
 
-Six distributions.
+> **Definition 3.4.3 (Consistency)**
+> 
+> Converges in probability.
 
-### Solution Exercise 3.2-3
+> **Lemma 3.5.1 (Rao-Blackwell)**
+> 
+> Condition on sufficient statistic.
 
-Various formulas. $\blacksquare$
+> **Theorem 3.5.1 (Lehmann-Scheffe)**
+> 
+> UMVUE.
 
-## Exercise 3.2-5
+> **Corollary 3.5.1 (Exponential Family)**
+> 
+> Natural parameter space.
 
-Estimate $P\left(X> 1\right)$.
+> **Example 3.5.3 (Bernoulli)**
+> 
+> $\sum X_i$.
 
-### Solution Exercise 3.2-5
+> **Example 3.5.7 (Normal)**
+> 
+> $\left(\overline X,S^2\right)$.
 
-$1-\Phi\left(\left(1-\overline X\right)/S_n\right)$. $\blacksquare$
+## Exercise 3.3-6
 
-## Exercise 3.2-7
+Two-parameter exponential.
 
-Pareto estimator.
+### Solution to Exercise 3.3-6
 
-### Solution Exercise 3.2-7
+$X_{\left(1\right)}$ and $1/\left(\overline X-X_{\left(1\right)}\right)$. $\blacksquare$
 
-$\overline X/\left(\overline X-1\right)$. $\blacksquare$
+## Exercise 3.4-1
+
+Find $c$.
+
+### Solution to Exercise 3.4-1
+
+$1/\left[2\left(n-1\right)\right]$. $\blacksquare$
+
+## Exercise 3.4-5
+
+Unbiasedness of estimators.
+
+### Solution to Exercise 3.4-5
+
+Moment estimator unbiased, MLE biased. $\blacksquare$
+
+## Exercise 3.4-7
+
+Compare efficiency.
+
+### Solution to Exercise 3.4-7
+
+$T_2$ more efficient. $\blacksquare$
+
+## Exercise 3.4-10
+
+MSE implies consistency.
+
+### Solution to Exercise 3.4-10
+
+Chebyshev. $\blacksquare$
+
+## Exercise 3.4-12
+
+Geometric mean consistency.
+
+### Solution to Exercise 3.4-12
+
+LLN. $\blacksquare$
+
+## Exercise 3.5-4
+
+UMVUE of $p^m$ and $p\left(1-p\right)$.
+
+### Solution to Exercise 3.5-4
+
+Combinatorial and $T\left(n-T\right)/\left[n\left(n-1\right)\right]$. $\blacksquare$

@@ -1,44 +1,81 @@
 # week11
 
-> **Lemma 3.5.1 (Rao-Blackwell)**
+> **Definition 5.1.1 (Power Function)**
 > 
-> Condition on sufficient statistic.
+> $\beta\left(\theta\right)$.
 
-> **Theorem 3.5.1 (Lehmann-Scheffe)**
+> **Definition 5.1.2 (Significance Level)**
 > 
-> UMVUE.
+> Type I error $\le\alpha$.
 
-> **Corollary 3.5.1 (Exponential Family)**
-> 
-> Natural parameter space.
+## Exercise 4.3-1
 
-> **Example 3.5.3 (Bernoulli)**
-> 
-> $\sum X_i$.
+Exponential mean CI.
 
-> **Example 3.5.7 (Normal)**
-> 
-> $\left(\overline X,S^2\right)$.
-## Exercise 3.5-4
+### Solution to Exercise 4.3-1
 
-UMVUE of $p^m$ and $p\left(1-p\right)$.
+$\left[36.79,113.09\right]$. $\blacksquare$
 
-### Solution Exercise 3.5-4
+## Exercise 4.3-3
 
-Combinatorial and $T\left(n-T\right)/\left[n\left(n-1\right)\right]$. $\blacksquare$
+Pareto CI.
 
-## Exercise 3.5-6
+### Solution to Exercise 4.3-3
 
-UMVUE of $\sigma$ and $\sigma^4$.
+$\left[\alpha^{1/n}X_{\left(1\right)},X_{\left(1\right)}\right]$. $\blacksquare$
 
-### Solution Exercise 3.5-6
+## Exercise 4.3-4
 
-Gamma ratio and $T^2/\left[n\left(n+2\right)\right]$. $\blacksquare$
+Rayleigh CI.
 
-## Exercise 3.5-7
+### Solution to Exercise 4.3-4
 
-UMVUE of $\mu+\sigma^2$ and $\mu^2/\sigma^2$.
+Chi-square based. $\blacksquare$
 
-### Solution Exercise 3.5-7
+## Exercise 4.3-10
 
-$\overline X+S^2$ and adjusted ratio. $\blacksquare$
+Binomial large sample.
+
+### Solution to Exercise 4.3-10
+
+$\left[0.088,0.232\right]$. $\blacksquare$
+
+## Exercise 5.1-5
+
+Errors and sample size.
+
+### Solution to Exercise 5.1-5
+
+$0.025$, $0.484$, $n\ge6$. $\blacksquare$
+
+## Exercise 5.1-7
+
+Two errors.
+
+### Solution to Exercise 5.1-7
+
+$1/3$, $4/9$. $\blacksquare$
+
+## Exercise 5.1-8
+
+Level and power.
+
+### Solution to Exercise 5.1-8
+
+$0.4013$ and power function. $\blacksquare$
+
+## Exercise 5.2-5
+
+Z test.
+
+### Solution to Exercise 5.2-5
+
+$u=1.2$, do not reject. $\blacksquare$
+
+## Exercise 5.2-7
+
+Left Z test.
+
+### Solution to Exercise 5.2-7
+
+Reject. $\blacksquare$

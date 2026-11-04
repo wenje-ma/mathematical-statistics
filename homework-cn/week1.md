@@ -23,6 +23,7 @@
 > **定义 1.5.1 (经验分布函数)**
 > 
 > $F_n\left(x\right)=\frac1n\sum I\left\{X_i\le x\right\}$.
+
 ## 习题 1-1
 
 什么是总体? 什么是样本?

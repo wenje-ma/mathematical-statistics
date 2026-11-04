@@ -1,44 +1,81 @@
 # week11
 
-> **引理 3.5.1 (改进无偏估计的方法)**
+> **定义 5.1.1 (功效函数)**
 > 
-> 对充分统计量取条件期望.
+> $\beta\left(\theta\right)=P_\theta\left\{拒绝 H_0\right\}$.
 
-> **定理 3.5.1 (Lehmann-Scheffe 定理)**
+> **定义 5.1.2 (显著性检验与检验水平)**
 > 
-> 充分完备统计量的无偏函数为 UMVUE.
+> 第一类错误概率 $\le\alpha$.
 
-> **推论 3.5.1 (指数族自然形式下的充分完备统计量)**
-> 
-> 自然参数空间有内点.
+## 习题 4.3-1
 
-> **例 3.5.3 (两点分布的充分完备统计量)**
-> 
-> $\sum X_i\sim B\left(n,p\right)$.
+指数分布平均寿命置信区间.
 
-> **例 3.5.7 (正态总体的充分完备统计量)**
-> 
-> $\left(\overline X,\sum\left(X_i-\overline X\right)^2\right)$.
-## 习题 3.5-4
+### 解答 习题 4.3-1
 
-求 $p^m$ 与 $p\left(1-p\right)$ 的 UMVUE.
+$\left[36.79,113.09\right]$ kh. $\blacksquare$
 
-### 解答 习题 3.5-4
+## 习题 4.3-3
 
-$\widehat g_1$ 组合数比; $\widehat g_2=T\left(n-T\right)/\left[n\left(n-1\right)\right]$. $\blacksquare$
+求帕累托分布参数置信区间.
 
-## 习题 3.5-6
+### 解答 习题 4.3-3
 
-求 $\sigma$ 与 $\sigma^4$ 的 UMVUE.
+$\left[\alpha^{1/n}X_{\left(1\right)},X_{\left(1\right)}\right]$. $\blacksquare$
 
-### 解答 习题 3.5-6
+## 习题 4.3-4
 
-$\widehat\sigma=\Gamma\left(n/2\right)/\left[\sqrt2\Gamma\left(\left(n+1\right)/2\right)\right]\sqrt T$; $\widehat\sigma^4=T^2/\left[n\left(n+2\right)\right]$. $\blacksquare$
+求瑞利分布参数置信区间.
 
-## 习题 3.5-7
+### 解答 习题 4.3-4
 
-求 $\mu+\sigma^2$, $\mu^2/\sigma^2$ 的 UMVUE.
+$\left[\chi^2_{1-\alpha/2}/\left(2\sum X_i^2\right),\chi^2_{\alpha/2}/\left(2\sum X_i^2\right)\right]$. $\blacksquare$
 
-### 解答 习题 3.5-7
+## 习题 4.3-10
 
-$\overline X+S^2$; $\left[\left(n-3\right)\overline X^2\right]/\left[\left(n-1\right)S^2\right]-1/n$. $\blacksquare$
+不合格品率大样本置信区间.
+
+### 解答 习题 4.3-10
+
+$\left[0.088,0.232\right]$. $\blacksquare$
+
+## 习题 5.1-5
+
+求两类错误概率与最小样本容量.
+
+### 解答 习题 5.1-5
+
+(1) $\alpha=0.025$, $\beta_2=0.484$; (2) $n\ge6$. $\blacksquare$
+
+## 习题 5.1-7
+
+求两类错误概率.
+
+### 解答 习题 5.1-7
+
+$\alpha=1/3$, $\beta_2=4/9$. $\blacksquare$
+
+## 习题 5.1-8
+
+求显著性水平与功效函数.
+
+### 解答 习题 5.1-8
+
+$\alpha=0.4013$; $\beta\left(\theta\right)=1-\left(0.95/\theta\right)^{10}$ ($\theta> 0.95$). $\blacksquare$
+
+## 习题 5.2-5
+
+U 检验.
+
+### 解答 习题 5.2-5
+
+$u=1.2< 1.96$, 不拒绝. $\blacksquare$
+
+## 习题 5.2-7
+
+左边 U 检验.
+
+### 解答 习题 5.2-7
+
+$u=-2.5< -1.645$, 拒绝. $\blacksquare$

@@ -23,19 +23,20 @@
 > **Definition 2.2.3 (F-distribution)**
 > 
 > Ratio of chi-squares.
-## Exercise 2.2-1
 
-Find constants.
+> **Lemma 2.3.1 (Mean and Variance of Sample Mean/Variance)**
+> 
+> $E\left(\overline X\right)=\mu$, etc.
 
-### Solution Exercise 2.2-1
-
-$a=1/14$, $c=\sqrt{2/3}$, $d=2/3$. $\blacksquare$
+> **Theorem 2.3.3 (Normal Sample Distributions)**
+> 
+> $\overline X$ and $S^2$ independent.
 
 ## Exercise 2.2-2
 
 Moments of chi-square.
 
-### Solution Exercise 2.2-2
+### Solution to Exercise 2.2-2
 
 Gamma integral. $\blacksquare$
 
@@ -43,7 +44,7 @@ Gamma integral. $\blacksquare$
 
 Probability integral transform.
 
-### Solution Exercise 2.2-3
+### Solution to Exercise 2.2-3
 
 $F\left(X\right)\sim U\left(0,1\right)$. $\blacksquare$
 
@@ -51,7 +52,7 @@ $F\left(X\right)\sim U\left(0,1\right)$. $\blacksquare$
 
 Gamma properties.
 
-### Solution Exercise 2.2-6
+### Solution to Exercise 2.2-6
 
 Characteristic function. $\blacksquare$
 
@@ -59,7 +60,7 @@ Characteristic function. $\blacksquare$
 
 Ratio and sum independence.
 
-### Solution Exercise 2.2-7
+### Solution to Exercise 2.2-7
 
 Change of variables. $\blacksquare$
 
@@ -67,7 +68,7 @@ Change of variables. $\blacksquare$
 
 t tends to normal.
 
-### Solution Exercise 2.2-8
+### Solution to Exercise 2.2-8
 
 Stirling formula. $\blacksquare$
 
@@ -75,6 +76,22 @@ Stirling formula. $\blacksquare$
 
 $P\left(F\left(1,1\right)< 1\right)$.
 
-### Solution Exercise 2.2-10
+### Solution to Exercise 2.2-10
 
 $1/2$. $\blacksquare$
+
+## Exercise 2.3-2
+
+Poisson moments.
+
+### Solution to Exercise 2.3-2
+
+$\lambda$, $\lambda/n$, $\lambda$. $\blacksquare$
+
+## Exercise 2.3-4
+
+Variance of $S^2$.
+
+### Solution to Exercise 2.3-4
+
+$2\sigma^4/\left(n-1\right)$. $\blacksquare$

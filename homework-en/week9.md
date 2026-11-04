@@ -1,28 +1,105 @@
 # week9
 
-> **Definition 3.3.2 (MLE)**
+> **Lemma 3.5.1 (Rao-Blackwell)**
 > 
-> Maximize likelihood.
-## Exercise 3.3-3
+> Condition on sufficient statistic.
 
-Five distributions.
+> **Theorem 3.5.1 (Lehmann-Scheffe)**
+> 
+> UMVUE.
 
-### Solution Exercise 3.3-3
+> **Corollary 3.5.1 (Exponential Family)**
+> 
+> Natural parameter space.
 
-Various MLEs. $\blacksquare$
+> **Example 3.5.3 (Bernoulli)**
+> 
+> $\sum X_i$.
 
-## Exercise 3.3-4
+> **Example 3.5.7 (Normal)**
+> 
+> $\left(\overline X,S^2\right)$.
 
-Normal MLE.
+> **Definition 3.6.1 (Regular Family)**
+> 
+> C-R conditions.
 
-### Solution Exercise 3.3-4
+> **Theorem 3.6.1 (C-R Inequality)**
+> 
+> Lower bound.
 
-$\overline X$ and $\frac1n\sum\left(X_i-\mu\right)^2$. $\blacksquare$
+> **Definition 3.6.2 (Efficiency)**
+> 
+> Ratio to C-R bound.
 
-## Exercise 3.3-6
+> **Definition 3.6.3 (Efficient Estimator)**
+> 
+> Efficiency = 1.
 
-Two-parameter exponential.
+> **Definition 4.1.1 (Interval Estimation)**
+> 
+> Random interval.
 
-### Solution Exercise 3.3-6
+> **Definition 4.1.4 (Confidence Interval)**
+> 
+> Coverage probability.
 
-$X_{\left(1\right)}$ and $1/\left(\overline X-X_{\left(1\right)}\right)$. $\blacksquare$
+> **Definition 4.1.5 (Confidence Bounds)**
+> 
+> One-sided bounds.
+
+## Exercise 3.5-6
+
+UMVUE of $\sigma$ and $\sigma^4$.
+
+### Solution to Exercise 3.5-6
+
+Gamma ratio and $T^2/\left[n\left(n+2\right)\right]$. $\blacksquare$
+
+## Exercise 3.5-7
+
+UMVUE of $\mu+\sigma^2$ and $\mu^2/\sigma^2$.
+
+### Solution to Exercise 3.5-7
+
+$\overline X+S^2$ and adjusted ratio. $\blacksquare$
+
+## Exercise 3.6-1
+
+Fisher information formula.
+
+### Solution to Exercise 3.6-1
+
+Differentiate twice. $\blacksquare$
+
+## Exercise 3.6-2
+
+Negative binomial information.
+
+### Solution to Exercise 3.6-2
+
+$2/\left[\theta^2\left(1-\theta\right)\right]$. $\blacksquare$
+
+## Exercise 3.6-4
+
+$\overline X$ is efficient.
+
+### Solution to Exercise 3.6-4
+
+Variance equals C-R bound. $\blacksquare$
+
+## Exercise 3.6-6
+
+UMVUE but not efficient.
+
+### Solution to Exercise 3.6-6
+
+Variance exceeds bound. $\blacksquare$
+
+## Exercise 4.1-4
+
+Find confidence level.
+
+### Solution to Exercise 4.1-4
+
+$0.90$. $\blacksquare$

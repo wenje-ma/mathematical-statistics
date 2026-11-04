@@ -1,48 +1,73 @@
 # week12
 
-> **定义 3.6.1 (正则分布族)**
-> 
-> C-R 正则条件.
+## 习题 5.2-9
 
-> **定理 3.6.1 (单参数 C-R 不等式)**
-> 
-> $D\left(\widehat g\right)\ge \left[g'\right]^2/\left[nI\left(\theta\right)\right]$.
+求临界值与第二类错误.
 
-> **定义 3.6.2 (效率)**
-> 
-> C-R 下界与方差之比.
+### 解答 习题 5.2-9
 
-> **定义 3.6.3 (有效估计)**
-> 
-> 效率为 1.
-## 习题 3.6-1
+$c=1.176$. $\blacksquare$
 
-证明 $I\left(\theta\right)=-E\left[\partial^2\ln f/\partial\theta^2\right]$.
+## 习题 5.2-12
 
-### 解答 习题 3.6-1
+$\chi^2$ 检验方差.
 
-对 $\int f=1$ 两次求导. $\blacksquare$
+### 解答 习题 5.2-12
 
-## 习题 3.6-2
+$\chi^2=13.507> 11.143$, 拒绝. $\blacksquare$
 
-求负二项分布的费希尔信息量.
+## 习题 5.2-15
 
-### 解答 习题 3.6-2
+三种检验.
 
-$I\left(\theta\right)=2/\left[\theta^2\left(1-\theta\right)\right]$. $\blacksquare$
+### 解答 习题 5.2-15
 
-## 习题 3.6-4
+(1) $u=0.791$; (2) $t=0.659$; (3) $\chi^2=8.294$. 均不拒绝. $\blacksquare$
 
-证明 $\overline X$ 是有效估计.
+## 习题 5.2-17
 
-### 解答 习题 3.6-4
+两总体均值差检验.
 
-$D\left(\overline X\right)=\theta^2/n$ 等于 C-R 下界. $\blacksquare$
+### 解答 习题 5.2-17
 
-## 习题 3.6-6
+(1) $u=1.189$; (2) $t=1.230$. 均不拒绝. $\blacksquare$
 
-证明 $\overline X^2-1/n$ 是 UMVUE 但非有效.
+## 习题 5.2-21
 
-### 解答 习题 3.6-6
+F 检验与合并 t 检验.
 
-方差 $4\mu^2/n+2/n^2> 4\mu^2/n$. $\blacksquare$
+### 解答 习题 5.2-21
+
+(1) $f=1.108$, 方差相等; (2) $t=1.372$, 无显著差异. $\blacksquare$
+
+## 习题 5.3-1
+
+指数分布平均寿命检验.
+
+### 解答 习题 5.3-1
+
+$7.9> 2.733$, 不拒绝. $\blacksquare$
+
+## 习题 5.3-3
+
+两指数分布参数比检验.
+
+### 解答 习题 5.3-3
+
+拒绝域 $\overline X/\overline Y\le F_{1-\alpha/2}\left(2m,2n\right)$ 或 $\ge F_{\alpha/2}\left(2m,2n\right)$. $\blacksquare$
+
+## 习题 5.3-4
+
+泊松参数大样本检验拒绝域.
+
+### 解答 习题 5.3-4
+
+$\left|\overline X-\lambda_0\right|/\sqrt{\lambda_0/n}\ge u_{\alpha/2}$. $\blacksquare$
+
+## 习题 5.3-6
+
+二项分布大样本检验.
+
+### 解答 习题 5.3-6
+
+$u=-3.162< -1.96$, 拒绝. $\blacksquare$

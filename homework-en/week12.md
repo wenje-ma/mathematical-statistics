@@ -1,48 +1,73 @@
 # week12
 
-> **Definition 3.6.1 (Regular Family)**
-> 
-> C-R conditions.
+## Exercise 5.2-9
 
-> **Theorem 3.6.1 (C-R Inequality)**
-> 
-> Lower bound.
+Critical value.
 
-> **Definition 3.6.2 (Efficiency)**
-> 
-> Ratio to C-R bound.
+### Solution to Exercise 5.2-9
 
-> **Definition 3.6.3 (Efficient Estimator)**
-> 
-> Efficiency = 1.
-## Exercise 3.6-1
+$c=1.176$. $\blacksquare$
 
-Fisher information formula.
+## Exercise 5.2-12
 
-### Solution Exercise 3.6-1
+Chi-square variance.
 
-Differentiate twice. $\blacksquare$
+### Solution to Exercise 5.2-12
 
-## Exercise 3.6-2
+Reject. $\blacksquare$
 
-Negative binomial information.
+## Exercise 5.2-15
 
-### Solution Exercise 3.6-2
+Three tests.
 
-$2/\left[\theta^2\left(1-\theta\right)\right]$. $\blacksquare$
+### Solution to Exercise 5.2-15
 
-## Exercise 3.6-4
+All do not reject. $\blacksquare$
 
-$\overline X$ is efficient.
+## Exercise 5.2-17
 
-### Solution Exercise 3.6-4
+Two-sample mean.
 
-Variance equals C-R bound. $\blacksquare$
+### Solution to Exercise 5.2-17
 
-## Exercise 3.6-6
+Do not reject. $\blacksquare$
 
-UMVUE but not efficient.
+## Exercise 5.2-21
 
-### Solution Exercise 3.6-6
+F and pooled t.
 
-Variance exceeds bound. $\blacksquare$
+### Solution to Exercise 5.2-21
+
+Equal variance, no difference. $\blacksquare$
+
+## Exercise 5.3-1
+
+Exponential mean test.
+
+### Solution to Exercise 5.3-1
+
+Do not reject. $\blacksquare$
+
+## Exercise 5.3-3
+
+Two exponential ratio.
+
+### Solution to Exercise 5.3-3
+
+F test. $\blacksquare$
+
+## Exercise 5.3-4
+
+Poisson large sample.
+
+### Solution to Exercise 5.3-4
+
+Z rejection region. $\blacksquare$
+
+## Exercise 5.3-6
+
+Binomial large sample.
+
+### Solution to Exercise 5.3-6
+
+Reject. $\blacksquare$

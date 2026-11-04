@@ -7,21 +7,6 @@
 > **定理 2.3.3 (正态总体样本均值与样本方差的分布)**
 > 
 > $\overline X\sim N\left(\mu,\sigma^2/n\right)$, $\left(n-1\right)S^2/\sigma^2\sim\chi^2\left(n-1\right)$, 二者独立.
-## 习题 2.3-2
-
-泊松样本的 $E\left(\overline X\right)$, $D\left(\overline X\right)$, $E\left(S^2\right)$.
-
-### 解答 习题 2.3-2
-
-由**引理 2.3.1 (样本均值与样本方差的期望)**, 均为 $\lambda$, $\lambda/n$, $\lambda$. $\blacksquare$
-
-## 习题 2.3-4
-
-正态样本的 $D\left(S^2\right)$.
-
-### 解答 习题 2.3-4
-
-$D\left(S^2\right)=2\sigma^4/\left(n-1\right)$. $\blacksquare$
 
 ## 习题 2.3-5
 
@@ -78,11 +63,3 @@ $c=\sqrt3$, $t\left(3\right)$, $E=0$, $D=3$. $\blacksquare$
 ### 解答 习题 2.3-20
 
 由斯卢茨基引理, $N\left(0,1\right)$. $\blacksquare$
-
-## 习题 2.3-21
-
-均匀样本顺序统计量.
-
-### 解答 习题 2.3-21
-
-$n=299$, $f_{R_n}=n\left(n-1\right)r^{n-2}\left(1-r\right)$, $\chi^2\left(4\right)$. $\blacksquare$

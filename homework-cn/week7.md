@@ -1,57 +1,53 @@
 # week7
 
-> **定义 2.5.1 (充分统计量)**
+> **定义 3.2.1 (矩估计)**
 > 
-> 条件分布与参数无关.
+> 总体矩等于样本矩.
 
-> **定理 2.5.1 (因子分解定理)**
+> **例 3.2.1 结论 (总体均值与方差的矩估计)**
 > 
-> $f=g\left(T,\theta\right)h\left(x\right)$.
+> $\widehat\mu=\overline X$, $\widehat\sigma^2=S_n^2$.
 
-> **定义 2.6.1 (完备统计量)**
+> **定义 3.3.2 (极大似然估计)**
 > 
-> $E\left[\Phi\left(T\right)\right]=0$ 对一切 $\theta$ 蕴含 $\Phi\left(T\right)=0$ a.s.
+> $L\left(\widehat\theta\right)=\sup L\left(\theta\right)$.
 
-> **定理 2.6.1 (指数族中统计量的完备性)**
-> 
-> 自然参数空间有内点时, 充分统计量完备.
+## 习题 3.2-3
 
-## 习题 2.6-1
+求六种分布的矩估计.
 
-证明泊松样本 $\sum X_i$ 完备.
+### 解答 习题 3.2-3
 
-### 解答 习题 2.6-1
+(1) $\left(2\overline X-1\right)/\left(1-\overline X\right)$; (2) $1/\overline X$; (3) $\frac1n\sum\left|X_i\right|$; (4) $\overline X$; (5) $\widehat\mu=\overline{\ln X}$, $\widehat\sigma^2$ 为对数样本方差; (6) $\widehat\lambda=1/S_n$, $\widehat\mu=\overline X-S_n$. $\blacksquare$
 
-指数族自然形式, 自然空间 $\mathbb R$. $\blacksquare$
+## 习题 3.2-5
 
-## 习题 2.6-5
+求 $P\left(X> 1\right)$ 的矩估计.
 
-给出瑞利分布完备统计量.
+### 解答 习题 3.2-5
 
-### 解答 习题 2.6-5
+$1-\Phi\left(\left(1-\overline X\right)/S_n\right)$. $\blacksquare$
 
-$\sum X_i^2$. $\blacksquare$
+## 习题 3.2-7
 
-## 习题 2.6-6
+求帕累托分布矩估计.
 
-证明指数分布 $\sum X_i$ 完备.
+### 解答 习题 3.2-7
 
-### 解答 习题 2.6-6
+$\widehat\theta=\overline X/\left(\overline X-1\right)$. $\blacksquare$
 
-指数族自然形式. $\blacksquare$
+## 习题 3.3-3
 
-## 习题 2.6-7
+求五种分布的 MLE.
 
-正态分布完备统计量.
+### 解答 习题 3.3-3
 
-### 解答 习题 2.6-7
+(1) $-1-n/\sum\ln X_i$; (2) $1/\overline X$; (3) $\frac1n\sum\left|X_i\right|$; (4) $\left[X_{\left(n\right)}-0.5,X_{\left(1\right)}+0.5\right]$; (5) $\widehat\mu=\overline{\ln X}$, $\widehat\sigma^2$ 对数样本方差. $\blacksquare$
 
-$\mu$ 已知时 $\sum\left(X_i-\mu\right)^2$; $\sigma^2$ 已知时 $\sum X_i$. $\blacksquare$
+## 习题 3.3-4
 
-## 习题 2.6-10
+正态分布 MLE.
 
-证明均匀 $U\left[\theta,2\theta\right]$ 的 $\left(X_{\left(1\right)},X_{\left(n\right)}\right)$ 充分但不完备.
+### 解答 习题 3.3-4
 
-### 解答 习题 2.6-10
-
-$\left(n+2\right)X_{\left(n\right)}-\left(2n+1\right)X_{\left(1\right)}$ 期望为零但非零. $\blacksquare$
+(1) $\widehat\mu=\overline X$; (2) $\widehat\sigma^2=\frac1n\sum\left(X_i-\mu\right)^2$. $\blacksquare$

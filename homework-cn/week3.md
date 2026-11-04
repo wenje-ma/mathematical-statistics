@@ -23,13 +23,14 @@
 > **定义 2.2.3 ($F$ 分布)**
 > 
 > $\left(\chi^2\left(m\right)/m\right)/\left(\chi^2\left(n\right)/n\right)$.
-## 习题 2.2-1
 
-确定常数使统计量服从 $\chi^2$, $t$, $F$ 分布.
+> **引理 2.3.1 (样本均值与样本方差的期望)**
+> 
+> $E\left(\overline X\right)=\mu$, $D\left(\overline X\right)=\sigma^2/n$, $E\left(S^2\right)=\sigma^2$.
 
-### 解答 习题 2.2-1
-
-$a=1/14$, $b=1/41$; $c=\sqrt{2/3}$; $d=2/3$. $\blacksquare$
+> **定理 2.3.3 (正态总体样本均值与样本方差的分布)**
+> 
+> $\overline X\sim N\left(\mu,\sigma^2/n\right)$, $\left(n-1\right)S^2/\sigma^2\sim\chi^2\left(n-1\right)$, 二者独立.
 
 ## 习题 2.2-2
 
@@ -78,3 +79,19 @@ $F\left(X\right)\sim U\left(0,1\right)$, $-2\ln U\sim\chi^2\left(2\right)$. $\bl
 ### 解答 习题 2.2-10
 
 $1/2$. $\blacksquare$
+
+## 习题 2.3-2
+
+泊松样本的 $E\left(\overline X\right)$, $D\left(\overline X\right)$, $E\left(S^2\right)$.
+
+### 解答 习题 2.3-2
+
+由**引理 2.3.1 (样本均值与样本方差的期望)**, 均为 $\lambda$, $\lambda/n$, $\lambda$. $\blacksquare$
+
+## 习题 2.3-4
+
+正态样本的 $D\left(S^2\right)$.
+
+### 解答 习题 2.3-4
+
+$D\left(S^2\right)=2\sigma^4/\left(n-1\right)$. $\blacksquare$

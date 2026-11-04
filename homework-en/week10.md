@@ -1,52 +1,81 @@
 # week10
 
-> **Definition 3.4.1 (Unbiased Estimator)**
+> **Definition 4.1.1 (Interval Estimation)**
 > 
-> $E\left(\widehat\theta\right)=\theta$.
+> Random interval.
 
-> **Definition 3.4.2 (Efficiency)**
+> **Definition 4.1.4 (Confidence Interval)**
 > 
-> Smaller variance.
+> Coverage probability.
 
-> **Definition 3.4.3 (Consistency)**
+> **Definition 4.1.5 (Confidence Bounds)**
 > 
-> Converges in probability.
-## Exercise 3.4-1
+> One-sided bounds.
 
-Find $c$.
+> **Definition 4.2.1 (Pivotal Quantity)**
+> 
+> Distribution-free of parameter.
 
-### Solution Exercise 3.4-1
+## Exercise 4.1-5
 
-$1/\left[2\left(n-1\right)\right]$. $\blacksquare$
+One-sided upper bound level.
 
-## Exercise 3.4-5
+### Solution to Exercise 4.1-5
 
-Unbiasedness of estimators.
+$0.95$. $\blacksquare$
 
-### Solution Exercise 3.4-5
+## Exercise 4.2-3
 
-Moment estimator unbiased, MLE biased. $\blacksquare$
+Mean CI.
 
-## Exercise 3.4-7
+### Solution to Exercise 4.2-3
 
-Compare efficiency.
+$\left[32.139,32.451\right]$ and $\left[32.082,32.508\right]$. $\blacksquare$
 
-### Solution Exercise 3.4-7
+## Exercise 4.2-5
 
-$T_2$ more efficient. $\blacksquare$
+Sample size.
 
-## Exercise 3.4-10
+### Solution to Exercise 4.2-5
 
-MSE implies consistency.
+Formula. $\blacksquare$
 
-### Solution Exercise 3.4-10
+## Exercise 4.2-9
 
-Chebyshev. $\blacksquare$
+Variance ratio CI.
 
-## Exercise 3.4-12
+### Solution to Exercise 4.2-9
 
-Geometric mean consistency.
+$\left[0.024,0.285\right]$. $\blacksquare$
 
-### Solution Exercise 3.4-12
+## Exercise 4.2-11
 
-LLN. $\blacksquare$
+Length moments.
+
+### Solution to Exercise 4.2-11
+
+$E\left(L\right)$ and $D\left(L\right)$. $\blacksquare$
+
+## Exercise 4.2-14
+
+One-sided upper bound.
+
+### Solution to Exercise 4.2-14
+
+$18.82$. $\blacksquare$
+
+## Exercise 4.2-20
+
+SD ratio CI.
+
+### Solution to Exercise 4.2-20
+
+$\left[0.377,2.153\right]$. $\blacksquare$
+
+## Exercise 4.2-21
+
+Four cases.
+
+### Solution to Exercise 4.2-21
+
+Four intervals. $\blacksquare$

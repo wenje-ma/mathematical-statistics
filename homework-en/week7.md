@@ -1,57 +1,53 @@
 # week7
 
-> **Definition 2.5.1 (Sufficient Statistic)**
+> **Definition 3.2.1 (Method of Moments)**
 > 
-> Conditional distribution independent.
+> Population moments = sample moments.
 
-> **Theorem 2.5.1 (Factorization)**
+> **Example 3.2.1 Conclusion**
 > 
-> $f=g\left(T,\theta\right)h\left(x\right)$.
+> $\widehat\mu=\overline X$, $\widehat\sigma^2=S_n^2$.
 
-> **Definition 2.6.1 (Complete Statistic)**
+> **Definition 3.3.2 (MLE)**
 > 
-> Zero expectation implies zero a.s.
+> Maximize likelihood.
 
-> **Theorem 2.6.1 (Completeness in Exponential Families)**
-> 
-> Natural parameter space has interior.
+## Exercise 3.2-3
 
-## Exercise 2.6-1
+Six distributions.
 
-Poisson completeness.
+### Solution to Exercise 3.2-3
 
-### Solution Exercise 2.6-1
+Various formulas. $\blacksquare$
 
-Exponential family. $\blacksquare$
+## Exercise 3.2-5
 
-## Exercise 2.6-5
+Estimate $P\left(X> 1\right)$.
 
-Rayleigh complete statistic.
+### Solution to Exercise 3.2-5
 
-### Solution Exercise 2.6-5
+$1-\Phi\left(\left(1-\overline X\right)/S_n\right)$. $\blacksquare$
 
-$\sum X_i^2$. $\blacksquare$
+## Exercise 3.2-7
 
-## Exercise 2.6-6
+Pareto estimator.
 
-Exponential completeness.
+### Solution to Exercise 3.2-7
 
-### Solution Exercise 2.6-6
+$\overline X/\left(\overline X-1\right)$. $\blacksquare$
 
-Exponential family. $\blacksquare$
+## Exercise 3.3-3
 
-## Exercise 2.6-7
+Five distributions.
 
-Normal complete statistic.
+### Solution to Exercise 3.3-3
 
-### Solution Exercise 2.6-7
+Various MLEs. $\blacksquare$
 
-$\sum\left(X_i-\mu\right)^2$ or $\sum X_i$. $\blacksquare$
+## Exercise 3.3-4
 
-## Exercise 2.6-10
+Normal MLE.
 
-Uniform sufficiency but not completeness.
+### Solution to Exercise 3.3-4
 
-### Solution Exercise 2.6-10
-
-Nonzero unbiased statistic. $\blacksquare$
+$\overline X$ and $\frac1n\sum\left(X_i-\mu\right)^2$. $\blacksquare$
