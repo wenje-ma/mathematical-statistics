@@ -6,7 +6,7 @@
 
 > **定理 3.6.1 (单参数 C-R 不等式)**
 > 
-> $D\left(\hat g\right)\ge \left[g'\right]^2/\left[nI\left(\theta\right)\right]$.
+> $D\left(\widehat g\right)\ge \left[g'\right]^2/\left[nI\left(\theta\right)\right]$.
 
 > **定义 3.6.2 (效率)**
 > 
@@ -39,17 +39,17 @@ $I\left(\theta\right)=2/\left[\theta^2\left(1-\theta\right)\right]$. $\blacksqua
 
 ## 习题 3.6-4
 
-证明 $\bar X$ 是有效估计.
+证明 $\overline X$ 是有效估计.
 
 ### 解答 习题 3.6-4
 
-$D\left(\bar X\right)=\theta^2/n$ 等于 C-R 下界. $\blacksquare$
+$D\left(\overline X\right)=\theta^2/n$ 等于 C-R 下界. $\blacksquare$
 
 ---
 
 ## 习题 3.6-6
 
-证明 $\bar X^2-1/n$ 是 UMVUE 但非有效.
+证明 $\overline X^2-1/n$ 是 UMVUE 但非有效.
 
 ### 解答 习题 3.6-6
 

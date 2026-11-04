@@ -39,7 +39,7 @@ $2/\left[\theta^2\left(1-\theta\right)\right]$. $\blacksquare$
 
 ## Exercise 3.6-4
 
-$\bar X$ is efficient.
+$\overline X$ is efficient.
 
 ### Solution Exercise 3.6-4
 

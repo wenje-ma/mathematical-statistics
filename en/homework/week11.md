@@ -18,7 +18,7 @@
 
 > **Example 3.5.7 (Normal)**
 > 
-> $\left(\bar X,S^2\right)$.
+> $\left(\overline X,S^2\right)$.
 ---
 
 ## Exercise 3.5-4
@@ -47,4 +47,4 @@ UMVUE of $\mu+\sigma^2$ and $\mu^2/\sigma^2$.
 
 ### Solution Exercise 3.5-7
 
-$\bar X+S^2$ and adjusted ratio. $\blacksquare$
+$\overline X+S^2$ and adjusted ratio. $\blacksquare$

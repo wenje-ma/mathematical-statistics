@@ -18,7 +18,7 @@ $7.9> 2.733$, 不拒绝. $\blacksquare$
 
 ### 解答 习题 5.3-3
 
-拒绝域 $\bar X/\bar Y\le F_{1-\alpha/2}\left(2m,2n\right)$ 或 $\ge F_{\alpha/2}\left(2m,2n\right)$. $\blacksquare$
+拒绝域 $\overline X/\overline Y\le F_{1-\alpha/2}\left(2m,2n\right)$ 或 $\ge F_{\alpha/2}\left(2m,2n\right)$. $\blacksquare$
 
 ---
 
@@ -28,7 +28,7 @@ $7.9> 2.733$, 不拒绝. $\blacksquare$
 
 ### 解答 习题 5.3-4
 
-$\left|\bar X-\lambda_0\right|/\sqrt{\lambda_0/n}\ge u_{\alpha/2}$. $\blacksquare$
+$\left|\overline X-\lambda_0\right|/\sqrt{\lambda_0/n}\ge u_{\alpha/2}$. $\blacksquare$
 
 ---
 

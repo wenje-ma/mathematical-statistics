@@ -2,11 +2,11 @@
 
 > **Lemma 2.3.1 (Mean and Variance of Sample Mean/Variance)**
 > 
-> $E\left(\bar X\right)=\mu$, etc.
+> $E\left(\overline X\right)=\mu$, etc.
 
 > **Theorem 2.3.3 (Normal Sample Distributions)**
 > 
-> $\bar X$ and $S^2$ independent.
+> $\overline X$ and $S^2$ independent.
 ---
 
 ## Exercise 2.3-2

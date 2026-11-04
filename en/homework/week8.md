@@ -6,7 +6,7 @@
 
 > **Example 3.2.1 Conclusion**
 > 
-> $\hat\mu=\bar X$, $\hat\sigma^2=S_n^2$.
+> $\widehat\mu=\overline X$, $\widehat\sigma^2=S_n^2$.
 
 ---
 
@@ -26,7 +26,7 @@ Estimate $P\left(X> 1\right)$.
 
 ### Solution Exercise 3.2-5
 
-$1-\Phi\left(\left(1-\bar X\right)/S_n\right)$. $\blacksquare$
+$1-\Phi\left(\left(1-\overline X\right)/S_n\right)$. $\blacksquare$
 
 ---
 
@@ -36,4 +36,4 @@ Pareto estimator.
 
 ### Solution Exercise 3.2-7
 
-$\bar X/\left(\bar X-1\right)$. $\blacksquare$
+$\overline X/\left(\overline X-1\right)$. $\blacksquare$

@@ -2,7 +2,7 @@
 
 > **定义 3.4.1 (无偏估计)**
 > 
-> $E\left(\hat\theta\right)=\theta$.
+> $E\left(\widehat\theta\right)=\theta$.
 
 > **定义 3.4.2 (有效性)**
 > 
@@ -29,7 +29,7 @@ $c=1/\left[2\left(n-1\right)\right]$. $\blacksquare$
 
 ### 解答 习题 3.4-5
 
-$\hat\theta_1=\bar X-1$ 无偏; $\hat\theta_2=X_{\left(1\right)}$ 有偏. $\blacksquare$
+$\widehat\theta_1=\overline X-1$ 无偏; $\widehat\theta_2=X_{\left(1\right)}$ 有偏. $\blacksquare$
 
 ---
 

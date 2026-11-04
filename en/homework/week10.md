@@ -2,7 +2,7 @@
 
 > **Definition 3.4.1 (Unbiased Estimator)**
 > 
-> $E\left(\hat\theta\right)=\theta$.
+> $E\left(\widehat\theta\right)=\theta$.
 
 > **Definition 3.4.2 (Efficiency)**
 > 
