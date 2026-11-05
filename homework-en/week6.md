@@ -30,7 +30,7 @@ Poisson sufficiency.
 
 ### Solution to Exercise 2.5-1
 
-$\sum X_i$ sufficient. $\blacksquare$
+$\sum{X}_i$ sufficient. $\blacksquare$
 
 ## Exercise 2.5-5
 
@@ -38,7 +38,7 @@ Rayleigh sufficiency.
 
 ### Solution to Exercise 2.5-5
 
-$\sum X_i^2$. $\blacksquare$
+$\sum{X}_i^2$. $\blacksquare$
 
 ## Exercise 2.5-6
 
@@ -46,7 +46,7 @@ Exponential sufficiency.
 
 ### Solution to Exercise 2.5-6
 
-$\sum X_i$. $\blacksquare$
+$\sum{X}_i$. $\blacksquare$
 
 ## Exercise 2.5-7
 
@@ -54,7 +54,7 @@ Normal sufficiency.
 
 ### Solution to Exercise 2.5-7
 
-$\sum\left(X_i-\mu\right)^2$ or $\sum X_i$. $\blacksquare$
+$\sum\left(X_i-\mu\right)^2$ or $\sum{X}_i$. $\blacksquare$
 
 ## Exercise 2.6-1
 
@@ -70,7 +70,7 @@ Rayleigh complete statistic.
 
 ### Solution to Exercise 2.6-5
 
-$\sum X_i^2$. $\blacksquare$
+$\sum{X}_i^2$. $\blacksquare$
 
 ## Exercise 2.6-6
 
@@ -86,7 +86,7 @@ Normal complete statistic.
 
 ### Solution to Exercise 2.6-7
 
-$\sum\left(X_i-\mu\right)^2$ or $\sum X_i$. $\blacksquare$
+$\sum\left(X_i-\mu\right)^2$ or $\sum{X}_i$. $\blacksquare$
 
 ## Exercise 2.6-10
 

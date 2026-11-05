@@ -2,7 +2,7 @@
 
 > **定义 2.2.1 ($\chi^2$ 分布)**
 > 
-> $\sum N\left(0,1\right)^2$.
+> $\sum{N}\left(0,1\right)^2$.
 
 > **定理 2.2.1 ($\chi^2$ 分布的密度函数)**
 > 
@@ -26,19 +26,19 @@
 
 ## 习题 2.1-1
 
-求 $\sum X_i$ 的分布, $X_i\sim P\left(\lambda\right)$.
+求 $\sum{X}_i$ 的分布, $X_i\sim{P}\left(\lambda\right)$.
 
 ### 解答 习题 2.1-1
 
-由泊松分布的可加性, $T\sim P\left(n\lambda\right)$. $\blacksquare$
+由泊松分布的可加性, $T\sim{P}\left(n\lambda\right)$. $\blacksquare$
 
 ## 习题 2.1-2
 
-求 $\sum X_i$ 的分布, $X_i\sim N\left(\mu,\sigma^2\right)$.
+求 $\sum{X}_i$ 的分布, $X_i\sim{N}\left(\mu,\sigma^2\right)$.
 
 ### 解答 习题 2.1-2
 
-由正态分布的可加性, $T\sim N\left(n\mu,n\sigma^2\right)$. $\blacksquare$
+由正态分布的可加性, $T\sim{N}\left(n\mu,n\sigma^2\right)$. $\blacksquare$
 
 ## 习题 2.1-3
 
@@ -54,7 +54,7 @@
 
 ### 解答 习题 2.1-5
 
-$X_{\left(1\right)}\sim E\left(n\lambda\right)$. $\blacksquare$
+$X_{\left(1\right)}\sim{E}\left(n\lambda\right)$. $\blacksquare$
 
 ## 习题 2.1-6
 

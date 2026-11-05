@@ -2,7 +2,7 @@
 
 > **Definition 2.2.1 (Chi-square)**
 > 
-> $\sum N\left(0,1\right)^2$.
+> $\sum{N}\left(0,1\right)^2$.
 
 > **Theorem 2.2.1 (Chi-square Density)**
 > 
@@ -26,11 +26,11 @@
 
 > **Lemma 2.3.1 (Mean and Variance of Sample Mean/Variance)**
 > 
-> $E\left(\overline X\right)=\mu$, etc.
+> $E\left(\overline{X}\right)=\mu$, etc.
 
 > **Theorem 2.3.3 (Normal Sample Distributions)**
 > 
-> $\overline X$ and $S^2$ independent.
+> $\overline{X}$ and $S^2$ independent.
 
 ## Exercise 2.2-2
 
@@ -46,7 +46,7 @@ Probability integral transform.
 
 ### Solution to Exercise 2.2-3
 
-$F\left(X\right)\sim U\left(0,1\right)$. $\blacksquare$
+$F\left(X\right)\sim{U}\left(0,1\right)$. $\blacksquare$
 
 ## Exercise 2.2-6
 
@@ -74,7 +74,7 @@ Stirling formula. $\blacksquare$
 
 ## Exercise 2.2-10
 
-$P\left(F\left(1,1\right)< 1\right)$.
+$P\left(F\left(1,1\right)<1\right)$.
 
 ### Solution to Exercise 2.2-10
 

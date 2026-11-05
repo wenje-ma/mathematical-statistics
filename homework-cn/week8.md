@@ -2,7 +2,7 @@
 
 > **定义 3.3.2 (极大似然估计)**
 > 
-> $L\left(\widehat\theta\right)=\sup L\left(\theta\right)$.
+> $L\left(\widehat\theta\right)=\sup{L}\left(\theta\right)$.
 
 > **定义 3.4.1 (无偏估计)**
 > 
@@ -30,11 +30,11 @@
 
 > **例 3.5.3 (两点分布的充分完备统计量)**
 > 
-> $\sum X_i\sim B\left(n,p\right)$.
+> $\sum{X}_i\sim{B}\left(n,p\right)$.
 
 > **例 3.5.7 (正态总体的充分完备统计量)**
 > 
-> $\left(\overline X,\sum\left(X_i-\overline X\right)^2\right)$.
+> $\left(\overline{X},\sum\left(X_i-\overline{X}\right)^2\right)$.
 
 ## 习题 3.3-6
 
@@ -42,7 +42,7 @@
 
 ### 解答 习题 3.3-6
 
-$\widehat\mu=X_{\left(1\right)}$, $\widehat\lambda=1/\left(\overline X-X_{\left(1\right)}\right)$, $\widehat\alpha=\exp\left\{-\left(t-X_{\left(1\right)}\right)/\left(\overline X-X_{\left(1\right)}\right)\right\}$. $\blacksquare$
+$\widehat\mu=X_{\left(1\right)}$, $\widehat\lambda=1/\left(\overline{X}-X_{\left(1\right)}\right)$, $\widehat\alpha=\exp\left\{-\left(t-X_{\left(1\right)}\right)/\left(\overline{X}-X_{\left(1\right)}\right)\right\}$. $\blacksquare$
 
 ## 习题 3.4-1
 
@@ -58,7 +58,7 @@ $c=1/\left[2\left(n-1\right)\right]$. $\blacksquare$
 
 ### 解答 习题 3.4-5
 
-$\widehat\theta_1=\overline X-1$ 无偏; $\widehat\theta_2=X_{\left(1\right)}$ 有偏. $\blacksquare$
+$\widehat\theta_1=\overline{X}-1$ 无偏; $\widehat\theta_2=X_{\left(1\right)}$ 有偏. $\blacksquare$
 
 ## 习题 3.4-7
 
@@ -90,4 +90,4 @@ $T_2$ 更有效. $\blacksquare$
 
 ### 解答 习题 3.5-4
 
-$\widehat g_1$ 组合数比; $\widehat g_2=T\left(n-T\right)/\left[n\left(n-1\right)\right]$. $\blacksquare$
+$\widehat{g}_1$ 组合数比; $\widehat{g}_2=T\left(n-T\right)/\left[n\left(n-1\right)\right]$. $\blacksquare$

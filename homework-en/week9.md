@@ -14,11 +14,11 @@
 
 > **Example 3.5.3 (Bernoulli)**
 > 
-> $\sum X_i$.
+> $\sum{X}_i$.
 
 > **Example 3.5.7 (Normal)**
 > 
-> $\left(\overline X,S^2\right)$.
+> $\left(\overline{X},S^2\right)$.
 
 > **Definition 3.6.1 (Regular Family)**
 > 
@@ -62,7 +62,7 @@ UMVUE of $\mu+\sigma^2$ and $\mu^2/\sigma^2$.
 
 ### Solution to Exercise 3.5-7
 
-$\overline X+S^2$ and adjusted ratio. $\blacksquare$
+$\overline{X}+S^2$ and adjusted ratio. $\blacksquare$
 
 ## Exercise 3.6-1
 
@@ -82,7 +82,7 @@ $2/\left[\theta^2\left(1-\theta\right)\right]$. $\blacksquare$
 
 ## Exercise 3.6-4
 
-$\overline X$ is efficient.
+$\overline{X}$ is efficient.
 
 ### Solution to Exercise 3.6-4
 

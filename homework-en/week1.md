@@ -22,7 +22,7 @@
 
 > **Definition 1.5.1 (Empirical CDF)**
 > 
-> $F_n\left(x\right)=\frac1n\sum I\left\{X_i\le x\right\}$.
+> $F_n\left(x\right)=\frac1n\sum{I}\left\{X_i\le{x}\right\}$.
 
 ## Exercise 1-1
 

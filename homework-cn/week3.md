@@ -2,7 +2,7 @@
 
 > **定义 2.2.1 ($\chi^2$ 分布)**
 > 
-> $\sum N\left(0,1\right)^2$.
+> $\sum{N}\left(0,1\right)^2$.
 
 > **定理 2.2.1 ($\chi^2$ 分布的密度函数)**
 > 
@@ -26,11 +26,11 @@
 
 > **引理 2.3.1 (样本均值与样本方差的期望)**
 > 
-> $E\left(\overline X\right)=\mu$, $D\left(\overline X\right)=\sigma^2/n$, $E\left(S^2\right)=\sigma^2$.
+> $E\left(\overline{X}\right)=\mu$, $D\left(\overline{X}\right)=\sigma^2/n$, $E\left(S^2\right)=\sigma^2$.
 
 > **定理 2.3.3 (正态总体样本均值与样本方差的分布)**
 > 
-> $\overline X\sim N\left(\mu,\sigma^2/n\right)$, $\left(n-1\right)S^2/\sigma^2\sim\chi^2\left(n-1\right)$, 二者独立.
+> $\overline{X}\sim{N}\left(\mu,\sigma^2/n\right)$, $\left(n-1\right)S^2/\sigma^2\sim\chi^2\left(n-1\right)$, 二者独立.
 
 ## 习题 2.2-2
 
@@ -42,11 +42,11 @@
 
 ## 习题 2.2-3
 
-证明概率积分变换与 $-2\sum\ln Y_i\sim\chi^2\left(2n\right)$.
+证明概率积分变换与 $-2\sum\ln{Y}_i\sim\chi^2\left(2n\right)$.
 
 ### 解答 习题 2.2-3
 
-$F\left(X\right)\sim U\left(0,1\right)$, $-2\ln U\sim\chi^2\left(2\right)$. $\blacksquare$
+$F\left(X\right)\sim{U}\left(0,1\right)$, $-2\ln{U}\sim\chi^2\left(2\right)$. $\blacksquare$
 
 ## 习题 2.2-6
 
@@ -66,7 +66,7 @@ $F\left(X\right)\sim U\left(0,1\right)$, $-2\ln U\sim\chi^2\left(2\right)$. $\bl
 
 ## 习题 2.2-8
 
-证明 $t\left(n\right)\to N\left(0,1\right)$.
+证明 $t\left(n\right)\to{N}\left(0,1\right)$.
 
 ### 解答 习题 2.2-8
 
@@ -74,7 +74,7 @@ $F\left(X\right)\sim U\left(0,1\right)$, $-2\ln U\sim\chi^2\left(2\right)$. $\bl
 
 ## 习题 2.2-10
 
-求 $P\left(F\left(1,1\right)< 1\right)$.
+求 $P\left(F\left(1,1\right)<1\right)$.
 
 ### 解答 习题 2.2-10
 
@@ -82,7 +82,7 @@ $1/2$. $\blacksquare$
 
 ## 习题 2.3-2
 
-泊松样本的 $E\left(\overline X\right)$, $D\left(\overline X\right)$, $E\left(S^2\right)$.
+泊松样本的 $E\left(\overline{X}\right)$, $D\left(\overline{X}\right)$, $E\left(S^2\right)$.
 
 ### 解答 习题 2.3-2
 

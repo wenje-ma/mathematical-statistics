@@ -22,7 +22,7 @@
 
 > **定义 1.5.1 (经验分布函数)**
 > 
-> $F_n\left(x\right)=\frac1n\sum I\left\{X_i\le x\right\}$.
+> $F_n\left(x\right)=\frac1n\sum{I}\left\{X_i\le{x}\right\}$.
 
 ## 习题 1-1
 
@@ -46,7 +46,7 @@
 
 ### 解答 习题 1-4
 
-由样本分布, 几何分布 $p^n\left(1-p\right)^{\sum x_i-n}$, 指数分布 $\lambda^n e^{-\lambda\sum x_i}$, 拉普拉斯分布 $\left(\lambda/2\right)^n e^{-\lambda\sum\left|x_i\right|}$. $\blacksquare$
+由样本分布, 几何分布 $p^n\left(1-p\right)^{\sum{x}_i-n}$, 指数分布 $\lambda^ne^{-\lambda\sum{x}_i}$, 拉普拉斯分布 $\left(\lambda/2\right)^ne^{-\lambda\sum\left|x_i\right|}$. $\blacksquare$
 
 ## 习题 1-6
 
@@ -54,7 +54,7 @@
 
 ### 解答 习题 1-6
 
-由总体分布族与样本分布族, 分别写出 $\left\{\prod f\left(x_i;\theta\right)\right\}$. $\blacksquare$
+由总体分布族与样本分布族, 分别写出 $\left\{\prod{f}\left(x_i;\theta\right)\right\}$. $\blacksquare$
 
 ## 习题 1-7
 
@@ -62,7 +62,7 @@
 
 ### 解答 习题 1-7
 
-$\Theta=\left\{\left(\mu,\sigma^2\right):\mu\in\mathbb R,\sigma^2> 0\right\}$. $\blacksquare$
+$\Theta=\left\{\left(\mu,\sigma^2\right):\mu\in\mathbb{R},\sigma^2>0\right\}$. $\blacksquare$
 
 ## 习题 1-8
 

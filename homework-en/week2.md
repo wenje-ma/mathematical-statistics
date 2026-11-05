@@ -2,7 +2,7 @@
 
 > **Definition 2.2.1 (Chi-square)**
 > 
-> $\sum N\left(0,1\right)^2$.
+> $\sum{N}\left(0,1\right)^2$.
 
 > **Theorem 2.2.1 (Chi-square Density)**
 > 

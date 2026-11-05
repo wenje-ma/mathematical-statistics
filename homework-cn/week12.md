@@ -14,7 +14,7 @@ $\chi^2$ 检验方差.
 
 ### 解答 习题 5.2-12
 
-$\chi^2=13.507> 11.143$, 拒绝. $\blacksquare$
+$\chi^2=13.507>11.143$, 拒绝. $\blacksquare$
 
 ## 习题 5.2-15
 
@@ -46,7 +46,7 @@ F 检验与合并 t 检验.
 
 ### 解答 习题 5.3-1
 
-$7.9> 2.733$, 不拒绝. $\blacksquare$
+$7.9>2.733$, 不拒绝. $\blacksquare$
 
 ## 习题 5.3-3
 
@@ -54,7 +54,7 @@ $7.9> 2.733$, 不拒绝. $\blacksquare$
 
 ### 解答 习题 5.3-3
 
-拒绝域 $\overline X/\overline Y\le F_{1-\alpha/2}\left(2m,2n\right)$ 或 $\ge F_{\alpha/2}\left(2m,2n\right)$. $\blacksquare$
+拒绝域 $\overline{X}/\overline{Y}\le{F}_{1-\alpha/2}\left(2m,2n\right)$ 或 $\ge{F}_{\alpha/2}\left(2m,2n\right)$. $\blacksquare$
 
 ## 习题 5.3-4
 
@@ -62,7 +62,7 @@ $7.9> 2.733$, 不拒绝. $\blacksquare$
 
 ### 解答 习题 5.3-4
 
-$\left|\overline X-\lambda_0\right|/\sqrt{\lambda_0/n}\ge u_{\alpha/2}$. $\blacksquare$
+$\left|\overline{X}-\lambda_0\right|/\sqrt{\lambda_0/n}\ge{u}_{\alpha/2}$. $\blacksquare$
 
 ## 习题 5.3-6
 
@@ -70,4 +70,4 @@ $\left|\overline X-\lambda_0\right|/\sqrt{\lambda_0/n}\ge u_{\alpha/2}$. $\black
 
 ### 解答 习题 5.3-6
 
-$u=-3.162< -1.96$, 拒绝. $\blacksquare$
+$u=-3.162<-1.96$, 拒绝. $\blacksquare$

@@ -2,7 +2,7 @@
 
 > **定义 5.1.1 (功效函数)**
 > 
-> $\beta\left(\theta\right)=P_\theta\left\{拒绝 H_0\right\}$.
+> $\beta\left(\theta\right)=P_\theta\left\{拒绝H_0\right\}$.
 
 > **定义 5.1.2 (显著性检验与检验水平)**
 > 
@@ -30,7 +30,7 @@ $\left[\alpha^{1/n}X_{\left(1\right)},X_{\left(1\right)}\right]$. $\blacksquare$
 
 ### 解答 习题 4.3-4
 
-$\left[\chi^2_{1-\alpha/2}/\left(2\sum X_i^2\right),\chi^2_{\alpha/2}/\left(2\sum X_i^2\right)\right]$. $\blacksquare$
+$\left[\chi^2_{1-\alpha/2}/\left(2\sum{X}_i^2\right),\chi^2_{\alpha/2}/\left(2\sum{X}_i^2\right)\right]$. $\blacksquare$
 
 ## 习题 4.3-10
 
@@ -62,7 +62,7 @@ $\alpha=1/3$, $\beta_2=4/9$. $\blacksquare$
 
 ### 解答 习题 5.1-8
 
-$\alpha=0.4013$; $\beta\left(\theta\right)=1-\left(0.95/\theta\right)^{10}$ ($\theta> 0.95$). $\blacksquare$
+$\alpha=0.4013$; $\beta\left(\theta\right)=1-\left(0.95/\theta\right)^{10}$ ($\theta>0.95$). $\blacksquare$
 
 ## 习题 5.2-5
 
@@ -70,7 +70,7 @@ U 检验.
 
 ### 解答 习题 5.2-5
 
-$u=1.2< 1.96$, 不拒绝. $\blacksquare$
+$u=1.2<1.96$, 不拒绝. $\blacksquare$
 
 ## 习题 5.2-7
 
@@ -78,4 +78,4 @@ $u=1.2< 1.96$, 不拒绝. $\blacksquare$
 
 ### 解答 习题 5.2-7
 
-$u=-2.5< -1.645$, 拒绝. $\blacksquare$
+$u=-2.5<-1.645$, 拒绝. $\blacksquare$

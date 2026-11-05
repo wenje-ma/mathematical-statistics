@@ -26,7 +26,7 @@
 
 ### 解答 习题 2.5-1
 
-$\sum X_i$ 充分; $X_1+2X_2$ 不充分. $\blacksquare$
+$\sum{X}_i$ 充分; $X_1+2X_2$ 不充分. $\blacksquare$
 
 ## 习题 2.5-5
 
@@ -34,7 +34,7 @@ $\sum X_i$ 充分; $X_1+2X_2$ 不充分. $\blacksquare$
 
 ### 解答 习题 2.5-5
 
-$\sum X_i^2$. $\blacksquare$
+$\sum{X}_i^2$. $\blacksquare$
 
 ## 习题 2.5-6
 
@@ -42,7 +42,7 @@ $\sum X_i^2$. $\blacksquare$
 
 ### 解答 习题 2.5-6
 
-$\sum X_i$. $\blacksquare$
+$\sum{X}_i$. $\blacksquare$
 
 ## 习题 2.5-7
 
@@ -50,15 +50,15 @@ $\sum X_i$. $\blacksquare$
 
 ### 解答 习题 2.5-7
 
-$\mu$ 已知时 $\sum\left(X_i-\mu\right)^2$; $\sigma^2$ 已知时 $\sum X_i$. $\blacksquare$
+$\mu$ 已知时 $\sum\left(X_i-\mu\right)^2$; $\sigma^2$ 已知时 $\sum{X}_i$. $\blacksquare$
 
 ## 习题 2.6-1
 
-证明泊松样本 $\sum X_i$ 完备.
+证明泊松样本 $\sum{X}_i$ 完备.
 
 ### 解答 习题 2.6-1
 
-指数族自然形式, 自然空间 $\mathbb R$. $\blacksquare$
+指数族自然形式, 自然空间 $\mathbb{R}$. $\blacksquare$
 
 ## 习题 2.6-5
 
@@ -66,11 +66,11 @@ $\mu$ 已知时 $\sum\left(X_i-\mu\right)^2$; $\sigma^2$ 已知时 $\sum X_i$. $
 
 ### 解答 习题 2.6-5
 
-$\sum X_i^2$. $\blacksquare$
+$\sum{X}_i^2$. $\blacksquare$
 
 ## 习题 2.6-6
 
-证明指数分布 $\sum X_i$ 完备.
+证明指数分布 $\sum{X}_i$ 完备.
 
 ### 解答 习题 2.6-6
 
@@ -82,7 +82,7 @@ $\sum X_i^2$. $\blacksquare$
 
 ### 解答 习题 2.6-7
 
-$\mu$ 已知时 $\sum\left(X_i-\mu\right)^2$; $\sigma^2$ 已知时 $\sum X_i$. $\blacksquare$
+$\mu$ 已知时 $\sum\left(X_i-\mu\right)^2$; $\sigma^2$ 已知时 $\sum{X}_i$. $\blacksquare$
 
 ## 习题 2.6-10
 

@@ -30,11 +30,11 @@
 
 > **Example 3.5.3 (Bernoulli)**
 > 
-> $\sum X_i$.
+> $\sum{X}_i$.
 
 > **Example 3.5.7 (Normal)**
 > 
-> $\left(\overline X,S^2\right)$.
+> $\left(\overline{X},S^2\right)$.
 
 ## Exercise 3.3-6
 
@@ -42,7 +42,7 @@ Two-parameter exponential.
 
 ### Solution to Exercise 3.3-6
 
-$X_{\left(1\right)}$ and $1/\left(\overline X-X_{\left(1\right)}\right)$. $\blacksquare$
+$X_{\left(1\right)}$ and $1/\left(\overline{X}-X_{\left(1\right)}\right)$. $\blacksquare$
 
 ## Exercise 3.4-1
 

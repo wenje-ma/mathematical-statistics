@@ -2,11 +2,11 @@
 
 > **Lemma 2.3.1 (Mean and Variance of Sample Mean/Variance)**
 > 
-> $E\left(\overline X\right)=\mu$, etc.
+> $E\left(\overline{X}\right)=\mu$, etc.
 
 > **Theorem 2.3.3 (Normal Sample Distributions)**
 > 
-> $\overline X$ and $S^2$ independent.
+> $\overline{X}$ and $S^2$ independent.
 
 > **Definition 2.4.1 (Exponential Family)**
 > 
@@ -62,4 +62,4 @@ Lognormal distribution.
 
 ### Solution to Exercise 2.4-7
 
-$\varphi_2< 0$. $\blacksquare$
+$\varphi_2<0$. $\blacksquare$
