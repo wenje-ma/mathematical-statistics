@@ -22,15 +22,15 @@
 
 > **定义 1.4.1 (统计量)**
 > 
-> 设 $X_1,X_2,\ldots,X_n$ 是来自总体 $X$ 的样本, $g(X_1,X_2,\ldots,X_n)$ 是样本的函数, 且除依赖于样本外不依赖于任何其他的未知量, 则称 $g(X_1,X_2,\ldots,X_n)$ 为统计量. (教材 $\S1.4$, p12)
+> 设 $X_1,X_2,\ldots,X_n$ 是来自总体 $X$ 的样本, $g\left(X_1,X_2,\ldots,X_n\right)$ 是样本的函数, 且除依赖于样本外不依赖于任何其他的未知量, 则称 $g\left(X_1,X_2,\ldots,X_n\right)$ 为统计量. (教材 $\S1.4$, p12)
 
 > **定义 1.4.2 (顺序统计量)**
 > 
-> 把 $X_1,X_2,\ldots,X_n$ 按从小到大的顺序排列为 $X_{(1)}\le X_{(2)}\le\cdots\le X_{(n)}$, 称 $\left(X_{(1)},X_{(2)},\ldots,X_{(n)}\right)$ 为顺序统计量. (教材 $\S1.4$, p14)
+> 把 $X_1,X_2,\ldots,X_n$ 按从小到大的顺序排列为 $X_{\left(1\right)}\le{}X_{\left(2\right)}\le\cdots\le{}X_{\left(n\right)}$, 称 $\left(X_{\left(1\right)},X_{\left(2\right)},\ldots,X_{\left(n\right)}\right)$ 为顺序统计量. (教材 $\S1.4$, p14)
 
 > **定义 1.5.1 (经验分布函数)**
 > 
-> 设 $X_{(1)}\le\cdots\le X_{(n)}$ 是样本的顺序统计量, 对任意实数 $x$, 当 $x<X_{(1)}$ 时取 $F_n(x)=0$, 当 $X_{(r)}\le x<X_{(r+1)}$, $r=1,2,\ldots,n-1$ 时取 $F_n(x)=r/n$, 当 $x\ge X_{(n)}$ 时取 $F_n(x)=1$, 称 $F_n(x)$ 为经验分布函数. (教材 $\S1.5$, p15)
+> 设 $X_{\left(1\right)}\le\cdots\le{}X_{\left(n\right)}$ 是样本的顺序统计量, 对任意实数 $x$, 当 $x<{}X_{\left(1\right)}$ 时取 $F_n\left(x\right)=0$, 当 $X_{\left(r\right)}\le{}x<{}X_{\left(r+1\right)}$, $r=1,2,\ldots,n-1$ 时取 $F_n\left(x\right)=r/n$, 当 $x\ge{}X_{\left(n\right)}$ 时取 $F_n\left(x\right)=1$, 称 $F_n\left(x\right)$ 为经验分布函数. (教材 $\S1.5$, p15)
 
 ## 习题 1-1 (总体与样本)
 
@@ -66,11 +66,11 @@ $\blacksquare$
 
 设 $X_1,X_2,\ldots,X_n$ 是来自总体 $X$ 的样本, 在下列三种情况下, 分别写出样本 $X_1,X_2,\ldots,X_n$ 的联合分布列或联合密度函数.
 
-(1) 总体 $X$ 服从几何分布, 其分布列为 $P\left\{X=x\right\}=\left(1-p\right)^{x-1}p$, $0<p<1$, $x=1,2,\ldots$;
+(1) 总体 $X$ 服从几何分布, 其分布列为 $P\left\{X=x\right\}=\left(1-p\right)^{x-1}p$, $0<{}p<1$, $x=1,2,\ldots$;
 
-(2) 总体 $X$ 服从指数分布, 其密度函数为 $f(x)=\lambda\mathrm{e}^{-\lambda{}x}$ ($x>0$), $f(x)=0$ (其他), 其中 $\lambda>0$;
+(2) 总体 $X$ 服从指数分布, 其密度函数为 $f\left(x\right)=\lambda\mathrm{e}^{-\lambda{}x}$ ($x>0$), $f\left(x\right)=0$ (其他), 其中 $\lambda>0$;
 
-(3) 总体 $X$ 的密度函数为 $f(x)=\frac{\lambda}{2}\mathrm{e}^{-\lambda\left|x\right|}$, $-\infty<x<+\infty$, 其中 $\lambda>0$.
+(3) 总体 $X$ 的密度函数为 $f\left(x\right)=\frac{\lambda}{2}\mathrm{e}^{-\lambda\left|x\right|}$, $-\infty<{}x<+\infty$, 其中 $\lambda>0$.
 
 ### 解答 1-4
 
@@ -108,23 +108,23 @@ $\blacksquare$
 
 样本分布族是参数空间中每个参数值所对应的样本分布之全体, 其中样本分布是 $X_1,\ldots,X_n$ 的联合分布. 由**定义 1.3.2 (简单随机样本)**, 联合分布是各边缘分布之积, 故只需把边缘分布逐项相乘. 各族的参数空间按**定义 1.3.3 (参数空间)** 写出.
 
-两点分布 $B(1,p)$: $\Theta=\left\{p:0<p<1\right\}$,
+两点分布 $B\left(1,p\right)$: $\Theta=\left\{p:0<{}p<1\right\}$,
 
 $$
-\left\{\prod_{i=1}^{n}p^{x_i}\left(1-p\right)^{1-x_i}=p^{\sum_{i=1}^{n}x_i}\left(1-p\right)^{n-\sum_{i=1}^{n}x_i}:x_i\in\left\{0,1\right\},0<p<1\right\}.
-$$
-
-$\blacksquare$
-
-二项分布 $B(m,p)$, $m$ 为正整数: $\Theta=\left\{p:0<p<1\right\}$,
-
-$$
-\left\{\prod_{i=1}^{n}\binom{m}{x_i}p^{x_i}\left(1-p\right)^{m-x_i}:x_i\in\left\{0,1,\ldots,m\right\},0<p<1\right\}.
+\left\{\prod_{i=1}^{n}p^{x_i}\left(1-p\right)^{1-x_i}=p^{\sum_{i=1}^{n}x_i}\left(1-p\right)^{n-\sum_{i=1}^{n}x_i}:x_i\in\left\{0,1\right\},0<{}p<1\right\}.
 $$
 
 $\blacksquare$
 
-泊松分布 $P(\lambda)$: $\Theta=\left\{\lambda:\lambda>0\right\}$,
+二项分布 $B\left(m,p\right)$, $m$ 为正整数: $\Theta=\left\{p:0<{}p<1\right\}$,
+
+$$
+\left\{\prod_{i=1}^{n}\binom{m}{x_i}p^{x_i}\left(1-p\right)^{m-x_i}:x_i\in\left\{0,1,\ldots,m\right\},0<{}p<1\right\}.
+$$
+
+$\blacksquare$
+
+泊松分布 $P\left(\lambda\right)$: $\Theta=\left\{\lambda:\lambda>0\right\}$,
 
 $$
 \left\{\prod_{i=1}^{n}\frac{\lambda^{x_i}}{x_i!}\mathrm{e}^{-\lambda}=\frac{\lambda^{\sum_{i=1}^{n}x_i}}{\prod_{i=1}^{n}x_i!}\mathrm{e}^{-n\lambda}:x_i\in\left\{0,1,2,\ldots\right\},\lambda>0\right\}.
@@ -132,26 +132,26 @@ $$
 
 $\blacksquare$
 
-几何分布 $G(p)$: $\Theta=\left\{p:0<p<1\right\}$,
+几何分布 $G\left(p\right)$: $\Theta=\left\{p:0<{}p<1\right\}$,
 
 $$
-\left\{p^{n}\left(1-p\right)^{\sum_{i=1}^{n}x_i-n}:x_i\in\left\{1,2,\ldots\right\},0<p<1\right\}.
-$$
-
-$\blacksquare$
-
-均匀分布 $U[a,b]$: $\Theta=\left\{(a,b):-\infty<a<b<+\infty\right\}$,
-
-$$
-\left\{\left(b-a\right)^{-n}:\ a\le x_i\le b,\ i=1,2,\ldots,n,\ -\infty<a<b<+\infty\right\}.
+\left\{p^{n}\left(1-p\right)^{\sum_{i=1}^{n}x_i-n}:x_i\in\left\{1,2,\ldots\right\},0<{}p<1\right\}.
 $$
 
 $\blacksquare$
 
-指数分布 $E(\lambda)$: $\Theta=\left\{\lambda:\lambda>0\right\}$,
+均匀分布 $U\left[a,b\right]$: $\Theta=\left\{\left(a,b\right):-\infty<{}a<{}b<+\infty\right\}$,
 
 $$
-\left\{\lambda^{n}\mathrm{e}^{-\lambda\sum_{i=1}^{n}x_i}:x_i>0,\ i=1,2,\ldots,n,\ \lambda>0\right\}.
+\left\{\left(b-a\right)^{-n}:\,a\le{}x_i\le{}b,i=1,2,\ldots,n,-\infty<{}a<{}b<+\infty\right\}.
+$$
+
+$\blacksquare$
+
+指数分布 $E\left(\lambda\right)$: $\Theta=\left\{\lambda:\lambda>0\right\}$,
+
+$$
+\left\{\lambda^{n}\mathrm{e}^{-\lambda\sum_{i=1}^{n}x_i}:x_i>0,i=1,2,\ldots,n,\lambda>0\right\}.
 $$
 
 $\blacksquare$
@@ -159,7 +159,7 @@ $\blacksquare$
 正态分布 $N\left(\mu,\sigma^{2}\right)$: $\Theta=\left\{\left(\mu,\sigma^{2}\right):\mu\in\mathbb{R},\sigma>0\right\}$,
 
 $$
-\left\{\left(2\pi\sigma^{2}\right)^{-\frac{n}{2}}\exp\left\{-\frac{1}{2\sigma^{2}}\sum_{i=1}^{n}\left(x_i-\mu\right)^{2}\right\}:x_i\in\mathbb{R},\ i=1,2,\ldots,n,\ \mu\in\mathbb{R},\sigma>0\right\}.
+\left\{\left(2\pi\sigma^{2}\right)^{-\frac{n}{2}}\exp\left\{-\frac{1}{2\sigma^{2}}\sum_{i=1}^{n}\left(x_i-\mu\right)^{2}\right\}:x_i\in\mathbb{R},i=1,2,\ldots,n,\mu\in\mathbb{R},\sigma>0\right\}.
 $$
 
 $\blacksquare$
@@ -179,7 +179,7 @@ $$
 单个正态总体的密度为 $\frac{1}{\sqrt{2\pi}\sigma}\exp\left\{-\frac{\left(x-\mu\right)^{2}}{2\sigma^{2}}\right\}$, 把 $n$ 个边缘密度相乘, 得样本分布族
 
 $$
-\mathcal{F}=\left\{\left(\frac{1}{\sqrt{2\pi}\sigma}\right)^{n}\exp\left\{-\frac{1}{2\sigma^{2}}\sum_{i=1}^{n}\left(x_i-\mu\right)^{2}\right\}:\left(\mu,\sigma^{2}\right)\in\Theta,\ x_i\in\mathbb{R}\right\}.
+\mathcal{F}=\left\{\left(\frac{1}{\sqrt{2\pi}\sigma}\right)^{n}\exp\left\{-\frac{1}{2\sigma^{2}}\sum_{i=1}^{n}\left(x_i-\mu\right)^{2}\right\}:\left(\mu,\sigma^{2}\right)\in\Theta,x_i\in\mathbb{R}\right\}.
 $$
 
 统计模型即样本分布族 $\mathcal{F}$ 与参数空间 $\Theta$ 这一对. $\mu$ 与 $\sigma^{2}$ 都未知, 故 $\Theta$ 中每个点给出一条样本分布, $\mathcal{F}$ 含不止一条分布.
@@ -195,7 +195,7 @@ $$
 $$
 
 $$
-\frac{1}{\sigma^{2}}\sum_{i=1}^{n}\left(X_i-\mu\right)^{2},\quad X_1+2\mu,\quad\max\left\{X_1,\ldots,X_n\right\},\quad\min\left\{X_1,\ldots,X_n\right\}.
+\frac{1}{\sigma^{2}}\sum_{i=1}^{n}\left(X_i-\mu\right)^{2},\quad{}X_1+2\mu,\quad\max\left\{X_1,\ldots,X_n\right\},\quad\min\left\{X_1,\ldots,X_n\right\}.
 $$
 
 ### 解答 1-8
@@ -239,25 +239,25 @@ $\blacksquare$
 记样本为 $X_1,\ldots,X_{10}$, 观察值为 $95,86,78,90,62,73,89,92,84,76$. 按**定义 1.4.2 (顺序统计量)**, 把它们从小到大排列为
 
 $$
-x_{(1)}=62,\ x_{(2)}=73,\ x_{(3)}=76,\ x_{(4)}=78,\ x_{(5)}=84,\ x_{(6)}=86,\ x_{(7)}=89,\ x_{(8)}=90,\ x_{(9)}=92,\ x_{(10)}=95.
+x_{\left(1\right)}=62,x_{\left(2\right)}=73,x_{\left(3\right)}=76,x_{\left(4\right)}=78,x_{\left(5\right)}=84,x_{\left(6\right)}=86,x_{\left(7\right)}=89,x_{\left(8\right)}=90,x_{\left(9\right)}=92,x_{\left(10\right)}=95.
 $$
 
 按**定义 1.5.1 (经验分布函数)**, 取 $n=10$, 得
 
 $$
-F_{10}(x)=
+F_{10}\left(x\right)=
 \begin{cases}
-0, & x<62,\\
-0.1, & 62\le x<73,\\
-0.2, & 73\le x<76,\\
-0.3, & 76\le x<78,\\
-0.4, & 78\le x<84,\\
-0.5, & 84\le x<86,\\
-0.6, & 86\le x<89,\\
-0.7, & 89\le x<90,\\
-0.8, & 90\le x<92,\\
-0.9, & 92\le x<95,\\
-1, & x\ge 95.
+0,&x<62,\\
+0.1,&62\le{}x<73,\\
+0.2,&73\le{}x<76,\\
+0.3,&76\le{}x<78,\\
+0.4,&78\le{}x<84,\\
+0.5,&84\le{}x<86,\\
+0.6,&86\le{}x<89,\\
+0.7,&89\le{}x<90,\\
+0.8,&90\le{}x<92,\\
+0.9,&92\le{}x<95,\\
+1,&x\ge95.
 \end{cases}
 $$
 

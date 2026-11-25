@@ -2,27 +2,27 @@
 
 > **定理 2.3.3 (正态总体样本均值与样本方差的分布)**
 > 
-> 设 $X_1,\ldots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^{2}\right)$ 的样本, $\bar{X}$ 与 $S^{2}$ 分别为样本均值与样本方差, 则 $\bar{X}\sim N\left(\mu,\sigma^{2}/n\right)$, $\left(n-1\right)S^{2}/\sigma^{2}\sim\chi^{2}\left(n-1\right)$, 且 $\bar{X}$ 与 $S^{2}$ 相互独立. (教材 $\S2.3$, p43)
+> 设 $X_1,\ldots,X_n$ 是来自正态总体 $N\left(\mu,\sigma^{2}\right)$ 的样本, $\bar{X}$ 与 $S^{2}$ 分别为样本均值与样本方差, 则 $\bar{X}\sim{}N\left(\mu,\sigma^{2}/n\right)$, $\left(n-1\right)S^{2}/\sigma^{2}\sim\chi^{2}\left(n-1\right)$, 且 $\bar{X}$ 与 $S^{2}$ 相互独立. (教材 $\S2.3$, p43)
 
 > **定理 2.3.5 (正态总体均值的 $t$ 分布)**
 > 
-> 设 $X_1,\ldots,X_n$ 是来自 $N\left(\mu,\sigma^{2}\right)$ 的样本, 则 $T=\frac{\bar{X}-\mu}{S/\sqrt{n}}\sim t\left(n-1\right)$. (教材 $\S2.3$, p45)
+> 设 $X_1,\ldots,X_n$ 是来自 $N\left(\mu,\sigma^{2}\right)$ 的样本, 则 $T=\frac{\bar{X}-\mu}{S/\sqrt{n}}\sim{}t\left(n-1\right)$. (教材 $\S2.3$, p45)
 
 > **定理 2.3.6 (两样本的合并方差 $t$ 分布)**
 > 
-> 设 $X_1,\ldots,X_m$ 与 $Y_1,\ldots,Y_n$ 分别来自 $N\left(\mu_1,\sigma^{2}\right)$ 与 $N\left(\mu_2,\sigma^{2}\right)$ 且相互独立, 记 $S_w^{2}=\frac{\left(m-1\right)S_1^{2}+\left(n-1\right)S_2^{2}}{m+n-2}$, 则 $\frac{\bar{X}-\bar{Y}-\left(\mu_1-\mu_2\right)}{S_w\sqrt{\frac{1}{m}+\frac{1}{n}}}\sim t\left(m+n-2\right)$. (教材 $\S2.3$, p46)
+> 设 $X_1,\ldots,X_m$ 与 $Y_1,\ldots,Y_n$ 分别来自 $N\left(\mu_1,\sigma^{2}\right)$ 与 $N\left(\mu_2,\sigma^{2}\right)$ 且相互独立, 记 $S_w^{2}=\frac{\left(m-1\right)S_1^{2}+\left(n-1\right)S_2^{2}}{m+n-2}$, 则 $\frac{\bar{X}-\bar{Y}-\left(\mu_1-\mu_2\right)}{S_w\sqrt{\frac{1}{m}+\frac{1}{n}}}\sim{}t\left(m+n-2\right)$. (教材 $\S2.3$, p46)
 
 > **定理 2.3.7 (两样本方差比的 $F$ 分布)**
 > 
-> 设 $X_1,\ldots,X_m$ 与 $Y_1,\ldots,Y_n$ 分别来自 $N\left(\mu_1,\sigma_1^{2}\right)$ 与 $N\left(\mu_2,\sigma_2^{2}\right)$ 且相互独立, 则 $\frac{S_1^{2}/\sigma_1^{2}}{S_2^{2}/\sigma_2^{2}}\sim F\left(m-1,n-1\right)$. (教材 $\S2.3$, p47)
+> 设 $X_1,\ldots,X_m$ 与 $Y_1,\ldots,Y_n$ 分别来自 $N\left(\mu_1,\sigma_1^{2}\right)$ 与 $N\left(\mu_2,\sigma_2^{2}\right)$ 且相互独立, 则 $\frac{S_1^{2}/\sigma_1^{2}}{S_2^{2}/\sigma_2^{2}}\sim{}F\left(m-1,n-1\right)$. (教材 $\S2.3$, p47)
 
 > **定理 2.3.8 (指数分布样本与卡方分布的关系)**
 > 
-> 设 $X_1,\ldots,X_n$ 是来自指数分布 $E(\lambda)$ 的样本, 则 $2\lambda n\bar{X}\sim\chi^{2}(2n)$. (教材 $\S2.3$, p47)
+> 设 $X_1,\ldots,X_n$ 是来自指数分布 $E\left(\lambda\right)$ 的样本, 则 $2\lambda{}n\bar{X}\sim\chi^{2}\left(2n\right)$. (教材 $\S2.3$, p47)
 
 > **定义 5.1.2 (显著性检验)**
 > 
-> 设 $\varphi(x)$ 是上述检验问题的检验函数, $0\le\alpha\le1$. 若对一切 $\theta\in\Theta_0$ 都有 $\gamma_{\varphi}(\theta)\le\alpha$, 则称 $\varphi$ 为水平为 $\alpha$ 的显著性检验, 其拒绝域即使 $\varphi$ 取 $1$ 的样本全体. (教材 $\S5.1$, p151)
+> 设 $\varphi\left(x\right)$ 是上述检验问题的检验函数, $0\le\alpha\le1$. 若对一切 $\theta\in\Theta_0$ 都有 $\gamma_{\varphi}\left(\theta\right)\le\alpha$, 则称 $\varphi$ 为水平为 $\alpha$ 的显著性检验, 其拒绝域即使 $\varphi$ 取 $1$ 的样本全体. (教材 $\S5.1$, p151)
 
 ## 习题 5.2-12 (正态总体标准差的双边 $\chi^{2}$ 检验)
 
@@ -76,23 +76,23 @@ $\blacksquare$
 
 ### 解答 5.2-15
 
-(1) 方差已知. 由**定理 2.3.3 (正态总体样本均值与样本方差的分布)**, $H_0$ 成立时 $U=\frac{\bar{X}-10}{0.2/\sqrt{10}}\sim N\left(0,1\right)$,
+(1) 方差已知. 由**定理 2.3.3 (正态总体样本均值与样本方差的分布)**, $H_0$ 成立时 $U=\frac{\bar{X}-10}{0.2/\sqrt{10}}\sim{}N\left(0,1\right)$,
 
 $$
 u=\frac{10.05-10}{0.2/\sqrt{10}}=\frac{0.05}{0.06325}=0.791.
 $$
 
-由**定义 5.1.2 (显著性检验)**, 单边拒绝域为 $U\ge u_{0.05}=1.645$; 因 $0.791<1.645$, 不拒绝 $H_0$.
+由**定义 5.1.2 (显著性检验)**, 单边拒绝域为 $U\ge{}u_{0.05}=1.645$; 因 $0.791<1.645$, 不拒绝 $H_0$.
 
 $\blacksquare$
 
-(2) 方差未知. 由**定理 2.3.5 (正态总体均值的 $t$ 分布)**, $H_0$ 成立时 $T=\frac{\bar{X}-10}{S/\sqrt{10}}\sim t\left(9\right)$, 其中 $S=\sqrt{0.0576}=0.24$,
+(2) 方差未知. 由**定理 2.3.5 (正态总体均值的 $t$ 分布)**, $H_0$ 成立时 $T=\frac{\bar{X}-10}{S/\sqrt{10}}\sim{}t\left(9\right)$, 其中 $S=\sqrt{0.0576}=0.24$,
 
 $$
 t=\frac{0.05}{0.24/\sqrt{10}}=\frac{0.05}{0.07589}=0.659.
 $$
 
-由**定义 5.1.2 (显著性检验)**, 单边拒绝域为 $T\ge t_{0.05}\left(9\right)=1.833$; 因 $0.659<1.833$, 不拒绝 $H_0$.
+由**定义 5.1.2 (显著性检验)**, 单边拒绝域为 $T\ge{}t_{0.05}\left(9\right)=1.833$; 因 $0.659<1.833$, 不拒绝 $H_0$.
 
 $\blacksquare$
 
@@ -119,7 +119,7 @@ $\blacksquare$
 (1) 方差已知. 由**定理 2.3.3 (正态总体样本均值与样本方差的分布)**, 两样本独立时
 
 $$
-U=\frac{\bar{X}-\bar{Y}-\left(\mu_1-\mu_2\right)}{\sqrt{\sigma_1^{2}/m+\sigma_2^{2}/n}}\sim N\left(0,1\right),
+U=\frac{\bar{X}-\bar{Y}-\left(\mu_1-\mu_2\right)}{\sqrt{\sigma_1^{2}/m+\sigma_2^{2}/n}}\sim{}N\left(0,1\right),
 $$
 
 分母的标准误为
@@ -134,14 +134,14 @@ $$
 u=\frac{5.6-5.2}{0.3365}=\frac{0.4}{0.3365}=1.189.
 $$
 
-由**定义 5.1.2 (显著性检验)**, 单边拒绝域为 $U\ge u_{0.05}=1.645$; 因 $1.189<1.645$, 不拒绝 $H_0$.
+由**定义 5.1.2 (显著性检验)**, 单边拒绝域为 $U\ge{}u_{0.05}=1.645$; 因 $1.189<1.645$, 不拒绝 $H_0$.
 
 $\blacksquare$
 
 (2) 方差相等但未知. 由**定理 2.3.6 (两样本的合并方差 $t$ 分布)**,
 
 $$
-T=\frac{\bar{X}-\bar{Y}-\left(\mu_1-\mu_2\right)}{S_w\sqrt{1/m+1/n}}\sim t\left(148\right),
+T=\frac{\bar{X}-\bar{Y}-\left(\mu_1-\mu_2\right)}{S_w\sqrt{1/m+1/n}}\sim{}t\left(148\right),
 $$
 
 其中
@@ -156,7 +156,7 @@ $$
 t=\frac{0.4}{0.3251}=1.230.
 $$
 
-由**定义 5.1.2 (显著性检验)**, 单边拒绝域为 $T\ge t_{0.05}\left(148\right)\approx1.655$; 因 $1.230<1.655$, 不拒绝 $H_0$.
+由**定义 5.1.2 (显著性检验)**, 单边拒绝域为 $T\ge{}t_{0.05}\left(148\right)\approx1.655$; 因 $1.230<1.655$, 不拒绝 $H_0$.
 
 $\blacksquare$
 
@@ -165,7 +165,7 @@ $\blacksquare$
 对两批同类电子元件的电阻 (单位: $\Omega$) 进行测试, 各抽取 $6$ 件测得结果如下:
 
 $$
-\text{第一批}:0.140,0.138,0.143,0.142,0.144,0.137;\qquad \text{第二批}:0.135,0.140,0.142,0.136,0.138,0.140.
+\text{第一批}:0.140,0.138,0.143,0.142,0.144,0.137;\quad\text{第二批}:0.135,0.140,0.142,0.136,0.138,0.140.
 $$
 
 已知两批元件的电阻分别服从正态分布 $N\left(\mu_1,\sigma_1^{2}\right)$ 和 $N\left(\mu_2,\sigma_2^{2}\right)$, 在显著性水平 $\alpha=0.05$ 下, 分别检验:
@@ -179,17 +179,17 @@ $$
 先算两批样本的均值与离差平方和:
 
 $$
-\bar{x}_1=0.140667,\quad\sum\left(x_{1i}-\bar{x}_1\right)^{2}=4.068\times10^{-5},\quad s_1^{2}=8.136\times10^{-6};
+\bar{x}_1=0.140667,\quad\sum\left(x_{1i}-\bar{x}_1\right)^{2}=4.068\times10^{-5},\quad{}s_1^{2}=8.136\times10^{-6};
 $$
 
 $$
-\bar{x}_2=0.1385,\quad\sum\left(x_{2i}-\bar{x}_2\right)^{2}=3.575\times10^{-5},\quad s_2^{2}=7.150\times10^{-6}.
+\bar{x}_2=0.1385,\quad\sum\left(x_{2i}-\bar{x}_2\right)^{2}=3.575\times10^{-5},\quad{}s_2^{2}=7.150\times10^{-6}.
 $$
 
 (1) 由**定理 2.3.7 (两样本方差比的 $F$ 分布)**, $H_0:\sigma_1^{2}=\sigma_2^{2}$ 成立时
 
 $$
-F=\frac{S_1^{2}}{S_2^{2}}\sim F\left(5,5\right),
+F=\frac{S_1^{2}}{S_2^{2}}\sim{}F\left(5,5\right),
 $$
 
 代入得
@@ -198,7 +198,7 @@ $$
 f=\frac{8.136}{7.150}=1.138.
 $$
 
-由**定义 5.1.2 (显著性检验)**, 拒绝域为 $F\le F_{0.975}\left(5,5\right)=0.163$ 或 $F\ge F_{0.025}\left(5,5\right)=7.146$; 因 $1.138$ 落在其间, 不拒绝 $H_0$, 可认为两批电阻的方差相等.
+由**定义 5.1.2 (显著性检验)**, 拒绝域为 $F\le{}F_{0.975}\left(5,5\right)=0.163$ 或 $F\ge{}F_{0.025}\left(5,5\right)=7.146$; 因 $1.138$ 落在其间, 不拒绝 $H_0$, 可认为两批电阻的方差相等.
 
 $\blacksquare$
 
@@ -220,7 +220,7 @@ $$
 t=\frac{0.140667-0.1385}{1.596\times10^{-3}}=\frac{2.167\times10^{-3}}{1.596\times10^{-3}}=1.358.
 $$
 
-由**定义 5.1.2 (显著性检验)**, 拒绝域为 $\left|T\right|\ge t_{0.025}\left(10\right)=2.228$; 因 $1.358<2.228$, 不拒绝 $H_0$, 两批平均电阻无显著差异.
+由**定义 5.1.2 (显著性检验)**, 拒绝域为 $\left|T\right|\ge{}t_{0.025}\left(10\right)=2.228$; 因 $1.358<2.228$, 不拒绝 $H_0$, 两批平均电阻无显著差异.
 
 $\blacksquare$
 
@@ -233,7 +233,7 @@ $\blacksquare$
 记平均寿命 $\theta=1/\lambda$, 检验问题
 
 $$
-H_0:\theta\ge1000;\qquad H_1:\theta<1000,
+H_0:\theta\ge1000;\quad{}H_1:\theta<1000,
 $$
 
 把"低于标称值"放在备择一侧. 由**定理 2.3.8 (指数分布样本与卡方分布的关系)**, 当 $\theta=\theta_0=1000$ 时
@@ -253,7 +253,7 @@ $\blacksquare$
 设 $X_1,X_2,\ldots,X_m$ 是来自指数分布总体 $E\left(\lambda_1\right)$ 的样本, $Y_1,Y_2,\ldots,Y_n$ 是来自 $E\left(\lambda_2\right)$ 的样本, 且两样本相互独立, 在显著性水平 $\alpha$ 下检验假设
 
 $$
-H_0:\lambda_1=\lambda_2;\qquad H_1:\lambda_1\ne\lambda_2.
+H_0:\lambda_1=\lambda_2;\quad{}H_1:\lambda_1\ne\lambda_2.
 $$
 
 ### 解答 5.3-3
@@ -261,19 +261,19 @@ $$
 由**定理 2.3.8 (指数分布样本与卡方分布的关系)**,
 
 $$
-2m\lambda_1\bar{X}\sim\chi^{2}\left(2m\right),\qquad 2n\lambda_2\bar{Y}\sim\chi^{2}\left(2n\right),
+2m\lambda_1\bar{X}\sim\chi^{2}\left(2m\right),\quad2n\lambda_2\bar{Y}\sim\chi^{2}\left(2n\right),
 $$
 
 且相互独立. 当 $H_0$ 成立时两个参数相同, 由 $F$ 分布的定义,
 
 $$
-F=\frac{2m\lambda_1\bar{X}/\left(2m\right)}{2n\lambda_2\bar{Y}/\left(2n\right)}=\frac{\bar{X}}{\bar{Y}}\sim F\left(2m,2n\right).
+F=\frac{2m\lambda_1\bar{X}/\left(2m\right)}{2n\lambda_2\bar{Y}/\left(2n\right)}=\frac{\bar{X}}{\bar{Y}}\sim{}F\left(2m,2n\right).
 $$
 
 由**定义 5.1.2 (显著性检验)**, 取双侧拒绝域
 
 $$
-D=\left\{\bar{X}/\bar{Y}\le F_{1-\alpha/2}\left(2m,2n\right)\ \text{或}\ \bar{X}/\bar{Y}\ge F_{\alpha/2}\left(2m,2n\right)\right\}.
+D=\left\{\bar{X}/\bar{Y}\le{}F_{1-\alpha/2}\left(2m,2n\right)\;\text{或}\;\bar{X}/\bar{Y}\ge{}F_{\alpha/2}\left(2m,2n\right)\right\}.
 $$
 
 当 $F$ 落进 $D$ 时拒绝 $H_0$, 否则不拒绝.
@@ -282,7 +282,7 @@ $\blacksquare$
 
 ## 习题 5.3-4 (泊松参数的大样本检验)
 
-设 $X_1,X_2,\ldots,X_n$ 为来自总体 $X\sim P(\lambda)$, $\lambda>0$ 的样本, 在显著性水平 $\alpha$ 下, 用大样本方法求检验假设 $H_0:\lambda=\lambda_0$; $H_1:\lambda\ne\lambda_0$ 的拒绝域.
+设 $X_1,X_2,\ldots,X_n$ 为来自总体 $X\sim{}P\left(\lambda\right)$, $\lambda>0$ 的样本, 在显著性水平 $\alpha$ 下, 用大样本方法求检验假设 $H_0:\lambda=\lambda_0$; $H_1:\lambda\ne\lambda_0$ 的拒绝域.
 
 ### 解答 5.3-4
 
@@ -295,7 +295,7 @@ $$
 其极限分布与 $\lambda_0$ 无关, 故可直接用作大样本检验统计量 (不拒绝时 $\bar{X}$ 近似为 $\lambda_0$). 由**定义 5.1.2 (显著性检验)**, 拒绝域取
 
 $$
-D=\left\{\left|\frac{\bar{X}-\lambda_0}{\sqrt{\lambda_0/n}}\right|\ge u_{\alpha/2}\right\}.
+D=\left\{\left|\frac{\bar{X}-\lambda_0}{\sqrt{\lambda_0/n}}\right|\ge{}u_{\alpha/2}\right\}.
 $$
 
 $\blacksquare$
@@ -309,7 +309,7 @@ $\blacksquare$
 记 $\hat{p}=450/1000=0.45$. $H_0$ 成立时 $\hat{p}$ 的方差为 $p_0\left(1-p_0\right)/n=0.25/1000$, 由中心极限定理
 
 $$
-U=\frac{\hat{p}-p_0}{\sqrt{p_0\left(1-p_0\right)/n}}\sim N\left(0,1\right)\quad\left(\text{近似}\right).
+U=\frac{\hat{p}-p_0}{\sqrt{p_0\left(1-p_0\right)/n}}\sim{}N\left(0,1\right)\quad\left(\text{近似}\right).
 $$
 
 代入数值:
@@ -318,6 +318,6 @@ $$
 u=\frac{0.45-0.5}{\sqrt{0.00025}}=\frac{-0.05}{0.015811}=-3.162.
 $$
 
-由**定义 5.1.2 (显著性检验)**, 拒绝域为 $\left|U\right|\ge u_{0.025}=1.96$; 因 $\left|-3.162\right|>1.96$, 拒绝 $H_0$, 即认为该市拥有电脑家庭的比例不是 $0.5$.
+由**定义 5.1.2 (显著性检验)**, 拒绝域为 $\left|U\right|\ge{}u_{0.025}=1.96$; 因 $\left|-3.162\right|>1.96$, 拒绝 $H_0$, 即认为该市拥有电脑家庭的比例不是 $0.5$.
 
 $\blacksquare$
